@@ -1,0 +1,124 @@
+{
+  "category": "histoire-france",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "hf-alesia", "sub": "gaule-antiquite", "diff": 2, "themes": ["Gaule", "Jules César", "Vercingétorix"],
+      "q": "En quelle année Vercingétorix capitule-t-il face à Jules César au siège d'Alésia ?",
+      "choices": ["52 av. J.-C.", "44 av. J.-C.", "120 av. J.-C.", "476 apr. J.-C."],
+      "exp": "Le siège d'Alésia, en 52 av. J.-C., marque la fin de la résistance gauloise organisée : encerclé, Vercingétorix se rend à César, qui achève la conquête de la Gaule.",
+      "anec": "César fit construire deux lignes de fortifications : l'une pour enfermer Alésia, l'autre, tournée vers l'extérieur, pour se protéger de l'armée gauloise de secours.",
+      "see": ["hm-cesar-classement"],
+      "wiki": [["Siège d'Alésia", "52", "Vercingétorix"]]
+    },
+    {
+      "id": "hf-clovis-bapteme", "sub": "moyen-age", "diff": 2, "themes": ["Mérovingiens", "Clovis", "christianisme"],
+      "q": "Dans quelle ville Clovis, roi des Francs, est-il baptisé par l'évêque Remi ?",
+      "choices": ["Reims", "Paris", "Soissons", "Tours"],
+      "exp": "Clovis est baptisé à Reims par l'évêque Remi, à une date située autour de 496-499 (elle reste discutée par les historiens). Ce baptême lui assure le soutien de l'Église et de l'aristocratie gallo-romaine.",
+      "anec": "C'est en souvenir de ce baptême que la plupart des rois de France furent ensuite sacrés à Reims.",
+      "wiki": [["Baptême de Clovis", "Reims", "Remi"]]
+    },
+    {
+      "id": "hf-jeanne-orleans", "sub": "moyen-age", "diff": 1, "themes": ["guerre de Cent Ans", "Jeanne d'Arc"],
+      "q": "Quelle ville Jeanne d'Arc contribue-t-elle à libérer du siège anglais en 1429 ?",
+      "choices": ["Orléans", "Rouen", "Calais", "Bordeaux"],
+      "exp": "En mai 1429, Jeanne d'Arc participe à la levée du siège d'Orléans, tournant de la guerre de Cent Ans. Elle conduit ensuite Charles VII à Reims pour y être sacré.",
+      "anec": "Jeanne d'Arc sera brûlée à Rouen en 1431, puis réhabilitée par un procès en nullité en 1456 et canonisée en 1920.",
+      "see": ["hm-cent-ans"],
+      "wiki": [["Siège d'Orléans (1428-1429)", "1429", "Jeanne"]]
+    },
+    {
+      "id": "hf-marignan", "sub": "renaissance-ancien-regime", "diff": 1, "themes": ["François Ier", "guerres d'Italie"],
+      "q": "En quelle année François Ier remporte-t-il la bataille de Marignan ?",
+      "choices": ["1515", "1492", "1610", "1415"],
+      "exp": "Les 13 et 14 septembre 1515, au début de son règne, François Ier bat les mercenaires suisses à Marignan, près de Milan, pendant les guerres d'Italie.",
+      "anec": "La tradition rapporte que le chevalier Bayard aurait adoubé le roi sur le champ de bataille.",
+      "see": ["hf-rois-surnoms"],
+      "wiki": [["Bataille de Marignan", "1515", "François"]]
+    },
+    {
+      "id": "hf-edit-nantes", "sub": "renaissance-ancien-regime", "diff": 2, "themes": ["guerres de Religion", "Henri IV", "protestantisme"],
+      "q": "Quel roi signe l'édit de Nantes en 1598, accordant des droits aux protestants ?",
+      "choices": ["Henri IV", "Louis XIII", "François Ier", "Louis XIV"],
+      "exp": "L'édit de Nantes (1598) met fin aux guerres de Religion en reconnaissant la liberté de culte, sous conditions, aux protestants.",
+      "anec": "Louis XIV le révoque en 1685 par l'édit de Fontainebleau, provoquant l'exil de nombreux protestants.",
+      "wiki": [["Édit de Nantes", "1598", "Henri IV"]]
+    },
+    {
+      "id": "hf-rois-surnoms", "fmt": "association", "sub": "renaissance-ancien-regime", "diff": 3, "themes": ["rois de France"],
+      "q": "Associe chaque roi de France à son surnom.",
+      "pairs": [["Louis XIV", "le Roi-Soleil"], ["Philippe IV", "le Bel"], ["Philippe II", "Auguste"], ["Louis IX", "Saint Louis"]],
+      "exp": "Louis XIV (1643-1715) est le Roi-Soleil ; Philippe IV le Bel (1285-1314) ; Philippe II Auguste (1180-1223), vainqueur à Bouvines ; Louis IX (1226-1270), canonisé en 1297, d'où « Saint Louis ».",
+      "wiki": [["Louis XIV", "Roi-Soleil"], ["Philippe IV le Bel", "Bel"], ["Philippe II Auguste", "Bouvines"], ["Louis IX", "Saint Louis"]]
+    },
+    {
+      "id": "hf-bastille", "fmt": "vrai_faux", "answer": true, "sub": "revolution-empire", "diff": 1, "themes": ["Révolution française"],
+      "q": "La prise de la Bastille a eu lieu le 14 juillet 1789.",
+      "exp": "Vrai. Le 14 juillet 1789, les Parisiens prennent la forteresse de la Bastille, symbole de l'arbitraire royal. L'événement devient l'emblème de la Révolution.",
+      "anec": "Au moment de sa prise, la Bastille ne détenait que sept prisonniers. La fête nationale du 14 juillet commémore aussi la fête de la Fédération de 1790.",
+      "see": ["pol-ddhc"],
+      "wiki": [["Prise de la Bastille", "14 juillet 1789", "sept"]]
+    },
+    {
+      "id": "hf-sacre-napoleon", "sub": "revolution-empire", "diff": 2, "themes": ["Napoléon", "Premier Empire"],
+      "q": "Dans quel édifice Napoléon Ier est-il sacré empereur le 2 décembre 1804 ?",
+      "choices": ["La cathédrale Notre-Dame de Paris", "La cathédrale de Reims", "La basilique Saint-Denis", "Le château de Versailles"],
+      "exp": "Napoléon est sacré à Notre-Dame de Paris, en présence du pape Pie VII, et se couronne lui-même. Il rompt ainsi avec la tradition du sacre à Reims.",
+      "anec": "Le célèbre tableau de Jacques-Louis David représente le moment où Napoléon couronne Joséphine.",
+      "see": ["hf-waterloo", "art-notre-dame"],
+      "wiki": [["Sacre de Napoléon Ier", "Notre-Dame", "1804"]]
+    },
+    {
+      "id": "hf-waterloo", "fmt": "saisie", "sub": "revolution-empire", "diff": 2, "themes": ["Napoléon", "Cent-Jours"],
+      "q": "En quelle année a eu lieu la bataille de Waterloo ?",
+      "accepted": ["1815"],
+      "exp": "Le 18 juin 1815, Napoléon est vaincu à Waterloo (dans l'actuelle Belgique) par les armées de Wellington et de Blücher. C'est la fin des Cent-Jours ; il est exilé à Sainte-Hélène.",
+      "see": ["hf-sacre-napoleon"],
+      "wiki": [["Bataille de Waterloo", "1815", "Wellington"]]
+    },
+    {
+      "id": "hf-republiques", "fmt": "classement", "sub": "republiques", "diff": 3, "themes": ["Républiques", "institutions"],
+      "q": "Classe ces débuts de Républiques françaises.",
+      "orderLabel": "de la plus ancienne à la plus récente",
+      "items": ["Première République (1792)", "Deuxième République (1848)", "Troisième République (1870)", "Cinquième République (1958)"],
+      "exp": "La Ire République est proclamée en 1792, la IIe naît de la révolution de 1848, la IIIe est proclamée le 4 septembre 1870 après Sedan, la IVe en 1946 et la Ve en 1958.",
+      "see": ["pol-ve-republique"],
+      "wiki": [["Deuxième République (France)", "1848"], ["Troisième République", "1870"], ["Cinquième République", "1958"]]
+    },
+    {
+      "id": "hf-loi-1905", "sub": "republiques", "diff": 2, "themes": ["laïcité", "Troisième République"],
+      "q": "Qu'établit la loi française du 9 décembre 1905 ?",
+      "choices": ["La séparation des Églises et de l'État", "L'école gratuite et obligatoire", "Le droit de grève", "Le suffrage universel masculin"],
+      "exp": "La loi de 1905 garantit la liberté de conscience et le libre exercice des cultes, et dispose que la République ne reconnaît, ne salarie ni ne subventionne aucun culte.",
+      "anec": "L'école gratuite, laïque et obligatoire date des lois Jules Ferry de 1881-1882.",
+      "wiki": [["Loi de séparation des Églises et de l'État", "1905"]]
+    },
+    {
+      "id": "hf-appel-18-juin", "sub": "xxe-siecle", "diff": 1, "themes": ["Seconde Guerre mondiale", "de Gaulle", "Résistance"],
+      "q": "Depuis quelle ville le général de Gaulle lance-t-il l'appel du 18 juin 1940 ?",
+      "choices": ["Londres", "Alger", "Bordeaux", "Paris"],
+      "exp": "Réfugié à Londres, de Gaulle appelle à la BBC les Français à poursuivre le combat, le lendemain de la demande d'armistice du maréchal Pétain.",
+      "anec": "Le discours original n'a pas été enregistré : l'enregistrement célèbre est celui de l'appel du 22 juin.",
+      "see": ["hm-debarquement"],
+      "wiki": [["Appel du 18 Juin", "Londres", "BBC"]]
+    },
+    {
+      "id": "hf-vote-femmes", "sub": "xxe-siecle", "diff": 2, "themes": ["droits des femmes", "suffrage"],
+      "q": "En quelle année les femmes obtiennent-elles le droit de vote en France ?",
+      "choices": ["1944", "1918", "1936", "1968"],
+      "exp": "L'ordonnance du 21 avril 1944 accorde aux femmes le droit de vote et d'éligibilité. Elles votent pour la première fois aux élections municipales d'avril 1945.",
+      "anec": "La Nouvelle-Zélande avait été le premier pays à accorder le droit de vote aux femmes, dès 1893.",
+      "wiki": [["Droit de vote des femmes en France", "1944", "1945"]]
+    },
+    {
+      "id": "hf-mai-68", "sub": "xxe-siecle", "diff": 2, "themes": ["Cinquième République", "mouvements sociaux"],
+      "q": "Qui est président de la République lors des événements de Mai 68 ?",
+      "choices": ["Charles de Gaulle", "Georges Pompidou", "Valéry Giscard d'Estaing", "René Coty"],
+      "exp": "En mai 1968, Charles de Gaulle est président ; Georges Pompidou est son Premier ministre. Après la dissolution de l'Assemblée, les gaullistes remportent largement les élections de juin 1968.",
+      "anec": "De Gaulle quitte le pouvoir moins d'un an plus tard, après l'échec du référendum d'avril 1969.",
+      "wiki": [["Mai 68", "de Gaulle", "Pompidou"]]
+    }
+  ]
+}

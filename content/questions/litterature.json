@@ -1,0 +1,91 @@
+{
+  "category": "litterature",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "lit-miserables", "sub": "roman-francais", "diff": 1, "themes": ["Victor Hugo", "XIXe siècle"],
+      "q": "Qui a écrit Les Misérables, publié en 1862 ?",
+      "choices": ["Victor Hugo", "Émile Zola", "Honoré de Balzac", "Alexandre Dumas"],
+      "exp": "Victor Hugo publie Les Misérables en 1862, pendant son exil à Guernesey. Le roman suit Jean Valjean, ancien forçat, sur fond d'injustice sociale.",
+      "see": ["lit-auteurs"],
+      "wiki": [["Les Misérables", "1862", "Valjean"]]
+    },
+    {
+      "id": "lit-proust", "sub": "roman-francais", "diff": 2, "themes": ["XXe siècle"],
+      "q": "Qui est l'auteur d'À la recherche du temps perdu ?",
+      "choices": ["Marcel Proust", "André Gide", "Louis-Ferdinand Céline", "Albert Camus"],
+      "exp": "Marcel Proust a consacré la fin de sa vie à ce cycle romanesque en sept volumes, publié de 1913 à 1927. Le deuxième tome, À l'ombre des jeunes filles en fleurs, reçoit le prix Goncourt en 1919.",
+      "anec": "L'épisode de la madeleine trempée dans le thé, qui fait resurgir un souvenir d'enfance, est l'un des passages les plus célèbres de la littérature française.",
+      "wiki": [["À la recherche du temps perdu", "Proust", "madeleine"]]
+    },
+    {
+      "id": "lit-camus", "fmt": "saisie", "sub": "roman-francais", "diff": 2, "themes": ["XXe siècle", "absurde"],
+      "q": "Qui a écrit L'Étranger, publié en 1942 ?",
+      "accepted": ["Albert Camus", "Camus"],
+      "exp": "L'Étranger d'Albert Camus raconte l'histoire de Meursault, illustrant la notion d'absurde. Le roman s'ouvre sur la phrase : « Aujourd'hui, maman est morte. »",
+      "anec": "Camus reçoit le prix Nobel de littérature en 1957, à 44 ans.",
+      "see": ["philo-existentialisme"],
+      "wiki": [["L'Étranger", "Camus", "Meursault"]]
+    },
+    {
+      "id": "lit-bovary", "sub": "roman-francais", "diff": 2, "themes": ["réalisme", "XIXe siècle"],
+      "q": "Quel auteur est poursuivi en justice en 1857 pour son roman Madame Bovary ?",
+      "choices": ["Gustave Flaubert", "Stendhal", "Guy de Maupassant", "Émile Zola"],
+      "exp": "Flaubert est jugé pour « outrage à la morale publique et religieuse » en 1857 et acquitté. La même année, Baudelaire est condamné pour Les Fleurs du mal.",
+      "see": ["lit-baudelaire"],
+      "wiki": [["Madame Bovary", "1857", "Flaubert"]]
+    },
+    {
+      "id": "lit-auteurs", "fmt": "association", "sub": "roman-francais", "diff": 2, "themes": ["XIXe siècle"],
+      "q": "Associe chaque roman à son auteur.",
+      "pairs": [["Germinal", "Émile Zola"], ["Le Rouge et le Noir", "Stendhal"], ["Le Père Goriot", "Honoré de Balzac"], ["Les Trois Mousquetaires", "Alexandre Dumas"]],
+      "exp": "Germinal (1885) fait partie des Rougon-Macquart de Zola ; Le Rouge et le Noir (1830) est de Stendhal ; Le Père Goriot (1835) appartient à La Comédie humaine de Balzac ; Les Trois Mousquetaires (1844) sont d'Alexandre Dumas.",
+      "wiki": [["Germinal (roman)", "Zola"], ["Le Rouge et le Noir", "Stendhal"], ["Le Père Goriot", "Balzac"], ["Les Trois Mousquetaires", "Dumas"]]
+    },
+    {
+      "id": "lit-baudelaire", "sub": "poesie-theatre", "diff": 2, "themes": ["poésie", "XIXe siècle"],
+      "q": "Quel poète publie Les Fleurs du mal en 1857 ?",
+      "choices": ["Charles Baudelaire", "Arthur Rimbaud", "Paul Verlaine", "Alfred de Musset"],
+      "exp": "Baudelaire publie Les Fleurs du mal en 1857 ; condamné, il doit retirer six poèmes du recueil. La condamnation n'est annulée qu'en 1949.",
+      "see": ["lit-bovary"],
+      "wiki": [["Les Fleurs du mal", "1857", "1949"]]
+    },
+    {
+      "id": "lit-avare", "sub": "poesie-theatre", "diff": 2, "themes": ["Molière", "comédie"],
+      "q": "Dans quelle pièce de Molière apparaît Harpagon ?",
+      "choices": ["L'Avare", "Le Malade imaginaire", "Tartuffe", "Le Misanthrope"],
+      "exp": "Harpagon est le vieillard obsédé par son argent de L'Avare (1668). Son nom est passé dans la langue pour désigner une personne très avare.",
+      "anec": "Sa célèbre réplique « Sans dot ! » revient plusieurs fois dans la pièce.",
+      "wiki": [["L'Avare", "Harpagon", "1668"]]
+    },
+    {
+      "id": "lit-hamlet", "sub": "poesie-theatre", "diff": 2, "themes": ["Shakespeare", "tragédie"],
+      "q": "Quel personnage de Shakespeare prononce le monologue « Être ou ne pas être » ?",
+      "choices": ["Hamlet", "Macbeth", "Roméo", "Othello"],
+      "exp": "« To be, or not to be » est prononcé par Hamlet, prince de Danemark, dans la pièce éponyme écrite vers 1600.",
+      "wiki": [["Hamlet", "Shakespeare", "Danemark"]]
+    },
+    {
+      "id": "lit-quichotte", "sub": "litterature-monde", "diff": 2, "themes": ["Espagne", "Siècle d'or"],
+      "q": "Qui a écrit Don Quichotte ?",
+      "choices": ["Miguel de Cervantès", "Lope de Vega", "Federico García Lorca", "Gabriel García Márquez"],
+      "exp": "Don Quichotte de Miguel de Cervantès paraît en deux parties (1605 et 1615). Souvent présenté comme le premier roman moderne, il raconte les aventures d'un hidalgo qui se prend pour un chevalier errant.",
+      "anec": "L'expression « se battre contre des moulins à vent » vient de ce roman.",
+      "wiki": [["Don Quichotte", "Cervantès", "1605"]]
+    },
+    {
+      "id": "lit-orwell", "sub": "litterature-monde", "diff": 1, "themes": ["dystopie", "XXe siècle"],
+      "q": "Quel auteur a écrit le roman 1984 ?",
+      "choices": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H. G. Wells"],
+      "exp": "Publié en 1949, 1984 de George Orwell décrit une société totalitaire surveillée par « Big Brother ». Aldous Huxley est l'auteur du Meilleur des mondes.",
+      "wiki": [["1984 (roman)", "Orwell", "Big Brother"]]
+    },
+    {
+      "id": "lit-petit-prince", "fmt": "vrai_faux", "answer": true, "sub": "litterature-monde", "diff": 3, "themes": ["Saint-Exupéry"],
+      "q": "Le Petit Prince d'Antoine de Saint-Exupéry a été publié pour la première fois aux États-Unis.",
+      "exp": "Vrai. Exilé aux États-Unis, Saint-Exupéry y publie Le Petit Prince en 1943, à New York, en anglais et en français. L'édition française chez Gallimard ne paraît qu'en 1946, après sa disparition en 1944.",
+      "wiki": [["Le Petit Prince", "1943", "New York"]]
+    }
+  ]
+}

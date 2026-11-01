@@ -1,0 +1,324 @@
+{
+  "category": "sports",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "sport-essai",
+      "sub": "rugby",
+      "diff": 1,
+      "themes": [
+        "règles"
+      ],
+      "q": "Combien de points rapporte un essai au rugby à XV ?",
+      "choices": [
+        "5",
+        "3",
+        "4",
+        "7"
+      ],
+      "exp": "Un essai vaut 5 points depuis 1992 ; la transformation qui suit en rapporte 2. Une pénalité ou un drop valent 3 points.",
+      "wiki": [
+        [
+          "Essai (rugby à XV)",
+          "cinq points",
+          "deux points"
+        ]
+      ]
+    },
+    {
+      "id": "sport-six-nations",
+      "sub": "rugby",
+      "diff": 2,
+      "themes": [
+        "compétitions"
+      ],
+      "q": "Lequel de ces pays ne participe PAS au Tournoi des Six Nations ?",
+      "choices": [
+        "L'Afrique du Sud",
+        "L'Italie",
+        "L'Écosse",
+        "Le pays de Galles"
+      ],
+      "exp": "Le Tournoi réunit l'Angleterre, l'Écosse, la France, l'Irlande, l'Italie (depuis 2000) et le pays de Galles. L'Afrique du Sud joue le Rugby Championship dans l'hémisphère Sud.",
+      "wiki": [
+        [
+          "Tournoi des Six Nations",
+          "Italie",
+          "2000"
+        ]
+      ]
+    },
+    {
+      "id": "sport-cdm-rugby-2023",
+      "sub": "rugby",
+      "diff": 2,
+      "themes": [
+        "Coupe du monde"
+      ],
+      "q": "Quel pays remporte la Coupe du monde de rugby 2023, organisée en France ?",
+      "choices": [
+        "L'Afrique du Sud",
+        "La Nouvelle-Zélande",
+        "La France",
+        "L'Irlande"
+      ],
+      "exp": "Les Springboks battent les All Blacks 12 à 11 en finale au Stade de France et décrochent un quatrième titre mondial, un record.",
+      "wiki": [
+        [
+          "Coupe du monde de rugby à XV 2023",
+          "Afrique du Sud",
+          "12"
+        ]
+      ]
+    },
+    {
+      "id": "sport-france-98",
+      "sub": "football",
+      "diff": 1,
+      "themes": [
+        "Coupe du monde",
+        "équipe de France"
+      ],
+      "q": "Contre quel pays la France remporte-t-elle la finale de la Coupe du monde de football 1998 ?",
+      "choices": [
+        "Le Brésil",
+        "L'Italie",
+        "L'Allemagne",
+        "La Croatie"
+      ],
+      "exp": "Le 12 juillet 1998, au Stade de France, les Bleus battent le Brésil 3-0, avec un doublé de Zinédine Zidane de la tête. La France sera de nouveau championne du monde en 2018.",
+      "see": [
+        "sport-ballon-or-98"
+      ],
+      "wiki": [
+        [
+          "Finale de la Coupe du monde de football 1998",
+          "Brésil",
+          "Zidane"
+        ]
+      ]
+    },
+    {
+      "id": "sport-ballon-or-98",
+      "sub": "football",
+      "diff": 2,
+      "themes": [
+        "récompenses"
+      ],
+      "q": "Quel joueur français remporte le Ballon d'or en 1998 ?",
+      "choices": [
+        "Zinédine Zidane",
+        "Thierry Henry",
+        "Didier Deschamps",
+        "Lilian Thuram"
+      ],
+      "exp": "Après le titre mondial de 1998, Zinédine Zidane reçoit le Ballon d'or. Avant lui, Raymond Kopa (1958), Michel Platini (1983, 1984, 1985) et Jean-Pierre Papin (1991) l'avaient remporté.",
+      "see": [
+        "sport-france-98"
+      ],
+      "wiki": [
+        [
+          "Ballon d'or 1998",
+          "Zidane"
+        ]
+      ]
+    },
+    {
+      "id": "sport-terre-battue",
+      "sub": "tennis",
+      "diff": 1,
+      "themes": [
+        "Grand Chelem"
+      ],
+      "q": "Sur quelle surface se joue le tournoi de Roland-Garros ?",
+      "choices": [
+        "La terre battue",
+        "Le gazon",
+        "Le dur",
+        "La moquette"
+      ],
+      "exp": "Roland-Garros est le seul tournoi du Grand Chelem sur terre battue. Wimbledon se joue sur gazon ; l'Open d'Australie et l'US Open sur dur.",
+      "see": [
+        "sport-nadal"
+      ],
+      "wiki": [
+        [
+          "Internationaux de France de tennis",
+          "terre battue"
+        ]
+      ]
+    },
+    {
+      "id": "sport-nadal",
+      "sub": "tennis",
+      "diff": 3,
+      "themes": [
+        "records"
+      ],
+      "q": "Combien de fois Rafael Nadal a-t-il remporté Roland-Garros en simple ?",
+      "choices": [
+        "14",
+        "10",
+        "12",
+        "9"
+      ],
+      "exp": "Rafael Nadal a gagné Roland-Garros 14 fois entre 2005 et 2022, un record absolu pour un même tournoi du Grand Chelem. Il a pris sa retraite en 2024.",
+      "see": [
+        "sport-terre-battue"
+      ],
+      "wiki": [
+        [
+          "Rafael Nadal",
+          "14"
+        ]
+      ]
+    },
+    {
+      "id": "sport-coubertin",
+      "sub": "olympisme",
+      "diff": 2,
+      "themes": [
+        "histoire de l'olympisme"
+      ],
+      "q": "Qui est à l'origine de la rénovation des Jeux olympiques modernes ?",
+      "choices": [
+        "Pierre de Coubertin",
+        "Jules Rimet",
+        "Avery Brundage",
+        "Henri Desgrange"
+      ],
+      "exp": "Le baron Pierre de Coubertin fonde le Comité international olympique en 1894. Les premiers Jeux modernes ont lieu à Athènes en 1896.",
+      "anec": "Jules Rimet est à l'origine de la Coupe du monde de football ; Henri Desgrange, du Tour de France.",
+      "see": [
+        "sport-paris-jo",
+        "sport-tour-de-france"
+      ],
+      "wiki": [
+        [
+          "Pierre de Coubertin",
+          "1894",
+          "1896"
+        ]
+      ]
+    },
+    {
+      "id": "sport-paris-jo",
+      "sub": "olympisme",
+      "diff": 3,
+      "themes": [
+        "Paris"
+      ],
+      "q": "En quelles années Paris a-t-elle accueilli les Jeux olympiques d'été ?",
+      "choices": [
+        "1900, 1924 et 2024",
+        "1896, 1936 et 2024",
+        "1924, 1968 et 2024",
+        "1900, 1948 et 2024"
+      ],
+      "exp": "Paris a organisé les Jeux olympiques d'été en 1900, 1924 et 2024, comme Londres (1908, 1948, 2012). Les Jeux d'hiver de 1968 se sont tenus à Grenoble.",
+      "see": [
+        "sport-coubertin"
+      ],
+      "wiki": [
+        [
+          "Jeux olympiques d'été de 2024",
+          "1924",
+          "1900"
+        ]
+      ]
+    },
+    {
+      "id": "sport-anneaux",
+      "fmt": "saisie",
+      "sub": "olympisme",
+      "diff": 1,
+      "themes": [
+        "symboles"
+      ],
+      "q": "Combien d'anneaux figurent sur le drapeau olympique ?",
+      "accepted": [
+        "5",
+        "cinq"
+      ],
+      "exp": "Les cinq anneaux entrelacés, dessinés par Coubertin en 1913, symbolisent l'union des continents. Les couleurs avec le fond blanc permettaient de reproduire les drapeaux de toutes les nations de l'époque.",
+      "wiki": [
+        [
+          "Drapeau olympique",
+          "anneaux",
+          "1913"
+        ]
+      ]
+    },
+    {
+      "id": "sport-tour-de-france",
+      "sub": "autres-sports",
+      "diff": 2,
+      "themes": [
+        "cyclisme"
+      ],
+      "q": "En quelle année est organisé le premier Tour de France cycliste ?",
+      "choices": [
+        "1903",
+        "1896",
+        "1919",
+        "1925"
+      ],
+      "exp": "Créé par Henri Desgrange et le journal L'Auto, le premier Tour se court en 1903 et est remporté par Maurice Garin.",
+      "anec": "Le maillot jaune apparaît en 1919, couleur des pages du journal L'Auto.",
+      "wiki": [
+        [
+          "Tour de France",
+          "1903",
+          "Garin"
+        ]
+      ]
+    },
+    {
+      "id": "sport-marathon",
+      "sub": "autres-sports",
+      "diff": 2,
+      "themes": [
+        "athlétisme"
+      ],
+      "q": "Quelle est la distance officielle d'un marathon ?",
+      "choices": [
+        "42,195 km",
+        "40 km",
+        "42 km",
+        "45,5 km"
+      ],
+      "exp": "La distance de 42,195 km est fixée depuis les Jeux de Londres en 1908 et devient officielle en 1921. La course s'inspire de la légende du messager grec courant de Marathon à Athènes.",
+      "wiki": [
+        [
+          "Marathon (sport)",
+          "42,195",
+          "1908"
+        ]
+      ]
+    },
+    {
+      "id": "sport-riner",
+      "sub": "autres-sports",
+      "diff": 1,
+      "themes": [
+        "sportifs français"
+      ],
+      "q": "Dans quel sport Teddy Riner est-il plusieurs fois champion olympique ?",
+      "choices": [
+        "Le judo",
+        "La lutte",
+        "La boxe",
+        "L'haltérophilie"
+      ],
+      "exp": "Teddy Riner est l'un des plus grands judokas de l'histoire, titré aux Jeux olympiques en individuel en 2012, 2016 et 2024, ainsi que par équipes.",
+      "wiki": [
+        [
+          "Teddy Riner",
+          "judoka",
+          "2024"
+        ]
+      ]
+    }
+  ]
+}

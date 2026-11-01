@@ -1,0 +1,121 @@
+# Enrichissement hebdomadaire et contrôlé de la bibliothèque (désactivé par défaut :
+# system_config.enrichment_enabled dans l'espace d'administration).
+# Les nouvelles questions vont en validation humaine, sauf si enrichment_auto_publish est activé
+# ET qu'elles passent tous les contrôles (structure, doublons, sources réellement vérifiées).
+
+name: Agent — enrichissement
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3 * * 1'
+
+permissions: {}
+
+concurrency:
+  group: agent-enrichissement
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    outputs:
+      run: ${{ steps.plan.outputs.run }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - id: plan
+        run: npx tsx scripts/agent/enrich.ts plan
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: steps.plan.outputs.run == 'true'
+        with:
+          name: enrichissement-tache
+          path: .agent/tasks
+          retention-days: 7
+
+  redaction:
+    needs: plan
+    if: needs.plan.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: enrichissement-tache
+          path: .agent/tasks
+      - id: claude
+        continue-on-error: true
+        uses: anthropics/claude-code-action@d535f5172dec02b204866b393d6b20b9b2aaf98d # v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Rédige de nouvelles questions pour Le Grand Savoir.
+            Consignes : .github/agent/enrichment.md (lis-les d'abord) ; format : .github/agent/instructions.md
+            Tâche : .agent/tasks/enrich.json — sortie : .agent/out/enrich/decision.json
+          claude_args: >-
+            --model ${{ vars.AGENT_MODEL || 'claude-opus-5-5' }}
+            --max-turns ${{ vars.AGENT_MAX_TURNS || '60' }}
+            --allowedTools "Read,Glob,Grep,Write,WebSearch,WebFetch,Bash(npx tsx scripts/content/wiki.ts:*),Bash(npx tsx scripts/agent/check-proposal.ts:*)"
+      - name: Rassembler
+        if: always()
+        run: |
+          mkdir -p .agent/out/enrich
+          if [ -n "${{ steps.claude.outputs.execution_file }}" ] && [ -f "${{ steps.claude.outputs.execution_file }}" ]; then
+            cp "${{ steps.claude.outputs.execution_file }}" .agent/out/enrich/execution.json
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: enrichissement-resultat
+          path: .agent/out/enrich
+          retention-days: 14
+
+  publication:
+    needs: [plan, redaction]
+    if: always() && needs.plan.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        continue-on-error: true
+        with:
+          name: enrichissement-resultat
+          path: .agent/out/enrich
+      - run: npx tsx scripts/agent/enrich.ts apply --exec=.agent/out/enrich/execution.json
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

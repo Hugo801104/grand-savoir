@@ -1,0 +1,17 @@
+# Mises à jour automatiques des dépendances : Dependabot ouvre une proposition (pull request)
+# chaque semaine, et immédiatement en cas de faille connue. Le workflow de déploiement
+# ne publie que ce qui est fusionné dans « main », après les tests.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      outils-de-dev:
+        dependency-type: development
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

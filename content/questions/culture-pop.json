@@ -1,0 +1,66 @@
+{
+  "category": "culture-pop",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "pop-asterix", "sub": "bd", "diff": 1, "themes": ["bande dessinée franco-belge"],
+      "q": "Qui sont les créateurs d'Astérix ?",
+      "choices": ["René Goscinny et Albert Uderzo", "Hergé et Edgar P. Jacobs", "Morris et Goscinny", "Franquin et Peyo"],
+      "exp": "Astérix naît en 1959 dans le premier numéro du magazine Pilote, sous la plume de René Goscinny (scénario) et le crayon d'Albert Uderzo (dessin).",
+      "anec": "Goscinny a aussi scénarisé Lucky Luke, dessiné par Morris.",
+      "see": ["hf-alesia"],
+      "wiki": [["Astérix", "Goscinny", "1959"]]
+    },
+    {
+      "id": "pop-milou", "sub": "bd", "diff": 1, "themes": ["bande dessinée franco-belge"],
+      "q": "Comment s'appelle le chien de Tintin ?",
+      "choices": ["Milou", "Idéfix", "Rantanplan", "Pif"],
+      "exp": "Milou, fox-terrier blanc, accompagne Tintin dès sa première aventure en 1929. Idéfix est le chien d'Obélix ; Rantanplan celui des aventures de Lucky Luke.",
+      "wiki": [["Milou", "Tintin", "fox-terrier"]]
+    },
+    {
+      "id": "pop-schtroumpfs", "sub": "bd", "diff": 2, "themes": ["bande dessinée franco-belge"],
+      "q": "Quel auteur belge a créé les Schtroumpfs ?",
+      "choices": ["Peyo", "Hergé", "Franquin", "Morris"],
+      "exp": "Les Schtroumpfs apparaissent en 1958 dans la série Johan et Pirlouit de Peyo, dans le journal Spirou, avant d'avoir leurs propres aventures.",
+      "wiki": [["Les Schtroumpfs", "Peyo", "1958"]]
+    },
+    {
+      "id": "pop-mario", "sub": "jeux-video", "diff": 2, "themes": ["Nintendo"],
+      "q": "Quel métier exerce Mario, la mascotte de Nintendo ?",
+      "choices": ["Plombier", "Charpentier", "Cuisinier", "Pompier"],
+      "exp": "Mario est présenté comme plombier, notamment depuis Mario Bros. (1983). Il a été créé par Shigeru Miyamoto.",
+      "anec": "Dans Donkey Kong (1981), sa première apparition, il s'appelait Jumpman et était charpentier.",
+      "wiki": [["Mario (personnage)", "plombier", "Jumpman"]]
+    },
+    {
+      "id": "pop-tetris", "sub": "jeux-video", "diff": 3, "themes": ["jeux vidéo classiques"],
+      "q": "Dans quel pays le jeu Tetris a-t-il été créé en 1984 ?",
+      "choices": ["En Union soviétique", "Au Japon", "Aux États-Unis", "En Finlande"],
+      "exp": "Tetris a été conçu à Moscou par l'informaticien Alexeï Pajitnov, qui travaillait à l'Académie des sciences d'URSS.",
+      "wiki": [["Tetris", "Pajitnov", "1984"]]
+    },
+    {
+      "id": "pop-pikachu", "sub": "jeux-video", "diff": 1, "themes": ["Pokémon"],
+      "q": "Quel Pokémon est la mascotte de la franchise Pokémon ?",
+      "choices": ["Pikachu", "Salamèche", "Rondoudou", "Évoli"],
+      "exp": "Pikachu, Pokémon de type électrique, est devenu la mascotte de la franchise, notamment grâce au dessin animé où il accompagne Sacha.",
+      "wiki": [["Pikachu", "mascotte"]]
+    },
+    {
+      "id": "pop-harry-potter", "sub": "series-livres", "diff": 1, "themes": ["littérature jeunesse", "fantasy"],
+      "q": "Qui a écrit la saga Harry Potter ?",
+      "choices": ["J. K. Rowling", "J. R. R. Tolkien", "C. S. Lewis", "Philip Pullman"],
+      "exp": "La Britannique J. K. Rowling publie le premier tome, Harry Potter à l'école des sorciers, en 1997. La saga compte sept romans.",
+      "wiki": [["Harry Potter", "Rowling", "1997"]]
+    },
+    {
+      "id": "pop-simpson", "sub": "series-livres", "diff": 1, "themes": ["séries animées"],
+      "q": "Dans quelle ville fictive vit la famille Simpson ?",
+      "choices": ["Springfield", "South Park", "Quahog", "Shelbyville"],
+      "exp": "Créés par Matt Groening, les Simpson vivent à Springfield, un nom choisi notamment parce que de nombreuses villes américaines le portent. Shelbyville est la ville rivale dans la série.",
+      "wiki": [["Les Simpson", "Springfield", "Groening"]]
+    }
+  ]
+}

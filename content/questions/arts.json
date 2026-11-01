@@ -1,0 +1,99 @@
+{
+  "category": "arts",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "art-joconde", "sub": "peinture", "diff": 1, "themes": ["Léonard de Vinci", "Renaissance", "musées"],
+      "q": "Dans quel musée est exposée La Joconde de Léonard de Vinci ?",
+      "choices": ["Le musée du Louvre", "Le musée des Offices", "Le musée du Prado", "Le musée d'Orsay"],
+      "exp": "La Joconde, peinte au début du XVIe siècle, est conservée au Louvre, à Paris. Léonard de Vinci l'avait emportée en France, où il finit sa vie au service de François Ier.",
+      "anec": "Le tableau fut volé en 1911 par Vincenzo Peruggia et retrouvé deux ans plus tard à Florence.",
+      "see": ["art-classement"],
+      "wiki": [["La Joconde", "Louvre", "1911"]]
+    },
+    {
+      "id": "art-sixtine", "sub": "peinture", "diff": 2, "themes": ["Renaissance", "Vatican"],
+      "q": "Quel artiste peint le plafond de la chapelle Sixtine, au Vatican ?",
+      "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Botticelli"],
+      "exp": "Michel-Ange peint la voûte de la chapelle Sixtine entre 1508 et 1512, à la demande du pape Jules II, puis le Jugement dernier sur le mur de l'autel.",
+      "wiki": [["Chapelle Sixtine", "Michel-Ange", "Jules II"]]
+    },
+    {
+      "id": "art-impressionnisme", "sub": "peinture", "diff": 2, "themes": ["impressionnisme", "Monet"],
+      "q": "Quel tableau de Claude Monet a donné son nom au mouvement impressionniste ?",
+      "choices": ["Impression, soleil levant", "Les Nymphéas", "La Pie", "Les Coquelicots"],
+      "exp": "Exposé en 1874, ce tableau représentant le port du Havre inspire au critique Louis Leroy le terme moqueur d'« impressionnistes », repris ensuite par les peintres eux-mêmes.",
+      "see": ["art-courants"],
+      "wiki": [["Impression, soleil levant", "impressionnisme", "Leroy"]]
+    },
+    {
+      "id": "art-nuit-etoilee", "sub": "peinture", "diff": 1, "themes": ["post-impressionnisme"],
+      "q": "Qui a peint La Nuit étoilée (1889) ?",
+      "choices": ["Vincent van Gogh", "Paul Gauguin", "Claude Monet", "Paul Cézanne"],
+      "exp": "Van Gogh peint La Nuit étoilée en 1889 depuis sa chambre de l'asile de Saint-Rémy-de-Provence. Le tableau est conservé au MoMA, à New York.",
+      "wiki": [["La Nuit étoilée", "1889", "Saint-Rémy"]]
+    },
+    {
+      "id": "art-guernica", "sub": "peinture", "diff": 1, "themes": ["Picasso", "guerre d'Espagne"],
+      "q": "Qui a peint Guernica (1937) ?",
+      "choices": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco de Goya"],
+      "exp": "Picasso peint Guernica après le bombardement de la ville basque par l'aviation allemande et italienne, en avril 1937, pendant la guerre d'Espagne.",
+      "anec": "Selon une anecdote célèbre, à un officier allemand qui lui demandait « C'est vous qui avez fait ça ? », Picasso aurait répondu « Non, c'est vous ».",
+      "see": ["art-courants"],
+      "wiki": [["Guernica (Picasso)", "1937"]]
+    },
+    {
+      "id": "art-courants", "fmt": "association", "sub": "peinture", "diff": 3, "themes": ["mouvements artistiques"],
+      "q": "Associe chaque peintre au mouvement auquel il est principalement rattaché.",
+      "pairs": [["Claude Monet", "Impressionnisme"], ["Salvador Dalí", "Surréalisme"], ["Georges Braque", "Cubisme"], ["Andy Warhol", "Pop art"]],
+      "exp": "Monet est une figure majeure de l'impressionnisme ; Dalí du surréalisme ; Braque invente le cubisme avec Picasso vers 1907-1908 ; Warhol incarne le pop art des années 1960.",
+      "wiki": [["Surréalisme", "Dalí"], ["Cubisme", "Braque"], ["Pop art", "Warhol"]]
+    },
+    {
+      "id": "art-classement", "fmt": "classement", "sub": "peinture", "diff": 4, "themes": ["histoire de l'art"],
+      "q": "Classe ces tableaux selon leur date de création.",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": ["La Joconde (Léonard de Vinci)", "La Ronde de nuit (Rembrandt)", "Le Radeau de La Méduse (Géricault)", "Les Demoiselles d'Avignon (Picasso)"],
+      "exp": "La Joconde date du début du XVIe siècle, La Ronde de nuit de 1642, Le Radeau de La Méduse de 1818-1819 et Les Demoiselles d'Avignon de 1907.",
+      "wiki": [["La Ronde de nuit", "1642"], ["Le Radeau de La Méduse", "1819"], ["Les Demoiselles d'Avignon", "1907"]]
+    },
+    {
+      "id": "art-penseur", "sub": "sculpture", "diff": 1, "themes": ["sculpture", "XIXe siècle"],
+      "q": "Quel sculpteur a créé Le Penseur ?",
+      "choices": ["Auguste Rodin", "Camille Claudel", "Michel-Ange", "Alberto Giacometti"],
+      "exp": "Le Penseur d'Auguste Rodin était à l'origine une figure de La Porte de l'Enfer, inspirée de La Divine Comédie de Dante. Il en existe de nombreux tirages en bronze.",
+      "wiki": [["Le Penseur", "Rodin", "Porte de l'Enfer"]]
+    },
+    {
+      "id": "art-tour-eiffel", "sub": "architecture", "diff": 1, "themes": ["Paris", "XIXe siècle"],
+      "q": "Pour quel événement la tour Eiffel a-t-elle été construite ?",
+      "choices": ["L'Exposition universelle de 1889", "Les Jeux olympiques de 1900", "Le centenaire de Napoléon", "L'Exposition coloniale de 1931"],
+      "exp": "La tour Eiffel est édifiée pour l'Exposition universelle de 1889, qui célèbre aussi le centenaire de la Révolution française. Elle devait être démontée au bout de vingt ans.",
+      "anec": "Elle a été sauvée notamment grâce à son utilité pour les expériences de radiotélégraphie.",
+      "wiki": [["Tour Eiffel", "1889", "Exposition universelle"]]
+    },
+    {
+      "id": "art-notre-dame", "fmt": "vrai_faux", "answer": true, "sub": "architecture", "diff": 1, "themes": ["gothique", "Paris"],
+      "q": "La cathédrale Notre-Dame de Paris est un édifice de style gothique.",
+      "exp": "Vrai. Commencée en 1163, Notre-Dame est l'un des grands chefs-d'œuvre de l'architecture gothique, avec ses arcs-boutants et ses rosaces.",
+      "anec": "Ravagée par un incendie le 15 avril 2019, elle a rouvert ses portes en décembre 2024 après cinq ans de restauration.",
+      "see": ["hf-sacre-napoleon"],
+      "wiki": [["Cathédrale Notre-Dame de Paris", "gothique", "2019"]]
+    },
+    {
+      "id": "art-niepce", "sub": "photographie", "diff": 3, "themes": ["histoire de la photographie"],
+      "q": "Qui réalise vers 1827 la plus ancienne photographie connue, « Point de vue du Gras » ?",
+      "choices": ["Nicéphore Niépce", "Louis Daguerre", "Nadar", "Henri Cartier-Bresson"],
+      "exp": "Nicéphore Niépce fixe l'image de la vue depuis sa fenêtre à Saint-Loup-de-Varennes, avec un temps de pose de plusieurs heures, voire plusieurs jours. Daguerre, son associé, met ensuite au point le daguerréotype (1839).",
+      "wiki": [["Point de vue du Gras", "Niépce"]]
+    },
+    {
+      "id": "art-cartier-bresson", "sub": "photographie", "diff": 4, "themes": ["photographie", "XXe siècle"],
+      "q": "Quel photographe français est associé à la notion d'« instant décisif » et a cofondé l'agence Magnum ?",
+      "choices": ["Henri Cartier-Bresson", "Robert Doisneau", "Nadar", "Willy Ronis"],
+      "exp": "Henri Cartier-Bresson (1908-2004), pionnier du photojournalisme, cofonde l'agence Magnum en 1947. « Images à la sauvette » (1952), traduit en anglais par « The Decisive Moment », est devenu une référence.",
+      "wiki": [["Henri Cartier-Bresson", "Magnum", "instant décisif"]]
+    }
+  ]
+}

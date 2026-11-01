@@ -1,0 +1,269 @@
+{
+  "category": "musique",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "mus-beethoven",
+      "sub": "classique",
+      "diff": 2,
+      "themes": [
+        "Beethoven",
+        "romantisme"
+      ],
+      "q": "Quel compositeur, presque totalement sourd, compose sa Neuvième Symphonie créée en 1824 ?",
+      "choices": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Franz Schubert"
+      ],
+      "exp": "La surdité de Beethoven s'aggrave à partir de la fin des années 1790. Lors de la création de la Neuvième en 1824, il est quasiment sourd.",
+      "anec": "Le finale de la Neuvième, l'« Ode à la joie », est devenu l'hymne européen.",
+      "wiki": [
+        [
+          "Ludwig van Beethoven",
+          "surdité",
+          "1824"
+        ]
+      ]
+    },
+    {
+      "id": "mus-mozart",
+      "sub": "classique",
+      "diff": 2,
+      "themes": [
+        "Mozart",
+        "classicisme"
+      ],
+      "q": "Dans quelle ville est né Wolfgang Amadeus Mozart ?",
+      "choices": [
+        "Salzbourg",
+        "Vienne",
+        "Prague",
+        "Munich"
+      ],
+      "exp": "Mozart naît à Salzbourg en 1756. Il s'installe à Vienne en 1781 et y meurt en 1791, à 35 ans.",
+      "anec": "Enfant prodige, il compose ses premières pièces vers l'âge de cinq ans.",
+      "wiki": [
+        [
+          "Wolfgang Amadeus Mozart",
+          "Salzbourg",
+          "1756"
+        ]
+      ]
+    },
+    {
+      "id": "mus-vivaldi",
+      "sub": "classique",
+      "diff": 1,
+      "themes": [
+        "baroque"
+      ],
+      "q": "Qui a composé Les Quatre Saisons ?",
+      "choices": [
+        "Antonio Vivaldi",
+        "Jean-Sébastien Bach",
+        "Georg Friedrich Haendel",
+        "Joseph Haydn"
+      ],
+      "exp": "Les Quatre Saisons sont quatre concertos pour violon d'Antonio Vivaldi, publiés en 1725, chacun évoquant une saison.",
+      "wiki": [
+        [
+          "Les Quatre Saisons",
+          "Vivaldi",
+          "1725"
+        ]
+      ]
+    },
+    {
+      "id": "mus-bolero",
+      "sub": "classique",
+      "diff": 2,
+      "themes": [
+        "musique française",
+        "XXe siècle"
+      ],
+      "q": "Quel compositeur français a écrit le Boléro, créé en 1928 ?",
+      "choices": [
+        "Maurice Ravel",
+        "Claude Debussy",
+        "Erik Satie",
+        "Hector Berlioz"
+      ],
+      "exp": "Le Boléro de Ravel, commandé par la danseuse Ida Rubinstein, répète inlassablement la même mélodie en enrichissant progressivement l'orchestration.",
+      "wiki": [
+        [
+          "Boléro (Ravel)",
+          "1928",
+          "Rubinstein"
+        ]
+      ]
+    },
+    {
+      "id": "mus-compositeurs-pays",
+      "fmt": "association",
+      "sub": "classique",
+      "diff": 2,
+      "themes": [
+        "compositeurs"
+      ],
+      "q": "Associe chaque compositeur à son pays natal.",
+      "pairs": [
+        [
+          "Frédéric Chopin",
+          "Pologne"
+        ],
+        [
+          "Giuseppe Verdi",
+          "Italie"
+        ],
+        [
+          "Piotr Ilitch Tchaïkovski",
+          "Russie"
+        ],
+        [
+          "Jean-Sébastien Bach",
+          "Allemagne"
+        ]
+      ],
+      "exp": "Chopin naît en Pologne en 1810 avant de s'installer à Paris ; Verdi est le grand compositeur d'opéras italien ; Tchaïkovski (Le Lac des cygnes) est russe ; Bach naît à Eisenach, en Thuringe.",
+      "wiki": [
+        [
+          "Frédéric Chopin",
+          "Pologne"
+        ],
+        [
+          "Giuseppe Verdi",
+          "italien"
+        ],
+        [
+          "Piotr Ilitch Tchaïkovski",
+          "russe"
+        ],
+        [
+          "Jean-Sébastien Bach",
+          "Eisenach"
+        ]
+      ]
+    },
+    {
+      "id": "mus-marseillaise",
+      "sub": "populaire",
+      "diff": 2,
+      "themes": [
+        "hymnes",
+        "Révolution française"
+      ],
+      "q": "Qui a composé La Marseillaise en 1792 ?",
+      "choices": [
+        "Rouget de Lisle",
+        "Hector Berlioz",
+        "Étienne Méhul",
+        "Jean-Philippe Rameau"
+      ],
+      "exp": "Claude Joseph Rouget de Lisle compose à Strasbourg, en avril 1792, le « Chant de guerre pour l'armée du Rhin ». Chanté par les fédérés marseillais montant à Paris, il prend le nom de Marseillaise.",
+      "anec": "Elle devient hymne national en 1795, puis de nouveau en 1879, sous la IIIe République.",
+      "see": [
+        "hf-bastille"
+      ],
+      "wiki": [
+        [
+          "La Marseillaise",
+          "Rouget de Lisle",
+          "Strasbourg"
+        ]
+      ]
+    },
+    {
+      "id": "mus-beatles",
+      "sub": "populaire",
+      "diff": 1,
+      "themes": [
+        "rock",
+        "années 1960"
+      ],
+      "q": "De quelle ville sont originaires les Beatles ?",
+      "choices": [
+        "Liverpool",
+        "Londres",
+        "Manchester",
+        "Birmingham"
+      ],
+      "exp": "John Lennon, Paul McCartney, George Harrison et Ringo Starr forment les Beatles à Liverpool au début des années 1960. Ils se produisent notamment au Cavern Club.",
+      "wiki": [
+        [
+          "The Beatles",
+          "Liverpool",
+          "Cavern"
+        ]
+      ]
+    },
+    {
+      "id": "mus-piaf",
+      "sub": "populaire",
+      "diff": 1,
+      "themes": [
+        "chanson française"
+      ],
+      "q": "Quelle chanteuse a écrit et interprété « La Vie en rose » ?",
+      "choices": [
+        "Édith Piaf",
+        "Dalida",
+        "Barbara",
+        "Juliette Gréco"
+      ],
+      "exp": "Édith Piaf écrit les paroles de « La Vie en rose » ; la musique est de son pianiste Louiguy. Enregistrée en 1946, la chanson devient un succès mondial.",
+      "wiki": [
+        [
+          "La Vie en rose",
+          "Piaf",
+          "Louiguy"
+        ]
+      ]
+    },
+    {
+      "id": "mus-violoncelle",
+      "sub": "instruments",
+      "diff": 1,
+      "themes": [
+        "orchestre"
+      ],
+      "q": "Lequel de ces instruments est un instrument à cordes ?",
+      "choices": [
+        "Le violoncelle",
+        "Le hautbois",
+        "Le basson",
+        "Le cor"
+      ],
+      "exp": "Le violoncelle appartient à la famille des cordes frottées, avec le violon, l'alto et la contrebasse. Le hautbois et le basson sont des bois, le cor est un cuivre.",
+      "wiki": [
+        [
+          "Violoncelle",
+          "cordes"
+        ]
+      ]
+    },
+    {
+      "id": "mus-saxophone",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "instruments",
+      "diff": 3,
+      "themes": [
+        "orchestre",
+        "jazz"
+      ],
+      "q": "Bien qu'il soit en métal, le saxophone appartient à la famille des bois.",
+      "exp": "Vrai. Le classement dépend de la façon de produire le son, non du matériau : le saxophone utilise une anche simple, comme la clarinette, ce qui en fait un bois.",
+      "anec": "Il a été inventé par le Belge Adolphe Sax, qui le fait breveter en 1846.",
+      "wiki": [
+        [
+          "Saxophone",
+          "Adolphe Sax",
+          "anche"
+        ]
+      ]
+    }
+  ]
+}

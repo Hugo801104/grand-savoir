@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+*.local
+public/content/bundle.json
+coverage/
+backups/

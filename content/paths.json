@@ -1,0 +1,61 @@
+[
+  {
+    "id": "parcours-rois-de-france",
+    "title": "De la Gaule au royaume de France",
+    "description": "Des Gaulois aux grands rois : les étapes qui ont façonné la France avant la Révolution.",
+    "category": "histoire-france",
+    "icon": "👑",
+    "steps": [
+      { "title": "La Gaule romaine et les Francs", "intro": "En 52 av. J.-C., la Gaule passe sous domination romaine. Quatre siècles plus tard, après la chute de l'Empire d'Occident, les Francs de Clovis s'imposent et s'allient à l'Église.", "questionIds": ["hf-alesia", "hm-rome-476", "hf-clovis-bapteme"] },
+      { "title": "Le Moyen Âge et la guerre de Cent Ans", "intro": "Rois capétiens, conflit interminable avec l'Angleterre et figure de Jeanne d'Arc : le royaume se construit dans la guerre.", "questionIds": ["hm-cent-ans", "hf-jeanne-orleans", "hf-rois-surnoms"] },
+      { "title": "Renaissance et guerres de Religion", "intro": "François Ier rêve d'Italie, puis la France se déchire entre catholiques et protestants jusqu'à l'édit de Nantes.", "questionIds": ["hf-marignan", "art-joconde", "hf-edit-nantes"] }
+    ]
+  },
+  {
+    "id": "parcours-revolution-republiques",
+    "title": "Révolution, Empire et Républiques",
+    "description": "De 1789 à la Ve République : comment la France est devenue une république.",
+    "category": "histoire-france",
+    "icon": "🇫🇷",
+    "steps": [
+      { "title": "1789 : la Révolution", "intro": "En quelques mois, la monarchie absolue s'effondre : prise de la Bastille, abolition des privilèges, Déclaration des droits.", "questionIds": ["hf-bastille", "pol-ddhc", "mus-marseillaise"] },
+      { "title": "L'épopée napoléonienne", "intro": "Général victorieux, Premier consul puis empereur, Napoléon domine l'Europe avant sa chute définitive en 1815.", "questionIds": ["hf-sacre-napoleon", "hf-waterloo"] },
+      { "title": "La République s'installe", "intro": "Il faut près d'un siècle et plusieurs régimes pour que la République s'enracine, avec ses grandes lois et ses conquêtes démocratiques.", "questionIds": ["hf-republiques", "hf-loi-1905", "hf-vote-femmes", "pol-ve-republique"] }
+    ]
+  },
+  {
+    "id": "parcours-xxe-siecle",
+    "title": "Le XXe siècle, de guerres en paix",
+    "description": "Deux guerres mondiales, la guerre froide et la fin des blocs.",
+    "category": "histoire-monde",
+    "icon": "🕊️",
+    "steps": [
+      { "title": "Les guerres mondiales", "intro": "Deux conflits d'une ampleur inédite, de 1914 à 1918 puis de 1939 à 1945, bouleversent le monde.", "questionIds": ["hm-armistice-1918", "hf-appel-18-juin", "hm-debarquement", "hm-hiroshima"] },
+      { "title": "La guerre froide", "intro": "Après 1945, États-Unis et URSS s'affrontent indirectement, sous la menace nucléaire.", "questionIds": ["hm-cuba", "tech-spoutnik", "tech-apollo"] },
+      { "title": "La fin des blocs", "intro": "En deux ans, le mur de Berlin tombe et l'URSS disparaît. D'autres combats pour la liberté aboutissent.", "questionIds": ["hm-mur-berlin", "hm-urss", "hm-mandela"] }
+    ]
+  },
+  {
+    "id": "parcours-espace",
+    "title": "Voyage dans le système solaire",
+    "description": "La lumière, les planètes, la Lune et la conquête spatiale.",
+    "category": "sciences",
+    "icon": "🪐",
+    "steps": [
+      { "title": "Notre voisinage", "intro": "Huit planètes tournent autour du Soleil. La Terre est la troisième ; la Lune, son unique satellite naturel.", "questionIds": ["sci-planetes", "sci-mars", "sci-lune-distance"] },
+      { "title": "Vers les étoiles", "intro": "Rien ne va plus vite que la lumière. Et en un peu plus de dix ans, l'humanité est passée du premier satellite aux premiers pas sur la Lune.", "questionIds": ["sci-lumiere", "tech-spoutnik", "tech-apollo"] }
+    ]
+  },
+  {
+    "id": "parcours-peinture",
+    "title": "Les grands chefs-d'œuvre de la peinture",
+    "description": "De la Renaissance à Picasso, les tableaux et les mouvements à connaître.",
+    "category": "arts",
+    "icon": "🖼️",
+    "steps": [
+      { "title": "La Renaissance", "intro": "En Italie, les artistes redécouvrent l'Antiquité, la perspective et le corps humain.", "questionIds": ["art-joconde", "art-sixtine"] },
+      { "title": "La révolution impressionniste", "intro": "Au XIXe siècle, des peintres sortent de l'atelier pour saisir la lumière et l'instant.", "questionIds": ["art-impressionnisme", "art-nuit-etoilee"] },
+      { "title": "L'art moderne", "intro": "Au XXe siècle, les avant-gardes bouleversent la représentation du monde.", "questionIds": ["art-guernica", "art-courants", "art-classement"] }
+    ]
+  }
+]

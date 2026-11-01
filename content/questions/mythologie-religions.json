@@ -1,0 +1,88 @@
+{
+  "category": "mythologie-religions",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "myth-zeus", "sub": "grecque-romaine", "diff": 1, "themes": ["dieux grecs"],
+      "q": "Qui est le roi des dieux dans la mythologie grecque ?",
+      "choices": ["Zeus", "Poséidon", "Hadès", "Apollon"],
+      "exp": "Zeus, dieu du ciel et de la foudre, règne sur les dieux de l'Olympe après avoir renversé son père Cronos. Ses frères Poséidon et Hadès règnent sur la mer et les Enfers.",
+      "see": ["myth-equivalents"],
+      "wiki": [["Zeus", "Olympe", "Cronos"]]
+    },
+    {
+      "id": "myth-equivalents", "fmt": "association", "sub": "grecque-romaine", "diff": 2, "themes": ["dieux grecs", "dieux romains"],
+      "q": "Associe chaque divinité grecque à son équivalent romain.",
+      "pairs": [["Zeus", "Jupiter"], ["Héra", "Junon"], ["Arès", "Mars"], ["Aphrodite", "Vénus"]],
+      "exp": "Les Romains ont assimilé leurs dieux à ceux des Grecs : Zeus devient Jupiter, son épouse Héra devient Junon, le dieu de la guerre Arès devient Mars et la déesse de l'amour Aphrodite devient Vénus.",
+      "anec": "Les planètes du système solaire portent les noms de dieux romains.",
+      "see": ["myth-zeus", "sci-mars"],
+      "wiki": [["Zeus", "Jupiter"], ["Héra", "Junon"], ["Arès", "Mars"], ["Aphrodite", "Vénus"]]
+    },
+    {
+      "id": "myth-ulysse", "sub": "grecque-romaine", "diff": 2, "themes": ["Homère", "Odyssée"],
+      "q": "De quelle île Ulysse est-il le roi ?",
+      "choices": ["Ithaque", "Crète", "Rhodes", "Chypre"],
+      "exp": "Dans l'Odyssée d'Homère, Ulysse met dix ans à rentrer à Ithaque après la guerre de Troie, où l'attend sa femme Pénélope.",
+      "anec": "C'est Ulysse qui imagine la ruse du cheval de Troie.",
+      "wiki": [["Ulysse", "Ithaque", "Pénélope"]]
+    },
+    {
+      "id": "myth-heracles", "sub": "grecque-romaine", "diff": 2, "themes": ["héros"],
+      "q": "Combien de travaux Héraclès (Hercule) doit-il accomplir ?",
+      "choices": ["12", "7", "10", "9"],
+      "exp": "Les douze travaux d'Héraclès, imposés par le roi Eurysthée, comprennent notamment la victoire sur le lion de Némée et sur l'hydre de Lerne.",
+      "wiki": [["Travaux d'Héraclès", "douze", "Némée"]]
+    },
+    {
+      "id": "myth-promethee", "sub": "grecque-romaine", "diff": 2, "themes": ["Titans"],
+      "q": "Quel Titan vole le feu aux dieux pour l'offrir aux hommes ?",
+      "choices": ["Prométhée", "Atlas", "Cronos", "Hypérion"],
+      "exp": "Pour le punir, Zeus fait enchaîner Prométhée sur le Caucase, où un aigle vient chaque jour lui dévorer le foie, qui repousse sans cesse. Héraclès finit par le délivrer.",
+      "wiki": [["Prométhée", "feu", "Caucase"]]
+    },
+    {
+      "id": "myth-minotaure", "fmt": "vrai_faux", "answer": true, "sub": "grecque-romaine", "diff": 2, "themes": ["héros", "Crète"],
+      "q": "Selon la légende, Thésée tue le Minotaure dans le labyrinthe de Crète et retrouve la sortie grâce au fil d'Ariane.",
+      "exp": "Vrai. Ariane, fille du roi Minos, donne à Thésée une pelote de fil pour qu'il puisse ressortir du labyrinthe construit par Dédale.",
+      "anec": "L'expression « fil d'Ariane » désigne aujourd'hui un fil conducteur qui permet de se repérer.",
+      "wiki": [["Minotaure", "Ariane", "Thésée"]]
+    },
+    {
+      "id": "myth-mjollnir", "sub": "autres-mythologies", "diff": 3, "themes": ["mythologie nordique"],
+      "q": "Comment s'appelle le marteau du dieu nordique Thor ?",
+      "choices": ["Mjöllnir", "Gungnir", "Excalibur", "Durandal"],
+      "exp": "Mjöllnir est le marteau de Thor, dieu du tonnerre. Gungnir est la lance d'Odin ; Excalibur et Durandal sont les épées légendaires du roi Arthur et de Roland.",
+      "wiki": [["Mjöllnir", "Thor"]]
+    },
+    {
+      "id": "myth-anubis", "sub": "autres-mythologies", "diff": 2, "themes": ["Égypte antique"],
+      "q": "Quel dieu égyptien à tête de chacal est associé aux morts et à l'embaumement ?",
+      "choices": ["Anubis", "Râ", "Horus", "Osiris"],
+      "exp": "Anubis veille sur les nécropoles et préside à l'embaumement. Horus est représenté avec une tête de faucon ; Râ est le dieu soleil ; Osiris, le souverain du monde des morts.",
+      "wiki": [["Anubis", "chacal"]]
+    },
+    {
+      "id": "myth-textes-sacres", "fmt": "association", "sub": "religions", "diff": 2, "themes": ["textes sacrés"],
+      "q": "Associe chaque texte sacré à la religion correspondante.",
+      "pairs": [["Coran", "Islam"], ["Torah", "Judaïsme"], ["Évangiles", "Christianisme"], ["Védas", "Hindouisme"]],
+      "exp": "Le Coran est le livre sacré de l'islam ; la Torah (les cinq premiers livres de la Bible hébraïque) est au cœur du judaïsme ; les Évangiles racontent la vie de Jésus ; les Védas sont les plus anciens textes de l'hindouisme.",
+      "wiki": [["Coran", "islam"], ["Torah", "judaïsme"], ["Veda", "hindouisme"]]
+    },
+    {
+      "id": "myth-bouddha", "sub": "religions", "diff": 3, "themes": ["bouddhisme"],
+      "q": "Quel est le nom du fondateur du bouddhisme, le Bouddha historique ?",
+      "choices": ["Siddhartha Gautama", "Confucius", "Lao Tseu", "Zoroastre"],
+      "exp": "Siddhartha Gautama, prince né dans l'actuel Népal, atteint selon la tradition l'« Éveil » (bodhi) et devient le Bouddha, « l'Éveillé ». Confucius et Lao Tseu sont des penseurs chinois.",
+      "wiki": [["Siddhartha Gautama", "Bouddha", "Népal"]]
+    },
+    {
+      "id": "myth-ramadan", "sub": "religions", "diff": 3, "themes": ["islam", "calendrier"],
+      "q": "Le ramadan correspond à quel mois du calendrier musulman ?",
+      "choices": ["Le neuvième", "Le premier", "Le sixième", "Le douzième"],
+      "exp": "Le ramadan est le neuvième mois du calendrier hégirien, lunaire. Comme ce calendrier compte environ 354 jours, le ramadan avance d'une dizaine de jours chaque année dans le calendrier grégorien.",
+      "wiki": [["Ramadan", "neuvième"]]
+    }
+  ]
+}

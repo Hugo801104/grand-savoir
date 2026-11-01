@@ -1,0 +1,81 @@
+{
+  "category": "cinema",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "cine-melies", "sub": "cinema-francais", "diff": 2, "themes": ["cinéma muet", "effets spéciaux"],
+      "q": "Qui a réalisé Le Voyage dans la Lune (1902) ?",
+      "choices": ["Georges Méliès", "Louis Lumière", "Charles Pathé", "Léon Gaumont"],
+      "exp": "Georges Méliès, ancien illusionniste, invente de nombreux trucages. Son Voyage dans la Lune et l'image de la fusée plantée dans l'œil de la Lune sont devenus emblématiques.",
+      "see": ["tech-lumiere", "cine-classement"],
+      "wiki": [["Le Voyage dans la Lune", "Méliès", "1902"]]
+    },
+    {
+      "id": "cine-nouvelle-vague", "sub": "cinema-francais", "diff": 3, "themes": ["Nouvelle Vague"],
+      "q": "Lequel de ces réalisateurs est une figure de la Nouvelle Vague ?",
+      "choices": ["François Truffaut", "Luc Besson", "Marcel Carné", "Jean-Pierre Jeunet"],
+      "exp": "La Nouvelle Vague, à la fin des années 1950, réunit notamment Truffaut (Les Quatre Cents Coups, 1959), Godard, Chabrol, Rohmer et Rivette, souvent venus de la critique (Cahiers du cinéma).",
+      "wiki": [["Nouvelle Vague", "Truffaut", "Godard"]]
+    },
+    {
+      "id": "cine-chtis", "sub": "cinema-francais", "diff": 3, "themes": ["box-office", "comédie"],
+      "q": "Quel film français détient le record d'entrées en salle en France ?",
+      "choices": ["Bienvenue chez les Ch'tis", "Intouchables", "La Grande Vadrouille", "Astérix et Obélix : Mission Cléopâtre"],
+      "exp": "Sorti en 2008, Bienvenue chez les Ch'tis de Dany Boon a dépassé 20 millions d'entrées en France, devant Intouchables (2011) et La Grande Vadrouille (1966). Tous films confondus, Titanic reste devant.",
+      "wiki": [["Bienvenue chez les Ch'tis", "entrées", "Dany Boon"]]
+    },
+    {
+      "id": "cine-the-artist", "sub": "cinema-francais", "diff": 3, "themes": ["Oscars"],
+      "q": "Quel film français remporte l'Oscar du meilleur film en 2012 ?",
+      "choices": ["The Artist", "Intouchables", "Amélie Poulain", "La Môme"],
+      "exp": "The Artist de Michel Hazanavicius, film muet en noir et blanc, remporte cinq Oscars, dont meilleur film et meilleur acteur pour Jean Dujardin.",
+      "wiki": [["The Artist", "Oscar", "Dujardin"]]
+    },
+    {
+      "id": "cine-cesar", "fmt": "saisie", "sub": "cinema-francais", "diff": 1, "themes": ["récompenses"],
+      "q": "Comment s'appellent les principales récompenses du cinéma français, créées en 1976 ?",
+      "accepted": ["César", "Les César", "Césars", "César du cinéma"],
+      "exp": "Les César sont décernés chaque année depuis 1976 par l'Académie des arts et techniques du cinéma. Le trophée est une sculpture du sculpteur César.",
+      "wiki": [["César du cinéma", "1976"]]
+    },
+    {
+      "id": "cine-palme", "sub": "cinema-monde", "diff": 1, "themes": ["festivals"],
+      "q": "Quelle est la récompense suprême du Festival de Cannes ?",
+      "choices": ["La Palme d'or", "Le Lion d'or", "L'Ours d'or", "L'Oscar"],
+      "exp": "La Palme d'or est décernée à Cannes depuis 1955. Le Lion d'or récompense le meilleur film à Venise, l'Ours d'or à Berlin.",
+      "wiki": [["Palme d'or", "Cannes", "1955"]]
+    },
+    {
+      "id": "cine-hitchcock", "sub": "cinema-monde", "diff": 1, "themes": ["suspense"],
+      "q": "Qui a réalisé Psychose (1960) ?",
+      "choices": ["Alfred Hitchcock", "Stanley Kubrick", "Orson Welles", "Billy Wilder"],
+      "exp": "Psychose d'Alfred Hitchcock, surnommé le « maître du suspense », est célèbre pour sa scène de la douche.",
+      "wiki": [["Psychose (film, 1960)", "Hitchcock"]]
+    },
+    {
+      "id": "cine-kubrick", "sub": "cinema-monde", "diff": 2, "themes": ["science-fiction"],
+      "q": "Qui a réalisé 2001, l'Odyssée de l'espace (1968) ?",
+      "choices": ["Stanley Kubrick", "Steven Spielberg", "George Lucas", "Ridley Scott"],
+      "exp": "Stanley Kubrick coécrit le film avec l'écrivain Arthur C. Clarke. Il marque l'histoire du cinéma par ses effets visuels et sa bande originale.",
+      "see": ["philo-nietzsche"],
+      "wiki": [["2001, l'Odyssée de l'espace", "Kubrick", "Clarke"]]
+    },
+    {
+      "id": "cine-star-wars", "sub": "cinema-monde", "diff": 1, "themes": ["science-fiction", "sagas"],
+      "q": "Qui a créé la saga Star Wars, lancée en 1977 ?",
+      "choices": ["George Lucas", "Steven Spielberg", "James Cameron", "J. J. Abrams"],
+      "exp": "George Lucas écrit et réalise le premier Star Wars (1977). La société Lucasfilm est rachetée par Disney en 2012.",
+      "wiki": [["Star Wars", "Lucas", "1977"]]
+    },
+    {
+      "id": "cine-classement", "fmt": "classement", "sub": "cinema-monde", "diff": 3, "themes": ["histoire du cinéma"],
+      "q": "Classe ces films selon leur date de sortie.",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": ["Le Voyage dans la Lune", "Les Temps modernes", "À bout de souffle", "Le Fabuleux Destin d'Amélie Poulain"],
+      "exp": "Le Voyage dans la Lune (Méliès, 1902), Les Temps modernes (Chaplin, 1936), À bout de souffle (Godard, 1960), Le Fabuleux Destin d'Amélie Poulain (Jeunet, 2001).",
+      "see": ["cine-melies"],
+      "wiki": [["Les Temps modernes", "1936"], ["À bout de souffle", "1960"], ["Le Fabuleux Destin d'Amélie Poulain", "2001"]]
+    }
+  ]
+}

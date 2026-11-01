@@ -1,0 +1,1496 @@
+{
+ "date": "2026-11-01T20:28:30.871Z",
+ "results": [
+  {
+   "questionId": "art-joconde",
+   "url": "https://fr.wikipedia.org/wiki/La_Joconde",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "La Joconde"
+  },
+  {
+   "questionId": "art-impressionnisme",
+   "url": "https://fr.wikipedia.org/wiki/Impression,_soleil_levant",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Impression, soleil levant"
+  },
+  {
+   "questionId": "art-sixtine",
+   "url": "https://fr.wikipedia.org/wiki/Chapelle_Sixtine",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Chapelle Sixtine"
+  },
+  {
+   "questionId": "art-nuit-etoilee",
+   "url": "https://fr.wikipedia.org/wiki/La_Nuit_%C3%A9toil%C3%A9e",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Nuit étoilée"
+  },
+  {
+   "questionId": "art-guernica",
+   "url": "https://fr.wikipedia.org/wiki/Guernica_(Picasso)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Guernica (Picasso)"
+  },
+  {
+   "questionId": "art-courants",
+   "url": "https://fr.wikipedia.org/wiki/Surr%C3%A9alisme",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Surréalisme"
+  },
+  {
+   "questionId": "art-courants",
+   "url": "https://fr.wikipedia.org/wiki/Cubisme",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Cubisme"
+  },
+  {
+   "questionId": "art-courants",
+   "url": "https://fr.wikipedia.org/wiki/Pop_art",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Pop art"
+  },
+  {
+   "questionId": "art-classement",
+   "url": "https://fr.wikipedia.org/wiki/Le_Radeau_de_La_M%C3%A9duse",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Radeau de la Méduse"
+  },
+  {
+   "questionId": "art-classement",
+   "url": "https://fr.wikipedia.org/wiki/La_Ronde_de_nuit",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "La Ronde de nuit"
+  },
+  {
+   "questionId": "art-classement",
+   "url": "https://fr.wikipedia.org/wiki/Les_Demoiselles_d'Avignon",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Demoiselles d'Avignon"
+  },
+  {
+   "questionId": "art-penseur",
+   "url": "https://fr.wikipedia.org/wiki/Le_Penseur",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Penseur"
+  },
+  {
+   "questionId": "art-tour-eiffel",
+   "url": "https://fr.wikipedia.org/wiki/Tour_Eiffel",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Tour Eiffel"
+  },
+  {
+   "questionId": "art-niepce",
+   "url": "https://fr.wikipedia.org/wiki/Point_de_vue_du_Gras",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Point de vue du Gras"
+  },
+  {
+   "questionId": "art-notre-dame",
+   "url": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Paris",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Cathédrale Notre-Dame de Paris"
+  },
+  {
+   "questionId": "art-cartier-bresson",
+   "url": "https://fr.wikipedia.org/wiki/Henri_Cartier-Bresson",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Henri Cartier-Bresson"
+  },
+  {
+   "questionId": "cine-melies",
+   "url": "https://fr.wikipedia.org/wiki/Le_Voyage_dans_la_Lune",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Voyage dans la Lune"
+  },
+  {
+   "questionId": "cine-nouvelle-vague",
+   "url": "https://fr.wikipedia.org/wiki/Nouvelle_Vague",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Nouvelle Vague"
+  },
+  {
+   "questionId": "cine-chtis",
+   "url": "https://fr.wikipedia.org/wiki/Bienvenue_chez_les_Ch'tis",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Bienvenue chez les Ch'tis"
+  },
+  {
+   "questionId": "cine-the-artist",
+   "url": "https://fr.wikipedia.org/wiki/The_Artist",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "The Artist"
+  },
+  {
+   "questionId": "cine-palme",
+   "url": "https://fr.wikipedia.org/wiki/Palme_d'or",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Palme d'or"
+  },
+  {
+   "questionId": "cine-cesar",
+   "url": "https://fr.wikipedia.org/wiki/C%C3%A9sar_du_cin%C3%A9ma",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "César du cinéma"
+  },
+  {
+   "questionId": "cine-kubrick",
+   "url": "https://fr.wikipedia.org/wiki/2001,_l'Odyss%C3%A9e_de_l'espace",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "2001, l'Odyssée de l'espace"
+  },
+  {
+   "questionId": "cine-hitchcock",
+   "url": "https://fr.wikipedia.org/wiki/Psychose_(film,_1960)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Psychose (film)"
+  },
+  {
+   "questionId": "cine-classement",
+   "url": "https://fr.wikipedia.org/wiki/Les_Temps_modernes",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Temps modernes"
+  },
+  {
+   "questionId": "cine-star-wars",
+   "url": "https://fr.wikipedia.org/wiki/Star_Wars",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Star Wars"
+  },
+  {
+   "questionId": "cine-classement",
+   "url": "https://fr.wikipedia.org/wiki/%C3%80_bout_de_souffle",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "À bout de souffle"
+  },
+  {
+   "questionId": "cine-classement",
+   "url": "https://fr.wikipedia.org/wiki/Le_Fabuleux_Destin_d'Am%C3%A9lie_Poulain",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Fabuleux Destin d'Amélie Poulain"
+  },
+  {
+   "questionId": "pop-milou",
+   "url": "https://fr.wikipedia.org/wiki/Milou",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Milou"
+  },
+  {
+   "questionId": "pop-schtroumpfs",
+   "url": "https://fr.wikipedia.org/wiki/Les_Schtroumpfs",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Schtroumpfs"
+  },
+  {
+   "questionId": "pop-asterix",
+   "url": "https://fr.wikipedia.org/wiki/Ast%C3%A9rix",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Astérix"
+  },
+  {
+   "questionId": "pop-mario",
+   "url": "https://fr.wikipedia.org/wiki/Mario_(personnage)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Mario (personnage)"
+  },
+  {
+   "questionId": "pop-tetris",
+   "url": "https://fr.wikipedia.org/wiki/Tetris",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Tetris"
+  },
+  {
+   "questionId": "pop-pikachu",
+   "url": "https://fr.wikipedia.org/wiki/Pikachu",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Pikachu"
+  },
+  {
+   "questionId": "pop-harry-potter",
+   "url": "https://fr.wikipedia.org/wiki/Harry_Potter",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Harry Potter"
+  },
+  {
+   "questionId": "pop-simpson",
+   "url": "https://fr.wikipedia.org/wiki/Les_Simpson",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Simpson"
+  },
+  {
+   "questionId": "gastro-fromages",
+   "url": "https://fr.wikipedia.org/wiki/Comt%C3%A9_(fromage)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Comté (fromage)"
+  },
+  {
+   "questionId": "gastro-roquefort",
+   "url": "https://fr.wikipedia.org/wiki/Roquefort_(fromage)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Roquefort (fromage)"
+  },
+  {
+   "questionId": "gastro-fromages",
+   "url": "https://fr.wikipedia.org/wiki/Reblochon",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Reblochon"
+  },
+  {
+   "questionId": "gastro-fromages",
+   "url": "https://fr.wikipedia.org/wiki/Camembert_de_Normandie",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Camembert de Normandie"
+  },
+  {
+   "questionId": "gastro-fromages",
+   "url": "https://fr.wikipedia.org/wiki/Munster_(fromage)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Munster (fromage)"
+  },
+  {
+   "questionId": "gastro-bouillabaisse",
+   "url": "https://fr.wikipedia.org/wiki/Bouillabaisse",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Bouillabaisse"
+  },
+  {
+   "questionId": "gastro-aoc",
+   "url": "https://fr.wikipedia.org/wiki/Appellation_d'origine_contr%C3%B4l%C3%A9e",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Appellation d'origine contrôlée"
+  },
+  {
+   "questionId": "gastro-dom-perignon",
+   "url": "https://fr.wikipedia.org/wiki/Dom_P%C3%A9rignon",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Dom Pérignon"
+  },
+  {
+   "questionId": "gastro-viennoiserie",
+   "url": "https://fr.wikipedia.org/wiki/Viennoiserie",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Viennoiserie"
+  },
+  {
+   "questionId": "gastro-unesco",
+   "url": "https://fr.wikipedia.org/wiki/Repas_gastronomique_des_Fran%C3%A7ais",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Repas gastronomique des Français"
+  },
+  {
+   "questionId": "gastro-paella",
+   "url": "https://fr.wikipedia.org/wiki/Paella",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Paella"
+  },
+  {
+   "questionId": "gastro-tomate",
+   "url": "https://fr.wikipedia.org/wiki/Tomate",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Tomate"
+  },
+  {
+   "questionId": "gastro-sushi",
+   "url": "https://fr.wikipedia.org/wiki/Sushi",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Sushi"
+  },
+  {
+   "questionId": "geo-canada",
+   "url": "https://fr.wikipedia.org/wiki/Ottawa",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ottawa"
+  },
+  {
+   "questionId": "geo-australie",
+   "url": "https://fr.wikipedia.org/wiki/Canberra",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Canberra"
+  },
+  {
+   "questionId": "geo-capitales-association",
+   "url": "https://fr.wikipedia.org/wiki/Bras%C3%ADlia",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Brasilia"
+  },
+  {
+   "questionId": "geo-capitales-association",
+   "url": "https://fr.wikipedia.org/wiki/Ankara",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ankara"
+  },
+  {
+   "questionId": "geo-capitales-association",
+   "url": "https://fr.wikipedia.org/wiki/Abuja",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Abuja"
+  },
+  {
+   "questionId": "geo-capitales-association",
+   "url": "https://fr.wikipedia.org/wiki/Oulan-Bator",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Oulan-Bator"
+  },
+  {
+   "questionId": "geo-russie",
+   "url": "https://fr.wikipedia.org/wiki/Russie",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Russie"
+  },
+  {
+   "questionId": "geo-population",
+   "url": "https://fr.wikipedia.org/wiki/Inde",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Inde"
+  },
+  {
+   "questionId": "geo-population",
+   "url": "https://fr.wikipedia.org/wiki/Liste_des_pays_par_population",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Liste des pays par population"
+  },
+  {
+   "questionId": "geo-frontieres-france",
+   "url": "https://fr.wikipedia.org/wiki/Fronti%C3%A8res_de_la_France",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Frontières de la France"
+  },
+  {
+   "questionId": "geo-loire",
+   "url": "https://fr.wikipedia.org/wiki/Loire_(fleuve)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Loire"
+  },
+  {
+   "questionId": "geo-mont-blanc",
+   "url": "https://fr.wikipedia.org/wiki/Mont_Blanc",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Mont Blanc"
+  },
+  {
+   "questionId": "geo-everest",
+   "url": "https://fr.wikipedia.org/wiki/Everest",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Everest"
+  },
+  {
+   "questionId": "geo-gibraltar",
+   "url": "https://fr.wikipedia.org/wiki/D%C3%A9troit_de_Gibraltar",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Détroit de Gibraltar"
+  },
+  {
+   "questionId": "geo-amazone",
+   "url": "https://fr.wikipedia.org/wiki/Amazone_(fleuve)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Amazone (fleuve)"
+  },
+  {
+   "questionId": "geo-sahara",
+   "url": "https://fr.wikipedia.org/wiki/Sahara",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Sahara"
+  },
+  {
+   "questionId": "geo-sahara",
+   "url": "https://fr.wikipedia.org/wiki/D%C3%A9sert",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Désert"
+  },
+  {
+   "questionId": "geo-danube",
+   "url": "https://fr.wikipedia.org/wiki/Danube",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Danube"
+  },
+  {
+   "questionId": "geo-baikal",
+   "url": "https://fr.wikipedia.org/wiki/Lac_Ba%C3%AFkal",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Lac Baïkal"
+  },
+  {
+   "questionId": "hf-clovis-bapteme",
+   "url": "https://fr.wikipedia.org/wiki/Bapt%C3%AAme_de_Clovis",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Baptême de Clovis"
+  },
+  {
+   "questionId": "hf-alesia",
+   "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d'Al%C3%A9sia",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Siège d'Alésia"
+  },
+  {
+   "questionId": "hf-jeanne-orleans",
+   "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_d'Orl%C3%A9ans_(1428-1429)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Siège d'Orléans (1428-1429)"
+  },
+  {
+   "questionId": "hf-marignan",
+   "url": "https://fr.wikipedia.org/wiki/Bataille_de_Marignan",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Bataille de Marignan"
+  },
+  {
+   "questionId": "hf-edit-nantes",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89dit_de_Nantes",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Édit de Nantes"
+  },
+  {
+   "questionId": "hf-rois-surnoms",
+   "url": "https://fr.wikipedia.org/wiki/Louis_XIV",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Louis XIV"
+  },
+  {
+   "questionId": "hf-rois-surnoms",
+   "url": "https://fr.wikipedia.org/wiki/Philippe_IV_le_Bel",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Philippe IV le Bel"
+  },
+  {
+   "questionId": "hf-rois-surnoms",
+   "url": "https://fr.wikipedia.org/wiki/Philippe_II_Auguste",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Philippe II Auguste"
+  },
+  {
+   "questionId": "hf-rois-surnoms",
+   "url": "https://fr.wikipedia.org/wiki/Louis_IX",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Louis IX"
+  },
+  {
+   "questionId": "hf-bastille",
+   "url": "https://fr.wikipedia.org/wiki/Prise_de_la_Bastille",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Prise de la Bastille"
+  },
+  {
+   "questionId": "hf-sacre-napoleon",
+   "url": "https://fr.wikipedia.org/wiki/Sacre_de_Napol%C3%A9on_Ier",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Sacre de Napoléon Ier"
+  },
+  {
+   "questionId": "hf-waterloo",
+   "url": "https://fr.wikipedia.org/wiki/Bataille_de_Waterloo",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Bataille de Waterloo"
+  },
+  {
+   "questionId": "hf-republiques",
+   "url": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_R%C3%A9publique",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Troisième République"
+  },
+  {
+   "questionId": "hf-republiques",
+   "url": "https://fr.wikipedia.org/wiki/Deuxi%C3%A8me_R%C3%A9publique_(France)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Deuxième République (France)"
+  },
+  {
+   "questionId": "hf-republiques",
+   "url": "https://fr.wikipedia.org/wiki/Cinqui%C3%A8me_R%C3%A9publique",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Cinquième République"
+  },
+  {
+   "questionId": "hf-loi-1905",
+   "url": "https://fr.wikipedia.org/wiki/Loi_de_s%C3%A9paration_des_%C3%89glises_et_de_l'%C3%89tat",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État"
+  },
+  {
+   "questionId": "hf-appel-18-juin",
+   "url": "https://fr.wikipedia.org/wiki/Appel_du_18_Juin",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Appel du 18 Juin"
+  },
+  {
+   "questionId": "hf-vote-femmes",
+   "url": "https://fr.wikipedia.org/wiki/Droit_de_vote_des_femmes_en_France",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Droit de vote des femmes"
+  },
+  {
+   "questionId": "hf-mai-68",
+   "url": "https://fr.wikipedia.org/wiki/Mai_68",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Mai 68"
+  },
+  {
+   "questionId": "hm-cesar-classement",
+   "url": "https://fr.wikipedia.org/wiki/Pyramide_de_Kh%C3%A9ops",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Pyramide de Khéops"
+  },
+  {
+   "questionId": "hm-cesar-classement",
+   "url": "https://fr.wikipedia.org/wiki/Fondation_de_Rome",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Fondation de Rome"
+  },
+  {
+   "questionId": "hm-cesar-classement",
+   "url": "https://fr.wikipedia.org/wiki/Alexandre_le_Grand",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Alexandre le Grand"
+  },
+  {
+   "questionId": "hm-cesar-classement",
+   "url": "https://fr.wikipedia.org/wiki/Jules_C%C3%A9sar",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Jules César"
+  },
+  {
+   "questionId": "hm-magna-carta",
+   "url": "https://fr.wikipedia.org/wiki/Magna_Carta",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Magna Carta"
+  },
+  {
+   "questionId": "hm-rome-476",
+   "url": "https://fr.wikipedia.org/wiki/Odoacre",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Odoacre"
+  },
+  {
+   "questionId": "hm-cent-ans",
+   "url": "https://fr.wikipedia.org/wiki/Guerre_de_Cent_Ans",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Guerre de Cent Ans"
+  },
+  {
+   "questionId": "hm-constantinople",
+   "url": "https://fr.wikipedia.org/wiki/Chute_de_Constantinople",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Chute de Constantinople"
+  },
+  {
+   "questionId": "hm-armistice-1918",
+   "url": "https://fr.wikipedia.org/wiki/Armistice_de_1918",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Armistice du 11 novembre 1918"
+  },
+  {
+   "questionId": "hm-colomb",
+   "url": "https://fr.wikipedia.org/wiki/Christophe_Colomb",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Christophe Colomb"
+  },
+  {
+   "questionId": "hm-debarquement",
+   "url": "https://fr.wikipedia.org/wiki/D%C3%A9barquement_de_Normandie",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Débarquement de Normandie"
+  },
+  {
+   "questionId": "hm-hiroshima",
+   "url": "https://fr.wikipedia.org/wiki/Bombardements_atomiques_d'Hiroshima_et_Nagasaki",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Bombardements atomiques d'Hiroshima et de Nagasaki"
+  },
+  {
+   "questionId": "hm-cuba",
+   "url": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Crise des missiles de Cuba"
+  },
+  {
+   "questionId": "hm-mur-berlin",
+   "url": "https://fr.wikipedia.org/wiki/Mur_de_Berlin",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Mur de Berlin"
+  },
+  {
+   "questionId": "hm-urss",
+   "url": "https://fr.wikipedia.org/wiki/Dislocation_de_l'URSS",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Dislocation de l'URSS"
+  },
+  {
+   "questionId": "hm-marche-sel",
+   "url": "https://fr.wikipedia.org/wiki/Marche_du_sel",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Marche du sel"
+  },
+  {
+   "questionId": "hm-mandela",
+   "url": "https://fr.wikipedia.org/wiki/Nelson_Mandela",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Nelson Mandela"
+  },
+  {
+   "questionId": "lit-miserables",
+   "url": "https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Misérables"
+  },
+  {
+   "questionId": "lit-proust",
+   "url": "https://fr.wikipedia.org/wiki/%C3%80_la_recherche_du_temps_perdu",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "À la recherche du temps perdu"
+  },
+  {
+   "questionId": "lit-camus",
+   "url": "https://fr.wikipedia.org/wiki/L'%C3%89tranger",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "L'Étranger"
+  },
+  {
+   "questionId": "lit-auteurs",
+   "url": "https://fr.wikipedia.org/wiki/Germinal_(roman)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Germinal (roman)"
+  },
+  {
+   "questionId": "lit-bovary",
+   "url": "https://fr.wikipedia.org/wiki/Madame_Bovary",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Madame Bovary"
+  },
+  {
+   "questionId": "lit-auteurs",
+   "url": "https://fr.wikipedia.org/wiki/Le_Rouge_et_le_Noir",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Rouge et le Noir"
+  },
+  {
+   "questionId": "lit-auteurs",
+   "url": "https://fr.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Père Goriot"
+  },
+  {
+   "questionId": "lit-auteurs",
+   "url": "https://fr.wikipedia.org/wiki/Les_Trois_Mousquetaires",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Trois Mousquetaires"
+  },
+  {
+   "questionId": "lit-avare",
+   "url": "https://fr.wikipedia.org/wiki/L'Avare",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "L'Avare"
+  },
+  {
+   "questionId": "lit-baudelaire",
+   "url": "https://fr.wikipedia.org/wiki/Les_Fleurs_du_mal",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Fleurs du mal"
+  },
+  {
+   "questionId": "lit-hamlet",
+   "url": "https://fr.wikipedia.org/wiki/Hamlet",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Hamlet"
+  },
+  {
+   "questionId": "lit-quichotte",
+   "url": "https://fr.wikipedia.org/wiki/Don_Quichotte",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Don Quichotte"
+  },
+  {
+   "questionId": "lit-orwell",
+   "url": "https://fr.wikipedia.org/wiki/1984_(roman)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "1984 (roman)"
+  },
+  {
+   "questionId": "lit-petit-prince",
+   "url": "https://fr.wikipedia.org/wiki/Le_Petit_Prince",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Petit Prince"
+  },
+  {
+   "questionId": "mus-beethoven",
+   "url": "https://fr.wikipedia.org/wiki/Ludwig_van_Beethoven",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ludwig van Beethoven"
+  },
+  {
+   "questionId": "mus-mozart",
+   "url": "https://fr.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Wolfgang Amadeus Mozart"
+  },
+  {
+   "questionId": "mus-vivaldi",
+   "url": "https://fr.wikipedia.org/wiki/Les_Quatre_Saisons",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Les Quatre Saisons"
+  },
+  {
+   "questionId": "mus-bolero",
+   "url": "https://fr.wikipedia.org/wiki/Bol%C3%A9ro_(Ravel)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Boléro (Ravel)"
+  },
+  {
+   "questionId": "mus-compositeurs-pays",
+   "url": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Frédéric Chopin"
+  },
+  {
+   "questionId": "mus-compositeurs-pays",
+   "url": "https://fr.wikipedia.org/wiki/Giuseppe_Verdi",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Giuseppe Verdi"
+  },
+  {
+   "questionId": "mus-compositeurs-pays",
+   "url": "https://fr.wikipedia.org/wiki/Piotr_Ilitch_Tcha%C3%AFkovski",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Piotr Ilitch Tchaïkovski"
+  },
+  {
+   "questionId": "mus-compositeurs-pays",
+   "url": "https://fr.wikipedia.org/wiki/Jean-S%C3%A9bastien_Bach",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Jean-Sébastien Bach"
+  },
+  {
+   "questionId": "mus-marseillaise",
+   "url": "https://fr.wikipedia.org/wiki/La_Marseillaise",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "La Marseillaise"
+  },
+  {
+   "questionId": "mus-piaf",
+   "url": "https://fr.wikipedia.org/wiki/La_Vie_en_rose",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "La Vie en rose"
+  },
+  {
+   "questionId": "mus-violoncelle",
+   "url": "https://fr.wikipedia.org/wiki/Violoncelle",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Violoncelle"
+  },
+  {
+   "questionId": "mus-beatles",
+   "url": "https://fr.wikipedia.org/wiki/The_Beatles",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "The Beatles"
+  },
+  {
+   "questionId": "mus-saxophone",
+   "url": "https://fr.wikipedia.org/wiki/Saxophone",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Saxophone"
+  },
+  {
+   "questionId": "myth-zeus",
+   "url": "https://fr.wikipedia.org/wiki/Zeus",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Zeus"
+  },
+  {
+   "questionId": "myth-equivalents",
+   "url": "https://fr.wikipedia.org/wiki/Zeus",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Zeus"
+  },
+  {
+   "questionId": "myth-equivalents",
+   "url": "https://fr.wikipedia.org/wiki/Ar%C3%A8s",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Arès"
+  },
+  {
+   "questionId": "myth-equivalents",
+   "url": "https://fr.wikipedia.org/wiki/H%C3%A9ra",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Héra"
+  },
+  {
+   "questionId": "myth-equivalents",
+   "url": "https://fr.wikipedia.org/wiki/Aphrodite",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Aphrodite"
+  },
+  {
+   "questionId": "myth-heracles",
+   "url": "https://fr.wikipedia.org/wiki/Travaux_d'H%C3%A9racl%C3%A8s",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Travaux d'Héraclès"
+  },
+  {
+   "questionId": "myth-promethee",
+   "url": "https://fr.wikipedia.org/wiki/Prom%C3%A9th%C3%A9e",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Prométhée"
+  },
+  {
+   "questionId": "myth-ulysse",
+   "url": "https://fr.wikipedia.org/wiki/Ulysse",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ulysse"
+  },
+  {
+   "questionId": "myth-minotaure",
+   "url": "https://fr.wikipedia.org/wiki/Minotaure",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Minotaure"
+  },
+  {
+   "questionId": "myth-mjollnir",
+   "url": "https://fr.wikipedia.org/wiki/Mj%C3%B6llnir",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Mjöllnir"
+  },
+  {
+   "questionId": "myth-textes-sacres",
+   "url": "https://fr.wikipedia.org/wiki/Coran",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Coran"
+  },
+  {
+   "questionId": "myth-textes-sacres",
+   "url": "https://fr.wikipedia.org/wiki/Torah",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Torah"
+  },
+  {
+   "questionId": "myth-anubis",
+   "url": "https://fr.wikipedia.org/wiki/Anubis",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Anubis"
+  },
+  {
+   "questionId": "myth-textes-sacres",
+   "url": "https://fr.wikipedia.org/wiki/Veda",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Veda"
+  },
+  {
+   "questionId": "myth-ramadan",
+   "url": "https://fr.wikipedia.org/wiki/Ramadan",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ramadan"
+  },
+  {
+   "questionId": "myth-bouddha",
+   "url": "https://fr.wikipedia.org/wiki/Siddhartha_Gautama",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Siddhartha Gautama"
+  },
+  {
+   "questionId": "philo-caverne",
+   "url": "https://fr.wikipedia.org/wiki/All%C3%A9gorie_de_la_caverne",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Allégorie de la caverne"
+  },
+  {
+   "questionId": "philo-socrate",
+   "url": "https://fr.wikipedia.org/wiki/Socrate",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Socrate"
+  },
+  {
+   "questionId": "philo-montaigne",
+   "url": "https://fr.wikipedia.org/wiki/Essais_(Montaigne)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Essais (Montaigne)"
+  },
+  {
+   "questionId": "philo-montaigne",
+   "url": "https://fr.wikipedia.org/wiki/Michel_de_Montaigne",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Michel de Montaigne"
+  },
+  {
+   "questionId": "philo-descartes",
+   "url": "https://fr.wikipedia.org/wiki/Cogito_ergo_sum",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Cogito ergo sum"
+  },
+  {
+   "questionId": "philo-rousseau",
+   "url": "https://fr.wikipedia.org/wiki/Du_contrat_social",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Du contrat social"
+  },
+  {
+   "questionId": "philo-kant",
+   "url": "https://fr.wikipedia.org/wiki/Critique_de_la_raison_pure",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Critique de la raison pure"
+  },
+  {
+   "questionId": "philo-oeuvres",
+   "url": "https://fr.wikipedia.org/wiki/Le_Prince",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Prince"
+  },
+  {
+   "questionId": "philo-oeuvres",
+   "url": "https://fr.wikipedia.org/wiki/Pens%C3%A9es_(Pascal)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Pensées (Pascal)"
+  },
+  {
+   "questionId": "philo-oeuvres",
+   "url": "https://fr.wikipedia.org/wiki/L%C3%A9viathan_(Hobbes)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Léviathan (Thomas Hobbes)"
+  },
+  {
+   "questionId": "philo-oeuvres",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89thique_(Spinoza)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Éthique (Spinoza)"
+  },
+  {
+   "questionId": "philo-nietzsche",
+   "url": "https://fr.wikipedia.org/wiki/Ainsi_parlait_Zarathoustra",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ainsi parlait Zarathoustra"
+  },
+  {
+   "questionId": "philo-existentialisme",
+   "url": "https://fr.wikipedia.org/wiki/Existentialisme",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Existentialisme"
+  },
+  {
+   "questionId": "philo-beauvoir",
+   "url": "https://fr.wikipedia.org/wiki/Le_Deuxi%C3%A8me_Sexe",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Le Deuxième Sexe"
+  },
+  {
+   "questionId": "pol-ve-republique",
+   "url": "https://fr.wikipedia.org/wiki/Constitution_fran%C3%A7aise_du_4_octobre_1958",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Constitution française du 4 octobre 1958"
+  },
+  {
+   "questionId": "pol-senat",
+   "url": "https://fr.wikipedia.org/wiki/Palais_du_Luxembourg",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Palais du Luxembourg"
+  },
+  {
+   "questionId": "pol-quinquennat",
+   "url": "https://fr.wikipedia.org/wiki/Pr%C3%A9sident_de_la_R%C3%A9publique_fran%C3%A7aise",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Président de la République française"
+  },
+  {
+   "questionId": "pol-ddhc",
+   "url": "https://fr.wikipedia.org/wiki/D%C3%A9claration_des_droits_de_l'homme_et_du_citoyen_de_1789",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Déclaration des droits de l'homme et du citoyen de 1789"
+  },
+  {
+   "questionId": "pol-peine-mort",
+   "url": "https://fr.wikipedia.org/wiki/Abolition_de_la_peine_de_mort_en_France",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Abolition de la peine de mort en France"
+  },
+  {
+   "questionId": "pol-euro",
+   "url": "https://fr.wikipedia.org/wiki/Euro",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Euro"
+  },
+  {
+   "questionId": "pol-ue-27",
+   "url": "https://fr.wikipedia.org/wiki/Union_europ%C3%A9enne",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Union européenne"
+  },
+  {
+   "questionId": "pol-pib",
+   "url": "https://fr.wikipedia.org/wiki/Produit_int%C3%A9rieur_brut",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Produit intérieur brut"
+  },
+  {
+   "questionId": "pol-inflation",
+   "url": "https://fr.wikipedia.org/wiki/Inflation",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Inflation"
+  },
+  {
+   "questionId": "pol-onu",
+   "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_des_Nations_unies",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Siège des Nations unies"
+  },
+  {
+   "questionId": "pol-conseil-securite",
+   "url": "https://fr.wikipedia.org/wiki/Conseil_de_s%C3%A9curit%C3%A9_des_Nations_unies",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Conseil de sécurité des Nations unies"
+  },
+  {
+   "questionId": "sci-zero-absolu",
+   "url": "https://fr.wikipedia.org/wiki/Z%C3%A9ro_absolu",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Zéro absolu"
+  },
+  {
+   "questionId": "sci-lumiere",
+   "url": "https://fr.wikipedia.org/wiki/Vitesse_de_la_lumi%C3%A8re",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Vitesse de la lumière"
+  },
+  {
+   "questionId": "sci-einstein-nobel",
+   "url": "https://fr.wikipedia.org/wiki/Albert_Einstein",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Albert Einstein"
+  },
+  {
+   "questionId": "sci-eau",
+   "url": "https://fr.wikipedia.org/wiki/Eau",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Eau"
+  },
+  {
+   "questionId": "sci-mendeleiev",
+   "url": "https://fr.wikipedia.org/wiki/Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Tableau périodique des éléments"
+  },
+  {
+   "questionId": "sci-or",
+   "url": "https://fr.wikipedia.org/wiki/Or",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Or"
+  },
+  {
+   "questionId": "sci-adn",
+   "url": "https://fr.wikipedia.org/wiki/Acide_d%C3%A9soxyribonucl%C3%A9ique",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Acide désoxyribonucléique"
+  },
+  {
+   "questionId": "sci-hemoglobine",
+   "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Hémoglobine"
+  },
+  {
+   "questionId": "sci-os",
+   "url": "https://fr.wikipedia.org/wiki/Squelette_humain",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Squelette humain"
+  },
+  {
+   "questionId": "sci-fleming",
+   "url": "https://fr.wikipedia.org/wiki/P%C3%A9nicilline",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Pénicilline"
+  },
+  {
+   "questionId": "sci-pasteur-rage",
+   "url": "https://fr.wikipedia.org/wiki/Louis_Pasteur",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Louis Pasteur"
+  },
+  {
+   "questionId": "sci-mars",
+   "url": "https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Mars (planète)"
+  },
+  {
+   "questionId": "sci-planetes",
+   "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_solaire",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Système solaire"
+  },
+  {
+   "questionId": "sci-lune-distance",
+   "url": "https://fr.wikipedia.org/wiki/Lune",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Lune"
+  },
+  {
+   "questionId": "sci-pi",
+   "url": "https://fr.wikipedia.org/wiki/Pi",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Pi"
+  },
+  {
+   "questionId": "sport-essai",
+   "url": "https://fr.wikipedia.org/wiki/Essai_(rugby_%C3%A0_XV)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Essai (rugby à XV)"
+  },
+  {
+   "questionId": "sci-pythagore",
+   "url": "https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_Pythagore",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Théorème de Pythagore"
+  },
+  {
+   "questionId": "sport-cdm-rugby-2023",
+   "url": "https://fr.wikipedia.org/wiki/Coupe_du_monde_de_rugby_%C3%A0_XV_2023",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Coupe du monde de rugby à XV 2023"
+  },
+  {
+   "questionId": "sport-six-nations",
+   "url": "https://fr.wikipedia.org/wiki/Tournoi_des_Six_Nations",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Tournoi des Six Nations"
+  },
+  {
+   "questionId": "sport-france-98",
+   "url": "https://fr.wikipedia.org/wiki/Finale_de_la_Coupe_du_monde_de_football_1998",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Finale de la Coupe du monde de football 1998"
+  },
+  {
+   "questionId": "sport-ballon-or-98",
+   "url": "https://fr.wikipedia.org/wiki/Ballon_d'or_1998",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ballon d'or 1998"
+  },
+  {
+   "questionId": "sport-terre-battue",
+   "url": "https://fr.wikipedia.org/wiki/Internationaux_de_France_de_tennis",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Internationaux de France de tennis"
+  },
+  {
+   "questionId": "sport-nadal",
+   "url": "https://fr.wikipedia.org/wiki/Rafael_Nadal",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Rafael Nadal"
+  },
+  {
+   "questionId": "sport-coubertin",
+   "url": "https://fr.wikipedia.org/wiki/Pierre_de_Coubertin",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Pierre de Coubertin"
+  },
+  {
+   "questionId": "sport-paris-jo",
+   "url": "https://fr.wikipedia.org/wiki/Jeux_olympiques_d'%C3%A9t%C3%A9_de_2024",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Jeux olympiques d'été de 2024"
+  },
+  {
+   "questionId": "sport-anneaux",
+   "url": "https://fr.wikipedia.org/wiki/Drapeau_olympique",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Drapeau olympique"
+  },
+  {
+   "questionId": "sport-marathon",
+   "url": "https://fr.wikipedia.org/wiki/Marathon_(sport)",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Marathon (sport)"
+  },
+  {
+   "questionId": "sport-tour-de-france",
+   "url": "https://fr.wikipedia.org/wiki/Tour_de_France",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Tour de France"
+  },
+  {
+   "questionId": "sport-riner",
+   "url": "https://fr.wikipedia.org/wiki/Teddy_Riner",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Teddy Riner"
+  },
+  {
+   "questionId": "tech-gutenberg",
+   "url": "https://fr.wikipedia.org/wiki/Johannes_Gutenberg",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Johannes Gutenberg"
+  },
+  {
+   "questionId": "tech-watt",
+   "url": "https://fr.wikipedia.org/wiki/James_Watt",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "James Watt"
+  },
+  {
+   "questionId": "tech-telephone",
+   "url": "https://fr.wikipedia.org/wiki/Alexander_Graham_Bell",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Alexander Graham Bell"
+  },
+  {
+   "questionId": "tech-franklin",
+   "url": "https://fr.wikipedia.org/wiki/Paratonnerre",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Paratonnerre"
+  },
+  {
+   "questionId": "tech-classement",
+   "url": "https://fr.wikipedia.org/wiki/Transistor",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Transistor"
+  },
+  {
+   "questionId": "tech-lovelace",
+   "url": "https://fr.wikipedia.org/wiki/Ada_Lovelace",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Ada Lovelace"
+  },
+  {
+   "questionId": "tech-octet",
+   "url": "https://fr.wikipedia.org/wiki/Octet",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Octet"
+  },
+  {
+   "questionId": "tech-web",
+   "url": "https://fr.wikipedia.org/wiki/World_Wide_Web",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "World Wide Web"
+  },
+  {
+   "questionId": "tech-spoutnik",
+   "url": "https://fr.wikipedia.org/wiki/Spoutnik_1",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Spoutnik 1"
+  },
+  {
+   "questionId": "tech-minitel",
+   "url": "https://fr.wikipedia.org/wiki/Minitel",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Minitel"
+  },
+  {
+   "questionId": "tech-lumiere",
+   "url": "https://fr.wikipedia.org/wiki/Cin%C3%A9matographe",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Caméra Cinématographe"
+  },
+  {
+   "questionId": "tech-apollo",
+   "url": "https://fr.wikipedia.org/wiki/Apollo_11",
+   "ok": true,
+   "missingTerms": [],
+   "finalTitle": "Apollo 11"
+  }
+ ]
+}

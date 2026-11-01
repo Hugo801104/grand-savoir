@@ -1,0 +1,75 @@
+[
+  { "id": "histoire-france", "name": "Histoire de France", "icon": "🏰", "color": "#5b8cff", "position": 1, "subcategories": [
+    { "id": "gaule-antiquite", "name": "Gaule et Antiquité" },
+    { "id": "moyen-age", "name": "Moyen Âge" },
+    { "id": "renaissance-ancien-regime", "name": "Renaissance et Ancien Régime" },
+    { "id": "revolution-empire", "name": "Révolution et Empire" },
+    { "id": "republiques", "name": "Les Républiques" },
+    { "id": "xxe-siecle", "name": "XXe siècle" } ] },
+  { "id": "histoire-monde", "name": "Histoire du monde", "icon": "🌍", "color": "#3fb6a8", "position": 2, "subcategories": [
+    { "id": "antiquite", "name": "Antiquité et civilisations" },
+    { "id": "moyen-age", "name": "Moyen Âge" },
+    { "id": "epoque-moderne", "name": "Époque moderne" },
+    { "id": "guerres-mondiales", "name": "Guerres mondiales" },
+    { "id": "guerre-froide", "name": "Guerre froide" },
+    { "id": "contemporain", "name": "Histoire contemporaine" } ] },
+  { "id": "geographie", "name": "Géographie", "icon": "🗺️", "color": "#4cc46b", "position": 3, "subcategories": [
+    { "id": "capitales", "name": "Pays et capitales" },
+    { "id": "reliefs-eaux", "name": "Fleuves, mers et montagnes" },
+    { "id": "france", "name": "Géographie de la France" },
+    { "id": "geopolitique", "name": "Géopolitique et population" } ] },
+  { "id": "sciences", "name": "Sciences", "icon": "🔬", "color": "#22c3e6", "position": 4, "subcategories": [
+    { "id": "physique", "name": "Physique" },
+    { "id": "chimie", "name": "Chimie" },
+    { "id": "biologie", "name": "Biologie" },
+    { "id": "medecine", "name": "Médecine" },
+    { "id": "astronomie", "name": "Astronomie" },
+    { "id": "mathematiques", "name": "Mathématiques" } ] },
+  { "id": "technologies", "name": "Technologies et inventions", "icon": "💡", "color": "#ffb020", "position": 5, "subcategories": [
+    { "id": "inventions", "name": "Grandes inventions" },
+    { "id": "informatique", "name": "Informatique et numérique" },
+    { "id": "espace", "name": "Conquête spatiale" } ] },
+  { "id": "arts", "name": "Arts", "icon": "🎨", "color": "#ff6fa8", "position": 6, "subcategories": [
+    { "id": "peinture", "name": "Peinture" },
+    { "id": "sculpture", "name": "Sculpture" },
+    { "id": "architecture", "name": "Architecture" },
+    { "id": "photographie", "name": "Photographie" } ] },
+  { "id": "litterature", "name": "Littérature", "icon": "📖", "color": "#c18cff", "position": 7, "subcategories": [
+    { "id": "roman-francais", "name": "Roman français" },
+    { "id": "poesie-theatre", "name": "Poésie et théâtre" },
+    { "id": "litterature-monde", "name": "Littérature du monde" } ] },
+  { "id": "philosophie", "name": "Philosophie", "icon": "🤔", "color": "#9aa4ff", "position": 8, "subcategories": [
+    { "id": "antique", "name": "Philosophie antique" },
+    { "id": "moderne", "name": "Philosophie moderne" },
+    { "id": "contemporaine", "name": "Philosophie contemporaine" } ] },
+  { "id": "musique", "name": "Musique", "icon": "🎵", "color": "#ff8a5b", "position": 9, "subcategories": [
+    { "id": "classique", "name": "Musique classique" },
+    { "id": "populaire", "name": "Musiques populaires" },
+    { "id": "instruments", "name": "Instruments" } ] },
+  { "id": "cinema", "name": "Cinéma", "icon": "🎬", "color": "#e8505b", "position": 10, "subcategories": [
+    { "id": "cinema-francais", "name": "Cinéma français" },
+    { "id": "cinema-monde", "name": "Cinéma du monde" } ] },
+  { "id": "politique-societe", "name": "Politique, économie et société", "icon": "🏛️", "color": "#7fa7c9", "position": 11, "subcategories": [
+    { "id": "institutions", "name": "Institutions françaises" },
+    { "id": "international", "name": "Europe et monde" },
+    { "id": "economie", "name": "Économie" },
+    { "id": "societe", "name": "Société et droits" } ] },
+  { "id": "sports", "name": "Sports", "icon": "🏉", "color": "#35d07f", "position": 12, "subcategories": [
+    { "id": "rugby", "name": "Rugby" },
+    { "id": "football", "name": "Football" },
+    { "id": "tennis", "name": "Tennis" },
+    { "id": "olympisme", "name": "Jeux olympiques" },
+    { "id": "autres-sports", "name": "Autres sports" } ] },
+  { "id": "mythologie-religions", "name": "Mythologies et religions", "icon": "🏺", "color": "#d9a441", "position": 13, "subcategories": [
+    { "id": "grecque-romaine", "name": "Mythologie gréco-romaine" },
+    { "id": "autres-mythologies", "name": "Autres mythologies" },
+    { "id": "religions", "name": "Religions" } ] },
+  { "id": "gastronomie", "name": "Gastronomie", "icon": "🧀", "color": "#f2c14e", "position": 14, "subcategories": [
+    { "id": "terroirs", "name": "Terroirs de France" },
+    { "id": "cuisines-monde", "name": "Cuisines du monde" },
+    { "id": "culture-culinaire", "name": "Culture culinaire" } ] },
+  { "id": "culture-pop", "name": "Culture populaire", "icon": "📺", "color": "#b46cff", "position": 15, "subcategories": [
+    { "id": "bd", "name": "Bande dessinée" },
+    { "id": "jeux-video", "name": "Jeux vidéo" },
+    { "id": "series-livres", "name": "Séries et sagas" } ] }
+]

@@ -1,0 +1,290 @@
+{
+  "category": "philosophie",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "philo-socrate",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "antique",
+      "diff": 2,
+      "themes": [
+        "Socrate",
+        "Grèce antique"
+      ],
+      "q": "Socrate n'a laissé aucun écrit.",
+      "exp": "Vrai. Socrate (vers 470-399 av. J.-C.) enseignait par le dialogue. Nous connaissons sa pensée surtout par ses disciples, en particulier Platon et Xénophon.",
+      "anec": "Condamné à mort par Athènes pour impiété et corruption de la jeunesse, il boit la ciguë en 399 av. J.-C.",
+      "see": [
+        "philo-caverne"
+      ],
+      "wiki": [
+        [
+          "Socrate",
+          "Platon",
+          "Xénophon"
+        ]
+      ]
+    },
+    {
+      "id": "philo-caverne",
+      "sub": "antique",
+      "diff": 2,
+      "themes": [
+        "Platon",
+        "connaissance"
+      ],
+      "q": "Quel philosophe expose l'allégorie de la caverne ?",
+      "choices": [
+        "Platon",
+        "Aristote",
+        "Épicure",
+        "Diogène"
+      ],
+      "exp": "Dans La République (livre VII), Platon imagine des prisonniers enchaînés qui ne voient que des ombres : une image du passage de l'ignorance à la connaissance.",
+      "see": [
+        "philo-socrate"
+      ],
+      "wiki": [
+        [
+          "Allégorie de la caverne",
+          "République",
+          "Platon"
+        ]
+      ]
+    },
+    {
+      "id": "philo-montaigne",
+      "sub": "moderne",
+      "diff": 2,
+      "themes": [
+        "humanisme",
+        "Renaissance"
+      ],
+      "q": "Quel auteur du XVIe siècle a écrit les Essais ?",
+      "choices": [
+        "Michel de Montaigne",
+        "François Rabelais",
+        "Blaise Pascal",
+        "Érasme"
+      ],
+      "exp": "Michel de Montaigne rédige ses Essais de 1572 à sa mort en 1592 : il s'y prend lui-même pour sujet afin de réfléchir à la condition humaine.",
+      "anec": "Sa devise : « Que sais-je ? ».",
+      "wiki": [
+        [
+          "Essais (Montaigne)",
+          "Montaigne"
+        ],
+        [
+          "Michel de Montaigne",
+          "que sais-je"
+        ]
+      ]
+    },
+    {
+      "id": "philo-descartes",
+      "sub": "moderne",
+      "diff": 1,
+      "themes": [
+        "rationalisme"
+      ],
+      "q": "Quel philosophe a formulé « Je pense, donc je suis » ?",
+      "choices": [
+        "René Descartes",
+        "Blaise Pascal",
+        "Emmanuel Kant",
+        "Baruch Spinoza"
+      ],
+      "exp": "La formule apparaît dans le Discours de la méthode (1637) de Descartes : même en doutant de tout, je ne peux douter que je pense, donc que j'existe.",
+      "anec": "La version latine, « Cogito, ergo sum », figure dans les Principes de la philosophie (1644).",
+      "wiki": [
+        [
+          "Cogito ergo sum",
+          "Descartes",
+          "1637"
+        ]
+      ]
+    },
+    {
+      "id": "philo-rousseau",
+      "sub": "moderne",
+      "diff": 2,
+      "themes": [
+        "Lumières",
+        "politique"
+      ],
+      "q": "Qui est l'auteur Du contrat social (1762) ?",
+      "choices": [
+        "Jean-Jacques Rousseau",
+        "Voltaire",
+        "Montesquieu",
+        "Denis Diderot"
+      ],
+      "exp": "Dans Du contrat social, Rousseau fonde la légitimité du pouvoir sur la « volonté générale » du peuple souverain. L'ouvrage influence fortement la Révolution française.",
+      "anec": "Montesquieu est l'auteur De l'esprit des lois (1748), qui théorise la séparation des pouvoirs.",
+      "see": [
+        "pol-ddhc"
+      ],
+      "wiki": [
+        [
+          "Du contrat social",
+          "1762",
+          "volonté générale"
+        ]
+      ]
+    },
+    {
+      "id": "philo-kant",
+      "sub": "moderne",
+      "diff": 3,
+      "themes": [
+        "Lumières",
+        "métaphysique"
+      ],
+      "q": "Quel philosophe allemand publie la Critique de la raison pure en 1781 ?",
+      "choices": [
+        "Emmanuel Kant",
+        "Friedrich Hegel",
+        "Arthur Schopenhauer",
+        "Karl Marx"
+      ],
+      "exp": "Emmanuel Kant y examine les limites de la connaissance humaine : ce que nous pouvons connaître dépend aussi de la structure de notre esprit.",
+      "wiki": [
+        [
+          "Critique de la raison pure",
+          "1781",
+          "Kant"
+        ]
+      ]
+    },
+    {
+      "id": "philo-oeuvres",
+      "fmt": "association",
+      "sub": "moderne",
+      "diff": 4,
+      "themes": [
+        "grandes œuvres"
+      ],
+      "q": "Associe chaque œuvre à son auteur.",
+      "pairs": [
+        [
+          "Le Prince",
+          "Machiavel"
+        ],
+        [
+          "Léviathan",
+          "Thomas Hobbes"
+        ],
+        [
+          "Pensées",
+          "Blaise Pascal"
+        ],
+        [
+          "Éthique",
+          "Baruch Spinoza"
+        ]
+      ],
+      "exp": "Le Prince de Machiavel (1532, posthume) ; Léviathan de Hobbes (1651) ; les Pensées de Pascal, publiées après sa mort (1670) ; l'Éthique de Spinoza (1677, posthume).",
+      "wiki": [
+        [
+          "Le Prince",
+          "Machiavel"
+        ],
+        [
+          "Léviathan (Hobbes)",
+          "Hobbes"
+        ],
+        [
+          "Pensées (Pascal)",
+          "Pascal"
+        ],
+        [
+          "Éthique (Spinoza)",
+          "Spinoza"
+        ]
+      ]
+    },
+    {
+      "id": "philo-nietzsche",
+      "sub": "contemporaine",
+      "diff": 2,
+      "themes": [
+        "XIXe siècle"
+      ],
+      "q": "Quel philosophe a écrit Ainsi parlait Zarathoustra ?",
+      "choices": [
+        "Friedrich Nietzsche",
+        "Søren Kierkegaard",
+        "Arthur Schopenhauer",
+        "Martin Heidegger"
+      ],
+      "exp": "Friedrich Nietzsche publie Ainsi parlait Zarathoustra entre 1883 et 1885. Il y développe notamment les idées de surhomme et d'éternel retour.",
+      "anec": "Le poème symphonique de Richard Strauss, rendu célèbre par le film 2001, l'Odyssée de l'espace, porte le même titre.",
+      "see": [
+        "cine-kubrick"
+      ],
+      "wiki": [
+        [
+          "Ainsi parlait Zarathoustra",
+          "Nietzsche"
+        ]
+      ]
+    },
+    {
+      "id": "philo-existentialisme",
+      "sub": "contemporaine",
+      "diff": 3,
+      "themes": [
+        "existentialisme",
+        "XXe siècle"
+      ],
+      "q": "Quel philosophe résume l'existentialisme par la formule « l'existence précède l'essence » ?",
+      "choices": [
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "Michel Foucault",
+        "Gilles Deleuze"
+      ],
+      "exp": "Pour Sartre (L'existentialisme est un humanisme, 1946), l'être humain n'a pas de nature prédéfinie : il se définit par ses choix et ses actes.",
+      "anec": "Sartre refuse le prix Nobel de littérature en 1964.",
+      "see": [
+        "philo-beauvoir",
+        "lit-camus"
+      ],
+      "wiki": [
+        [
+          "Existentialisme",
+          "Sartre"
+        ]
+      ]
+    },
+    {
+      "id": "philo-beauvoir",
+      "sub": "contemporaine",
+      "diff": 2,
+      "themes": [
+        "féminisme",
+        "existentialisme"
+      ],
+      "q": "Qui a écrit Le Deuxième Sexe (1949) ?",
+      "choices": [
+        "Simone de Beauvoir",
+        "Simone Weil",
+        "Hannah Arendt",
+        "Marguerite Duras"
+      ],
+      "exp": "Dans Le Deuxième Sexe, Simone de Beauvoir analyse la condition des femmes. On en retient la phrase : « On ne naît pas femme : on le devient. »",
+      "see": [
+        "philo-existentialisme"
+      ],
+      "wiki": [
+        [
+          "Le Deuxième Sexe",
+          "1949",
+          "Beauvoir"
+        ]
+      ]
+    }
+  ]
+}

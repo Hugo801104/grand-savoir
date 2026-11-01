@@ -1,0 +1,80 @@
+{
+  "category": "gastronomie",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "gastro-roquefort", "sub": "terroirs", "diff": 2, "themes": ["fromages"],
+      "q": "Avec quel lait est fabriqué le roquefort ?",
+      "choices": ["Le lait de brebis", "Le lait de vache", "Le lait de chèvre", "Le lait de bufflonne"],
+      "exp": "Le roquefort est un fromage à pâte persillée au lait cru de brebis, affiné dans les caves de Roquefort-sur-Soulzon, en Aveyron.",
+      "anec": "Il a été en 1925 le premier fromage à bénéficier d'une appellation d'origine en France.",
+      "see": ["gastro-aoc", "gastro-fromages"],
+      "wiki": [["Roquefort (fromage)", "brebis", "1925"]]
+    },
+    {
+      "id": "gastro-fromages", "fmt": "association", "sub": "terroirs", "diff": 2, "themes": ["fromages", "régions"],
+      "q": "Associe chaque fromage à sa région d'origine.",
+      "pairs": [["Comté", "Jura"], ["Camembert de Normandie", "Normandie"], ["Reblochon", "Savoie"], ["Munster", "Vosges et Alsace"]],
+      "exp": "Le comté est produit dans le massif du Jura ; le camembert vient de Normandie ; le reblochon des Savoie ; le munster du massif des Vosges, côté alsacien et lorrain.",
+      "wiki": [["Comté (fromage)", "Jura"], ["Camembert de Normandie", "Normandie"], ["Reblochon", "Savoie"], ["Munster (fromage)", "Vosges"]]
+    },
+    {
+      "id": "gastro-bouillabaisse", "sub": "terroirs", "diff": 1, "themes": ["plats régionaux"],
+      "q": "De quelle ville la bouillabaisse est-elle la spécialité emblématique ?",
+      "choices": ["Marseille", "Nice", "Bordeaux", "Brest"],
+      "exp": "La bouillabaisse est une soupe de poissons de roche de la tradition marseillaise, servie avec de la rouille et des croûtons.",
+      "wiki": [["Bouillabaisse", "Marseille"]]
+    },
+    {
+      "id": "gastro-aoc", "sub": "terroirs", "diff": 2, "themes": ["labels"],
+      "q": "Que signifie le sigle AOC ?",
+      "choices": ["Appellation d'origine contrôlée", "Agriculture d'origine certifiée", "Association des origines culinaires", "Appellation officielle de cuisine"],
+      "exp": "L'AOC garantit qu'un produit est élaboré dans une zone géographique délimitée selon un savoir-faire reconnu. Elle est gérée par l'INAO ; son équivalent européen est l'AOP.",
+      "see": ["gastro-roquefort"],
+      "wiki": [["Appellation d'origine contrôlée", "INAO"]]
+    },
+    {
+      "id": "gastro-dom-perignon", "sub": "culture-culinaire", "diff": 3, "themes": ["vin", "Champagne"],
+      "q": "Quel moine bénédictin est traditionnellement associé à l'histoire du champagne ?",
+      "choices": ["Dom Pérignon", "Dom Juan", "Saint Bernard", "Frère Tuck"],
+      "exp": "Dom Pierre Pérignon (1638-1715), cellérier de l'abbaye d'Hautvillers, a amélioré l'assemblage des vins. La légende qui fait de lui l'« inventeur » du champagne est toutefois très exagérée.",
+      "wiki": [["Dom Pérignon", "Hautvillers"]]
+    },
+    {
+      "id": "gastro-unesco", "fmt": "vrai_faux", "answer": true, "sub": "culture-culinaire", "diff": 2, "themes": ["patrimoine"],
+      "q": "Le « repas gastronomique des Français » est inscrit au patrimoine culturel immatériel de l'UNESCO.",
+      "exp": "Vrai. Il est inscrit en 2010 : c'est une pratique sociale (accord mets-vins, ordre des plats, art de la table) qui est reconnue, et non une recette en particulier.",
+      "anec": "La baguette de pain française a également été inscrite en 2022.",
+      "wiki": [["Repas gastronomique des Français", "2010"]]
+    },
+    {
+      "id": "gastro-viennoiserie", "sub": "culture-culinaire", "diff": 2, "themes": ["pâtisserie", "étymologie"],
+      "q": "D'où vient le nom « viennoiserie » ?",
+      "choices": ["De la ville de Vienne, en Autriche", "De la ville de Vienne, en Isère", "Du verbe « venir »", "D'un boulanger nommé Viennot"],
+      "exp": "Le terme vient de la « boulangerie viennoise » ouverte à Paris vers 1838-1839 par l'Autrichien August Zang, qui fit connaître le pain viennois et le kipferl, ancêtre du croissant.",
+      "wiki": [["Viennoiserie", "Vienne", "Zang"]]
+    },
+    {
+      "id": "gastro-tomate", "fmt": "vrai_faux", "answer": true, "sub": "culture-culinaire", "diff": 1, "themes": ["botanique"],
+      "q": "D'un point de vue botanique, la tomate est un fruit.",
+      "exp": "Vrai. Botaniquement, un fruit se forme à partir de la fleur et contient les graines : c'est le cas de la tomate. En cuisine, on la classe pourtant parmi les légumes.",
+      "anec": "La tomate est originaire d'Amérique du Sud et n'a été adoptée en Europe que progressivement à partir du XVIe siècle.",
+      "wiki": [["Tomate", "fruit"]]
+    },
+    {
+      "id": "gastro-paella", "sub": "cuisines-monde", "diff": 2, "themes": ["Espagne"],
+      "q": "De quelle région d'Espagne la paella est-elle originaire ?",
+      "choices": ["La région de Valence", "L'Andalousie", "La Catalogne", "Le Pays basque"],
+      "exp": "La paella est née dans la région de Valence, où le riz est cultivé. La paella valencienne traditionnelle contient du poulet, du lapin et des haricots, plutôt que des fruits de mer.",
+      "wiki": [["Paella", "Valence"]]
+    },
+    {
+      "id": "gastro-sushi", "sub": "cuisines-monde", "diff": 1, "themes": ["Japon"],
+      "q": "Quel est l'ingrédient commun à tous les sushis ?",
+      "choices": ["Le riz vinaigré", "Le poisson cru", "L'algue nori", "Le wasabi"],
+      "exp": "Le mot « sushi » désigne le riz assaisonné de vinaigre. Le poisson cru n'est pas obligatoire, et le poisson cru seul s'appelle le sashimi.",
+      "wiki": [["Sushi", "riz", "vinaigre"]]
+    }
+  ]
+}

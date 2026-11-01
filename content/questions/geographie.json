@@ -1,0 +1,375 @@
+{
+  "category": "geographie",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "geo-australie",
+      "sub": "capitales",
+      "diff": 2,
+      "themes": [
+        "Océanie",
+        "capitales"
+      ],
+      "q": "Quelle est la capitale de l'Australie ?",
+      "choices": [
+        "Canberra",
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "exp": "Canberra est la capitale fédérale de l'Australie. Ville planifiée, elle a été choisie comme compromis entre les deux grandes rivales, Sydney et Melbourne.",
+      "anec": "Le plan de Canberra est l'œuvre des architectes américains Walter Burley Griffin et Marion Mahony Griffin.",
+      "wiki": [
+        [
+          "Canberra",
+          "capitale",
+          "Griffin"
+        ]
+      ]
+    },
+    {
+      "id": "geo-canada",
+      "sub": "capitales",
+      "diff": 2,
+      "themes": [
+        "Amérique du Nord",
+        "capitales"
+      ],
+      "q": "Quelle est la capitale du Canada ?",
+      "choices": [
+        "Ottawa",
+        "Toronto",
+        "Montréal",
+        "Vancouver"
+      ],
+      "exp": "Ottawa, en Ontario, est la capitale du Canada. Elle a été choisie par la reine Victoria au XIXe siècle, notamment pour sa position entre le Canada anglophone et francophone.",
+      "wiki": [
+        [
+          "Ottawa",
+          "capitale",
+          "Victoria"
+        ]
+      ]
+    },
+    {
+      "id": "geo-capitales-association",
+      "fmt": "association",
+      "sub": "capitales",
+      "diff": 3,
+      "themes": [
+        "capitales"
+      ],
+      "q": "Associe chaque pays à sa capitale.",
+      "pairs": [
+        [
+          "Brésil",
+          "Brasília"
+        ],
+        [
+          "Turquie",
+          "Ankara"
+        ],
+        [
+          "Nigeria",
+          "Abuja"
+        ],
+        [
+          "Mongolie",
+          "Oulan-Bator"
+        ]
+      ],
+      "exp": "Ces quatre capitales ne sont pas les plus grandes villes de leur pays (sauf Oulan-Bator) : Brasília a remplacé Rio de Janeiro en 1960, Ankara a été choisie par Atatürk plutôt qu'Istanbul, et Abuja a remplacé Lagos en 1991.",
+      "wiki": [
+        [
+          "Brasília",
+          "capitale",
+          "1960"
+        ],
+        [
+          "Ankara",
+          "capitale"
+        ],
+        [
+          "Abuja",
+          "capitale",
+          "Lagos"
+        ],
+        [
+          "Oulan-Bator",
+          "capitale"
+        ]
+      ]
+    },
+    {
+      "id": "geo-russie",
+      "sub": "geopolitique",
+      "diff": 1,
+      "themes": [
+        "superficie",
+        "Russie"
+      ],
+      "q": "Quel est le plus grand pays du monde par la superficie ?",
+      "choices": [
+        "La Russie",
+        "Le Canada",
+        "La Chine",
+        "Les États-Unis"
+      ],
+      "exp": "Avec plus de 17 millions de km², la Russie est de loin le plus grand pays du monde, s'étendant sur onze fuseaux horaires. Le Canada arrive deuxième.",
+      "wiki": [
+        [
+          "Russie",
+          "plus vaste",
+          "17 234 033"
+        ]
+      ]
+    },
+    {
+      "id": "geo-population",
+      "fmt": "classement",
+      "sub": "geopolitique",
+      "diff": 3,
+      "themes": [
+        "démographie"
+      ],
+      "q": "Classe ces pays selon leur population (estimations de l'ONU, 2023).",
+      "orderLabel": "du plus peuplé au moins peuplé",
+      "items": [
+        "Inde",
+        "Chine",
+        "États-Unis",
+        "Indonésie"
+      ],
+      "exp": "Selon les estimations des Nations unies, l'Inde a dépassé la Chine en 2023 et est devenue le pays le plus peuplé du monde, avec plus de 1,4 milliard d'habitants. Les États-Unis et l'Indonésie suivent.",
+      "anec": "Ce classement évolue : il est vérifié régulièrement et sera mis à jour si les estimations changent.",
+      "wiki": [
+        [
+          "Inde",
+          "pays le plus peuplé"
+        ],
+        [
+          "Liste des pays par population",
+          "Chine"
+        ]
+      ]
+    },
+    {
+      "id": "geo-loire",
+      "sub": "france",
+      "diff": 1,
+      "themes": [
+        "fleuves",
+        "France"
+      ],
+      "q": "Quel est le plus long fleuve de France ?",
+      "choices": [
+        "La Loire",
+        "La Seine",
+        "Le Rhône",
+        "La Garonne"
+      ],
+      "exp": "La Loire, longue d'environ 1 000 km, prend sa source au mont Gerbier-de-Jonc (Ardèche) et se jette dans l'océan Atlantique près de Saint-Nazaire.",
+      "anec": "On la surnomme souvent « le dernier fleuve sauvage d'Europe », car elle est peu aménagée.",
+      "wiki": [
+        [
+          "Loire (fleuve)",
+          "plus long",
+          "Gerbier"
+        ]
+      ]
+    },
+    {
+      "id": "geo-frontieres-france",
+      "sub": "france",
+      "diff": 3,
+      "themes": [
+        "frontières",
+        "France"
+      ],
+      "q": "Combien de pays partagent une frontière terrestre avec la France métropolitaine ?",
+      "choices": [
+        "8",
+        "6",
+        "7",
+        "9"
+      ],
+      "exp": "La Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco, l'Espagne et Andorre : huit pays. En comptant la Guyane, il faut ajouter le Brésil (la plus longue frontière terrestre de la France) et le Suriname.",
+      "wiki": [
+        [
+          "Frontières de la France",
+          "Andorre",
+          "Brésil"
+        ]
+      ]
+    },
+    {
+      "id": "geo-mont-blanc",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "themes": [
+        "montagnes",
+        "Alpes"
+      ],
+      "q": "Quelle est, environ, l'altitude du mont Blanc ?",
+      "choices": [
+        "4 800 m",
+        "3 900 m",
+        "5 600 m",
+        "4 200 m"
+      ],
+      "exp": "Le mont Blanc culmine à environ 4 805 m, selon les mesures récentes. Son altitude varie légèrement d'une année à l'autre en fonction de l'épaisseur de la calotte de neige et de glace.",
+      "wiki": [
+        [
+          "Mont Blanc",
+          "4 80"
+        ]
+      ]
+    },
+    {
+      "id": "geo-everest",
+      "fmt": "saisie",
+      "sub": "reliefs-eaux",
+      "diff": 1,
+      "themes": [
+        "montagnes",
+        "Himalaya"
+      ],
+      "q": "Quel est le plus haut sommet du monde ?",
+      "accepted": [
+        "Everest",
+        "Mont Everest",
+        "Chomolungma",
+        "Sagarmatha"
+      ],
+      "exp": "L'Everest, dans l'Himalaya, à la frontière entre le Népal et la Chine, culmine à 8 848,86 m selon la mesure sino-népalaise publiée en 2020.",
+      "anec": "Il a été gravi pour la première fois en 1953 par Edmund Hillary et Tensing Norgay.",
+      "wiki": [
+        [
+          "Everest",
+          "8 848",
+          "Hillary"
+        ]
+      ]
+    },
+    {
+      "id": "geo-amazone",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "themes": [
+        "fleuves",
+        "Amérique du Sud"
+      ],
+      "q": "Dans quel océan se jette l'Amazone ?",
+      "choices": [
+        "L'océan Atlantique",
+        "L'océan Pacifique",
+        "L'océan Indien",
+        "La mer des Caraïbes"
+      ],
+      "exp": "Née dans les Andes péruviennes, l'Amazone traverse le Brésil d'ouest en est et se jette dans l'Atlantique. C'est le fleuve au plus grand débit du monde.",
+      "wiki": [
+        [
+          "Amazone (fleuve)",
+          "Atlantique",
+          "débit"
+        ]
+      ]
+    },
+    {
+      "id": "geo-gibraltar",
+      "sub": "reliefs-eaux",
+      "diff": 1,
+      "themes": [
+        "détroits",
+        "Méditerranée"
+      ],
+      "q": "Quel détroit sépare l'Espagne du Maroc ?",
+      "choices": [
+        "Le détroit de Gibraltar",
+        "Le Bosphore",
+        "Le détroit de Messine",
+        "Le pas de Calais"
+      ],
+      "exp": "Le détroit de Gibraltar relie la Méditerranée à l'océan Atlantique ; à son point le plus étroit, il ne mesure qu'environ 14 km.",
+      "anec": "Dans l'Antiquité, ses deux rives étaient appelées les « colonnes d'Hercule ».",
+      "wiki": [
+        [
+          "Détroit de Gibraltar",
+          "Maroc",
+          "Hercule"
+        ]
+      ]
+    },
+    {
+      "id": "geo-sahara",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "themes": [
+        "déserts",
+        "Afrique"
+      ],
+      "q": "Le Sahara est le plus grand désert du monde, tous types de déserts confondus.",
+      "exp": "Faux. Le Sahara est le plus grand désert chaud. Mais un désert se définit par la faiblesse des précipitations : l'Antarctique, désert froid, est bien plus vaste.",
+      "wiki": [
+        [
+          "Sahara",
+          "désert chaud"
+        ],
+        [
+          "Désert",
+          "Antarctique"
+        ]
+      ]
+    },
+    {
+      "id": "geo-danube",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "themes": [
+        "fleuves",
+        "Europe centrale"
+      ],
+      "q": "Combien de capitales européennes le Danube traverse-t-il ?",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "exp": "Le Danube traverse Vienne, Bratislava, Budapest et Belgrade. Il prend sa source en Allemagne (Forêt-Noire) et se jette dans la mer Noire.",
+      "wiki": [
+        [
+          "Danube",
+          "Bratislava",
+          "Belgrade"
+        ]
+      ]
+    },
+    {
+      "id": "geo-baikal",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "themes": [
+        "lacs",
+        "Sibérie"
+      ],
+      "q": "Quel est le lac le plus profond du monde ?",
+      "choices": [
+        "Le lac Baïkal",
+        "Le lac Tanganyika",
+        "Le lac Supérieur",
+        "La mer Caspienne"
+      ],
+      "exp": "Situé en Sibérie, le lac Baïkal dépasse 1 600 m de profondeur. Il contient à lui seul environ un cinquième de l'eau douce liquide de surface de la planète.",
+      "wiki": [
+        [
+          "Lac Baïkal",
+          "profond"
+        ]
+      ]
+    }
+  ]
+}

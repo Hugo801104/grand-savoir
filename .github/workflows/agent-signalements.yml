@@ -1,0 +1,188 @@
+# Traitement automatique des signalements envoyés depuis l'appli.
+#
+#  1. accueil   (sans IA)       : budget, nouveaux signalements, ticket GitHub, fichier de tâche ;
+#  2. analyse   (IA, sans secret de base de données) : l'agent vérifie, corrige, écrit sa décision ;
+#  3. publication (sans IA, copie propre du dépôt) : contrôles déterministes, puis publication du contenu
+#     si toutes les règles sont respectées, sinon validation humaine ; Pull Request pour le code (jamais fusionnée seule).
+#
+# Déclenchement : immédiat (fonction Supabase report-dispatch → workflow_dispatch), et toutes les 6 heures en secours.
+# Protection contre les boucles et les dépenses : une seule exécution à la fois, nombre de tentatives limité par
+# signalement, plafonds quotidien et mensuel lus dans la base (system_config), nombre de tours de l'IA limité.
+
+name: Agent — signalements
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+
+permissions: {}
+
+concurrency:
+  group: agent-signalements
+  cancel-in-progress: false
+
+jobs:
+  accueil:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
+    outputs:
+      reports: ${{ steps.intake.outputs.reports }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - id: intake
+        run: npm run agent:intake
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: steps.intake.outputs.reports != '[]'
+        with:
+          name: agent-taches
+          path: .agent/tasks
+          retention-days: 7
+
+  analyse:
+    needs: accueil
+    if: needs.accueil.outputs.reports != '' && needs.accueil.outputs.reports != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        report: ${{ fromJSON(needs.accueil.outputs.reports) }}
+    env:
+      REPORT_ID: ${{ matrix.report }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: agent-taches
+          path: .agent/tasks
+      - name: Agent IA
+        id: claude
+        continue-on-error: true
+        uses: anthropics/claude-code-action@d535f5172dec02b204866b393d6b20b9b2aaf98d # v1
+        with:
+          # Une seule des deux est nécessaire : clé API (facturation à l'usage) ou jeton d'abonnement Claude.
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ github.token }}
+          prompt: |
+            Traite le signalement ${{ matrix.report }} de l'application Le Grand Savoir.
+            1. Lis d'abord et respecte strictement les consignes : .github/agent/instructions.md
+            2. Fichier de tâche : .agent/tasks/${{ matrix.report }}.json
+            3. Écris ta décision dans : .agent/out/${{ matrix.report }}/decision.json
+          claude_args: >-
+            --model ${{ vars.AGENT_MODEL || 'claude-opus-5-5' }}
+            --max-turns ${{ vars.AGENT_MAX_TURNS || '40' }}
+            --allowedTools "Read,Glob,Grep,Write,Edit,WebSearch,WebFetch,Bash(npm test),Bash(npm run typecheck),Bash(npm run content:validate),Bash(npx tsx scripts/content/wiki.ts:*),Bash(npx tsx scripts/agent/check-proposal.ts:*)"
+      - name: Vérifier les modifications de code (sans aucun secret)
+        if: always()
+        run: |
+          mkdir -p ".agent/out/$REPORT_ID"
+          git diff -- src tests > ".agent/out/$REPORT_ID/patch.diff" || true
+          if [ -s ".agent/out/$REPORT_ID/patch.diff" ]; then
+            if npm run typecheck > /tmp/t.txt 2>&1 && npm test >> /tmp/t.txt 2>&1; then
+              { echo "OK — typecheck et tests réussis"; tail -n 20 /tmp/t.txt; } > ".agent/out/$REPORT_ID/tests.txt"
+            else
+              { echo "ÉCHEC"; tail -n 60 /tmp/t.txt; } > ".agent/out/$REPORT_ID/tests.txt"
+            fi
+          fi
+          if [ -n "${{ steps.claude.outputs.execution_file }}" ] && [ -f "${{ steps.claude.outputs.execution_file }}" ]; then
+            cp "${{ steps.claude.outputs.execution_file }}" ".agent/out/$REPORT_ID/execution.json"
+          fi
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: agent-resultat-${{ matrix.report }}
+          path: .agent/out/${{ matrix.report }}
+          retention-days: 14
+          include-hidden-files: true
+
+  publication:
+    needs: [accueil, analyse]
+    if: always() && needs.accueil.outputs.reports != '' && needs.accueil.outputs.reports != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        report: ${{ fromJSON(needs.accueil.outputs.reports) }}
+    env:
+      REPORT_ID: ${{ matrix.report }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        continue-on-error: true
+        with:
+          name: agent-resultat-${{ matrix.report }}
+          path: .agent/out/${{ matrix.report }}
+      - name: Préparer la Pull Request
+        id: prep
+        run: npx tsx scripts/agent/prepare-pr.ts "$REPORT_ID"
+      - name: Ouvrir la Pull Request (le code modifié n'est jamais exécuté dans cette étape)
+        id: pr
+        if: steps.prep.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.prep.outputs.branch }}
+          TITLE: ${{ steps.prep.outputs.title }}
+        run: |
+          git worktree add -b "$BRANCH" ../pr-worktree HEAD
+          cd ../pr-worktree
+          git apply --whitespace=nowarn "$GITHUB_WORKSPACE/.agent/out/$REPORT_ID/patch.diff"
+          git -c user.name="grand-savoir-agent" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -am "$TITLE" -m "Signalement $REPORT_ID — proposition automatique, relecture humaine requise."
+          AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+          git -c core.hooksPath=/dev/null -c http.https://github.com/.extraheader="AUTHORIZATION: basic $AUTH" \
+              push --force origin "HEAD:refs/heads/$BRANCH"
+          URL=$(gh pr create --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --base main --title "$TITLE" \
+                --body-file "$GITHUB_WORKSPACE/.agent/pr/body.md" || \
+                gh pr view "$BRANCH" --repo "$GITHUB_REPOSITORY" --json url -q .url)
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+      - name: Appliquer la décision et rendre compte
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+          ANALYSE: ${{ needs.analyse.result }}
+        run: |
+          ARGS="--exec=.agent/out/$REPORT_ID/execution.json"
+          if [ -n "$PR_URL" ]; then ARGS="$ARGS --pr=$PR_URL"; fi
+          if [ ! -f ".agent/out/$REPORT_ID/decision.json" ]; then ARGS="$ARGS --failed=analyse-$ANALYSE"; fi
+          npx tsx scripts/agent/apply-proposal.ts "$REPORT_ID" $ARGS

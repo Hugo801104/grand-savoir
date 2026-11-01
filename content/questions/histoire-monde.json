@@ -1,0 +1,383 @@
+{
+  "category": "histoire-monde",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "hm-cesar-classement",
+      "fmt": "classement",
+      "sub": "antiquite",
+      "diff": 3,
+      "themes": [
+        "Égypte",
+        "Rome",
+        "Grèce"
+      ],
+      "q": "Classe ces événements de l'Antiquité.",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": [
+        "Construction de la pyramide de Khéops",
+        "Fondation légendaire de Rome",
+        "Mort d'Alexandre le Grand",
+        "Assassinat de Jules César"
+      ],
+      "exp": "La pyramide de Khéops date d'environ 2 600-2 500 av. J.-C. ; la fondation légendaire de Rome est fixée à 753 av. J.-C. ; Alexandre meurt en 323 av. J.-C. et César est assassiné aux ides de mars 44 av. J.-C.",
+      "see": [
+        "hf-alesia",
+        "hm-rome-476"
+      ],
+      "wiki": [
+        [
+          "Pyramide de Khéops",
+          "Khéops"
+        ],
+        [
+          "Fondation de Rome",
+          "753"
+        ],
+        [
+          "Alexandre le Grand",
+          "323"
+        ],
+        [
+          "Jules César",
+          "44"
+        ]
+      ]
+    },
+    {
+      "id": "hm-rome-476",
+      "sub": "antiquite",
+      "diff": 2,
+      "themes": [
+        "Empire romain",
+        "Antiquité tardive"
+      ],
+      "q": "Quelle date marque traditionnellement la chute de l'Empire romain d'Occident ?",
+      "choices": [
+        "476",
+        "395",
+        "800",
+        "1453"
+      ],
+      "exp": "En 476, le chef germanique Odoacre dépose le jeune empereur Romulus Augustule et renvoie les insignes impériaux à Constantinople. Cette date sert conventionnellement de fin à l'Antiquité.",
+      "anec": "L'Empire romain d'Orient, lui, survit près de mille ans, jusqu'en 1453.",
+      "see": [
+        "hm-constantinople"
+      ],
+      "wiki": [
+        [
+          "Odoacre",
+          "476",
+          "Romulus Augustule"
+        ]
+      ]
+    },
+    {
+      "id": "hm-magna-carta",
+      "sub": "moyen-age",
+      "diff": 3,
+      "themes": [
+        "Angleterre",
+        "droit"
+      ],
+      "q": "Quel texte anglais de 1215 limite pour la première fois le pouvoir du roi Jean sans Terre ?",
+      "choices": [
+        "La Magna Carta",
+        "Le Bill of Rights",
+        "L'Habeas Corpus",
+        "L'Acte d'Union"
+      ],
+      "exp": "La Magna Carta (Grande Charte), imposée au roi par les barons en 1215, pose le principe que le roi est lui aussi soumis à la loi.",
+      "anec": "Le Bill of Rights date de 1689 et l'Habeas Corpus Act de 1679.",
+      "wiki": [
+        [
+          "Magna Carta",
+          "1215",
+          "Jean sans Terre"
+        ]
+      ]
+    },
+    {
+      "id": "hm-cent-ans",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "sub": "moyen-age",
+      "diff": 2,
+      "themes": [
+        "guerre de Cent Ans",
+        "France",
+        "Angleterre"
+      ],
+      "q": "La guerre de Cent Ans a duré exactement cent ans.",
+      "exp": "Faux. Elle s'étend de 1337 à 1453, soit 116 ans, entrecoupés de longues trêves. Le nom a été donné plus tard par les historiens.",
+      "see": [
+        "hf-jeanne-orleans"
+      ],
+      "wiki": [
+        [
+          "Guerre de Cent Ans",
+          "1337",
+          "1453"
+        ]
+      ]
+    },
+    {
+      "id": "hm-constantinople",
+      "sub": "moyen-age",
+      "diff": 2,
+      "themes": [
+        "Empire byzantin",
+        "Empire ottoman"
+      ],
+      "q": "Quelle ville tombe aux mains du sultan ottoman Mehmed II en 1453 ?",
+      "choices": [
+        "Constantinople",
+        "Jérusalem",
+        "Venise",
+        "Athènes"
+      ],
+      "exp": "Le 29 mai 1453, Mehmed II prend Constantinople, capitale de l'Empire byzantin, qui devient la capitale ottomane. Cet événement est souvent retenu comme fin du Moyen Âge.",
+      "see": [
+        "hm-rome-476"
+      ],
+      "wiki": [
+        [
+          "Chute de Constantinople",
+          "1453",
+          "Mehmed"
+        ]
+      ]
+    },
+    {
+      "id": "hm-colomb",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "epoque-moderne",
+      "diff": 1,
+      "themes": [
+        "grandes découvertes"
+      ],
+      "q": "Christophe Colomb atteint l'Amérique en 1492, au service des Rois catholiques d'Espagne.",
+      "exp": "Vrai. Le Génois Christophe Colomb, financé par Isabelle de Castille et Ferdinand d'Aragon, aborde les Bahamas le 12 octobre 1492, croyant avoir atteint les Indes.",
+      "anec": "Le continent doit son nom à un autre navigateur, Amerigo Vespucci, qui comprit qu'il s'agissait d'un « Nouveau Monde ».",
+      "wiki": [
+        [
+          "Christophe Colomb",
+          "1492",
+          "Rois catholiques"
+        ]
+      ]
+    },
+    {
+      "id": "hm-armistice-1918",
+      "sub": "guerres-mondiales",
+      "diff": 1,
+      "themes": [
+        "Première Guerre mondiale"
+      ],
+      "q": "À quelle date l'armistice mettant fin aux combats de la Première Guerre mondiale est-il signé ?",
+      "choices": [
+        "11 novembre 1918",
+        "8 mai 1918",
+        "28 juin 1919",
+        "14 juillet 1918"
+      ],
+      "exp": "L'armistice est signé à l'aube du 11 novembre 1918 dans un wagon, à Rethondes (forêt de Compiègne). Le traité de Versailles, signé le 28 juin 1919, règle ensuite la paix.",
+      "anec": "En juin 1940, Hitler exigea que l'armistice franco-allemand soit signé dans ce même wagon, au même endroit.",
+      "wiki": [
+        [
+          "Armistice de 1918",
+          "11 novembre 1918",
+          "Rethondes"
+        ]
+      ]
+    },
+    {
+      "id": "hm-debarquement",
+      "sub": "guerres-mondiales",
+      "diff": 1,
+      "themes": [
+        "Seconde Guerre mondiale"
+      ],
+      "q": "À quelle date a lieu le débarquement allié en Normandie ?",
+      "choices": [
+        "6 juin 1944",
+        "8 mai 1945",
+        "15 août 1944",
+        "1er septembre 1939"
+      ],
+      "exp": "Le 6 juin 1944 (« Jour J »), l'opération Overlord débarque des troupes alliées sur cinq plages normandes. Le 15 août 1944 a lieu le débarquement de Provence.",
+      "see": [
+        "hf-appel-18-juin",
+        "hm-hiroshima"
+      ],
+      "wiki": [
+        [
+          "Débarquement de Normandie",
+          "6 juin 1944",
+          "Overlord"
+        ]
+      ]
+    },
+    {
+      "id": "hm-hiroshima",
+      "sub": "guerres-mondiales",
+      "diff": 1,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "arme nucléaire"
+      ],
+      "q": "Sur quelle ville la première bombe atomique utilisée en temps de guerre est-elle larguée, le 6 août 1945 ?",
+      "choices": [
+        "Hiroshima",
+        "Nagasaki",
+        "Tokyo",
+        "Osaka"
+      ],
+      "exp": "Le 6 août 1945, les États-Unis larguent une bombe atomique sur Hiroshima, puis une seconde sur Nagasaki le 9 août. Le Japon capitule peu après.",
+      "see": [
+        "hm-cuba"
+      ],
+      "wiki": [
+        [
+          "Bombardements atomiques d'Hiroshima et Nagasaki",
+          "6 août 1945"
+        ]
+      ]
+    },
+    {
+      "id": "hm-cuba",
+      "sub": "guerre-froide",
+      "diff": 2,
+      "themes": [
+        "guerre froide",
+        "États-Unis",
+        "URSS"
+      ],
+      "q": "En quelle année éclate la crise des missiles de Cuba ?",
+      "choices": [
+        "1962",
+        "1956",
+        "1949",
+        "1975"
+      ],
+      "exp": "En octobre 1962, la découverte de missiles soviétiques à Cuba place le monde au bord de la guerre nucléaire. Kennedy et Khrouchtchev trouvent finalement un accord.",
+      "anec": "La crise mène à l'installation du « téléphone rouge », ligne directe entre Washington et Moscou, en 1963.",
+      "see": [
+        "hm-mur-berlin"
+      ],
+      "wiki": [
+        [
+          "Crise des missiles de Cuba",
+          "1962",
+          "Khrouchtchev"
+        ]
+      ]
+    },
+    {
+      "id": "hm-mur-berlin",
+      "fmt": "saisie",
+      "sub": "guerre-froide",
+      "diff": 1,
+      "themes": [
+        "guerre froide",
+        "Allemagne"
+      ],
+      "q": "En quelle année le mur de Berlin est-il tombé ?",
+      "accepted": [
+        "1989"
+      ],
+      "exp": "Construit en 1961, le mur de Berlin est ouvert dans la nuit du 9 au 10 novembre 1989. L'Allemagne est réunifiée le 3 octobre 1990.",
+      "see": [
+        "hm-urss",
+        "hm-cuba"
+      ],
+      "wiki": [
+        [
+          "Mur de Berlin",
+          "1989",
+          "1961"
+        ]
+      ]
+    },
+    {
+      "id": "hm-urss",
+      "sub": "guerre-froide",
+      "diff": 2,
+      "themes": [
+        "URSS",
+        "Russie"
+      ],
+      "q": "En quelle année l'URSS est-elle dissoute ?",
+      "choices": [
+        "1991",
+        "1989",
+        "1985",
+        "1995"
+      ],
+      "exp": "L'URSS disparaît en décembre 1991 : Mikhaïl Gorbatchev démissionne le 25 décembre et les républiques deviennent indépendantes.",
+      "see": [
+        "hm-mur-berlin"
+      ],
+      "wiki": [
+        [
+          "Dislocation de l'URSS",
+          "1991",
+          "Gorbatchev"
+        ]
+      ]
+    },
+    {
+      "id": "hm-marche-sel",
+      "sub": "contemporain",
+      "diff": 3,
+      "themes": [
+        "Inde",
+        "décolonisation",
+        "non-violence"
+      ],
+      "q": "En 1930, contre quel impôt britannique Gandhi organise-t-il une célèbre marche ?",
+      "choices": [
+        "L'impôt sur le sel",
+        "L'impôt sur le thé",
+        "L'impôt sur le coton",
+        "L'impôt sur le riz"
+      ],
+      "exp": "La marche du sel (mars-avril 1930) conduit Gandhi et ses partisans jusqu'à la mer, à Dandi, pour y produire du sel en défiant le monopole britannique : un acte de désobéissance civile non violente.",
+      "anec": "L'Inde obtient son indépendance en 1947 ; Gandhi est assassiné en janvier 1948.",
+      "wiki": [
+        [
+          "Marche du sel",
+          "1930",
+          "Dandi"
+        ]
+      ]
+    },
+    {
+      "id": "hm-mandela",
+      "sub": "contemporain",
+      "diff": 2,
+      "themes": [
+        "Afrique du Sud",
+        "apartheid"
+      ],
+      "q": "En quelle année Nelson Mandela devient-il président de l'Afrique du Sud ?",
+      "choices": [
+        "1994",
+        "1990",
+        "1986",
+        "2000"
+      ],
+      "exp": "Libéré en 1990 après 27 ans de détention, Nelson Mandela est élu président en 1994, lors des premières élections multiraciales, qui marquent la fin de l'apartheid.",
+      "anec": "Il reçoit le prix Nobel de la paix en 1993, conjointement avec Frederik de Klerk.",
+      "wiki": [
+        [
+          "Nelson Mandela",
+          "1994",
+          "27"
+        ]
+      ]
+    }
+  ]
+}

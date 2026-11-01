@@ -1,0 +1,86 @@
+{
+  "category": "politique-societe",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "pol-ve-republique", "sub": "institutions", "diff": 1, "themes": ["Constitution", "Cinquième République"],
+      "q": "En quelle année la Constitution de la Ve République est-elle adoptée ?",
+      "choices": ["1958", "1946", "1962", "1968"],
+      "exp": "Approuvée par référendum le 28 septembre 1958, elle est promulguée le 4 octobre 1958. Depuis 1962, le président est élu au suffrage universel direct.",
+      "see": ["hf-republiques", "pol-quinquennat"],
+      "wiki": [["Constitution française du 4 octobre 1958", "1958", "référendum"]]
+    },
+    {
+      "id": "pol-quinquennat", "sub": "institutions", "diff": 2, "themes": ["Président de la République"],
+      "q": "Depuis l'élection de 2002, quelle est la durée du mandat du président de la République française ?",
+      "choices": ["5 ans", "7 ans", "4 ans", "6 ans"],
+      "exp": "Le quinquennat a été adopté par référendum en 2000 et s'applique depuis l'élection de 2002. Auparavant, le mandat était de sept ans (septennat). Depuis 2008, nul ne peut exercer plus de deux mandats consécutifs.",
+      "wiki": [["Président de la République française", "cinq ans", "2000"]]
+    },
+    {
+      "id": "pol-senat", "sub": "institutions", "diff": 2, "themes": ["Parlement", "Paris"],
+      "q": "Dans quel palais parisien siège le Sénat ?",
+      "choices": ["Le palais du Luxembourg", "Le palais Bourbon", "Le palais de l'Élysée", "L'hôtel Matignon"],
+      "exp": "Le Sénat siège au palais du Luxembourg ; l'Assemblée nationale au palais Bourbon ; le président à l'Élysée ; le Premier ministre à Matignon.",
+      "wiki": [["Palais du Luxembourg", "Sénat"]]
+    },
+    {
+      "id": "pol-ddhc", "sub": "societe", "diff": 1, "themes": ["droits de l'homme", "Révolution française"],
+      "q": "En quelle année est adoptée la Déclaration des droits de l'homme et du citoyen ?",
+      "choices": ["1789", "1791", "1848", "1948"],
+      "exp": "Adoptée le 26 août 1789 par l'Assemblée nationale constituante, elle proclame notamment que « les hommes naissent et demeurent libres et égaux en droits ». La Déclaration universelle des droits de l'homme de l'ONU date, elle, de 1948.",
+      "see": ["hf-bastille", "philo-rousseau"],
+      "wiki": [["Déclaration des droits de l'homme et du citoyen de 1789", "26 août 1789"]]
+    },
+    {
+      "id": "pol-peine-mort", "sub": "societe", "diff": 2, "themes": ["justice", "droits"],
+      "q": "En quelle année la peine de mort est-elle abolie en France ?",
+      "choices": ["1981", "1945", "1968", "1990"],
+      "exp": "La loi du 9 octobre 1981, portée par le garde des Sceaux Robert Badinter, abolit la peine de mort. L'interdiction est inscrite dans la Constitution en 2007.",
+      "wiki": [["Abolition de la peine de mort en France", "1981", "Badinter"]]
+    },
+    {
+      "id": "pol-ue-27", "sub": "international", "diff": 2, "themes": ["Union européenne"],
+      "q": "Combien d'États membres compte l'Union européenne depuis la sortie du Royaume-Uni en 2020 ?",
+      "choices": ["27", "25", "28", "30"],
+      "exp": "Après le Brexit, effectif le 31 janvier 2020, l'Union européenne compte 27 États membres. La Croatie, en 2013, a été le dernier pays à la rejoindre.",
+      "anec": "Ce nombre peut évoluer : des pays candidats sont en cours de négociation d'adhésion. Cette question est revérifiée régulièrement.",
+      "wiki": [["Union européenne", "27", "Croatie"]]
+    },
+    {
+      "id": "pol-euro", "sub": "economie", "diff": 1, "themes": ["monnaie", "Europe"],
+      "q": "En quelle année les pièces et billets en euros entrent-ils en circulation en France ?",
+      "choices": ["2002", "1999", "1992", "2005"],
+      "exp": "L'euro existe comme monnaie scripturale depuis le 1er janvier 1999 ; les pièces et billets sont mis en circulation le 1er janvier 2002.",
+      "wiki": [["Euro", "2002", "1999"]]
+    },
+    {
+      "id": "pol-pib", "fmt": "vrai_faux", "answer": true, "sub": "economie", "diff": 2, "themes": ["indicateurs"],
+      "q": "Le PIB mesure la valeur de la production réalisée sur un territoire pendant une période donnée.",
+      "exp": "Vrai. Le produit intérieur brut mesure la richesse produite (valeur ajoutée) dans un pays, en général sur un an. Il ne mesure ni le patrimoine, ni les inégalités, ni le bien-être.",
+      "wiki": [["Produit intérieur brut", "valeur ajoutée"]]
+    },
+    {
+      "id": "pol-inflation", "sub": "economie", "diff": 1, "themes": ["prix", "monnaie"],
+      "q": "Comment appelle-t-on une hausse générale et durable des prix ?",
+      "choices": ["L'inflation", "La déflation", "La récession", "La stagnation"],
+      "exp": "L'inflation est la perte de pouvoir d'achat de la monnaie qui se traduit par une hausse générale et durable des prix. La déflation en est l'inverse.",
+      "wiki": [["Inflation", "prix"]]
+    },
+    {
+      "id": "pol-onu", "sub": "international", "diff": 1, "themes": ["ONU"],
+      "q": "Dans quelle ville se trouve le siège de l'Organisation des Nations unies ?",
+      "choices": ["New York", "Genève", "Bruxelles", "Washington"],
+      "exp": "Le siège de l'ONU est à New York, au bord de l'East River. Genève accueille son principal office européen.",
+      "wiki": [["Siège des Nations unies", "New York"]]
+    },
+    {
+      "id": "pol-conseil-securite", "sub": "international", "diff": 3, "themes": ["ONU", "diplomatie"],
+      "q": "Lequel de ces pays n'est PAS membre permanent du Conseil de sécurité de l'ONU ?",
+      "choices": ["L'Allemagne", "La France", "La Chine", "Le Royaume-Uni"],
+      "exp": "Les cinq membres permanents, disposant d'un droit de veto, sont la Chine, les États-Unis, la France, le Royaume-Uni et la Russie. Dix autres membres sont élus pour deux ans.",
+      "wiki": [["Conseil de sécurité des Nations unies", "membres permanents", "veto"]]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "category": "sciences",
+  "created": "2026-11-01",
+  "verified": "2026-11-01",
+  "questions": [
+    {
+      "id": "sci-lumiere", "sub": "physique", "diff": 2, "themes": ["lumière", "constantes"],
+      "q": "Quelle est, environ, la vitesse de la lumière dans le vide ?",
+      "choices": ["300 000 km/s", "30 000 km/s", "3 000 km/s", "3 000 000 km/s"],
+      "exp": "La vitesse de la lumière dans le vide vaut exactement 299 792 458 m/s, soit environ 300 000 km/s. Depuis 1983, c'est elle qui sert à définir le mètre.",
+      "anec": "La lumière du Soleil met environ 8 minutes à nous parvenir.",
+      "wiki": [["Vitesse de la lumière", "299 792 458"]]
+    },
+    {
+      "id": "sci-zero-absolu", "sub": "physique", "diff": 3, "themes": ["température", "thermodynamique"],
+      "q": "À quelle température correspond le zéro absolu ?",
+      "choices": ["−273,15 °C", "−100 °C", "−459,67 °C", "0 °C"],
+      "exp": "Le zéro absolu (0 kelvin) vaut −273,15 °C : c'est la température la plus basse possible en théorie, jamais atteinte exactement. Attention : −459,67 est sa valeur en degrés Fahrenheit.",
+      "wiki": [["Zéro absolu", "273,15"]]
+    },
+    {
+      "id": "sci-einstein-nobel", "fmt": "vrai_faux", "answer": false, "sub": "physique", "diff": 3, "themes": ["Einstein", "prix Nobel"],
+      "q": "Albert Einstein a reçu le prix Nobel de physique pour sa théorie de la relativité.",
+      "exp": "Faux. Le prix Nobel de physique 1921 lui a été attribué pour ses travaux de physique théorique et, en particulier, pour l'explication de l'effet photoélectrique.",
+      "wiki": [["Albert Einstein", "photoélectrique", "1921"]]
+    },
+    {
+      "id": "sci-eau", "fmt": "saisie", "sub": "chimie", "diff": 1, "themes": ["molécules"],
+      "q": "Quelle est la formule chimique de l'eau ?",
+      "accepted": ["H2O", "H₂O"],
+      "exp": "Une molécule d'eau est formée de deux atomes d'hydrogène liés à un atome d'oxygène : H₂O.",
+      "wiki": [["Eau", "H2O"]]
+    },
+    {
+      "id": "sci-or", "sub": "chimie", "diff": 2, "themes": ["éléments chimiques"],
+      "q": "Quel est le symbole chimique de l'or ?",
+      "choices": ["Au", "Ag", "Or", "Go"],
+      "exp": "Le symbole Au vient du latin aurum. Ag (argentum) est le symbole de l'argent.",
+      "wiki": [["Or", "aurum"]]
+    },
+    {
+      "id": "sci-mendeleiev", "sub": "chimie", "diff": 2, "themes": ["éléments chimiques", "histoire des sciences"],
+      "q": "Quel chimiste publie en 1869 une classification périodique des éléments ?",
+      "choices": ["Dmitri Mendeleïev", "Antoine Lavoisier", "Marie Curie", "John Dalton"],
+      "exp": "Le Russe Dmitri Mendeleïev classe les éléments par masse atomique croissante et propriétés, en laissant des cases vides pour des éléments encore inconnus dont il prédit les propriétés.",
+      "anec": "Le gallium, découvert en 1875 par le Français Lecoq de Boisbaudran, correspondait à l'une de ses prédictions.",
+      "wiki": [["Tableau périodique des éléments", "Mendeleïev", "1869"]]
+    },
+    {
+      "id": "sci-adn", "sub": "biologie", "diff": 3, "themes": ["ADN", "génétique"],
+      "q": "Qui publie en 1953 le modèle de la structure en double hélice de l'ADN ?",
+      "choices": ["James Watson et Francis Crick", "Gregor Mendel et Charles Darwin", "Louis Pasteur et Robert Koch", "Pierre et Marie Curie"],
+      "exp": "Watson et Crick proposent en 1953 le modèle en double hélice, en s'appuyant notamment sur les clichés de diffraction aux rayons X obtenus par Rosalind Franklin.",
+      "anec": "Le rôle décisif de Rosalind Franklin, morte en 1958, a longtemps été sous-estimé.",
+      "wiki": [["Acide désoxyribonucléique", "1953", "Franklin"]]
+    },
+    {
+      "id": "sci-hemoglobine", "sub": "biologie", "diff": 2, "themes": ["corps humain", "sang"],
+      "q": "Quelle molécule des globules rouges transporte l'oxygène dans le sang ?",
+      "choices": ["L'hémoglobine", "L'insuline", "La kératine", "L'adrénaline"],
+      "exp": "L'hémoglobine, protéine contenant du fer, fixe l'oxygène dans les poumons et le libère dans les tissus. C'est elle qui donne sa couleur rouge au sang.",
+      "wiki": [["Hémoglobine", "oxygène", "fer"]]
+    },
+    {
+      "id": "sci-os", "sub": "biologie", "diff": 2, "themes": ["corps humain", "squelette"],
+      "q": "Combien d'os compte en général le squelette d'un adulte ?",
+      "choices": ["206", "106", "306", "250"],
+      "exp": "Un adulte compte généralement 206 os. Un nouveau-né en a davantage, car plusieurs os fusionnent pendant la croissance.",
+      "anec": "Le plus petit os du corps est l'étrier, dans l'oreille moyenne.",
+      "wiki": [["Squelette humain", "206"]]
+    },
+    {
+      "id": "sci-pasteur-rage", "sub": "medecine", "diff": 2, "themes": ["vaccins", "Pasteur"],
+      "q": "Contre quelle maladie Louis Pasteur administre-t-il un vaccin à un être humain pour la première fois, en 1885 ?",
+      "choices": ["La rage", "La variole", "La tuberculose", "Le choléra"],
+      "exp": "En juillet 1885, Pasteur traite le jeune Joseph Meister, mordu par un chien enragé. Le succès conduit à la création de l'Institut Pasteur en 1887-1888.",
+      "anec": "Le tout premier vaccin, contre la variole, avait été mis au point par l'Anglais Edward Jenner en 1796.",
+      "see": ["sci-fleming"],
+      "wiki": [["Louis Pasteur", "1885", "Meister"]]
+    },
+    {
+      "id": "sci-fleming", "sub": "medecine", "diff": 2, "themes": ["antibiotiques"],
+      "q": "Qui découvre la pénicilline en 1928 ?",
+      "choices": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Edward Jenner"],
+      "exp": "Le bactériologiste écossais Alexander Fleming remarque qu'une moisissure (Penicillium) empêche la croissance de bactéries dans une boîte de culture oubliée. La production à grande échelle viendra dans les années 1940.",
+      "see": ["sci-pasteur-rage"],
+      "wiki": [["Pénicilline", "Fleming", "1928"]]
+    },
+    {
+      "id": "sci-mars", "sub": "astronomie", "diff": 1, "themes": ["système solaire"],
+      "q": "Quelle planète est surnommée la « planète rouge » ?",
+      "choices": ["Mars", "Vénus", "Jupiter", "Mercure"],
+      "exp": "Mars doit sa couleur à l'oxyde de fer (la rouille) présent dans ses poussières et ses roches.",
+      "anec": "Mars abrite l'Olympus Mons, l'un des plus hauts volcans connus du système solaire.",
+      "see": ["sci-planetes"],
+      "wiki": [["Mars (planète)", "planète rouge", "Olympus Mons"]]
+    },
+    {
+      "id": "sci-planetes", "fmt": "classement", "sub": "astronomie", "diff": 2, "themes": ["système solaire"],
+      "q": "Classe ces planètes selon leur distance au Soleil.",
+      "orderLabel": "de la plus proche à la plus éloignée",
+      "items": ["Mercure", "Vénus", "Terre", "Mars", "Jupiter"],
+      "exp": "L'ordre complet est : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune. Pluton n'est plus considérée comme une planète depuis 2006.",
+      "see": ["sci-mars"],
+      "wiki": [["Système solaire", "Mercure", "2006"]]
+    },
+    {
+      "id": "sci-lune-distance", "sub": "astronomie", "diff": 3, "themes": ["Lune"],
+      "q": "Quelle est la distance moyenne entre la Terre et la Lune ?",
+      "choices": ["Environ 384 000 km", "Environ 38 000 km", "Environ 1,5 million de km", "Environ 150 millions de km"],
+      "exp": "La distance moyenne Terre-Lune est d'environ 384 400 km. 150 millions de km correspondent à la distance Terre-Soleil.",
+      "anec": "La Lune s'éloigne de la Terre d'environ 3,8 cm par an.",
+      "see": ["tech-apollo"],
+      "wiki": [["Lune", "384 4"]]
+    },
+    {
+      "id": "sci-pi", "sub": "mathematiques", "diff": 2, "themes": ["nombres"],
+      "q": "Quelles sont les premières décimales du nombre π ?",
+      "choices": ["3,14159…", "3,14285…", "3,16227…", "3,12345…"],
+      "exp": "π ≈ 3,14159. C'est le rapport entre la circonférence d'un cercle et son diamètre. 3,14285… correspond à 22/7, une approximation classique.",
+      "anec": "π est un nombre irrationnel et transcendant : son développement décimal est infini et non périodique.",
+      "wiki": [["Pi", "3,14159"]]
+    },
+    {
+      "id": "sci-pythagore", "sub": "mathematiques", "diff": 1, "themes": ["géométrie"],
+      "q": "Dans un triangle rectangle, le carré de l'hypoténuse est égal à…",
+      "choices": ["la somme des carrés des deux autres côtés", "la somme des deux autres côtés", "le double du plus petit côté", "le produit des deux autres côtés"],
+      "exp": "C'est le théorème de Pythagore : a² + b² = c², où c est l'hypoténuse (le côté opposé à l'angle droit).",
+      "anec": "La relation était connue bien avant Pythagore, notamment en Mésopotamie.",
+      "wiki": [["Théorème de Pythagore", "hypoténuse"]]
+    }
+  ]
+}
