@@ -11,7 +11,7 @@ const paths = loadPaths();
 const questions = loadSeedQuestions().filter((q) => q.status === 'publie');
 const body = JSON.stringify({ categories, paths, questions });
 const bundle: ContentBundle = {
-  version: 'local-' + createHash('sha256').update(body).digest('hex').slice(0, 12),
+  version: new Date().toISOString().slice(0, 10) + '-' + createHash('sha256').update(body).digest('hex').slice(0, 8),
   generatedAt: new Date().toISOString(),
   categories,
   paths,
