@@ -7,7 +7,7 @@
 //   exp (explication), anec (anecdote), see (questions liées),
 //   wiki: [["Titre de l'article Wikipédia FR", "terme à trouver", ...]], sources: [{title,url,checks}]
 
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Category, LearningPath, Question, Source } from '../../src/lib/types';
 
@@ -36,6 +36,7 @@ export interface SeedQuestion {
   status?: Question['status'];
   verified?: string;
   created?: string;
+  version?: number;
 }
 
 export interface SeedFile {
@@ -57,7 +58,7 @@ export function expandSeed(file: SeedFile, s: SeedQuestion): Question {
   ];
   const q: Question = {
     id: s.id,
-    version: 1,
+    version: s.version ?? 1,
     status: s.status ?? 'publie',
     format,
     category: file.category,
@@ -90,20 +91,83 @@ export function expandSeed(file: SeedFile, s: SeedQuestion): Question {
   return q;
 }
 
-export function loadCategories(): Category[] {
-  return JSON.parse(readFileSync(join(CONTENT_DIR, 'categories.json'), 'utf8'));
+export function loadCategories(contentDir = CONTENT_DIR): Category[] {
+  return JSON.parse(readFileSync(join(contentDir, 'categories.json'), 'utf8'));
 }
 
-export function loadPaths(): LearningPath[] {
-  return JSON.parse(readFileSync(join(CONTENT_DIR, 'paths.json'), 'utf8'));
+export function loadPaths(contentDir = CONTENT_DIR): LearningPath[] {
+  return JSON.parse(readFileSync(join(contentDir, 'paths.json'), 'utf8'));
 }
 
-export function loadSeedQuestions(): Question[] {
-  const dir = join(CONTENT_DIR, 'questions');
+export function loadSeedQuestions(contentDir = CONTENT_DIR): Question[] {
+  const dir = join(contentDir, 'questions');
   const out: Question[] = [];
   for (const f of readdirSync(dir).filter((x) => x.endsWith('.json')).sort()) {
     const file = JSON.parse(readFileSync(join(dir, f), 'utf8')) as SeedFile;
     for (const s of file.questions) out.push(expandSeed(file, s));
   }
   return out;
+}
+
+// ---------------------------------------------------------------------------
+// Écriture : la bibliothèque est la source de vérité, versionnée par Git (historique + retour arrière).
+// ---------------------------------------------------------------------------
+
+const WIKI_PREFIX = 'https://fr.wikipedia.org/wiki/';
+
+/** Convertit une question complète vers le format compact des fichiers. */
+export function toSeed(q: Question): SeedQuestion {
+  const wiki: string[][] = [];
+  const sources: Source[] = [];
+  for (const s of q.sources) {
+    if (s.url.startsWith(WIKI_PREFIX) && s.title.startsWith('Wikipédia — ')) {
+      wiki.push([s.title.slice('Wikipédia — '.length), ...(s.checks ?? [])]);
+    } else sources.push(s);
+  }
+  const out: SeedQuestion = {
+    id: q.id,
+    ...(q.format !== 'qcm' ? { fmt: q.format } : {}),
+    sub: q.subcategory,
+    diff: q.difficulty,
+    themes: q.themes,
+    q: q.prompt,
+    exp: q.explanation,
+  };
+  if (q.format === 'qcm') {
+    out.choices = q.choices;
+    if (q.correct) out.correct = q.correct;
+  } else if (q.format === 'vrai_faux') out.answer = q.correct === 0;
+  else if (q.format === 'saisie') out.accepted = q.accepted;
+  else if (q.format === 'classement') {
+    out.items = q.items;
+    if (q.orderLabel) out.orderLabel = q.orderLabel;
+  } else if (q.format === 'association') out.pairs = q.pairs;
+  if (q.anecdote) out.anec = q.anecdote;
+  if (q.seeAlso?.length) out.see = q.seeAlso;
+  if (wiki.length) out.wiki = wiki;
+  if (sources.length) out.sources = sources;
+  if (q.status !== 'publie') out.status = q.status;
+  if (q.version > 1) out.version = q.version;
+  out.created = q.createdAt.slice(0, 10);
+  if (q.verifiedAt) out.verified = q.verifiedAt.slice(0, 10);
+  return out;
+}
+
+function categoryFile(contentDir: string, category: string) {
+  return join(contentDir, 'questions', `${category}.json`);
+}
+
+/** Remplace (ou ajoute) une question dans le fichier de sa catégorie. */
+export function upsertSeedQuestion(q: Question, contentDir = CONTENT_DIR): 'modifiee' | 'ajoutee' {
+  const path = categoryFile(contentDir, q.category);
+  const today = new Date().toISOString().slice(0, 10);
+  const file: SeedFile = existsSync(path)
+    ? JSON.parse(readFileSync(path, 'utf8'))
+    : { category: q.category, created: today, verified: today, questions: [] };
+  const seed = toSeed(q);
+  const i = file.questions.findIndex((x) => x.id === q.id);
+  if (i >= 0) file.questions[i] = seed;
+  else file.questions.push(seed);
+  writeFileSync(path, JSON.stringify(file, null, 2) + '\n');
+  return i >= 0 ? 'modifiee' : 'ajoutee';
 }

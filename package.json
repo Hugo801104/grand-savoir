@@ -13,15 +13,11 @@
     "content:validate": "tsx scripts/content/validate.ts",
     "content:verify-sources": "tsx scripts/content/verify-sources.ts",
     "content:bundle": "tsx scripts/content/bundle.ts",
-    "content": "tsx scripts/content/cli.ts",
-    "agent:intake": "tsx scripts/agent/intake.ts",
-    "agent:apply": "tsx scripts/agent/apply-proposal.ts",
-    "agent:finish": "tsx scripts/agent/finish-run.ts",
-    "backup": "tsx scripts/backup.ts"
+    "content:maintenance": "tsx scripts/content/maintenance.ts",
+    "wiki": "tsx scripts/content/wiki.ts"
   },
   "dependencies": {
     "@fontsource-variable/outfit": "5.3.0",
-    "@supabase/supabase-js": "2.118.0",
     "idb-keyval": "6.3.0",
     "react": "19.3.1",
     "react-dom": "19.3.1"

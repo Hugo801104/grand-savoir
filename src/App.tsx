@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { ToastHost } from './components/ui';
 import { useRoute } from './lib/router';
 import { init, useApp } from './lib/store';
-import { Admin } from './screens/Admin';
 import { Categories, CategoryDetail, Custom } from './screens/Categories';
 import { Discovery } from './screens/Discovery';
 import { Game } from './screens/Game';
@@ -10,6 +9,7 @@ import { Home } from './screens/Home';
 import { Results } from './screens/Results';
 import { MyReports, SettingsScreen } from './screens/Settings';
 import { History, QuestionDetail, Stats } from './screens/Stats';
+import { Suivi } from './screens/Suivi';
 
 export function App() {
   const route = useRoute();
@@ -84,8 +84,8 @@ export function App() {
     case 'reglages':
       screen = <SettingsScreen />;
       break;
-    case 'admin':
-      screen = <Admin />;
+    case 'suivi':
+      screen = <Suivi />;
       break;
     default:
       screen = <Home />;

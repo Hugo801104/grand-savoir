@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { submitReport, useApp } from '../lib/store';
-import { REPORT_TYPES, type Question, type ReportType } from '../lib/types';
+import { issueUrl } from '../lib/github';
+import { createReport, markReportOpened } from '../lib/store';
+import { REPORT_TYPES, type Question, type Report, type ReportType } from '../lib/types';
 import { toast } from './ui';
 
 interface Props {
@@ -11,9 +12,16 @@ interface Props {
   defaultType?: ReportType;
 }
 
+export const reportTypeLabel = (t: string) => REPORT_TYPES.find((x) => x.id === t)?.label ?? t;
+
+/** Ouvre le ticket GitHub pré-rempli d'un signalement (nouvel onglet : la partie n'est pas perdue). */
+export function openReportIssue(r: Report) {
+  window.open(issueUrl(r, reportTypeLabel(r.type)), '_blank', 'noopener');
+  void markReportOpened(r.id);
+}
+
 /** Feuille « Signaler un problème / Proposer une amélioration ». */
 export function ReportSheet({ question, shownChoices, onClose, defaultType }: Props) {
-  const { user } = useApp();
   const [type, setType] = useState<ReportType>(defaultType ?? (question ? 'erreur_factuelle' : 'amelioration'));
   const [comment, setComment] = useState('');
   const [busy, setBusy] = useState(false);
@@ -31,7 +39,7 @@ export function ReportSheet({ question, shownChoices, onClose, defaultType }: Pr
 
   async function send() {
     setBusy(true);
-    const res = await submitReport({
+    const res = await createReport({
       type,
       comment,
       questionId: question?.id ?? null,
@@ -40,7 +48,7 @@ export function ReportSheet({ question, shownChoices, onClose, defaultType }: Pr
         ? {
             enonce: question.prompt,
             format: question.format,
-            reponses_affichees: shownChoices ?? question.choices ?? question.items ?? question.pairs ?? null,
+            reponses_affichees: shownChoices?.length ? shownChoices : (question.choices ?? question.items ?? question.pairs ?? null),
             bonne_reponse: question.choices?.[question.correct ?? -1] ?? question.accepted ?? question.items ?? question.pairs,
             categorie: question.category,
             sous_categorie: question.subcategory,
@@ -49,8 +57,17 @@ export function ReportSheet({ question, shownChoices, onClose, defaultType }: Pr
         : null,
     });
     setBusy(false);
-    toast(res.message);
-    if (res.ok) onClose();
+    if (!res.ok) {
+      toast(res.message);
+      return;
+    }
+    if (navigator.onLine) {
+      openReportIssue(res.report);
+      toast('Signalement enregistré. Valide le ticket sur GitHub (« Submit new issue ») pour l’envoyer.');
+    } else {
+      toast('Hors connexion : signalement gardé sur l’appareil. Envoie-le plus tard depuis « Mes signalements ».');
+    }
+    onClose();
   }
 
   return (
@@ -93,21 +110,16 @@ export function ReportSheet({ question, shownChoices, onClose, defaultType }: Pr
             placeholder="Ex. : la bataille a eu lieu en 1515, pas en 1516 (source : …)"
           />
           <span className="tiny">
-            N'indique pas de données personnelles. Sont joints automatiquement : la référence de la question, ce qui était
-            affiché et la version de l'appli.
+            Le signalement devient un ticket public sur GitHub : n'y mets aucune donnée personnelle. Sont joints : la
+            référence de la question, ce qui était affiché et la version de l'appli.
           </span>
         </div>
-        {!user && (
-          <p className="notice warn small" style={{ marginTop: 12 }}>
-            Sans compte connecté, le signalement reste sur cet appareil jusqu'à ta connexion.
-          </p>
-        )}
         <div className="row" style={{ marginTop: 16 }}>
           <button className="btn ghost" onClick={onClose}>
             Annuler
           </button>
           <button className="btn primary" disabled={busy || (needsComment && comment.trim().length < 5)} onClick={send}>
-            {busy ? 'Envoi…' : 'Envoyer'}
+            Continuer sur GitHub ↗
           </button>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { applyPatch, normalizeNewQuestion, validateShape, type Decision } from '../scripts/agent/decision';
-import { reportKind, sanitize, sanitizeDeep } from '../scripts/agent/lib';
-import { decrypt, encrypt } from '../scripts/backup';
+import { computeBudget, loadConfig, parseReportIssue, reportKind, sanitize, sanitizeDeep } from '../scripts/agent/lib';
+import { issueUrl } from '../src/lib/github';
 import { loadSeedQuestions } from '../scripts/content/seed';
 import { checkQuestion } from '../src/lib/quality';
 
@@ -59,12 +59,44 @@ describe('agents : décisions', () => {
   });
 });
 
-describe('sauvegardes', () => {
-  it('chiffre, déchiffre et refuse une mauvaise phrase secrète', () => {
-    const data = Buffer.from(JSON.stringify({ hello: 'monde', n: [1, 2, 3] }));
-    const enc = encrypt(data, 'phrase secrète');
-    expect(enc.includes(Buffer.from('monde'))).toBe(false);
-    expect(decrypt(enc, 'phrase secrète').toString()).toBe(data.toString());
-    expect(() => decrypt(enc, 'mauvaise')).toThrow();
+describe('signalements via GitHub', () => {
+  it("le ticket pré-rempli par l'appli est relu correctement par l'agent", () => {
+    const url = issueUrl(
+      {
+        id: '12345678-aaaa-4bbb-8ccc-1234567890ab', type: 'erreur_factuelle', comment: 'La date est 1515, pas 1516 @toi',
+        questionId: 'hf-marignan', questionVersion: 2, snapshot: { enonce: 'En quelle année…' }, appVersion: '1.0.0',
+        clientInfo: { ecran: '412x915' }, createdAt: '2026-11-01T10:00:00Z', status: 'nouveau', sent: false,
+      },
+      'Erreur factuelle',
+    );
+    const u = new URL(url);
+    expect(u.searchParams.get('labels')).toBe('signalement');
+    expect(u.searchParams.get('title')).toContain('ref-12345678');
+    const parsed = parseReportIssue(u.searchParams.get('body'));
+    expect(parsed.type).toBe('erreur_factuelle');
+    expect(parsed.question_id).toBe('hf-marignan');
+    expect(parsed.question_version).toBe(2);
+    expect(parsed.comment).toBe('La date est 1515, pas 1516 ＠toi');
+  });
+  it('un ticket écrit à la main reste exploitable', () => {
+    const p = parseReportIssue('Il y a une faute dans la question sur Waterloo');
+    expect(p.type).toBe('autre');
+    expect(p.comment).toMatch(/Waterloo/);
+  });
+});
+
+describe('garde-fous de coûts', () => {
+  const cfg = { ...loadConfig(), agent_enabled: true, max_runs_per_day: 2, monthly_budget_usd: 1 };
+  const now = Date.parse('2026-11-15T12:00:00Z');
+  it('bloque au-delà du plafond quotidien ou du budget mensuel', () => {
+    expect(computeBudget(cfg, [], now).allowed).toBe(true);
+    const runs = [
+      { date: '2026-11-15T10:00:00Z', kind: 'signalement:contenu', status: 'succes' as const, cost_usd: 0.2 },
+      { date: '2026-11-15T11:00:00Z', kind: 'signalement:contenu', status: 'succes' as const, cost_usd: 0.2 },
+    ];
+    expect(computeBudget(cfg, runs, now).allowed).toBe(false);
+    const costly = [{ date: '2026-11-02T10:00:00Z', kind: 'x', status: 'succes' as const, cost_usd: 1.2 }];
+    expect(computeBudget(cfg, costly, now).reason).toMatch(/budget/);
+    expect(computeBudget({ ...cfg, agent_enabled: false }, [], now).allowed).toBe(false);
   });
 });

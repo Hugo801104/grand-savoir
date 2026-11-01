@@ -47,7 +47,6 @@ export const KEYS = {
   settings: 'settings',
   content: 'content',
   reports: 'reports',
-  syncCursor: 'sync-cursor',
-  deviceId: 'device-id',
+  lastBackup: 'last-backup',
   lastGame: 'last-game',
 } as const;

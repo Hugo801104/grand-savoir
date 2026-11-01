@@ -1,17 +1,10 @@
-// Construit public/content/bundle.json : contenu de démonstration utilisé UNIQUEMENT quand
-// l'appli tourne sans base de données (mode local). En production, les questions viennent de Supabase.
+// Construit public/content/bundle.json : le fichier de données des questions publiées, téléchargé par l'appli
+// au démarrage (et gardé hors-ligne). Il est séparé du code : l'appli compare sa version et se met à jour seule.
 import { createHash } from 'node:crypto';
-import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ContentBundle } from '../../src/lib/types';
 import { loadCategories, loadPaths, loadSeedQuestions, ROOT } from './seed';
-
-// En production (base configurée), les questions viennent UNIQUEMENT de Supabase : pas de paquet local.
-if (process.env.VITE_SUPABASE_URL) {
-  rmSync(join(ROOT, 'public', 'content', 'bundle.json'), { force: true });
-  console.log('Base configurée : aucun paquet de contenu local généré.');
-  process.exit(0);
-}
 
 const categories = loadCategories();
 const paths = loadPaths();

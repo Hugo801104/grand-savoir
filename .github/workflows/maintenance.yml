@@ -1,33 +1,24 @@
-# Maintenance :
-#  - sauvegarde chiffrée hebdomadaire de toute la base, relue et vérifiée aussitôt (conservée 90 jours) ;
-#  - import initial / complémentaire des questions du dépôt (manuel ; n'écrase jamais une question existante) ;
-#  - liste des questions dont la vérification date de plus d'un an.
+# Maintenance mensuelle de la bibliothèque (sans IA, gratuite) :
+#  - revérifie en ligne toutes les sources (pages disparues, faits qui ont changé) ;
+#  - repère les questions dont la vérification date de plus d'un an ;
+#  - ouvre ou met à jour un ticket « Maintenance du contenu » s'il y a quelque chose à revoir.
 
-name: Maintenance
+name: Maintenance du contenu
 
 on:
   schedule:
-    - cron: '17 2 * * 0'
+    - cron: '9 4 1 * *'
   workflow_dispatch:
-    inputs:
-      action:
-        description: 'Action'
-        type: choice
-        options: [sauvegarde, import-questions, questions-a-reverifier]
-        default: sauvegarde
 
 permissions: {}
 
 jobs:
-  maintenance:
+  sources:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     permissions:
       contents: read
-    env:
-      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-      ACTION: ${{ inputs.action || 'sauvegarde' }}
+      issues: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -37,26 +28,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci --ignore-scripts
-      - name: Sauvegarde chiffrée et vérifiée
-        if: env.ACTION == 'sauvegarde'
+      - name: Vérifier sources et ancienneté
+        run: npx tsx scripts/content/maintenance.ts
         env:
-          BACKUP_PASSPHRASE: ${{ secrets.BACKUP_PASSPHRASE }}
-        run: |
-          mkdir -p backups
-          npm run backup -- create "backups/grand-savoir-$(date -u +%Y%m%d).enc"
-          npm run backup -- verify backups/*.enc
-      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-        if: env.ACTION == 'sauvegarde'
-        with:
-          name: sauvegarde-${{ github.run_id }}
-          path: backups
-          retention-days: 90
-      - name: Importer les questions du dépôt
-        if: env.ACTION == 'import-questions'
-        run: |
-          npm run content:validate
-          npm run content:verify-sources
-          npm run content -- import-seed
-      - name: Questions à revérifier
-        if: env.ACTION == 'questions-a-reverifier'
-        run: npm run content -- stale 365
+          GITHUB_TOKEN: ${{ github.token }}

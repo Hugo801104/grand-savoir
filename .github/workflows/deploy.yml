@@ -1,5 +1,5 @@
 # Mise en ligne sur GitHub Pages à chaque push sur « main » (donc uniquement du code relu et fusionné).
-# Les valeurs Supabase publiques viennent des secrets du dépôt, jamais du code.
+# Le fichier de questions est régénéré à chaque fois : une correction de contenu fusionnée est en ligne en ~2 min.
 name: Déploiement
 
 on:
@@ -31,10 +31,8 @@ jobs:
       - run: npm audit --omit=dev --audit-level=high
       - run: npm test
       - run: npm run content:validate
+      # Construit l'appli ET le fichier de données des questions (content/bundle.json), publié séparément du code.
       - run: npm run build
-        env:
-          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
-          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:

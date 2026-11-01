@@ -1,9 +1,9 @@
-# Bibliothèque initiale
+# Bibliothèque de questions
 
-Ces fichiers servent à **l'import initial** de la base (et au mode local de démonstration). Une fois importées,
-les questions vivent dans Supabase : corrections et ajouts passent par l'administration ou par les agents, avec
-historique des versions. L'import (`npm run content -- import-seed`) n'écrase jamais une question existante : il
-ajoute seulement les nouveaux identifiants.
+Ces fichiers **sont** la bibliothèque. À chaque déploiement, les questions publiées sont rassemblées dans
+`content/bundle.json`, que l'appli télécharge et garde hors-ligne. Toute modification passe par un commit
+(directement ou via une Pull Request de l'agent) : l'historique Git conserve chaque version et permet le retour
+arrière. Le champ `version` d'une question est incrémenté à chaque correction.
 
 ## Format compact d'une question (`questions/<catégorie>.json`)
 

@@ -6,7 +6,7 @@ import { go, href } from '../lib/router';
 import { useApp } from '../lib/store';
 
 export function Home() {
-  const { content, cards, events, reports, isAdmin, user, sync } = useApp();
+  const { content, cards, events, reports, lastBackup } = useApp();
   const now = Date.now();
   const data = useMemo(() => {
     if (!content) return null;
@@ -145,24 +145,12 @@ export function Home() {
             <span className="ico">⚙️</span>
             <span className="grow">Réglages</span>
           </a>
-          {isAdmin && (
-            <a className="list-item" href={href('/admin')} style={{ gridColumn: '1 / -1' }}>
-              <span className="ico">🛠️</span>
-              <span className="grow">Administration</span>
-            </a>
-          )}
         </div>
-        <p className="tiny" style={{ textAlign: 'center', marginTop: 14 }}>
-          {user
-            ? sync === 'error'
-              ? '⚠️ Synchronisation en erreur (tes données restent sur l’appareil)'
-              : sync === 'offline'
-                ? 'Hors connexion — synchro au retour du réseau'
-                : `Synchronisé · ${user.email ?? ''}`
-            : sync === 'local'
-              ? 'Mode local : données sur cet appareil'
-              : 'Non connecté : données sur cet appareil'}
-        </p>
+        {events.length >= 50 && (!lastBackup || Date.now() - lastBackup > 30 * 86400000) && (
+          <a className="notice small" href={href('/reglages')} style={{ display: 'block', marginTop: 14, textDecoration: 'none', color: 'inherit' }}>
+            💾 Pense à sauvegarder ta progression ({lastBackup ? 'dernière sauvegarde il y a plus d’un mois' : 'aucune sauvegarde pour l’instant'}).
+          </a>
+        )}
       </section>
     </div>
   );

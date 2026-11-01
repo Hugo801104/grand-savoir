@@ -2,8 +2,11 @@
 
 Jeu de culture générale façon plateau télé, pensé pour **apprendre durablement** : répétition espacée, explications
 sourcées, révisions au bon moment. Application web installable (PWA) sur Android, utilisable hors connexion, avec une
-chaîne d'amélioration continue : un signalement envoyé depuis le téléphone est analysé et traité par un agent IA
-contrôlé.
+chaîne d'amélioration continue : un signalement envoyé depuis le téléphone devient un ticket GitHub, analysé et traité
+par un agent IA contrôlé.
+
+**Aucune base de données externe, aucun compte à créer** : GitHub est le seul service utilisé (code, questions,
+historique, signalements, automatisation, hébergement).
 
 ## Ce que fait l'application
 
@@ -19,12 +22,12 @@ contrôlé.
 - **Chronomètre facultatif** (désactivé par défaut), sons et vibrations réglables, animations réductibles.
 - **Progression** : statistiques globales et par thème, niveau estimé, activité, révisions à venir, historique
   consultable de toutes les questions rencontrées.
-- **Signalement** depuis chaque question (10 types + commentaire) et suivi de son statut dans l'appli.
-- **Compte facultatif** : sauvegarde en ligne et synchronisation multi-appareils ; export / import JSON ;
-  suppression du compte (RGPD).
-- **Administration** (réservée au compte administrateur) : signalements, propositions de l'IA avec comparaison
-  avant/après, contenus à vérifier, exécutions des agents et erreurs, historique des publications avec retour arrière,
-  coûts mensuels, configuration (budgets, seuils, enrichissement).
+- **Signalement** depuis chaque question (10 types + commentaire) : ticket GitHub pré-rempli, statut suivi dans
+  l'appli (« Mes signalements »).
+- **Progression sur le téléphone**, protégée contre l'effacement ; sauvegarde en un geste (partage vers Google
+  Drive, e-mail…) et restauration par fusion (rien n'est jamais écrasé ; sert aussi à changer d'appareil).
+- **Suivi technique** (Réglages → Suivi) : signalements, corrections à valider, historique des publications,
+  exécutions des agents, erreurs et coûts mensuels, état de la bibliothèque, réglages de l'agent.
 
 ## Apprentissage : comment la maîtrise est calculée
 
@@ -45,86 +48,101 @@ Le niveau par thème (type Elo) adapte la difficulté proposée ; les questions 
 | Élément | Choix | Pourquoi |
 |---|---|---|
 | Appli | React 19 + TypeScript + Vite, PWA (vite-plugin-pwa) | installable sur Android depuis une URL, hors-ligne, pas de store |
-| Données locales | IndexedDB (idb-keyval) | la progression vit d'abord sur l'appareil ; jamais perdue lors d'une mise à jour |
-| Serveur | Supabase (Postgres + Auth + RLS), offre gratuite | base de questions modifiable sans republier l'appli, comptes, sécurité par ligne |
+| Progression | IndexedDB sur l'appareil (idb-keyval) | pas de serveur ni de compte ; jamais perdue lors d'une mise à jour |
+| Questions | fichiers JSON du dépôt → `content/bundle.json` publié | séparées du code ; historique et retour arrière par Git |
+| Signalements | tickets GitHub (étiquette `signalement`) | aucun jeton dans l'appli, anti-spam de GitHub, suivi public |
 | Hébergement | GitHub Pages | gratuit, HTTPS, déploiement automatique depuis `main` |
-| Automatisation | GitHub Actions + Claude Code (`anthropics/claude-code-action`) | déclenché par événement ou planifié : pas de serveur allumé en permanence |
+| Automatisation | GitHub Actions + Claude Code (`anthropics/claude-code-action`) | déclenché par événement ou planifié : rien ne tourne en permanence |
+| Journal des agents | branche `agent-journal` (`runs.jsonl`) | coûts, erreurs et plafonds sans base de données |
 
 ```
-src/            appli (écrans, moteur de quiz, répétition espacée, synchro, contrôles qualité)
-content/        bibliothèque initiale : catégories, parcours, questions (format compact, sourcées)
-scripts/content outils de contenu : validation, vérification en ligne des sources, import, recherche Wikipédia
-scripts/agent   chaîne des agents : accueil, contrôles, publication, Pull Requests, enrichissement
-supabase/       schéma SQL (migrations) et fonction de déclenchement immédiat
-.github/        CI, déploiement, agents (consignes + workflows), maintenance et sauvegardes
-tests/          tests automatisés (vitest)
+src/               appli (écrans, moteur de quiz, répétition espacée, contrôles qualité, lien GitHub)
+content/           bibliothèque : catégories, parcours, questions (format compact, sourcées)
+scripts/content/   validation, vérification en ligne des sources, construction du fichier de données, maintenance
+scripts/agent/     chaîne des agents : accueil, contrôles, publication, Pull Requests, enrichissement
+agent.config.json  réglages des agents : activation, modèle, plafonds, seuils de publication, enrichissement
+.github/           CI, déploiement, agents (consignes + workflows), maintenance mensuelle
+tests/             tests automatisés (vitest)
 ```
 
 ## Bibliothèque de contenus
 
-- En production, les questions sont **dans la base Supabase**, pas dans le code : l'appli télécharge les questions
-  publiées et les garde hors-ligne ; un numéro de version global indique quand se mettre à jour.
+- Les questions sont des **données**, pas du code : fichiers `content/questions/*.json`, publiés sous forme d'un
+  fichier `content/bundle.json` que l'appli télécharge, compare à sa version et garde hors-ligne. Corriger ou ajouter
+  une question ne modifie pas le code de l'appli.
 - Chaque question : identifiant stable, catégorie, sous-catégorie, thèmes, difficulté 1–5, énoncé, réponses,
-  explication, anecdote, liens, **sources avec termes de contrôle**, dates de création et de vérification,
-  statut éditorial (brouillon, à vérifier, validé, publié, suspendu, archivé), **historique de toutes les versions**
-  avec retour arrière.
+  explication, anecdote, liens, **sources avec termes de contrôle**, dates de création et de vérification, numéro de
+  version, statut éditorial (brouillon, à vérifier, validé, publié, suspendu, archivé — seules les publiées sont
+  servies). **Historique complet** : chaque modification est un commit ; retour arrière par « Revert ».
 - Contrôles automatiques (`src/lib/quality.ts`) : structure, cohérence réponse/explication, réponses en double,
   formulations qui se périment, doublons et quasi-doublons, références cassées, vérifications trop anciennes.
 - **Vérification des sources** (`npm run content:verify-sources`) : chaque page citée est téléchargée et doit contenir
-  les termes attendus (dates, noms). Une source inventée ou qui ne dit pas ce qu'on affirme est rejetée.
-- Contenu initial : 176 questions, 15 catégories, 5 parcours découverte ; 213 sources vérifiées en ligne le 1er novembre 2026.
+  les termes attendus (dates, noms). Une source inventée ou qui ne dit pas ce qu'on affirme est rejetée. Revérification
+  complète chaque mois (workflow « Maintenance du contenu »), avec ticket automatique si quelque chose a changé.
+- Contenu initial : 176 questions, 15 catégories, 5 parcours découverte ; 213 sources vérifiées en ligne le
+  1er novembre 2026.
 
 ## Chaîne de traitement des signalements
 
-1. L'appli enregistre le signalement (Supabase, anti-spam : 20/heure, 60/jour par compte).
-2. Un déclencheur appelle la fonction `report-dispatch`, qui lance le workflow **Agent — signalements**
-   (à défaut, il tourne toutes les 6 heures).
-3. **Accueil** (sans IA) : budget vérifié, ticket GitHub créé, contexte préparé (question, sources, bibliothèque).
-4. **Analyse** (IA) : l'agent vérifie le signalement — il peut être faux ou malveillant —, consulte des sources,
-   propose une correction et l'auto-contrôle. Il **n'a accès à aucune clé** de la base.
+1. Dans l'appli, « Signaler » ouvre un **ticket GitHub pré-rempli** (type, commentaire, question, ce qui était affiché,
+   version) ; il suffit de valider. Hors connexion, le signalement est gardé et envoyé plus tard.
+2. Le ticket déclenche le workflow **Agent — signalements** (sinon, passage automatique toutes les 6 heures).
+   Seuls les tickets du propriétaire du dépôt déclenchent l'IA (protection contre le spam et les coûts).
+3. **Accueil** (sans IA) : réglages et budget vérifiés, contexte préparé, statut « en analyse ».
+4. **Analyse** (IA, sans aucun droit d'écriture) : l'agent vérifie le signalement — il peut être faux ou malveillant —,
+   consulte des sources, propose une correction et l'auto-contrôle.
 5. **Publication** (sans IA, copie propre du code) :
-   - contenu : publication automatique **seulement** si verdict fondé, aucun risque signalé, confiance ≥ seuil (0,9),
-     tous les contrôles et sources vérifiés (et, si la bonne réponse change : confiance ≥ 0,95 et 2 sources) ;
-     sinon proposition en attente dans l'administration ;
-   - code : branche dédiée + Pull Request avec résultats des tests ; **jamais fusionnée ni déployée sans toi** ;
-   - compte rendu publié sur le ticket ; statut mis à jour dans l'appli.
-6. Garde-fous : une exécution à la fois, 2 tentatives max par signalement, plafond quotidien d'exécutions et budget
-   mensuel en dollars (réglables dans l'administration), nombre de tours de l'IA limité, versions conservées.
+   - contenu : Pull Request, **fusionnée automatiquement seulement si** verdict fondé, aucun risque signalé,
+     confiance ≥ 0,9, tous les contrôles et toutes les sources vérifiés (et, si la bonne réponse change :
+     confiance ≥ 0,95 et 2 sources) ; sinon elle attend ta validation. Les nouvelles questions sont toujours
+     validées par toi ;
+   - code : branche dédiée + Pull Request avec résultats des tests, **jamais fusionnée ni déployée sans toi** ;
+   - compte rendu sur le ticket, statut mis à jour (visible dans l'appli), coût inscrit au journal.
+6. Fusionner une Pull Request = valider (en ligne en ~2 minutes) ; la fermer = refuser. Le ticket est mis à jour.
+7. Garde-fous : une exécution à la fois, 2 tentatives max par signalement, 10 exécutions par jour et 10 $ par mois au
+   maximum (réglables dans `agent.config.json`), nombre de tours de l'IA limité.
+
+### Activer l'agent IA (plus tard)
+
+Ajouter **un** de ces secrets dans GitHub → dépôt → Settings → Secrets and variables → Actions :
+
+- `CLAUDE_CODE_OAUTH_TOKEN` : avec un abonnement Claude Pro/Max, générer le jeton avec `claude setup-token` ;
+- ou `ANTHROPIC_API_KEY` : clé API (facturation à l'usage, plafonnée par `monthly_budget_usd`).
+
+Tant qu'aucun secret n'est présent, aucune dépense n'est possible : les signalements restent « nouveaux » et
+consultables. L'enrichissement hebdomadaire s'active avec `"enrichment_enabled": true` dans `agent.config.json`.
 
 ## Développement
 
 ```bash
 npm install
-npm run dev                     # http://localhost:5173 (mode local, contenu de démonstration)
+npm run dev                     # http://localhost:5173
 npm test                        # tests automatisés
 npm run content:validate        # contrôle de la bibliothèque
 npm run content:verify-sources  # vérification en ligne des sources
-npm run build                   # build de production (service worker inclus)
+npm run wiki -- search "Bataille de Marignan"   # trouver un article Wikipédia FR
+npm run build                   # build de production (service worker + fichier de données)
 ```
-
-Sans variables Supabase, l'appli fonctionne entièrement en local (questions lues dans un paquet de démonstration).
 
 ## Sécurité et données personnelles
 
-- Données personnelles stockées : e-mail du compte (Supabase Auth), réponses, réglages, signalements. Pas de
-  publicité, pas de traceur, pas de revente.
-- Règles de sécurité par ligne (RLS) : chacun ne voit que ses propres données ; l'administration est réservée à la
-  table `admins` ; la clé `service_role` n'est utilisée que dans GitHub Actions, jamais dans l'appli.
-- Les secrets sont dans les « secrets » GitHub et Supabase, jamais dans le code ni dans les tickets.
-- Les signalements transmis aux tickets GitHub sont nettoyés (mentions, balises, caractères de contrôle) ; ils ne
-  contiennent ni e-mail ni identifiant utilisateur. **Le dépôt étant public, le texte des commentaires de signalement
-  est visible dans les tickets** : n'y écris pas d'information personnelle.
-- Sauvegarde hebdomadaire de toute la base, **chiffrée** (AES-256-GCM) puis relue et vérifiée, conservée 90 jours.
-- Droit à l'effacement : Réglages → « Supprimer mon compte et mes données en ligne ».
+- **Aucune donnée personnelle sur un serveur** : progression et réglages restent sur le téléphone ; pas de compte,
+  pas de publicité, pas de traceur.
+- L'appli ne contient aucun secret ; les signalements sont validés par toi, connecté à GitHub.
+- **Le dépôt est public** : le texte des signalements est visible dans les tickets. N'y écris pas d'information
+  personnelle.
+- Les agents n'utilisent que le jeton temporaire de GitHub Actions (droits minimaux, étape par étape) et la clé IA
+  stockée dans les secrets GitHub ; l'étape IA n'a aucun droit d'écriture ; les textes des tickets sont nettoyés et
+  traités comme des données, jamais comme des instructions.
+- Actions GitHub épinglées par empreinte, mises à jour par Dependabot ; audit des dépendances à chaque déploiement.
+- Sauvegardes : le contenu est sauvegardé par Git (chaque version) ; la progression, par l'export depuis l'appli
+  (rappel affiché si aucune sauvegarde depuis un mois).
 
 ## Coûts
 
 | Service | Coût |
 |---|---|
 | GitHub (dépôt public, Pages, Actions) | 0 € |
-| Supabase (offre gratuite : 500 Mo, 50 000 utilisateurs actifs/mois) | 0 € |
-| IA — option abonnement Claude (jeton `claude setup-token`) | inclus dans ton abonnement, dans ses limites d'usage |
-| IA — option clé API Anthropic | à l'usage ; ordre de grandeur 0,20 à 1 $ par signalement analysé, plafonné par le budget mensuel |
-
-Note : sur l'offre gratuite, Supabase met en pause un projet inactif pendant 7 jours ; il se relance depuis le
-tableau de bord (la tâche hebdomadaire de sauvegarde l'interroge chaque semaine, ce qui limite ce risque).
+| IA — option abonnement Claude (`claude setup-token`) | inclus dans l'abonnement, dans ses limites d'usage |
+| IA — option clé API Anthropic | à l'usage ; ordre de grandeur 0,20 à 1 $ par signalement, plafonné à 10 $/mois |
+| Maintenance mensuelle des sources, CI, déploiement | 0 € (sans IA) |

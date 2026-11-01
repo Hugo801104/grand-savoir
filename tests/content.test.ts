@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { checkQuestion, checkReferences, findDuplicates, similarity } from '../src/lib/quality';
-import { questionToRow, rowToQuestion } from '../src/lib/rows';
-import { loadCategories, loadPaths, loadSeedQuestions } from '../scripts/content/seed';
+import { expandSeed, loadCategories, loadPaths, loadSeedQuestions, toSeed } from '../scripts/content/seed';
 
 const categories = loadCategories();
 const questions = loadSeedQuestions();
@@ -29,15 +28,11 @@ describe('bibliothèque de contenus', () => {
       expect(new Set(qs.map((q) => q.difficulty)).size).toBeGreaterThanOrEqual(2);
     }
   });
-  it('conversion base de données aller-retour sans perte', () => {
-    for (const q of questions.slice(0, 40)) {
-      const back = rowToQuestion({ ...questionToRow(q), updated_at: null });
-      expect(back.prompt).toBe(q.prompt);
-      expect(back.choices).toEqual(q.choices);
-      expect(back.correct).toEqual(q.correct);
-      expect(back.pairs).toEqual(q.pairs);
-      expect(back.items).toEqual(q.items);
-      expect(back.sources).toEqual(q.sources);
+  it('écriture dans les fichiers : aller-retour sans perte', () => {
+    for (const q of questions) {
+      const file = { category: q.category, created: '2000-01-01', verified: '2000-01-01', questions: [] };
+      const back = expandSeed(file, toSeed(q));
+      expect(back).toEqual({ ...q, anecdote: q.anecdote, seeAlso: q.seeAlso ?? [] });
     }
   });
 });

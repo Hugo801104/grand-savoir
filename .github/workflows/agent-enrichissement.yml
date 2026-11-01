@@ -1,7 +1,6 @@
-# Enrichissement hebdomadaire et contrôlé de la bibliothèque (désactivé par défaut :
-# system_config.enrichment_enabled dans l'espace d'administration).
-# Les nouvelles questions vont en validation humaine, sauf si enrichment_auto_publish est activé
-# ET qu'elles passent tous les contrôles (structure, doublons, sources réellement vérifiées).
+# Enrichissement hebdomadaire et contrôlé de la bibliothèque — désactivé par défaut
+# (agent.config.json → enrichment_enabled). Les nouvelles questions arrivent en Pull Request « validation requise »,
+# sauf si enrichment_auto_publish est activé ET qu'elles passent tous les contrôles.
 
 name: Agent — enrichissement
 
@@ -13,7 +12,7 @@ on:
 permissions: {}
 
 concurrency:
-  group: agent-enrichissement
+  group: agent
   cancel-in-progress: false
 
 jobs:
@@ -24,6 +23,7 @@ jobs:
       contents: read
     outputs:
       run: ${{ steps.plan.outputs.run }}
+      model: ${{ steps.plan.outputs.model }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -36,14 +36,15 @@ jobs:
       - id: plan
         run: npx tsx scripts/agent/enrich.ts plan
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          AI_CONFIGURED: ${{ secrets.ANTHROPIC_API_KEY != '' || secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: steps.plan.outputs.run == 'true'
         with:
           name: enrichissement-tache
           path: .agent/tasks
           retention-days: 7
+          include-hidden-files: true
 
   redaction:
     needs: plan
@@ -77,22 +78,22 @@ jobs:
             Consignes : .github/agent/enrichment.md (lis-les d'abord) ; format : .github/agent/instructions.md
             Tâche : .agent/tasks/enrich.json — sortie : .agent/out/enrich/decision.json
           claude_args: >-
-            --model ${{ vars.AGENT_MODEL || 'claude-opus-5-5' }}
-            --max-turns ${{ vars.AGENT_MAX_TURNS || '60' }}
+            --model ${{ needs.plan.outputs.model }}
+            --max-turns 60
             --allowedTools "Read,Glob,Grep,Write,WebSearch,WebFetch,Bash(npx tsx scripts/content/wiki.ts:*),Bash(npx tsx scripts/agent/check-proposal.ts:*)"
       - name: Rassembler
         if: always()
         run: |
           mkdir -p .agent/out/enrich
-          if [ -n "${{ steps.claude.outputs.execution_file }}" ] && [ -f "${{ steps.claude.outputs.execution_file }}" ]; then
-            cp "${{ steps.claude.outputs.execution_file }}" .agent/out/enrich/execution.json
-          fi
+          EXEC="${{ steps.claude.outputs.execution_file }}"
+          if [ -n "$EXEC" ] && [ -f "$EXEC" ]; then cp "$EXEC" .agent/out/enrich/execution.json; fi
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
           name: enrichissement-resultat
           path: .agent/out/enrich
           retention-days: 14
+          include-hidden-files: true
 
   publication:
     needs: [plan, redaction]
@@ -100,7 +101,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      contents: read
+      contents: write
+      pull-requests: write
+      actions: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -115,7 +118,6 @@ jobs:
         with:
           name: enrichissement-resultat
           path: .agent/out/enrich
-      - run: npx tsx scripts/agent/enrich.ts apply --exec=.agent/out/enrich/execution.json
+      - run: npx tsx scripts/agent/enrich.ts apply
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
