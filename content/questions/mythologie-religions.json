@@ -4,85 +4,1736 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "myth-zeus", "sub": "grecque-romaine", "diff": 1, "themes": ["dieux grecs"],
+      "id": "myth-zeus",
+      "sub": "grecque-romaine",
+      "diff": 1,
+      "themes": [
+        "dieux grecs"
+      ],
       "q": "Qui est le roi des dieux dans la mythologie grecque ?",
-      "choices": ["Zeus", "Poséidon", "Hadès", "Apollon"],
+      "choices": [
+        "Zeus",
+        "Poséidon",
+        "Hadès",
+        "Apollon"
+      ],
       "exp": "Zeus, dieu du ciel et de la foudre, règne sur les dieux de l'Olympe après avoir renversé son père Cronos. Ses frères Poséidon et Hadès règnent sur la mer et les Enfers.",
-      "see": ["myth-equivalents"],
-      "wiki": [["Zeus", "Olympe", "Cronos"]]
+      "see": [
+        "myth-equivalents"
+      ],
+      "wiki": [
+        [
+          "Zeus",
+          "Olympe",
+          "Cronos"
+        ]
+      ]
     },
     {
-      "id": "myth-equivalents", "fmt": "association", "sub": "grecque-romaine", "diff": 2, "themes": ["dieux grecs", "dieux romains"],
+      "id": "myth-equivalents",
+      "fmt": "association",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "themes": [
+        "dieux grecs",
+        "dieux romains"
+      ],
       "q": "Associe chaque divinité grecque à son équivalent romain.",
-      "pairs": [["Zeus", "Jupiter"], ["Héra", "Junon"], ["Arès", "Mars"], ["Aphrodite", "Vénus"]],
+      "pairs": [
+        [
+          "Zeus",
+          "Jupiter"
+        ],
+        [
+          "Héra",
+          "Junon"
+        ],
+        [
+          "Arès",
+          "Mars"
+        ],
+        [
+          "Aphrodite",
+          "Vénus"
+        ]
+      ],
       "exp": "Les Romains ont assimilé leurs dieux à ceux des Grecs : Zeus devient Jupiter, son épouse Héra devient Junon, le dieu de la guerre Arès devient Mars et la déesse de l'amour Aphrodite devient Vénus.",
       "anec": "Les planètes du système solaire portent les noms de dieux romains.",
-      "see": ["myth-zeus", "sci-mars"],
-      "wiki": [["Zeus", "Jupiter"], ["Héra", "Junon"], ["Arès", "Mars"], ["Aphrodite", "Vénus"]]
+      "see": [
+        "myth-zeus",
+        "sci-mars"
+      ],
+      "wiki": [
+        [
+          "Zeus",
+          "Jupiter"
+        ],
+        [
+          "Héra",
+          "Junon"
+        ],
+        [
+          "Arès",
+          "Mars"
+        ],
+        [
+          "Aphrodite",
+          "Vénus"
+        ]
+      ]
     },
     {
-      "id": "myth-ulysse", "sub": "grecque-romaine", "diff": 2, "themes": ["Homère", "Odyssée"],
+      "id": "myth-ulysse",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "themes": [
+        "Homère",
+        "Odyssée"
+      ],
       "q": "De quelle île Ulysse est-il le roi ?",
-      "choices": ["Ithaque", "Crète", "Rhodes", "Chypre"],
+      "choices": [
+        "Ithaque",
+        "Crète",
+        "Rhodes",
+        "Chypre"
+      ],
       "exp": "Dans l'Odyssée d'Homère, Ulysse met dix ans à rentrer à Ithaque après la guerre de Troie, où l'attend sa femme Pénélope.",
       "anec": "C'est Ulysse qui imagine la ruse du cheval de Troie.",
-      "wiki": [["Ulysse", "Ithaque", "Pénélope"]]
+      "wiki": [
+        [
+          "Ulysse",
+          "Ithaque",
+          "Pénélope"
+        ]
+      ]
     },
     {
-      "id": "myth-heracles", "sub": "grecque-romaine", "diff": 2, "themes": ["héros"],
+      "id": "myth-heracles",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "themes": [
+        "héros"
+      ],
       "q": "Combien de travaux Héraclès (Hercule) doit-il accomplir ?",
-      "choices": ["12", "7", "10", "9"],
+      "choices": [
+        "12",
+        "7",
+        "10",
+        "9"
+      ],
       "exp": "Les douze travaux d'Héraclès, imposés par le roi Eurysthée, comprennent notamment la victoire sur le lion de Némée et sur l'hydre de Lerne.",
-      "wiki": [["Travaux d'Héraclès", "douze", "Némée"]]
+      "wiki": [
+        [
+          "Travaux d'Héraclès",
+          "douze",
+          "Némée"
+        ]
+      ]
     },
     {
-      "id": "myth-promethee", "sub": "grecque-romaine", "diff": 2, "themes": ["Titans"],
+      "id": "myth-promethee",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "themes": [
+        "Titans"
+      ],
       "q": "Quel Titan vole le feu aux dieux pour l'offrir aux hommes ?",
-      "choices": ["Prométhée", "Atlas", "Cronos", "Hypérion"],
+      "choices": [
+        "Prométhée",
+        "Atlas",
+        "Cronos",
+        "Hypérion"
+      ],
       "exp": "Pour le punir, Zeus fait enchaîner Prométhée sur le Caucase, où un aigle vient chaque jour lui dévorer le foie, qui repousse sans cesse. Héraclès finit par le délivrer.",
-      "wiki": [["Prométhée", "feu", "Caucase"]]
+      "wiki": [
+        [
+          "Prométhée",
+          "feu",
+          "Caucase"
+        ]
+      ]
     },
     {
-      "id": "myth-minotaure", "fmt": "vrai_faux", "answer": true, "sub": "grecque-romaine", "diff": 2, "themes": ["héros", "Crète"],
+      "id": "myth-minotaure",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "themes": [
+        "héros",
+        "Crète"
+      ],
       "q": "Selon la légende, Thésée tue le Minotaure dans le labyrinthe de Crète et retrouve la sortie grâce au fil d'Ariane.",
       "exp": "Vrai. Ariane, fille du roi Minos, donne à Thésée une pelote de fil pour qu'il puisse ressortir du labyrinthe construit par Dédale.",
       "anec": "L'expression « fil d'Ariane » désigne aujourd'hui un fil conducteur qui permet de se repérer.",
-      "wiki": [["Minotaure", "Ariane", "Thésée"]]
+      "wiki": [
+        [
+          "Minotaure",
+          "Ariane",
+          "Thésée"
+        ]
+      ]
     },
     {
-      "id": "myth-mjollnir", "sub": "autres-mythologies", "diff": 3, "themes": ["mythologie nordique"],
+      "id": "myth-mjollnir",
+      "sub": "autres-mythologies",
+      "diff": 3,
+      "themes": [
+        "mythologie nordique"
+      ],
       "q": "Comment s'appelle le marteau du dieu nordique Thor ?",
-      "choices": ["Mjöllnir", "Gungnir", "Excalibur", "Durandal"],
+      "choices": [
+        "Mjöllnir",
+        "Gungnir",
+        "Excalibur",
+        "Durandal"
+      ],
       "exp": "Mjöllnir est le marteau de Thor, dieu du tonnerre. Gungnir est la lance d'Odin ; Excalibur et Durandal sont les épées légendaires du roi Arthur et de Roland.",
-      "wiki": [["Mjöllnir", "Thor"]]
+      "wiki": [
+        [
+          "Mjöllnir",
+          "Thor"
+        ]
+      ]
     },
     {
-      "id": "myth-anubis", "sub": "autres-mythologies", "diff": 2, "themes": ["Égypte antique"],
+      "id": "myth-anubis",
+      "sub": "autres-mythologies",
+      "diff": 2,
+      "themes": [
+        "Égypte antique"
+      ],
       "q": "Quel dieu égyptien à tête de chacal est associé aux morts et à l'embaumement ?",
-      "choices": ["Anubis", "Râ", "Horus", "Osiris"],
+      "choices": [
+        "Anubis",
+        "Râ",
+        "Horus",
+        "Osiris"
+      ],
       "exp": "Anubis veille sur les nécropoles et préside à l'embaumement. Horus est représenté avec une tête de faucon ; Râ est le dieu soleil ; Osiris, le souverain du monde des morts.",
-      "wiki": [["Anubis", "chacal"]]
+      "wiki": [
+        [
+          "Anubis",
+          "chacal"
+        ]
+      ]
     },
     {
-      "id": "myth-textes-sacres", "fmt": "association", "sub": "religions", "diff": 2, "themes": ["textes sacrés"],
+      "id": "myth-textes-sacres",
+      "fmt": "association",
+      "sub": "religions",
+      "diff": 2,
+      "themes": [
+        "textes sacrés"
+      ],
       "q": "Associe chaque texte sacré à la religion correspondante.",
-      "pairs": [["Coran", "Islam"], ["Torah", "Judaïsme"], ["Évangiles", "Christianisme"], ["Védas", "Hindouisme"]],
+      "pairs": [
+        [
+          "Coran",
+          "Islam"
+        ],
+        [
+          "Torah",
+          "Judaïsme"
+        ],
+        [
+          "Évangiles",
+          "Christianisme"
+        ],
+        [
+          "Védas",
+          "Hindouisme"
+        ]
+      ],
       "exp": "Le Coran est le livre sacré de l'islam ; la Torah (les cinq premiers livres de la Bible hébraïque) est au cœur du judaïsme ; les Évangiles racontent la vie de Jésus ; les Védas sont les plus anciens textes de l'hindouisme.",
-      "wiki": [["Coran", "islam"], ["Torah", "judaïsme"], ["Veda", "hindouisme"]]
+      "wiki": [
+        [
+          "Coran",
+          "islam"
+        ],
+        [
+          "Torah",
+          "judaïsme"
+        ],
+        [
+          "Veda",
+          "hindouisme"
+        ]
+      ]
     },
     {
-      "id": "myth-bouddha", "sub": "religions", "diff": 3, "themes": ["bouddhisme"],
+      "id": "myth-bouddha",
+      "sub": "religions",
+      "diff": 3,
+      "themes": [
+        "bouddhisme"
+      ],
       "q": "Quel est le nom du fondateur du bouddhisme, le Bouddha historique ?",
-      "choices": ["Siddhartha Gautama", "Confucius", "Lao Tseu", "Zoroastre"],
+      "choices": [
+        "Siddhartha Gautama",
+        "Confucius",
+        "Lao Tseu",
+        "Zoroastre"
+      ],
       "exp": "Siddhartha Gautama, prince né dans l'actuel Népal, atteint selon la tradition l'« Éveil » (bodhi) et devient le Bouddha, « l'Éveillé ». Confucius et Lao Tseu sont des penseurs chinois.",
-      "wiki": [["Siddhartha Gautama", "Bouddha", "Népal"]]
+      "wiki": [
+        [
+          "Siddhartha Gautama",
+          "Bouddha",
+          "Népal"
+        ]
+      ]
     },
     {
-      "id": "myth-ramadan", "sub": "religions", "diff": 3, "themes": ["islam", "calendrier"],
+      "id": "myth-ramadan",
+      "sub": "religions",
+      "diff": 3,
+      "themes": [
+        "islam",
+        "calendrier"
+      ],
       "q": "Le ramadan correspond à quel mois du calendrier musulman ?",
-      "choices": ["Le neuvième", "Le premier", "Le sixième", "Le douzième"],
+      "choices": [
+        "Le neuvième",
+        "Le premier",
+        "Le sixième",
+        "Le douzième"
+      ],
       "exp": "Le ramadan est le neuvième mois du calendrier hégirien, lunaire. Comme ce calendrier compte environ 354 jours, le ramadan avance d'une dizaine de jours chaque année dans le calendrier grégorien.",
-      "wiki": [["Ramadan", "neuvième"]]
+      "wiki": [
+        [
+          "Ramadan",
+          "neuvième"
+        ]
+      ]
+    },
+    {
+      "id": "myth-olympe-nombre",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Combien compte-t-on traditionnellement de grands dieux de l'Olympe ?",
+      "exp": "Les douze Olympiens comprennent notamment Zeus, Héra, Poséidon, Athéna, Apollon, Artémis, Arès, Aphrodite, Héphaïstos, Hermès, Déméter et Hestia ou Dionysos.",
+      "wiki": [
+        [
+          "Divinités olympiennes",
+          "Zeus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "12",
+        "7",
+        "9",
+        "20"
+      ],
+      "themes": [
+        "dieux grecs"
+      ]
+    },
+    {
+      "id": "myth-poseidon",
+      "sub": "grecque-romaine",
+      "diff": 1,
+      "q": "Quel dieu grec règne sur les mers ?",
+      "exp": "Armé de son trident, Poséidon (Neptune chez les Romains) peut déclencher tempêtes et tremblements de terre.",
+      "wiki": [
+        [
+          "Poséidon",
+          "trident",
+          "Neptune"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Poséidon",
+        "Hadès",
+        "Apollon",
+        "Hermès"
+      ],
+      "themes": [
+        "dieux grecs"
+      ]
+    },
+    {
+      "id": "myth-hades",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "Quel dieu règne sur le monde des morts dans la mythologie grecque ?",
+      "exp": "Hadès enlève Perséphone ; Charon est le passeur des âmes et Thanatos personnifie la mort.",
+      "wiki": [
+        [
+          "Hadès",
+          "Enfers",
+          "Perséphone"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hadès",
+        "Thanatos",
+        "Charon",
+        "Cronos"
+      ],
+      "themes": [
+        "dieux grecs"
+      ]
+    },
+    {
+      "id": "myth-athena",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "Quelle déesse grecque est née tout armée du crâne de Zeus ?",
+      "exp": "Déesse de la sagesse et de la guerre stratégique, Athéna est la protectrice d'Athènes ; la chouette est son symbole.",
+      "wiki": [
+        [
+          "Athéna",
+          "chouette",
+          "Zeus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Athéna",
+        "Aphrodite",
+        "Artémis",
+        "Héra"
+      ],
+      "themes": [
+        "dieux grecs"
+      ],
+      "see": [
+        "art-parthenon"
+      ]
+    },
+    {
+      "id": "myth-aphrodite-naissance",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Selon Hésiode, de quoi est née Aphrodite ?",
+      "exp": "La déesse de l'amour naît de l'écume près de Chypre ; Botticelli a représenté cette naissance.",
+      "wiki": [
+        [
+          "Aphrodite",
+          "écume",
+          "Chypre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "De l'écume de la mer",
+        "D'un œuf d'or",
+        "Du crâne de Zeus",
+        "D'une rose"
+      ],
+      "themes": [
+        "dieux grecs"
+      ],
+      "see": [
+        "art-naissance-venus"
+      ]
+    },
+    {
+      "id": "myth-hermes",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "Quel dieu grec, messager des dieux, porte des sandales ailées ?",
+      "exp": "Hermès, dieu des voyageurs, des marchands et des voleurs, guide aussi les âmes vers les Enfers ; il est Mercure chez les Romains.",
+      "wiki": [
+        [
+          "Hermès",
+          "messager",
+          "Mercure"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hermès",
+        "Apollon",
+        "Dionysos",
+        "Héphaïstos"
+      ],
+      "themes": [
+        "dieux grecs"
+      ]
+    },
+    {
+      "id": "myth-dionysos",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quel dieu grec est associé au vin et à la fête ?",
+      "exp": "Appelé Bacchus chez les Romains, il est suivi par les ménades et les satyres ; le théâtre grec est né de ses fêtes.",
+      "wiki": [
+        [
+          "Dionysos",
+          "vin",
+          "Bacchus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dionysos",
+        "Apollon",
+        "Pan",
+        "Hermès"
+      ],
+      "themes": [
+        "dieux grecs"
+      ]
+    },
+    {
+      "id": "myth-hephaistos",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quel dieu forgeron, boiteux, est l'époux d'Aphrodite ?",
+      "exp": "Il forge les armes des dieux et des héros dans sa forge sous les volcans ; c'est Vulcain chez les Romains.",
+      "wiki": [
+        [
+          "Héphaïstos",
+          "forge",
+          "Vulcain"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Héphaïstos",
+        "Arès",
+        "Hermès",
+        "Apollon"
+      ],
+      "themes": [
+        "dieux grecs"
+      ]
+    },
+    {
+      "id": "myth-cronos",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quel Titan dévore ses enfants pour éviter d'être détrôné ?",
+      "exp": "Rhéa sauve Zeus en donnant à Cronos une pierre emmaillotée ; Zeus renverse ensuite son père.",
+      "wiki": [
+        [
+          "Cronos",
+          "Rhéa",
+          "Zeus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Cronos",
+        "Ouranos",
+        "Atlas",
+        "Japet"
+      ],
+      "themes": [
+        "Titans"
+      ]
+    },
+    {
+      "id": "myth-atlas",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "Quel Titan est condamné à porter la voûte céleste sur ses épaules ?",
+      "exp": "Puni par Zeus, Atlas a donné son nom aux recueils de cartes et à une chaîne de montagnes d'Afrique du Nord.",
+      "wiki": [
+        [
+          "Atlas (mythologie)",
+          "voûte céleste"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Atlas",
+        "Prométhée",
+        "Cronos",
+        "Hypérion"
+      ],
+      "themes": [
+        "Titans"
+      ]
+    },
+    {
+      "id": "myth-pandore",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "Qu'a laissé échapper Pandore en ouvrant la jarre (ou boîte) interdite ?",
+      "exp": "Seule l'Espérance reste au fond ; l'expression « ouvrir la boîte de Pandore » désigne une action aux conséquences incontrôlables.",
+      "wiki": [
+        [
+          "Pandore",
+          "Espérance"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les maux de l'humanité",
+        "L'or des dieux",
+        "Le feu sacré",
+        "Les vents"
+      ],
+      "themes": [
+        "mythes"
+      ]
+    },
+    {
+      "id": "myth-icare",
+      "sub": "grecque-romaine",
+      "diff": 1,
+      "q": "Pourquoi Icare tombe-t-il dans la mer ?",
+      "exp": "Son père Dédale avait fabriqué des ailes de plumes et de cire pour s'évader du labyrinthe de Crète.",
+      "wiki": [
+        [
+          "Icare",
+          "Dédale",
+          "cire"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Il s'approche trop du Soleil et la cire de ses ailes fond",
+        "Zeus le foudroie",
+        "Un aigle l'attaque",
+        "Il s'endort en vol"
+      ],
+      "themes": [
+        "mythes"
+      ]
+    },
+    {
+      "id": "myth-narcisse",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "De quoi Narcisse tombe-t-il amoureux ?",
+      "exp": "Il dépérit au bord de l'eau et se transforme en fleur ; le mot « narcissisme » vient de lui.",
+      "wiki": [
+        [
+          "Narcisse (mythologie)",
+          "reflet",
+          "Écho"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "De son propre reflet",
+        "De la nymphe Écho",
+        "D'une déesse",
+        "D'une fleur"
+      ],
+      "themes": [
+        "mythes"
+      ]
+    },
+    {
+      "id": "myth-medusa",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "Quel héros tranche la tête de la Gorgone Méduse ?",
+      "exp": "Le regard de Méduse changeait en pierre ; Persée utilise un bouclier poli comme miroir pour l'éviter.",
+      "wiki": [
+        [
+          "Persée",
+          "Méduse",
+          "bouclier"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Persée",
+        "Thésée",
+        "Héraclès",
+        "Jason"
+      ],
+      "themes": [
+        "héros"
+      ]
+    },
+    {
+      "id": "myth-jason",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quel objet Jason et les Argonautes partent-ils chercher ?",
+      "exp": "Avec l'aide de la magicienne Médée, Jason rapporte la toison du bélier d'or depuis la Colchide.",
+      "wiki": [
+        [
+          "Jason",
+          "Toison d'or",
+          "Médée"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Toison d'or",
+        "Le Saint Graal",
+        "La pomme d'or",
+        "Le trident de Poséidon"
+      ],
+      "themes": [
+        "héros"
+      ]
+    },
+    {
+      "id": "myth-achille-talon",
+      "sub": "grecque-romaine",
+      "diff": 1,
+      "q": "Quel était le seul point vulnérable d'Achille ?",
+      "exp": "Sa mère Thétis l'avait plongé dans le Styx en le tenant par le talon ; il meurt d'une flèche de Pâris.",
+      "wiki": [
+        [
+          "Achille",
+          "talon",
+          "Pâris"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le talon",
+        "Le cœur",
+        "La nuque",
+        "L'œil"
+      ],
+      "themes": [
+        "guerre de Troie"
+      ]
+    },
+    {
+      "id": "myth-cheval-troie",
+      "sub": "grecque-romaine",
+      "diff": 1,
+      "q": "Comment les Grecs entrent-ils dans Troie selon la légende ?",
+      "exp": "La ruse est imaginée par Ulysse ; malgré les avertissements de Cassandre et de Laocoon, les Troyens font entrer le cheval.",
+      "wiki": [
+        [
+          "Cheval de Troie",
+          "Ulysse",
+          "Laocoon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Cachés dans un grand cheval de bois",
+        "Par un tunnel",
+        "En escaladant les murs de nuit",
+        "Déguisés en marchands"
+      ],
+      "themes": [
+        "guerre de Troie"
+      ],
+      "see": [
+        "myth-ulysse"
+      ]
+    },
+    {
+      "id": "myth-helene",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quel enlèvement déclenche la guerre de Troie ?",
+      "exp": "Hélène, épouse du roi de Sparte Ménélas, part avec le prince troyen Pâris ; les Grecs assiègent Troie pendant dix ans.",
+      "wiki": [
+        [
+          "Hélène (mythologie)",
+          "Pâris",
+          "Ménélas"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Celui d'Hélène par Pâris",
+        "Celui de Perséphone par Hadès",
+        "Celui d'Europe par Zeus",
+        "Celui d'Ariane par Thésée"
+      ],
+      "themes": [
+        "guerre de Troie"
+      ]
+    },
+    {
+      "id": "myth-oedipe",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quelle énigme Œdipe résout-il devant la Sphinge de Thèbes ?",
+      "exp": "La réponse « l'homme » délivre Thèbes ; Œdipe en devient roi et épouse, sans le savoir, sa propre mère.",
+      "wiki": [
+        [
+          "Œdipe",
+          "Sphinx",
+          "Thèbes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Celle de l'homme, qui marche à quatre, deux puis trois pattes",
+        "Celle du temps qui passe",
+        "Celle du Soleil et de la Lune",
+        "Celle de la mer et du vent"
+      ],
+      "themes": [
+        "héros"
+      ]
+    },
+    {
+      "id": "myth-orphee",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Pourquoi Orphée perd-il définitivement Eurydice en revenant des Enfers ?",
+      "exp": "Hadès avait accepté de la laisser partir à condition qu'il ne la regarde pas avant la sortie.",
+      "wiki": [
+        [
+          "Orphée",
+          "Eurydice",
+          "Enfers"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Il se retourne pour la regarder",
+        "Il cesse de chanter",
+        "Il oublie le chemin",
+        "Il refuse de payer Charon"
+      ],
+      "themes": [
+        "mythes"
+      ]
+    },
+    {
+      "id": "myth-sisyphe",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quel châtiment subit Sisyphe aux Enfers ?",
+      "exp": "Le rocher retombe toujours avant le sommet ; les Danaïdes remplissent un tonneau percé et Tantale souffre de faim et de soif.",
+      "wiki": [
+        [
+          "Sisyphe",
+          "rocher"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pousser éternellement un rocher en haut d'une colline",
+        "Avoir le foie dévoré",
+        "Remplir un tonneau percé",
+        "Avoir toujours faim et soif"
+      ],
+      "themes": [
+        "mythes"
+      ],
+      "see": [
+        "philo-camus-sisyphe"
+      ]
+    },
+    {
+      "id": "myth-romulus",
+      "sub": "grecque-romaine",
+      "diff": 2,
+      "q": "Quel animal aurait allaité Romulus et Rémus ?",
+      "exp": "Selon la légende, les jumeaux abandonnés sont nourris par une louve ; Romulus fonde Rome en 753 av. J.-C.",
+      "wiki": [
+        [
+          "Romulus et Rémus",
+          "louve",
+          "753"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une louve",
+        "Une biche",
+        "Une chèvre",
+        "Une ourse"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "myth-janus",
+      "sub": "grecque-romaine",
+      "diff": 3,
+      "q": "Quel dieu romain à deux visages a donné son nom au mois de janvier ?",
+      "exp": "Dieu des commencements et des passages, Janus regarde à la fois vers le passé et l'avenir.",
+      "wiki": [
+        [
+          "Janus",
+          "janvier"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Janus",
+        "Jupiter",
+        "Mars",
+        "Junon"
+      ],
+      "themes": [
+        "dieux romains"
+      ]
+    },
+    {
+      "id": "myth-mois-dieux",
+      "sub": "grecque-romaine",
+      "diff": 4,
+      "q": "Associe chaque mois à son origine.",
+      "exp": "Septembre à décembre gardent leur sens d'origine : 7e à 10e mois, car l'année romaine commençait en mars.",
+      "wiki": [
+        [
+          "Juillet",
+          "Jules César"
+        ],
+        [
+          "Août",
+          "Auguste"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Janvier",
+          "Le dieu Janus"
+        ],
+        [
+          "Mars",
+          "Le dieu Mars"
+        ],
+        [
+          "Juillet",
+          "Jules César"
+        ],
+        [
+          "Août",
+          "L'empereur Auguste"
+        ]
+      ],
+      "themes": [
+        "calendrier"
+      ]
+    },
+    {
+      "id": "myth-odin",
+      "sub": "autres-mythologies",
+      "diff": 2,
+      "q": "Quel dieu borgne est le roi des dieux dans la mythologie nordique ?",
+      "exp": "Odin sacrifie un œil pour boire à la source de la sagesse ; ses corbeaux Hugin et Munin parcourent le monde.",
+      "wiki": [
+        [
+          "Odin",
+          "œil",
+          "Hugin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Odin",
+        "Thor",
+        "Loki",
+        "Freyr"
+      ],
+      "themes": [
+        "mythologie nordique"
+      ],
+      "see": [
+        "myth-mjollnir"
+      ]
+    },
+    {
+      "id": "myth-loki",
+      "sub": "autres-mythologies",
+      "diff": 3,
+      "q": "Quel dieu nordique est connu pour sa ruse et ses métamorphoses ?",
+      "exp": "Loki provoque la mort de Baldr ; il joue un rôle clé dans le Ragnarök, la fin du monde.",
+      "wiki": [
+        [
+          "Loki",
+          "Baldr",
+          "Ragnarök"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Loki",
+        "Baldr",
+        "Heimdall",
+        "Tyr"
+      ],
+      "themes": [
+        "mythologie nordique"
+      ]
+    },
+    {
+      "id": "myth-valhalla",
+      "sub": "autres-mythologies",
+      "diff": 2,
+      "q": "Où vont les guerriers morts au combat dans la mythologie nordique ?",
+      "exp": "Choisis par les Valkyries, ils festoient dans le palais d'Odin en attendant le Ragnarök.",
+      "wiki": [
+        [
+          "Valhalla",
+          "Valkyries",
+          "Odin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Au Valhalla",
+        "À l'Olympe",
+        "Au Tartare",
+        "À Avalon"
+      ],
+      "themes": [
+        "mythologie nordique"
+      ]
+    },
+    {
+      "id": "myth-jours-nordiques",
+      "sub": "autres-mythologies",
+      "diff": 4,
+      "q": "Quel jour de la semaine anglais porte le nom du dieu Thor ?",
+      "exp": "Thursday est le jour de Thor, Wednesday celui d'Odin (Woden), Tuesday celui de Tyr et Friday celui de Frigg.",
+      "wiki": [
+        [
+          "Jeudi",
+          "Thor",
+          "Thursday"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Thursday",
+        "Tuesday",
+        "Friday",
+        "Wednesday"
+      ],
+      "themes": [
+        "mythologie nordique"
+      ]
+    },
+    {
+      "id": "myth-ra",
+      "sub": "autres-mythologies",
+      "diff": 2,
+      "q": "Quel dieu égyptien personnifie le Soleil ?",
+      "exp": "Râ traverse le ciel sur sa barque le jour et le monde souterrain la nuit.",
+      "wiki": [
+        [
+          "Râ",
+          "Soleil",
+          "barque"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Râ",
+        "Osiris",
+        "Seth",
+        "Thot"
+      ],
+      "themes": [
+        "mythologie égyptienne"
+      ]
+    },
+    {
+      "id": "myth-osiris",
+      "sub": "autres-mythologies",
+      "diff": 3,
+      "q": "Quel dieu égyptien, tué par son frère Seth, devient le souverain du monde des morts ?",
+      "exp": "Isis rassemble les morceaux de son corps ; leur fils Horus venge son père.",
+      "wiki": [
+        [
+          "Osiris",
+          "Seth",
+          "Isis"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Osiris",
+        "Horus",
+        "Anubis",
+        "Amon"
+      ],
+      "themes": [
+        "mythologie égyptienne"
+      ],
+      "see": [
+        "myth-anubis"
+      ]
+    },
+    {
+      "id": "myth-pesee-coeur",
+      "sub": "autres-mythologies",
+      "diff": 4,
+      "q": "Contre quoi le cœur du défunt est-il pesé lors du jugement égyptien ?",
+      "exp": "Si le cœur est plus lourd que la plume de la vérité, il est dévoré par la créature Ammout.",
+      "wiki": [
+        [
+          "Maât",
+          "plume",
+          "Ammout"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une plume, symbole de Maât",
+        "Une pierre sacrée",
+        "Un scarabée d'or",
+        "Le cœur d'un taureau"
+      ],
+      "themes": [
+        "mythologie égyptienne"
+      ]
+    },
+    {
+      "id": "myth-quetzalcoatl",
+      "sub": "autres-mythologies",
+      "diff": 4,
+      "q": "Quel dieu aztèque est représenté sous la forme d'un serpent à plumes ?",
+      "exp": "Divinité du vent et de la connaissance, il est vénéré par plusieurs peuples de Mésoamérique.",
+      "wiki": [
+        [
+          "Quetzalcoatl",
+          "serpent à plumes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Quetzalcoatl",
+        "Huitzilopochtli",
+        "Tlaloc",
+        "Tezcatlipoca"
+      ],
+      "themes": [
+        "Mésoamérique"
+      ]
+    },
+    {
+      "id": "myth-gilgamesh",
+      "sub": "autres-mythologies",
+      "diff": 4,
+      "q": "De quelle civilisation vient l'Épopée de Gilgamesh, l'un des plus anciens récits connus ?",
+      "exp": "Gravée sur des tablettes d'argile, elle raconte la quête d'immortalité d'un roi d'Uruk et contient un récit de déluge.",
+      "wiki": [
+        [
+          "Épopée de Gilgamesh",
+          "Uruk",
+          "déluge"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Mésopotamie",
+        "L'Égypte",
+        "La Grèce",
+        "L'Inde"
+      ],
+      "themes": [
+        "Mésopotamie"
+      ],
+      "see": [
+        "hm-cuneiforme"
+      ]
+    },
+    {
+      "id": "myth-arthur",
+      "sub": "autres-mythologies",
+      "diff": 2,
+      "q": "Comment s'appelle l'épée du roi Arthur ?",
+      "exp": "Selon les versions, Arthur la retire d'un rocher ou la reçoit de la Dame du Lac.",
+      "wiki": [
+        [
+          "Excalibur",
+          "Arthur",
+          "Dame du Lac"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Excalibur",
+        "Durandal",
+        "Joyeuse",
+        "Balmung"
+      ],
+      "themes": [
+        "légendes arthuriennes"
+      ]
+    },
+    {
+      "id": "myth-merlin",
+      "sub": "autres-mythologies",
+      "diff": 2,
+      "q": "Quel enchanteur conseille le roi Arthur ?",
+      "exp": "Merlin, fils d'un démon et d'une mortelle selon la tradition, est enfermé par la fée Viviane dans la forêt de Brocéliande.",
+      "wiki": [
+        [
+          "Merlin",
+          "Brocéliande",
+          "Viviane"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Merlin",
+        "Gandalf",
+        "Morgane",
+        "Lancelot"
+      ],
+      "themes": [
+        "légendes arthuriennes"
+      ]
+    },
+    {
+      "id": "myth-graal",
+      "sub": "autres-mythologies",
+      "diff": 3,
+      "q": "Quelle quête mobilise les chevaliers de la Table ronde ?",
+      "exp": "Chrétien de Troyes introduit le Graal à la fin du XIIe siècle dans Perceval ou le Conte du Graal.",
+      "wiki": [
+        [
+          "Graal",
+          "Chrétien de Troyes",
+          "Perceval"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La quête du Graal",
+        "La quête de la Toison d'or",
+        "La recherche d'Avalon",
+        "La conquête de Jérusalem"
+      ],
+      "themes": [
+        "légendes arthuriennes"
+      ]
+    },
+    {
+      "id": "myth-ys",
+      "sub": "autres-mythologies",
+      "diff": 4,
+      "q": "Quelle cité légendaire de Bretagne aurait été engloutie par la mer à cause de la princesse Dahut ?",
+      "exp": "Le roi Gradlon s'enfuit à cheval ; selon la légende, Paris (« Par-Is ») signifierait « pareille à Ys ».",
+      "wiki": [
+        [
+          "Ys",
+          "Dahut",
+          "Gradlon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ys",
+        "Avalon",
+        "Atlantide",
+        "Carnac"
+      ],
+      "themes": [
+        "légendes bretonnes"
+      ]
+    },
+    {
+      "id": "myth-golem",
+      "sub": "autres-mythologies",
+      "diff": 4,
+      "q": "De quelle tradition vient le Golem, être d'argile animé par un rabbin ?",
+      "exp": "La légende la plus connue situe le Golem à Prague, créé par le rabbin Loew au XVIe siècle.",
+      "wiki": [
+        [
+          "Golem",
+          "Prague",
+          "Loew"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Du folklore juif",
+        "De la mythologie nordique",
+        "De la mythologie grecque",
+        "Du folklore japonais"
+      ],
+      "themes": [
+        "légendes"
+      ]
+    },
+    {
+      "id": "myth-bible-premier-livre",
+      "sub": "religions",
+      "diff": 2,
+      "q": "Quel est le premier livre de la Bible ?",
+      "exp": "La Genèse raconte la Création, Adam et Ève, Noé et les patriarches comme Abraham.",
+      "wiki": [
+        [
+          "Livre de la Genèse",
+          "Création",
+          "Abraham"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Genèse",
+        "L'Exode",
+        "Le Lévitique",
+        "L'Apocalypse"
+      ],
+      "themes": [
+        "christianisme",
+        "judaïsme"
+      ]
+    },
+    {
+      "id": "myth-dix-commandements",
+      "sub": "religions",
+      "diff": 2,
+      "q": "Sur quelle montagne Moïse reçoit-il les Tables de la Loi selon la Bible ?",
+      "exp": "Le récit figure dans le livre de l'Exode ; l'arche de Noé, elle, s'échoue sur le mont Ararat.",
+      "wiki": [
+        [
+          "Dix Commandements",
+          "Sinaï",
+          "Moïse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le mont Sinaï",
+        "Le mont des Oliviers",
+        "Le mont Ararat",
+        "Le mont Thabor"
+      ],
+      "themes": [
+        "judaïsme",
+        "christianisme"
+      ]
+    },
+    {
+      "id": "myth-noel-paques",
+      "sub": "religions",
+      "diff": 2,
+      "q": "Quelle fête chrétienne célèbre la résurrection du Christ ?",
+      "exp": "La date de Pâques varie chaque année : c'est le dimanche qui suit la première pleine lune après l'équinoxe de printemps.",
+      "wiki": [
+        [
+          "Pâques",
+          "résurrection"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pâques",
+        "Noël",
+        "L'Ascension",
+        "La Pentecôte"
+      ],
+      "themes": [
+        "christianisme"
+      ]
+    },
+    {
+      "id": "myth-pentecote",
+      "sub": "religions",
+      "diff": 4,
+      "q": "Que célèbre la Pentecôte chrétienne ?",
+      "exp": "Elle a lieu cinquante jours après Pâques ; l'Ascension célèbre la montée au ciel du Christ, quarante jours après Pâques.",
+      "wiki": [
+        [
+          "Pentecôte",
+          "Saint-Esprit",
+          "apôtres"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La descente du Saint-Esprit sur les apôtres",
+        "La naissance de Jésus",
+        "La montée de Jésus au ciel",
+        "La visite des Rois mages"
+      ],
+      "themes": [
+        "christianisme"
+      ]
+    },
+    {
+      "id": "myth-apotres",
+      "sub": "religions",
+      "diff": 2,
+      "q": "Combien d'apôtres Jésus a-t-il choisis selon les Évangiles ?",
+      "exp": "Parmi eux, Pierre, Jean, Jacques, Matthieu et Judas, qui le trahit.",
+      "wiki": [
+        [
+          "Apôtre",
+          "douze"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "12",
+        "7",
+        "10",
+        "40"
+      ],
+      "themes": [
+        "christianisme"
+      ]
+    },
+    {
+      "id": "myth-schisme-1054",
+      "sub": "religions",
+      "diff": 4,
+      "q": "Quel événement de 1054 sépare l'Église d'Occident et l'Église d'Orient ?",
+      "exp": "Les excommunications réciproques de 1054 consacrent la séparation entre catholiques et orthodoxes ; le Grand Schisme d'Occident (1378-1417) concerne la papauté.",
+      "wiki": [
+        [
+          "Schisme de 1054",
+          "catholiques",
+          "orthodoxes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Grand Schisme d'Orient",
+        "La Réforme protestante",
+        "Le concile de Trente",
+        "La querelle des investitures"
+      ],
+      "themes": [
+        "christianisme"
+      ]
+    },
+    {
+      "id": "myth-piliers-islam",
+      "sub": "religions",
+      "diff": 3,
+      "q": "Combien l'islam compte-t-il de piliers ?",
+      "exp": "La profession de foi, la prière, l'aumône, le jeûne du ramadan et le pèlerinage à La Mecque.",
+      "wiki": [
+        [
+          "Piliers de l'islam",
+          "cinq"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "5",
+        "3",
+        "7",
+        "10"
+      ],
+      "themes": [
+        "islam"
+      ],
+      "see": [
+        "myth-ramadan"
+      ]
+    },
+    {
+      "id": "myth-mecque",
+      "sub": "religions",
+      "diff": 1,
+      "q": "Quelle ville est le principal lieu de pèlerinage de l'islam ?",
+      "exp": "Le pèlerinage (hajj) y est prescrit au moins une fois dans la vie pour ceux qui le peuvent ; la Kaaba se trouve au centre de la Grande Mosquée.",
+      "wiki": [
+        [
+          "La Mecque",
+          "Kaaba",
+          "hajj"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Mecque",
+        "Médine",
+        "Jérusalem",
+        "Bagdad"
+      ],
+      "themes": [
+        "islam"
+      ]
+    },
+    {
+      "id": "myth-shabbat",
+      "sub": "religions",
+      "diff": 3,
+      "q": "Quel jour commence le shabbat, jour de repos dans le judaïsme ?",
+      "exp": "Le shabbat dure du vendredi soir au samedi soir et commémore le repos divin après la Création.",
+      "wiki": [
+        [
+          "Shabbat",
+          "vendredi",
+          "samedi"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le vendredi au coucher du soleil",
+        "Le samedi à l'aube",
+        "Le dimanche matin",
+        "Le jeudi soir"
+      ],
+      "themes": [
+        "judaïsme"
+      ]
+    },
+    {
+      "id": "myth-yom-kippour",
+      "sub": "religions",
+      "diff": 4,
+      "q": "Quelle fête juive, la plus solennelle, est le jour du Grand Pardon ?",
+      "exp": "Jour de jeûne et de prière ; Pessa'h commémore la sortie d'Égypte et Hanoukka la reconsécration du Temple.",
+      "wiki": [
+        [
+          "Yom Kippour",
+          "Grand Pardon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Yom Kippour",
+        "Pessa'h",
+        "Hanoukka",
+        "Pourim"
+      ],
+      "themes": [
+        "judaïsme"
+      ]
+    },
+    {
+      "id": "myth-hindou-trimurti",
+      "sub": "religions",
+      "diff": 4,
+      "q": "Quels dieux forment la Trimurti de l'hindouisme ?",
+      "exp": "Brahma crée, Vishnou préserve et Shiva détruit pour permettre le renouvellement.",
+      "wiki": [
+        [
+          "Trimūrti",
+          "Vishnou",
+          "Shiva"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Brahma, Vishnou et Shiva",
+        "Krishna, Rama et Ganesh",
+        "Indra, Agni et Varuna",
+        "Shiva, Parvati et Ganesh"
+      ],
+      "themes": [
+        "hindouisme"
+      ]
+    },
+    {
+      "id": "myth-ganesh",
+      "sub": "religions",
+      "diff": 2,
+      "q": "Quel dieu hindou est représenté avec une tête d'éléphant ?",
+      "exp": "Fils de Shiva et de Parvati, Ganesh lève les obstacles et est invoqué au début des entreprises.",
+      "wiki": [
+        [
+          "Ganesh",
+          "éléphant"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ganesh",
+        "Hanuman",
+        "Krishna",
+        "Shiva"
+      ],
+      "themes": [
+        "hindouisme"
+      ]
+    },
+    {
+      "id": "myth-dalai-lama",
+      "sub": "religions",
+      "diff": 3,
+      "q": "De quel courant religieux le dalaï-lama est-il le chef spirituel ?",
+      "exp": "Le 14e dalaï-lama, Tenzin Gyatso, vit en exil en Inde depuis 1959 ; il reçoit le prix Nobel de la paix en 1989.",
+      "wiki": [
+        [
+          "Dalaï-lama",
+          "Tibet",
+          "1959"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le bouddhisme tibétain",
+        "L'hindouisme",
+        "Le taoïsme",
+        "Le shintoïsme"
+      ],
+      "themes": [
+        "bouddhisme"
+      ],
+      "see": [
+        "myth-bouddha"
+      ]
+    },
+    {
+      "id": "myth-shinto",
+      "sub": "religions",
+      "diff": 4,
+      "q": "Quelle religion traditionnelle du Japon vénère les kami, esprits de la nature ?",
+      "exp": "Les sanctuaires shinto se reconnaissent à leur portique, le torii.",
+      "wiki": [
+        [
+          "Shinto",
+          "kami",
+          "torii"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le shintoïsme",
+        "Le confucianisme",
+        "Le taoïsme",
+        "Le jaïnisme"
+      ],
+      "themes": [
+        "religions d'Asie"
+      ]
+    },
+    {
+      "id": "myth-sikhisme",
+      "sub": "religions",
+      "diff": 4,
+      "q": "Quel est le principal lieu saint du sikhisme ?",
+      "exp": "Le sikhisme, fondé au XVe siècle au Pendjab par Guru Nanak, compte des dizaines de millions de fidèles.",
+      "wiki": [
+        [
+          "Temple d'or",
+          "Amritsar",
+          "sikhisme"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Temple d'or d'Amritsar",
+        "La Kaaba",
+        "Le mur des Lamentations",
+        "Bénarès"
+      ],
+      "themes": [
+        "religions d'Asie"
+      ]
+    },
+    {
+      "id": "myth-pape-vatican",
+      "sub": "religions",
+      "diff": 1,
+      "q": "Où réside le pape ?",
+      "exp": "Le pape, évêque de Rome, est le chef de l'Église catholique ; depuis le retour d'Avignon en 1377, les papes résident principalement au Vatican.",
+      "wiki": [
+        [
+          "Pape",
+          "Vatican",
+          "Rome"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Au Vatican",
+        "À Avignon",
+        "À Jérusalem",
+        "À Assise"
+      ],
+      "themes": [
+        "catholicisme"
+      ],
+      "see": [
+        "geo-vatican"
+      ]
+    },
+    {
+      "id": "myth-religions-lieux",
+      "sub": "religions",
+      "diff": 3,
+      "q": "Associe chaque religion à un lieu saint majeur.",
+      "exp": "Jérusalem est aussi une ville sainte pour le christianisme et l'islam (mosquée al-Aqsa).",
+      "wiki": [
+        [
+          "Mur des Lamentations",
+          "Jérusalem"
+        ],
+        [
+          "Varanasi",
+          "hindouisme"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Islam",
+          "La Mecque"
+        ],
+        [
+          "Judaïsme",
+          "Le mur des Lamentations"
+        ],
+        [
+          "Hindouisme",
+          "Bénarès"
+        ],
+        [
+          "Catholicisme",
+          "Saint-Pierre de Rome"
+        ]
+      ],
+      "themes": [
+        "religions du monde"
+      ]
     }
   ]
 }

@@ -88,14 +88,16 @@ export function checkQuestion(q: Question, categories?: Category[]): Issue[] {
 
 /** Similarité de deux énoncés (mots significatifs communs, 0..1). */
 export function similarity(a: string, b: string): number {
-  const words = (s: string) =>
-    new Set(
-      normalizeAnswer(s)
-        .split(' ')
-        .filter((w) => w.length > 3 && !STOP.has(w)),
-    );
-  const A = words(a);
-  const B = words(b);
+  return overlap(significantWords(a), significantWords(b));
+}
+function significantWords(s: string): Set<string> {
+  return new Set(
+    normalizeAnswer(s)
+      .split(' ')
+      .filter((w) => w.length > 3 && !STOP.has(w)),
+  );
+}
+function overlap(A: Set<string>, B: Set<string>): number {
   if (!A.size || !B.size) return 0;
   let inter = 0;
   for (const w of A) if (B.has(w)) inter++;
@@ -112,13 +114,16 @@ export function findDuplicates(qs: Question[], threshold = 0.75): Issue[] {
     ids.add(q.id);
   }
   const live = qs.filter((q) => q.status !== 'archive');
+  // Pré-calcul (une seule normalisation par question) : la comparaison deux à deux reste rapide avec des milliers de questions.
+  // On compare l'énoncé ET la réponse : deux consignes génériques (« Associe… ») ne sont pas des doublons.
+  const sets = live.map((q) => significantWords(`${q.prompt} ${correctAnswerText(q)}`));
+  const prompts = live.map((q) => normalizeAnswer(q.prompt));
   for (let i = 0; i < live.length; i++) {
     for (let j = i + 1; j < live.length; j++) {
       const a = live[i];
       const b = live[j];
-      // On compare l'énoncé ET la réponse : deux consignes génériques (« Associe… ») ne sont pas des doublons.
-      const sim = similarity(`${a.prompt} ${correctAnswerText(a)}`, `${b.prompt} ${correctAnswerText(b)}`);
-      if (normalizeAnswer(a.prompt) === normalizeAnswer(b.prompt)) {
+      const sim = overlap(sets[i], sets[j]);
+      if (prompts[i] === prompts[j]) {
         out.push({ id: b.id, severity: 'erreur', message: `énoncé identique à ${a.id}` });
       } else if (sim >= threshold) {
         out.push({ id: b.id, severity: 'alerte', message: `très proche de ${a.id} (similarité ${Math.round(sim * 100)} %)` });

@@ -4,130 +4,3463 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "sci-lumiere", "sub": "physique", "diff": 2, "themes": ["lumière", "constantes"],
+      "id": "sci-lumiere",
+      "sub": "physique",
+      "diff": 2,
+      "themes": [
+        "lumière",
+        "constantes"
+      ],
       "q": "Quelle est, environ, la vitesse de la lumière dans le vide ?",
-      "choices": ["300 000 km/s", "30 000 km/s", "3 000 km/s", "3 000 000 km/s"],
+      "choices": [
+        "300 000 km/s",
+        "30 000 km/s",
+        "3 000 km/s",
+        "3 000 000 km/s"
+      ],
       "exp": "La vitesse de la lumière dans le vide vaut exactement 299 792 458 m/s, soit environ 300 000 km/s. Depuis 1983, c'est elle qui sert à définir le mètre.",
       "anec": "La lumière du Soleil met environ 8 minutes à nous parvenir.",
-      "wiki": [["Vitesse de la lumière", "299 792 458"]]
+      "wiki": [
+        [
+          "Vitesse de la lumière",
+          "299 792 458"
+        ]
+      ]
     },
     {
-      "id": "sci-zero-absolu", "sub": "physique", "diff": 3, "themes": ["température", "thermodynamique"],
+      "id": "sci-zero-absolu",
+      "sub": "physique",
+      "diff": 3,
+      "themes": [
+        "température",
+        "thermodynamique"
+      ],
       "q": "À quelle température correspond le zéro absolu ?",
-      "choices": ["−273,15 °C", "−100 °C", "−459,67 °C", "0 °C"],
+      "choices": [
+        "−273,15 °C",
+        "−100 °C",
+        "−459,67 °C",
+        "0 °C"
+      ],
       "exp": "Le zéro absolu (0 kelvin) vaut −273,15 °C : c'est la température la plus basse possible en théorie, jamais atteinte exactement. Attention : −459,67 est sa valeur en degrés Fahrenheit.",
-      "wiki": [["Zéro absolu", "273,15"]]
+      "wiki": [
+        [
+          "Zéro absolu",
+          "273,15"
+        ]
+      ]
     },
     {
-      "id": "sci-einstein-nobel", "fmt": "vrai_faux", "answer": false, "sub": "physique", "diff": 3, "themes": ["Einstein", "prix Nobel"],
+      "id": "sci-einstein-nobel",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "sub": "physique",
+      "diff": 3,
+      "themes": [
+        "Einstein",
+        "prix Nobel"
+      ],
       "q": "Albert Einstein a reçu le prix Nobel de physique pour sa théorie de la relativité.",
       "exp": "Faux. Le prix Nobel de physique 1921 lui a été attribué pour ses travaux de physique théorique et, en particulier, pour l'explication de l'effet photoélectrique.",
-      "wiki": [["Albert Einstein", "photoélectrique", "1921"]]
+      "wiki": [
+        [
+          "Albert Einstein",
+          "photoélectrique",
+          "1921"
+        ]
+      ]
     },
     {
-      "id": "sci-eau", "fmt": "saisie", "sub": "chimie", "diff": 1, "themes": ["molécules"],
+      "id": "sci-eau",
+      "fmt": "saisie",
+      "sub": "chimie",
+      "diff": 1,
+      "themes": [
+        "molécules"
+      ],
       "q": "Quelle est la formule chimique de l'eau ?",
-      "accepted": ["H2O", "H₂O"],
+      "accepted": [
+        "H2O",
+        "H₂O"
+      ],
       "exp": "Une molécule d'eau est formée de deux atomes d'hydrogène liés à un atome d'oxygène : H₂O.",
-      "wiki": [["Eau", "H2O"]]
+      "wiki": [
+        [
+          "Eau",
+          "H2O"
+        ]
+      ]
     },
     {
-      "id": "sci-or", "sub": "chimie", "diff": 2, "themes": ["éléments chimiques"],
+      "id": "sci-or",
+      "sub": "chimie",
+      "diff": 2,
+      "themes": [
+        "éléments chimiques"
+      ],
       "q": "Quel est le symbole chimique de l'or ?",
-      "choices": ["Au", "Ag", "Or", "Go"],
+      "choices": [
+        "Au",
+        "Ag",
+        "Or",
+        "Go"
+      ],
       "exp": "Le symbole Au vient du latin aurum. Ag (argentum) est le symbole de l'argent.",
-      "wiki": [["Or", "aurum"]]
+      "wiki": [
+        [
+          "Or",
+          "aurum"
+        ]
+      ]
     },
     {
-      "id": "sci-mendeleiev", "sub": "chimie", "diff": 2, "themes": ["éléments chimiques", "histoire des sciences"],
+      "id": "sci-mendeleiev",
+      "sub": "chimie",
+      "diff": 2,
+      "themes": [
+        "éléments chimiques",
+        "histoire des sciences"
+      ],
       "q": "Quel chimiste publie en 1869 une classification périodique des éléments ?",
-      "choices": ["Dmitri Mendeleïev", "Antoine Lavoisier", "Marie Curie", "John Dalton"],
+      "choices": [
+        "Dmitri Mendeleïev",
+        "Antoine Lavoisier",
+        "Marie Curie",
+        "John Dalton"
+      ],
       "exp": "Le Russe Dmitri Mendeleïev classe les éléments par masse atomique croissante et propriétés, en laissant des cases vides pour des éléments encore inconnus dont il prédit les propriétés.",
       "anec": "Le gallium, découvert en 1875 par le Français Lecoq de Boisbaudran, correspondait à l'une de ses prédictions.",
-      "wiki": [["Tableau périodique des éléments", "Mendeleïev", "1869"]]
+      "wiki": [
+        [
+          "Tableau périodique des éléments",
+          "Mendeleïev",
+          "1869"
+        ]
+      ]
     },
     {
-      "id": "sci-adn", "sub": "biologie", "diff": 3, "themes": ["ADN", "génétique"],
+      "id": "sci-adn",
+      "sub": "biologie",
+      "diff": 3,
+      "themes": [
+        "ADN",
+        "génétique"
+      ],
       "q": "Qui publie en 1953 le modèle de la structure en double hélice de l'ADN ?",
-      "choices": ["James Watson et Francis Crick", "Gregor Mendel et Charles Darwin", "Louis Pasteur et Robert Koch", "Pierre et Marie Curie"],
+      "choices": [
+        "James Watson et Francis Crick",
+        "Gregor Mendel et Charles Darwin",
+        "Louis Pasteur et Robert Koch",
+        "Pierre et Marie Curie"
+      ],
       "exp": "Watson et Crick proposent en 1953 le modèle en double hélice, en s'appuyant notamment sur les clichés de diffraction aux rayons X obtenus par Rosalind Franklin.",
       "anec": "Le rôle décisif de Rosalind Franklin, morte en 1958, a longtemps été sous-estimé.",
-      "wiki": [["Acide désoxyribonucléique", "1953", "Franklin"]]
+      "wiki": [
+        [
+          "Acide désoxyribonucléique",
+          "1953",
+          "Franklin"
+        ]
+      ]
     },
     {
-      "id": "sci-hemoglobine", "sub": "biologie", "diff": 2, "themes": ["corps humain", "sang"],
+      "id": "sci-hemoglobine",
+      "sub": "biologie",
+      "diff": 2,
+      "themes": [
+        "corps humain",
+        "sang"
+      ],
       "q": "Quelle molécule des globules rouges transporte l'oxygène dans le sang ?",
-      "choices": ["L'hémoglobine", "L'insuline", "La kératine", "L'adrénaline"],
+      "choices": [
+        "L'hémoglobine",
+        "L'insuline",
+        "La kératine",
+        "L'adrénaline"
+      ],
       "exp": "L'hémoglobine, protéine contenant du fer, fixe l'oxygène dans les poumons et le libère dans les tissus. C'est elle qui donne sa couleur rouge au sang.",
-      "wiki": [["Hémoglobine", "oxygène", "fer"]]
+      "wiki": [
+        [
+          "Hémoglobine",
+          "oxygène",
+          "fer"
+        ]
+      ]
     },
     {
-      "id": "sci-os", "sub": "biologie", "diff": 2, "themes": ["corps humain", "squelette"],
+      "id": "sci-os",
+      "sub": "biologie",
+      "diff": 2,
+      "themes": [
+        "corps humain",
+        "squelette"
+      ],
       "q": "Combien d'os compte en général le squelette d'un adulte ?",
-      "choices": ["206", "106", "306", "250"],
+      "choices": [
+        "206",
+        "106",
+        "306",
+        "250"
+      ],
       "exp": "Un adulte compte généralement 206 os. Un nouveau-né en a davantage, car plusieurs os fusionnent pendant la croissance.",
       "anec": "Le plus petit os du corps est l'étrier, dans l'oreille moyenne.",
-      "wiki": [["Squelette humain", "206"]]
+      "wiki": [
+        [
+          "Squelette humain",
+          "206"
+        ]
+      ]
     },
     {
-      "id": "sci-pasteur-rage", "sub": "medecine", "diff": 2, "themes": ["vaccins", "Pasteur"],
+      "id": "sci-pasteur-rage",
+      "sub": "medecine",
+      "diff": 2,
+      "themes": [
+        "vaccins",
+        "Pasteur"
+      ],
       "q": "Contre quelle maladie Louis Pasteur administre-t-il un vaccin à un être humain pour la première fois, en 1885 ?",
-      "choices": ["La rage", "La variole", "La tuberculose", "Le choléra"],
+      "choices": [
+        "La rage",
+        "La variole",
+        "La tuberculose",
+        "Le choléra"
+      ],
       "exp": "En juillet 1885, Pasteur traite le jeune Joseph Meister, mordu par un chien enragé. Le succès conduit à la création de l'Institut Pasteur en 1887-1888.",
       "anec": "Le tout premier vaccin, contre la variole, avait été mis au point par l'Anglais Edward Jenner en 1796.",
-      "see": ["sci-fleming"],
-      "wiki": [["Louis Pasteur", "1885", "Meister"]]
+      "see": [
+        "sci-fleming"
+      ],
+      "wiki": [
+        [
+          "Louis Pasteur",
+          "1885",
+          "Meister"
+        ]
+      ]
     },
     {
-      "id": "sci-fleming", "sub": "medecine", "diff": 2, "themes": ["antibiotiques"],
+      "id": "sci-fleming",
+      "sub": "medecine",
+      "diff": 2,
+      "themes": [
+        "antibiotiques"
+      ],
       "q": "Qui découvre la pénicilline en 1928 ?",
-      "choices": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Edward Jenner"],
+      "choices": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Robert Koch",
+        "Edward Jenner"
+      ],
       "exp": "Le bactériologiste écossais Alexander Fleming remarque qu'une moisissure (Penicillium) empêche la croissance de bactéries dans une boîte de culture oubliée. La production à grande échelle viendra dans les années 1940.",
-      "see": ["sci-pasteur-rage"],
-      "wiki": [["Pénicilline", "Fleming", "1928"]]
+      "see": [
+        "sci-pasteur-rage"
+      ],
+      "wiki": [
+        [
+          "Pénicilline",
+          "Fleming",
+          "1928"
+        ]
+      ]
     },
     {
-      "id": "sci-mars", "sub": "astronomie", "diff": 1, "themes": ["système solaire"],
+      "id": "sci-mars",
+      "sub": "astronomie",
+      "diff": 1,
+      "themes": [
+        "système solaire"
+      ],
       "q": "Quelle planète est surnommée la « planète rouge » ?",
-      "choices": ["Mars", "Vénus", "Jupiter", "Mercure"],
+      "choices": [
+        "Mars",
+        "Vénus",
+        "Jupiter",
+        "Mercure"
+      ],
       "exp": "Mars doit sa couleur à l'oxyde de fer (la rouille) présent dans ses poussières et ses roches.",
       "anec": "Mars abrite l'Olympus Mons, l'un des plus hauts volcans connus du système solaire.",
-      "see": ["sci-planetes"],
-      "wiki": [["Mars (planète)", "planète rouge", "Olympus Mons"]]
+      "see": [
+        "sci-planetes"
+      ],
+      "wiki": [
+        [
+          "Mars (planète)",
+          "planète rouge",
+          "Olympus Mons"
+        ]
+      ]
     },
     {
-      "id": "sci-planetes", "fmt": "classement", "sub": "astronomie", "diff": 2, "themes": ["système solaire"],
+      "id": "sci-planetes",
+      "fmt": "classement",
+      "sub": "astronomie",
+      "diff": 2,
+      "themes": [
+        "système solaire"
+      ],
       "q": "Classe ces planètes selon leur distance au Soleil.",
       "orderLabel": "de la plus proche à la plus éloignée",
-      "items": ["Mercure", "Vénus", "Terre", "Mars", "Jupiter"],
+      "items": [
+        "Mercure",
+        "Vénus",
+        "Terre",
+        "Mars",
+        "Jupiter"
+      ],
       "exp": "L'ordre complet est : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune. Pluton n'est plus considérée comme une planète depuis 2006.",
-      "see": ["sci-mars"],
-      "wiki": [["Système solaire", "Mercure", "2006"]]
+      "see": [
+        "sci-mars"
+      ],
+      "wiki": [
+        [
+          "Système solaire",
+          "Mercure",
+          "2006"
+        ]
+      ]
     },
     {
-      "id": "sci-lune-distance", "sub": "astronomie", "diff": 3, "themes": ["Lune"],
+      "id": "sci-lune-distance",
+      "sub": "astronomie",
+      "diff": 3,
+      "themes": [
+        "Lune"
+      ],
       "q": "Quelle est la distance moyenne entre la Terre et la Lune ?",
-      "choices": ["Environ 384 000 km", "Environ 38 000 km", "Environ 1,5 million de km", "Environ 150 millions de km"],
+      "choices": [
+        "Environ 384 000 km",
+        "Environ 38 000 km",
+        "Environ 1,5 million de km",
+        "Environ 150 millions de km"
+      ],
       "exp": "La distance moyenne Terre-Lune est d'environ 384 400 km. 150 millions de km correspondent à la distance Terre-Soleil.",
       "anec": "La Lune s'éloigne de la Terre d'environ 3,8 cm par an.",
-      "see": ["tech-apollo"],
-      "wiki": [["Lune", "384 4"]]
+      "see": [
+        "tech-apollo"
+      ],
+      "wiki": [
+        [
+          "Lune",
+          "384 4"
+        ]
+      ]
     },
     {
-      "id": "sci-pi", "sub": "mathematiques", "diff": 2, "themes": ["nombres"],
+      "id": "sci-pi",
+      "sub": "mathematiques",
+      "diff": 2,
+      "themes": [
+        "nombres"
+      ],
       "q": "Quelles sont les premières décimales du nombre π ?",
-      "choices": ["3,14159…", "3,14285…", "3,16227…", "3,12345…"],
+      "choices": [
+        "3,14159…",
+        "3,14285…",
+        "3,16227…",
+        "3,12345…"
+      ],
       "exp": "π ≈ 3,14159. C'est le rapport entre la circonférence d'un cercle et son diamètre. 3,14285… correspond à 22/7, une approximation classique.",
       "anec": "π est un nombre irrationnel et transcendant : son développement décimal est infini et non périodique.",
-      "wiki": [["Pi", "3,14159"]]
+      "wiki": [
+        [
+          "Pi",
+          "3,14159"
+        ]
+      ]
     },
     {
-      "id": "sci-pythagore", "sub": "mathematiques", "diff": 1, "themes": ["géométrie"],
+      "id": "sci-pythagore",
+      "sub": "mathematiques",
+      "diff": 1,
+      "themes": [
+        "géométrie"
+      ],
       "q": "Dans un triangle rectangle, le carré de l'hypoténuse est égal à…",
-      "choices": ["la somme des carrés des deux autres côtés", "la somme des deux autres côtés", "le double du plus petit côté", "le produit des deux autres côtés"],
+      "choices": [
+        "la somme des carrés des deux autres côtés",
+        "la somme des deux autres côtés",
+        "le double du plus petit côté",
+        "le produit des deux autres côtés"
+      ],
       "exp": "C'est le théorème de Pythagore : a² + b² = c², où c est l'hypoténuse (le côté opposé à l'angle droit).",
       "anec": "La relation était connue bien avant Pythagore, notamment en Mésopotamie.",
-      "wiki": [["Théorème de Pythagore", "hypoténuse"]]
+      "wiki": [
+        [
+          "Théorème de Pythagore",
+          "hypoténuse"
+        ]
+      ]
+    },
+    {
+      "id": "sci-newton-gravitation",
+      "sub": "physique",
+      "diff": 1,
+      "q": "Quel savant a formulé la loi de la gravitation universelle en 1687 ?",
+      "exp": "Dans les Principia (1687), Newton montre que la même force fait tomber une pomme et tourner la Lune autour de la Terre.",
+      "wiki": [
+        [
+          "Isaac Newton",
+          "1687",
+          "gravitation"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Isaac Newton",
+        "Galilée",
+        "Albert Einstein",
+        "Johannes Kepler"
+      ],
+      "themes": [
+        "mécanique"
+      ]
+    },
+    {
+      "id": "sci-emc2",
+      "sub": "physique",
+      "diff": 1,
+      "q": "Que signifie le c dans la formule E = mc² ?",
+      "exp": "Établie par Einstein en 1905, la formule exprime l'équivalence entre masse et énergie.",
+      "wiki": [
+        [
+          "E=mc2",
+          "Einstein",
+          "lumière"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La vitesse de la lumière",
+        "La charge électrique",
+        "La chaleur",
+        "La constante de gravitation"
+      ],
+      "themes": [
+        "relativité"
+      ]
+    },
+    {
+      "id": "sci-unite-force",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Quelle est l'unité de force dans le Système international ?",
+      "exp": "Un newton est la force qui communique une accélération de 1 m/s² à une masse de 1 kg.",
+      "wiki": [
+        [
+          "Newton (unité)",
+          "force"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le newton",
+        "Le joule",
+        "Le watt",
+        "Le pascal"
+      ],
+      "themes": [
+        "unités"
+      ]
+    },
+    {
+      "id": "sci-unite-energie",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Quelle est l'unité d'énergie dans le Système international ?",
+      "exp": "Le joule porte le nom du physicien James Prescott Joule ; le watt mesure une puissance (joules par seconde).",
+      "wiki": [
+        [
+          "Joule",
+          "énergie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le joule",
+        "Le watt",
+        "Le volt",
+        "L'ampère"
+      ],
+      "themes": [
+        "unités"
+      ]
+    },
+    {
+      "id": "sci-unites-asso",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Associe chaque grandeur à son unité.",
+      "exp": "Ces unités honorent des savants : Georg Ohm, Blaise Pascal, Heinrich Hertz et Alessandro Volta.",
+      "wiki": [
+        [
+          "Ohm",
+          "résistance électrique"
+        ],
+        [
+          "Hertz (unité)",
+          "fréquence"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Résistance électrique",
+          "Ohm"
+        ],
+        [
+          "Pression",
+          "Pascal"
+        ],
+        [
+          "Fréquence",
+          "Hertz"
+        ],
+        [
+          "Tension électrique",
+          "Volt"
+        ]
+      ],
+      "themes": [
+        "unités"
+      ]
+    },
+    {
+      "id": "sci-son-vide",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Le son peut se propager dans le vide.",
+      "exp": "Faux. Le son est une onde mécanique qui a besoin d'un milieu (air, eau, solide) ; dans le vide de l'espace, il ne se propage pas.",
+      "wiki": [
+        [
+          "Son (physique)",
+          "vide"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "themes": [
+        "ondes"
+      ]
+    },
+    {
+      "id": "sci-vitesse-son",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Quelle est environ la vitesse du son dans l'air à 20 °C ?",
+      "exp": "Le son parcourt environ 343 m par seconde dans l'air ; c'est pourquoi on entend le tonnerre après avoir vu l'éclair.",
+      "wiki": [
+        [
+          "Vitesse du son",
+          "343"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "340 m/s",
+        "34 m/s",
+        "3 400 m/s",
+        "300 000 km/s"
+      ],
+      "themes": [
+        "ondes"
+      ]
+    },
+    {
+      "id": "sci-ebullition",
+      "sub": "physique",
+      "diff": 1,
+      "q": "À quelle température l'eau bout-elle au niveau de la mer ?",
+      "exp": "Sous une pression d'une atmosphère, l'eau bout à 100 °C ; en altitude, la pression plus faible la fait bouillir plus tôt.",
+      "wiki": [
+        [
+          "Eau",
+          "ébullition",
+          "100"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "100 °C",
+        "90 °C",
+        "120 °C",
+        "0 °C"
+      ],
+      "themes": [
+        "thermodynamique"
+      ]
+    },
+    {
+      "id": "sci-archimede",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Quel savant aurait crié « Eurêka ! » en découvrant la poussée qui porte son nom ?",
+      "exp": "Selon la légende, Archimède découvre dans son bain qu'un corps plongé dans un liquide reçoit une poussée égale au poids du liquide déplacé.",
+      "wiki": [
+        [
+          "Archimède",
+          "Eurêka"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Archimède",
+        "Pythagore",
+        "Euclide",
+        "Thalès"
+      ],
+      "themes": [
+        "mécanique"
+      ]
+    },
+    {
+      "id": "sci-galilee-tour",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Quel savant aurait étudié la chute des corps, selon la tradition, depuis la tour de Pise ?",
+      "exp": "L'expérience de la tour de Pise est probablement légendaire, mais Galilée a bien montré que tous les corps tombent avec la même accélération (hors frottement de l'air).",
+      "wiki": [
+        [
+          "Galilée (savant)",
+          "Pise",
+          "chute"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Galilée",
+        "Newton",
+        "Copernic",
+        "Descartes"
+      ],
+      "themes": [
+        "mécanique"
+      ]
+    },
+    {
+      "id": "sci-curie-radioactivite",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Quel élément Marie et Pierre Curie découvrent-ils en 1898, avec le radium ?",
+      "exp": "Marie Curie le nomme ainsi en hommage à la Pologne, son pays natal.",
+      "wiki": [
+        [
+          "Polonium",
+          "1898"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le polonium",
+        "L'uranium",
+        "Le plutonium",
+        "Le thorium"
+      ],
+      "themes": [
+        "radioactivité"
+      ]
+    },
+    {
+      "id": "sci-becquerel",
+      "sub": "physique",
+      "diff": 4,
+      "q": "Qui découvre la radioactivité en 1896, en étudiant les sels d'uranium ?",
+      "exp": "Becquerel partage le prix Nobel de physique de 1903 avec Pierre et Marie Curie.",
+      "wiki": [
+        [
+          "Henri Becquerel",
+          "1896",
+          "uranium"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Henri Becquerel",
+        "Marie Curie",
+        "Ernest Rutherford",
+        "Wilhelm Röntgen"
+      ],
+      "themes": [
+        "radioactivité"
+      ]
+    },
+    {
+      "id": "sci-rayons-x",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Qui découvre les rayons X en 1895 ?",
+      "exp": "La première radiographie montre la main de l'épouse de Röntgen ; il reçoit le premier prix Nobel de physique en 1901.",
+      "wiki": [
+        [
+          "Wilhelm Röntgen",
+          "1895",
+          "rayons X"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Wilhelm Röntgen",
+        "Henri Becquerel",
+        "Thomas Edison",
+        "Nikola Tesla"
+      ],
+      "themes": [
+        "physique"
+      ]
+    },
+    {
+      "id": "sci-atome",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Quelles particules composent le noyau d'un atome ?",
+      "exp": "Le noyau, minuscule et très dense, contient protons et neutrons ; les électrons se répartissent autour.",
+      "wiki": [
+        [
+          "Noyau atomique",
+          "protons",
+          "neutrons"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Des protons et des neutrons",
+        "Des électrons et des protons",
+        "Des électrons seulement",
+        "Des photons et des neutrons"
+      ],
+      "themes": [
+        "atome"
+      ]
+    },
+    {
+      "id": "sci-arc-en-ciel",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Quel phénomène explique les couleurs d'un arc-en-ciel ?",
+      "exp": "En traversant les gouttes, la lumière blanche est réfractée et décomposée selon les longueurs d'onde.",
+      "wiki": [
+        [
+          "Arc-en-ciel",
+          "dispersion"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La dispersion de la lumière dans les gouttes d'eau",
+        "La réflexion sur les nuages",
+        "La diffraction par la poussière",
+        "L'absorption par l'ozone"
+      ],
+      "themes": [
+        "optique"
+      ]
+    },
+    {
+      "id": "sci-ciel-bleu",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Pourquoi le ciel est-il bleu en journée ?",
+      "exp": "La diffusion de Rayleigh, plus forte pour les courtes longueurs d'onde, disperse le bleu dans toutes les directions.",
+      "wiki": [
+        [
+          "Diffusion Rayleigh",
+          "bleu"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'air diffuse davantage la lumière bleue",
+        "Il reflète la couleur des océans",
+        "L'ozone est bleu",
+        "Le Soleil émet surtout du bleu"
+      ],
+      "themes": [
+        "optique"
+      ]
+    },
+    {
+      "id": "sci-heisenberg",
+      "sub": "physique",
+      "diff": 5,
+      "q": "Quel physicien a formulé en 1927 le principe d'incertitude ?",
+      "exp": "On ne peut connaître à la fois avec une précision arbitraire la position et la quantité de mouvement d'une particule.",
+      "wiki": [
+        [
+          "Werner Heisenberg",
+          "1927",
+          "incertitude"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Werner Heisenberg",
+        "Niels Bohr",
+        "Erwin Schrödinger",
+        "Max Planck"
+      ],
+      "themes": [
+        "physique quantique"
+      ]
+    },
+    {
+      "id": "sci-lavoisier",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "À quel chimiste attribue-t-on la formule « Rien ne se perd, rien ne se crée, tout se transforme » ?",
+      "exp": "Lavoisier établit la conservation de la masse lors des réactions chimiques ; il est guillotiné en 1794.",
+      "wiki": [
+        [
+          "Antoine Lavoisier",
+          "Rien ne se perd"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Antoine Lavoisier",
+        "Louis Pasteur",
+        "Dmitri Mendeleïev",
+        "Joseph Proust"
+      ],
+      "themes": [
+        "histoire de la chimie"
+      ]
+    },
+    {
+      "id": "sci-symboles-asso",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Associe chaque élément à son symbole chimique.",
+      "exp": "Plusieurs symboles viennent du latin : ferrum, natrium, kalium, argentum.",
+      "wiki": [
+        [
+          "Sodium",
+          "Na"
+        ],
+        [
+          "Potassium",
+          "kalium"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Fer",
+          "Fe"
+        ],
+        [
+          "Sodium",
+          "Na"
+        ],
+        [
+          "Potassium",
+          "K"
+        ],
+        [
+          "Argent",
+          "Ag"
+        ]
+      ],
+      "themes": [
+        "éléments chimiques"
+      ],
+      "see": [
+        "sci-or"
+      ]
+    },
+    {
+      "id": "sci-element-abondant",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Quel est l'élément le plus abondant dans l'Univers ?",
+      "exp": "L'hydrogène représente environ les trois quarts de la masse de matière ordinaire de l'Univers.",
+      "wiki": [
+        [
+          "Hydrogène",
+          "Univers"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'hydrogène",
+        "L'hélium",
+        "L'oxygène",
+        "Le carbone"
+      ],
+      "themes": [
+        "éléments chimiques"
+      ]
+    },
+    {
+      "id": "sci-air-azote",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Quel gaz est le plus abondant dans l'air que nous respirons ?",
+      "exp": "L'air contient environ 78 % de diazote, 21 % de dioxygène et 1 % d'argon.",
+      "wiki": [
+        [
+          "Air",
+          "azote"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'azote",
+        "L'oxygène",
+        "Le dioxyde de carbone",
+        "L'argon"
+      ],
+      "themes": [
+        "atmosphère"
+      ]
+    },
+    {
+      "id": "sci-ph",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Quel est le pH d'une solution neutre comme l'eau pure à 25 °C ?",
+      "exp": "En dessous de 7, une solution est acide ; au-dessus, elle est basique.",
+      "wiki": [
+        [
+          "Potentiel hydrogène",
+          "neutre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "themes": [
+        "chimie"
+      ]
+    },
+    {
+      "id": "sci-diamant",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "De quel élément le diamant est-il composé ?",
+      "exp": "Diamant et graphite (mine de crayon) sont deux formes du même élément, le carbone, arrangé différemment.",
+      "wiki": [
+        [
+          "Diamant",
+          "carbone",
+          "graphite"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le carbone",
+        "Le silicium",
+        "Le quartz",
+        "Le bore"
+      ],
+      "themes": [
+        "minéraux"
+      ]
+    },
+    {
+      "id": "sci-co2-formule",
+      "sub": "chimie",
+      "diff": 1,
+      "q": "Quelle est la formule du dioxyde de carbone ?",
+      "exp": "Une molécule de dioxyde de carbone compte un atome de carbone et deux atomes d'oxygène.",
+      "wiki": [
+        [
+          "Dioxyde de carbone",
+          "CO2"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "saisie",
+      "accepted": [
+        "CO2",
+        "CO₂"
+      ],
+      "themes": [
+        "molécules"
+      ]
+    },
+    {
+      "id": "sci-sel",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Quel est le nom chimique du sel de cuisine ?",
+      "exp": "Le chlorure de sodium (NaCl) est extrait de la mer dans des marais salants ou de gisements de sel gemme.",
+      "wiki": [
+        [
+          "Chlorure de sodium",
+          "NaCl"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le chlorure de sodium",
+        "Le carbonate de calcium",
+        "Le bicarbonate de sodium",
+        "Le sulfate de magnésium"
+      ],
+      "themes": [
+        "chimie du quotidien"
+      ]
+    },
+    {
+      "id": "sci-mercure-liquide",
+      "sub": "chimie",
+      "diff": 3,
+      "q": "Quel métal est liquide à température ambiante ?",
+      "exp": "Le mercure fond à −39 °C ; il était utilisé dans les thermomètres avant d'être interdit pour sa toxicité.",
+      "wiki": [
+        [
+          "Mercure (chimie)",
+          "liquide"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le mercure",
+        "Le plomb",
+        "L'étain",
+        "L’aluminium"
+      ],
+      "themes": [
+        "éléments chimiques"
+      ]
+    },
+    {
+      "id": "sci-ozone",
+      "sub": "chimie",
+      "diff": 3,
+      "q": "Quelle molécule forme la couche qui nous protège des rayons ultraviolets ?",
+      "exp": "L'ozone (O₃) stratosphérique absorbe la majeure partie des UV ; le protocole de Montréal (1987) a interdit les gaz qui le détruisaient.",
+      "wiki": [
+        [
+          "Couche d'ozone",
+          "ultraviolets",
+          "Montréal"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'ozone",
+        "Le dioxyde de carbone",
+        "Le méthane",
+        "La vapeur d'eau"
+      ],
+      "themes": [
+        "atmosphère"
+      ]
+    },
+    {
+      "id": "sci-nobel",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Quel chimiste suédois, inventeur de la dynamite, a créé les prix qui portent son nom ?",
+      "exp": "Par son testament de 1895, Alfred Nobel lègue sa fortune à une fondation qui décerne les prix depuis 1901.",
+      "wiki": [
+        [
+          "Alfred Nobel",
+          "dynamite"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alfred Nobel",
+        "Anders Celsius",
+        "Svante Arrhenius",
+        "Carl von Linné"
+      ],
+      "themes": [
+        "histoire de la chimie"
+      ]
+    },
+    {
+      "id": "sci-darwin",
+      "sub": "biologie",
+      "diff": 1,
+      "q": "Quel naturaliste publie L'Origine des espèces en 1859 ?",
+      "exp": "Darwin y expose la théorie de l'évolution par la sélection naturelle, nourrie par son voyage à bord du Beagle.",
+      "wiki": [
+        [
+          "L'Origine des espèces",
+          "Darwin",
+          "1859"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Charles Darwin",
+        "Jean-Baptiste de Lamarck",
+        "Gregor Mendel",
+        "Alfred Russel Wallace"
+      ],
+      "themes": [
+        "évolution"
+      ]
+    },
+    {
+      "id": "sci-mendel",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Avec quelle plante Gregor Mendel a-t-il découvert les lois de l'hérédité ?",
+      "exp": "Moine dans l'actuelle République tchèque, Mendel croise des milliers de plants de pois dans les années 1860.",
+      "wiki": [
+        [
+          "Gregor Mendel",
+          "pois",
+          "hérédité"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le petit pois",
+        "Le blé",
+        "La tomate",
+        "Le maïs"
+      ],
+      "themes": [
+        "génétique"
+      ]
+    },
+    {
+      "id": "sci-cellule",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Quel organite contient l'ADN dans une cellule humaine ?",
+      "exp": "L'essentiel de l'ADN est dans le noyau ; une petite partie se trouve dans les mitochondries.",
+      "wiki": [
+        [
+          "Noyau (biologie)",
+          "ADN"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le noyau",
+        "La membrane",
+        "Le ribosome",
+        "La vacuole"
+      ],
+      "themes": [
+        "cellule"
+      ]
+    },
+    {
+      "id": "sci-mitochondrie",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Quel organite est surnommé la « centrale énergétique » de la cellule ?",
+      "exp": "Les mitochondries produisent l'essentiel de l'énergie de la cellule sous forme d'ATP, grâce à la respiration cellulaire.",
+      "wiki": [
+        [
+          "Mitochondrie",
+          "ATP"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La mitochondrie",
+        "Le noyau",
+        "Le chloroplaste",
+        "L'appareil de Golgi"
+      ],
+      "themes": [
+        "cellule"
+      ]
+    },
+    {
+      "id": "sci-photosynthese",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Quel gaz les plantes absorbent-elles pour réaliser la photosynthèse ?",
+      "exp": "Grâce à la lumière et à la chlorophylle, les plantes transforment le CO₂ et l'eau en sucres et rejettent de l'oxygène.",
+      "wiki": [
+        [
+          "Photosynthèse",
+          "dioxyde de carbone",
+          "chlorophylle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le dioxyde de carbone",
+        "L'oxygène",
+        "L'azote",
+        "L'hydrogène"
+      ],
+      "themes": [
+        "végétaux"
+      ]
+    },
+    {
+      "id": "sci-chromosomes",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Combien de chromosomes compte une cellule humaine habituelle ?",
+      "exp": "Soit 23 paires, dont une paire de chromosomes sexuels (XX ou XY).",
+      "wiki": [
+        [
+          "Chromosome",
+          "23 paires"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "46",
+        "23",
+        "44",
+        "48"
+      ],
+      "themes": [
+        "génétique"
+      ]
+    },
+    {
+      "id": "sci-baleine",
+      "sub": "biologie",
+      "diff": 1,
+      "q": "La baleine bleue est un poisson.",
+      "exp": "Faux. C'est un mammifère : elle respire de l'air et allaite ses petits. C'est le plus grand animal ayant jamais existé.",
+      "wiki": [
+        [
+          "Baleine bleue",
+          "mammifère"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "themes": [
+        "animaux"
+      ]
+    },
+    {
+      "id": "sci-dauphin",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Comment s'appelle la technique d'orientation par les sons utilisée par les chauves-souris et les dauphins ?",
+      "exp": "Ces animaux émettent des sons et analysent l'écho renvoyé par les obstacles et les proies.",
+      "wiki": [
+        [
+          "Écholocalisation",
+          "chauves-souris"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'écholocalisation",
+        "La bioluminescence",
+        "Le magnétisme",
+        "La photoréception"
+      ],
+      "themes": [
+        "animaux"
+      ]
+    },
+    {
+      "id": "sci-coeur",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Combien de cavités compte le cœur humain ?",
+      "exp": "Deux oreillettes et deux ventricules ; le cœur bat environ 100 000 fois par jour.",
+      "wiki": [
+        [
+          "Cœur humain",
+          "ventricules",
+          "oreillettes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "6"
+      ],
+      "themes": [
+        "corps humain"
+      ]
+    },
+    {
+      "id": "sci-plus-grand-organe",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Quel est le plus grand organe du corps humain ?",
+      "exp": "Chez un adulte, la peau couvre environ 2 m² ; le foie est le plus gros organe interne.",
+      "wiki": [
+        [
+          "Peau",
+          "organe"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La peau",
+        "Le foie",
+        "L'intestin",
+        "Le cerveau"
+      ],
+      "themes": [
+        "corps humain"
+      ]
+    },
+    {
+      "id": "sci-insuline",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Quel organe produit l'insuline ?",
+      "exp": "L'insuline, hormone qui régule le taux de sucre sanguin, est produite par les îlots de Langerhans du pancréas.",
+      "wiki": [
+        [
+          "Insuline",
+          "pancréas",
+          "Langerhans"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le pancréas",
+        "Le foie",
+        "La rate",
+        "Les reins"
+      ],
+      "themes": [
+        "corps humain"
+      ]
+    },
+    {
+      "id": "sci-groupes-sanguins",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Qui a découvert les groupes sanguins A, B et O en 1901 ?",
+      "exp": "Cette découverte rend les transfusions sanguines sûres ; Landsteiner reçoit le prix Nobel en 1930.",
+      "wiki": [
+        [
+          "Karl Landsteiner",
+          "1901",
+          "groupes sanguins"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Karl Landsteiner",
+        "Louis Pasteur",
+        "William Harvey",
+        "Robert Koch"
+      ],
+      "themes": [
+        "médecine"
+      ]
+    },
+    {
+      "id": "sci-dinosaures",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Il y a environ combien d'années les dinosaures non aviens ont-ils disparu ?",
+      "exp": "Leur disparition, à la fin du Crétacé, est liée à l'impact d'un astéroïde au Yucatán (cratère de Chicxulub).",
+      "wiki": [
+        [
+          "Extinction Crétacé-Paléogène",
+          "66 millions",
+          "Chicxulub"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "66 millions d'années",
+        "6 millions d'années",
+        "660 millions d'années",
+        "6 600 ans"
+      ],
+      "themes": [
+        "paléontologie"
+      ]
+    },
+    {
+      "id": "sci-oiseaux-dinos",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Les oiseaux sont des descendants des dinosaures.",
+      "exp": "Vrai. Les oiseaux descendent de dinosaures théropodes ; on les considère même comme des dinosaures vivants.",
+      "wiki": [
+        [
+          "Oiseau",
+          "dinosaures",
+          "théropodes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "themes": [
+        "évolution"
+      ]
+    },
+    {
+      "id": "sci-guepard",
+      "sub": "biologie",
+      "diff": 1,
+      "q": "Quel est l'animal terrestre le plus rapide ?",
+      "exp": "Le guépard peut dépasser 100 km/h sur de courtes distances.",
+      "wiki": [
+        [
+          "Guépard",
+          "rapide"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le guépard",
+        "Le lion",
+        "L'antilope",
+        "Le lévrier"
+      ],
+      "themes": [
+        "animaux"
+      ]
+    },
+    {
+      "id": "sci-hippocrate",
+      "sub": "medecine",
+      "diff": 2,
+      "q": "Quel médecin grec de l'Antiquité a donné son nom au serment prêté par les médecins ?",
+      "exp": "Considéré comme le père de la médecine, Hippocrate (Ve-IVe siècle av. J.-C.) sépare la médecine de la religion.",
+      "wiki": [
+        [
+          "Hippocrate",
+          "serment"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hippocrate",
+        "Galien",
+        "Asclépios",
+        "Aristote"
+      ],
+      "themes": [
+        "histoire de la médecine"
+      ]
+    },
+    {
+      "id": "sci-jenner",
+      "sub": "medecine",
+      "diff": 3,
+      "q": "Contre quelle maladie Edward Jenner met-il au point le premier vaccin en 1796 ?",
+      "exp": "Jenner inocule la « vaccine », maladie bénigne des vaches ; le mot vaccin en dérive. La variole est déclarée éradiquée en 1980.",
+      "wiki": [
+        [
+          "Edward Jenner",
+          "variole",
+          "1796"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La variole",
+        "La rage",
+        "La polio",
+        "La rougeole"
+      ],
+      "themes": [
+        "vaccins"
+      ],
+      "see": [
+        "sci-pasteur-rage"
+      ]
+    },
+    {
+      "id": "sci-harvey",
+      "sub": "medecine",
+      "diff": 4,
+      "q": "Qui décrit en 1628 la circulation sanguine ?",
+      "exp": "L'Anglais William Harvey montre que le sang circule en circuit fermé, propulsé par le cœur.",
+      "wiki": [
+        [
+          "William Harvey",
+          "1628",
+          "circulation"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "William Harvey",
+        "André Vésale",
+        "Claude Bernard",
+        "Ambroise Paré"
+      ],
+      "themes": [
+        "histoire de la médecine"
+      ]
+    },
+    {
+      "id": "sci-koch",
+      "sub": "medecine",
+      "diff": 3,
+      "q": "Quelle bactérie Robert Koch identifie-t-il en 1882 ?",
+      "exp": "Le « bacille de Koch » ; Koch reçoit le prix Nobel en 1905. Le 24 mars est la Journée mondiale de la tuberculose.",
+      "wiki": [
+        [
+          "Robert Koch",
+          "tuberculose",
+          "1882"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le bacille de la tuberculose",
+        "Le vibrion du choléra",
+        "Le bacille de la peste",
+        "Le streptocoque"
+      ],
+      "themes": [
+        "microbiologie"
+      ]
+    },
+    {
+      "id": "sci-greffe-coeur",
+      "sub": "medecine",
+      "diff": 4,
+      "q": "Qui réalise la première greffe du cœur humain en 1967, en Afrique du Sud ?",
+      "exp": "L'opération a lieu au Cap le 3 décembre 1967 ; le patient survit 18 jours.",
+      "wiki": [
+        [
+          "Christiaan Barnard",
+          "1967"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Christiaan Barnard",
+        "Michael DeBakey",
+        "Alain Carpentier",
+        "Norman Shumway"
+      ],
+      "themes": [
+        "chirurgie"
+      ]
+    },
+    {
+      "id": "sci-antibiotiques-virus",
+      "sub": "medecine",
+      "diff": 2,
+      "q": "Les antibiotiques sont efficaces contre les virus.",
+      "exp": "Faux. Ils agissent sur les bactéries ; contre un virus (grippe, rhume), ils sont inutiles et favorisent les résistances.",
+      "wiki": [
+        [
+          "Antibiotique",
+          "virus",
+          "bactéries"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "themes": [
+        "médecine",
+        "idées reçues"
+      ]
+    },
+    {
+      "id": "sci-oms",
+      "sub": "medecine",
+      "diff": 2,
+      "q": "Dans quelle ville se trouve le siège de l'Organisation mondiale de la santé ?",
+      "exp": "L'OMS, agence de l'ONU créée en 1948, siège à Genève.",
+      "wiki": [
+        [
+          "Organisation mondiale de la santé",
+          "Genève",
+          "1948"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Genève",
+        "New York",
+        "Paris",
+        "Vienne"
+      ],
+      "themes": [
+        "santé"
+      ]
+    },
+    {
+      "id": "sci-copernic",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Quel astronome propose au XVIe siècle que la Terre tourne autour du Soleil ?",
+      "exp": "Son ouvrage De revolutionibus paraît en 1543, l'année de sa mort : c'est le modèle héliocentrique.",
+      "wiki": [
+        [
+          "Nicolas Copernic",
+          "1543",
+          "héliocentrique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nicolas Copernic",
+        "Ptolémée",
+        "Tycho Brahe",
+        "Johannes Kepler"
+      ],
+      "themes": [
+        "histoire de l'astronomie"
+      ]
+    },
+    {
+      "id": "sci-galilee-jupiter",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "Que découvre Galilée en 1610 grâce à sa lunette ?",
+      "exp": "Io, Europe, Ganymède et Callisto, appelés satellites galiléens, montrent que tout ne tourne pas autour de la Terre.",
+      "wiki": [
+        [
+          "Satellite galiléen",
+          "1610",
+          "Ganymède"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Quatre satellites de Jupiter",
+        "Les anneaux de Saturne",
+        "La planète Uranus",
+        "Les taches de Mars"
+      ],
+      "themes": [
+        "histoire de l'astronomie"
+      ]
+    },
+    {
+      "id": "sci-plus-grande-planete",
+      "sub": "astronomie",
+      "diff": 1,
+      "q": "Quelle est la plus grande planète du Système solaire ?",
+      "exp": "Jupiter est une géante gazeuse plus de 300 fois plus massive que la Terre ; sa Grande Tache rouge est une tempête géante.",
+      "wiki": [
+        [
+          "Jupiter (planète)",
+          "Grande Tache rouge"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jupiter",
+        "Saturne",
+        "Neptune",
+        "Uranus"
+      ],
+      "themes": [
+        "système solaire"
+      ]
+    },
+    {
+      "id": "sci-venus-chaude",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "Quelle est la planète la plus chaude du Système solaire ?",
+      "exp": "Bien que plus éloignée du Soleil que Mercure, Vénus dépasse 460 °C à cause d'un effet de serre extrême.",
+      "wiki": [
+        [
+          "Vénus (planète)",
+          "effet de serre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Vénus",
+        "Mercure",
+        "Mars",
+        "Jupiter"
+      ],
+      "themes": [
+        "système solaire"
+      ]
+    },
+    {
+      "id": "sci-saturne-anneaux",
+      "sub": "astronomie",
+      "diff": 1,
+      "q": "Quelle planète est célèbre pour ses grands anneaux ?",
+      "exp": "Toutes les géantes gazeuses ont des anneaux, mais ceux de Saturne, faits de glace et de roche, sont de loin les plus spectaculaires.",
+      "wiki": [
+        [
+          "Saturne (planète)",
+          "anneaux"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Saturne",
+        "Jupiter",
+        "Mars",
+        "Neptune"
+      ],
+      "themes": [
+        "système solaire"
+      ]
+    },
+    {
+      "id": "sci-pluton",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "En quelle année Pluton a-t-elle été reclassée en planète naine ?",
+      "exp": "L'Union astronomique internationale adopte en 2006 une nouvelle définition de planète ; Pluton avait été découverte en 1930.",
+      "wiki": [
+        [
+          "Pluton (planète naine)",
+          "2006",
+          "1930"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2006",
+        "1930",
+        "1999",
+        "2015"
+      ],
+      "themes": [
+        "système solaire"
+      ],
+      "see": [
+        "sci-planetes"
+      ]
+    },
+    {
+      "id": "sci-annee-lumiere",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Qu'est-ce qu'une année-lumière ?",
+      "exp": "C'est la distance parcourue par la lumière en un an dans le vide, environ 9 460 milliards de kilomètres.",
+      "wiki": [
+        [
+          "Année-lumière",
+          "distance"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une distance",
+        "Une durée",
+        "Une vitesse",
+        "Une luminosité"
+      ],
+      "themes": [
+        "astronomie"
+      ]
+    },
+    {
+      "id": "sci-soleil-age",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "Quel est l'âge approximatif du Soleil ?",
+      "exp": "Le Soleil s'est formé il y a environ 4,6 milliards d'années ; 13,8 milliards d'années est l'âge estimé de l'Univers.",
+      "wiki": [
+        [
+          "Soleil",
+          "4,57 milliards",
+          "milliards d'années"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "4,6 milliards d'années",
+        "460 millions d'années",
+        "13,8 milliards d'années",
+        "46 milliards d'années"
+      ],
+      "themes": [
+        "astronomie"
+      ]
+    },
+    {
+      "id": "sci-voie-lactee",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Comment s'appelle notre galaxie ?",
+      "exp": "Notre galaxie spirale compte des centaines de milliards d'étoiles ; Andromède est la grande galaxie voisine.",
+      "wiki": [
+        [
+          "Voie lactée",
+          "galaxie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Voie lactée",
+        "Andromède",
+        "Le Grand Nuage de Magellan",
+        "Le Triangle"
+      ],
+      "themes": [
+        "astronomie"
+      ]
+    },
+    {
+      "id": "sci-etoile-proche",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "Quelle est l'étoile la plus proche du Soleil ?",
+      "exp": "Proxima du Centaure se trouve à environ 4,2 années-lumière ; Sirius est l'étoile la plus brillante du ciel nocturne.",
+      "wiki": [
+        [
+          "Proxima Centauri",
+          "4,2"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Proxima du Centaure",
+        "Sirius",
+        "Véga",
+        "L'étoile Polaire"
+      ],
+      "themes": [
+        "astronomie"
+      ]
+    },
+    {
+      "id": "sci-big-bang",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "Quel prêtre et physicien belge a proposé le premier, en 1927, l'idée d'un Univers en expansion né d'un « atome primitif » ?",
+      "exp": "L'expression « Big Bang » a été inventée ensuite, avec ironie, par Fred Hoyle.",
+      "wiki": [
+        [
+          "Georges Lemaître",
+          "1927",
+          "atome primitif"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Georges Lemaître",
+        "Edwin Hubble",
+        "Albert Einstein",
+        "Fred Hoyle"
+      ],
+      "themes": [
+        "cosmologie"
+      ]
+    },
+    {
+      "id": "sci-maree",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Quel astre est principalement responsable des marées sur Terre ?",
+      "exp": "L'attraction de la Lune déforme les océans ; le Soleil intervient aussi, ce qui explique les marées de vives-eaux.",
+      "wiki": [
+        [
+          "Marée",
+          "Lune"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Lune",
+        "Le Soleil",
+        "Mars",
+        "Jupiter"
+      ],
+      "themes": [
+        "astronomie",
+        "Terre"
+      ]
+    },
+    {
+      "id": "sci-eclipse-solaire",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Lors d'une éclipse de Soleil, quel astre passe entre la Terre et le Soleil ?",
+      "exp": "L'alignement Soleil-Lune-Terre projette l'ombre de la Lune sur une étroite bande de la Terre.",
+      "wiki": [
+        [
+          "Éclipse solaire",
+          "Lune"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Lune",
+        "Vénus",
+        "Mercure",
+        "Mars"
+      ],
+      "themes": [
+        "astronomie"
+      ]
+    },
+    {
+      "id": "sci-iss",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "À quelle altitude orbite environ la Station spatiale internationale ?",
+      "exp": "L'ISS fait le tour de la Terre en environ 90 minutes, soit seize fois par jour.",
+      "wiki": [
+        [
+          "Station spatiale internationale",
+          "400"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "400 km",
+        "4 000 km",
+        "36 000 km",
+        "40 km"
+      ],
+      "themes": [
+        "espace"
+      ]
+    },
+    {
+      "id": "sci-zero",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Quelle civilisation a développé le zéro en tant que nombre et la numération décimale positionnelle que nous utilisons ?",
+      "exp": "Les chiffres dits « arabes » viennent d'Inde et ont été transmis à l'Europe par le monde arabo-musulman.",
+      "wiki": [
+        [
+          "Zéro",
+          "Inde"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Inde",
+        "La Grèce antique",
+        "Rome",
+        "L'Égypte ancienne"
+      ],
+      "themes": [
+        "histoire des mathématiques"
+      ]
+    },
+    {
+      "id": "sci-nombre-premier",
+      "sub": "mathematiques",
+      "diff": 1,
+      "q": "Lequel de ces nombres est premier ?",
+      "exp": "Un nombre premier n'a que deux diviseurs, 1 et lui-même : 21 = 3 × 7, 27 = 3 × 9, 51 = 3 × 17.",
+      "wiki": [
+        [
+          "Nombre premier",
+          "diviseurs"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "17",
+        "21",
+        "27",
+        "51"
+      ],
+      "themes": [
+        "arithmétique"
+      ]
+    },
+    {
+      "id": "sci-angles-triangle",
+      "sub": "mathematiques",
+      "diff": 1,
+      "q": "Quelle est la somme des angles d'un triangle (en géométrie plane) ?",
+      "exp": "Dans le plan euclidien, les trois angles d'un triangle totalisent toujours 180°.",
+      "wiki": [
+        [
+          "Triangle",
+          "180"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "180°",
+        "90°",
+        "360°",
+        "270°"
+      ],
+      "themes": [
+        "géométrie"
+      ]
+    },
+    {
+      "id": "sci-thales",
+      "sub": "mathematiques",
+      "diff": 2,
+      "q": "Quel savant grec aurait mesuré la hauteur d'une pyramide grâce à son ombre ?",
+      "exp": "Le théorème de Thalès sur les droites parallèles porte son nom ; l'anecdote de la pyramide est rapportée par la tradition.",
+      "wiki": [
+        [
+          "Thalès",
+          "pyramide",
+          "ombre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Thalès",
+        "Pythagore",
+        "Euclide",
+        "Archimède"
+      ],
+      "themes": [
+        "géométrie"
+      ]
+    },
+    {
+      "id": "sci-euclide",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Quel mathématicien grec est l'auteur des Éléments, traité de géométrie qui a servi de référence pendant plus de deux mille ans ?",
+      "exp": "Les Éléments d'Euclide (vers 300 av. J.-C.) sont l'un des ouvrages les plus édités de l'histoire.",
+      "wiki": [
+        [
+          "Éléments d'Euclide",
+          "Euclide"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Euclide",
+        "Archimède",
+        "Pythagore",
+        "Ératosthène"
+      ],
+      "themes": [
+        "histoire des mathématiques"
+      ]
+    },
+    {
+      "id": "sci-eratosthene",
+      "sub": "mathematiques",
+      "diff": 4,
+      "q": "Qui a estimé la circonférence de la Terre au IIIe siècle av. J.-C., avec une précision remarquable ?",
+      "exp": "En comparant les ombres à Syène et à Alexandrie, Ératosthène obtient une valeur proche des 40 000 km réels.",
+      "wiki": [
+        [
+          "Ératosthène",
+          "circonférence"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ératosthène",
+        "Ptolémée",
+        "Aristarque",
+        "Hipparque"
+      ],
+      "themes": [
+        "histoire des sciences"
+      ]
+    },
+    {
+      "id": "sci-fibonacci",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Quelle suite commence par 0, 1, 1, 2, 3, 5, 8, 13… ?",
+      "exp": "Chaque terme est la somme des deux précédents ; le rapport de deux termes successifs tend vers le nombre d'or.",
+      "wiki": [
+        [
+          "Suite de Fibonacci",
+          "nombre d'or"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La suite de Fibonacci",
+        "La suite de Syracuse",
+        "La suite arithmétique",
+        "La suite de Pascal"
+      ],
+      "themes": [
+        "suites"
+      ]
+    },
+    {
+      "id": "sci-nombre-or",
+      "sub": "mathematiques",
+      "diff": 4,
+      "q": "Quelle est la valeur approchée du nombre d'or ?",
+      "exp": "Le nombre d'or vaut (1 + √5)/2 ≈ 1,618 ; 2,718 est le nombre e et 1,414 la racine carrée de 2.",
+      "wiki": [
+        [
+          "Nombre d'or",
+          "1,618"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1,618",
+        "3,14",
+        "2,718",
+        "1,414"
+      ],
+      "themes": [
+        "nombres"
+      ]
+    },
+    {
+      "id": "sci-fermat",
+      "sub": "mathematiques",
+      "diff": 4,
+      "q": "Qui démontre en 1994 le grand théorème de Fermat, resté sans preuve pendant plus de 350 ans ?",
+      "exp": "Fermat avait affirmé en marge d'un livre avoir une « démonstration merveilleuse » que la marge était trop étroite pour contenir.",
+      "wiki": [
+        [
+          "Dernier théorème de Fermat",
+          "Wiles",
+          "1994"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Andrew Wiles",
+        "Grigori Perelman",
+        "Alexandre Grothendieck",
+        "Terence Tao"
+      ],
+      "themes": [
+        "histoire des mathématiques"
+      ]
+    },
+    {
+      "id": "sci-romains-chiffres",
+      "sub": "mathematiques",
+      "diff": 2,
+      "q": "Que vaut le nombre romain MCMXCIX ?",
+      "exp": "M = 1000, CM = 900, XC = 90, IX = 9 : 1000 + 900 + 90 + 9 = 1999.",
+      "wiki": [
+        [
+          "Numération romaine",
+          "M",
+          "C"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1999",
+        "1499",
+        "2001",
+        "1909"
+      ],
+      "themes": [
+        "nombres"
+      ]
+    },
+    {
+      "id": "sci-medaille-fields",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Quelle récompense est souvent considérée comme le « Nobel des mathématiques » ?",
+      "exp": "Décernée tous les quatre ans à des mathématiciens de moins de 40 ans ; la France compte de nombreux lauréats.",
+      "wiki": [
+        [
+          "Médaille Fields",
+          "40 ans"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La médaille Fields",
+        "Le prix Turing",
+        "Le prix Wolf",
+        "La médaille Copley"
+      ],
+      "themes": [
+        "mathématiques"
+      ]
+    },
+    {
+      "id": "sci-hypatie",
+      "sub": "mathematiques",
+      "diff": 4,
+      "q": "Quelle mathématicienne et philosophe d'Alexandrie fut assassinée en 415 ?",
+      "exp": "Hypatie enseignait les mathématiques et l'astronomie ; elle est tuée par une foule de chrétiens.",
+      "wiki": [
+        [
+          "Hypatie",
+          "415",
+          "Alexandrie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hypatie",
+        "Sophie Germain",
+        "Émilie du Châtelet",
+        "Ada Lovelace"
+      ],
+      "themes": [
+        "histoire des mathématiques"
+      ]
+    },
+    {
+      "id": "sci-savants-asso",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Associe chaque savant à son domaine principal.",
+      "exp": "Ces quatre savants ont transformé leur discipline entre le XIXe et le XXe siècle.",
+      "wiki": [
+        [
+          "Edwin Hubble",
+          "expansion"
+        ],
+        [
+          "Louis Pasteur",
+          "microbiologie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Charles Darwin",
+          "Évolution des espèces"
+        ],
+        [
+          "Dmitri Mendeleïev",
+          "Classification des éléments"
+        ],
+        [
+          "Edwin Hubble",
+          "Expansion de l'Univers"
+        ],
+        [
+          "Louis Pasteur",
+          "Microbiologie"
+        ]
+      ],
+      "themes": [
+        "histoire des sciences"
+      ]
+    },
+    {
+      "id": "sci-celsius",
+      "sub": "physique",
+      "diff": 2,
+      "q": "Quel savant suédois a donné son nom à l'échelle de température utilisée en France ?",
+      "exp": "Dans son échelle d'origine (1742), Celsius plaçait 0 à l'ébullition et 100 à la congélation ; elle a été inversée peu après.",
+      "wiki": [
+        [
+          "Degré Celsius",
+          "1742",
+          "Celsius",
+          "ébullition"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Anders Celsius",
+        "Daniel Gabriel Fahrenheit",
+        "Lord Kelvin",
+        "Carl von Linné"
+      ],
+      "themes": [
+        "température"
+      ]
+    },
+    {
+      "id": "sci-kelvin",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Quelle unité de température du Système international commence au zéro absolu ?",
+      "exp": "0 K correspond à −273,15 °C ; un écart de 1 K équivaut à un écart de 1 °C.",
+      "wiki": [
+        [
+          "Kelvin",
+          "zéro absolu"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le kelvin",
+        "Le degré Celsius",
+        "Le degré Fahrenheit",
+        "Le joule"
+      ],
+      "themes": [
+        "unités"
+      ],
+      "see": [
+        "sci-zero-absolu"
+      ]
+    },
+    {
+      "id": "sci-pendule-foucault",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Que démontre le pendule installé par Léon Foucault au Panthéon en 1851 ?",
+      "exp": "Le plan d'oscillation du pendule tourne lentement au cours de la journée, ce qui prouve que la Terre tourne sur elle-même.",
+      "wiki": [
+        [
+          "Pendule de Foucault",
+          "Panthéon",
+          "1851"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La rotation de la Terre",
+        "L'existence de la gravitation",
+        "La vitesse de la lumière",
+        "La forme de la Terre"
+      ],
+      "themes": [
+        "mécanique"
+      ]
+    },
+    {
+      "id": "sci-ampere",
+      "sub": "physique",
+      "diff": 4,
+      "q": "Quel physicien français a donné son nom à l'unité d'intensité du courant électrique ?",
+      "exp": "Ampère fonde l'électrodynamique dans les années 1820 ; son nom figure parmi les 72 savants inscrits sur la tour Eiffel.",
+      "wiki": [
+        [
+          "André-Marie Ampère",
+          "électrodynamique",
+          "tour Eiffel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "André-Marie Ampère",
+        "Charles-Augustin Coulomb",
+        "Sadi Carnot",
+        "Augustin Fresnel"
+      ],
+      "themes": [
+        "électricité"
+      ]
+    },
+    {
+      "id": "sci-supraconducteur",
+      "sub": "physique",
+      "diff": 5,
+      "q": "Quelle propriété présente un matériau supraconducteur en dessous d'une certaine température ?",
+      "exp": "Découverte en 1911 par Heike Kamerlingh Onnes, la supraconductivité permet par exemple les aimants des IRM.",
+      "wiki": [
+        [
+          "Supraconductivité",
+          "1911",
+          "Kamerlingh Onnes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une résistance électrique nulle",
+        "Une transparence totale",
+        "Une masse nulle",
+        "Un magnétisme permanent"
+      ],
+      "themes": [
+        "électricité"
+      ]
+    },
+    {
+      "id": "sci-fusion-soleil",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Quelle réaction produit l'énergie du Soleil ?",
+      "exp": "Au cœur du Soleil, à environ 15 millions de degrés, l'hydrogène fusionne en hélium en libérant de l'énergie.",
+      "wiki": [
+        [
+          "Fusion nucléaire",
+          "Soleil",
+          "hélium"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La fusion de noyaux d'hydrogène en hélium",
+        "La fission de l'uranium",
+        "La combustion du charbon",
+        "La désintégration du carbone"
+      ],
+      "themes": [
+        "énergie"
+      ]
+    },
+    {
+      "id": "sci-fission",
+      "sub": "physique",
+      "diff": 4,
+      "q": "Quel élément est le combustible le plus utilisé dans les centrales nucléaires ?",
+      "exp": "Les centrales exploitent la fission de l'uranium 235 ; la France tire environ les deux tiers de son électricité du nucléaire.",
+      "wiki": [
+        [
+          "Énergie nucléaire",
+          "fission"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'uranium",
+        "Le plutonium uniquement",
+        "Le thorium",
+        "Le radium"
+      ],
+      "themes": [
+        "énergie"
+      ]
+    },
+    {
+      "id": "sci-prisme-newton",
+      "sub": "physique",
+      "diff": 3,
+      "q": "Quel savant a montré avec un prisme que la lumière blanche est composée de toutes les couleurs ?",
+      "exp": "Newton décompose la lumière vers 1666 et la recompose avec un second prisme.",
+      "wiki": [
+        [
+          "Isaac Newton",
+          "prisme",
+          "couleurs"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Isaac Newton",
+        "Galilée",
+        "René Descartes",
+        "Christian Huygens"
+      ],
+      "themes": [
+        "optique"
+      ]
+    },
+    {
+      "id": "sci-tableau-colonnes",
+      "sub": "chimie",
+      "diff": 4,
+      "q": "Comment appelle-t-on les éléments de la dernière colonne du tableau périodique, comme le néon ou l'argon ?",
+      "exp": "Très peu réactifs, les gaz nobles sont utilisés dans les enseignes lumineuses et les ampoules.",
+      "wiki": [
+        [
+          "Gaz noble",
+          "néon",
+          "argon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les gaz nobles",
+        "Les métaux alcalins",
+        "Les halogènes",
+        "Les terres rares"
+      ],
+      "themes": [
+        "éléments chimiques"
+      ]
+    },
+    {
+      "id": "sci-atomes-numero",
+      "sub": "chimie",
+      "diff": 3,
+      "q": "Que représente le numéro atomique d'un élément ?",
+      "exp": "Il définit l'élément : l'hydrogène a 1 proton, le carbone 6, l'oxygène 8.",
+      "wiki": [
+        [
+          "Numéro atomique",
+          "protons"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le nombre de protons du noyau",
+        "Le nombre de neutrons",
+        "La masse de l'atome",
+        "Le nombre de molécules"
+      ],
+      "themes": [
+        "atome"
+      ]
+    },
+    {
+      "id": "sci-rouille",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Quelle réaction chimique forme la rouille sur le fer ?",
+      "exp": "Le fer réagit avec le dioxygène et l'eau pour former des oxydes de fer hydratés.",
+      "wiki": [
+        [
+          "Rouille",
+          "oxydation",
+          "fer"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une oxydation",
+        "Une combustion vive",
+        "Une fusion",
+        "Une évaporation"
+      ],
+      "themes": [
+        "chimie du quotidien"
+      ]
+    },
+    {
+      "id": "sci-bicarbonate",
+      "sub": "chimie",
+      "diff": 3,
+      "q": "Quel gaz est libéré quand on mélange du bicarbonate de soude et du vinaigre ?",
+      "exp": "La réaction acide-base produit des bulles de CO₂ : c'est le principe des volcans des expériences scolaires.",
+      "wiki": [
+        [
+          "Bicarbonate de sodium",
+          "vinaigre",
+          "dioxyde de carbone"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le dioxyde de carbone",
+        "L'oxygène",
+        "L'hydrogène",
+        "Le chlore"
+      ],
+      "themes": [
+        "chimie du quotidien"
+      ]
+    },
+    {
+      "id": "sci-marie-curie-nobel",
+      "sub": "chimie",
+      "diff": 2,
+      "q": "Marie Curie est la seule personne à avoir reçu deux prix Nobel dans deux disciplines scientifiques différentes.",
+      "exp": "Vrai. Elle reçoit le Nobel de physique en 1903 et celui de chimie en 1911 ; Linus Pauling en a reçu deux, mais en chimie et pour la paix.",
+      "wiki": [
+        [
+          "Marie Curie",
+          "1903",
+          "1911"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "themes": [
+        "histoire des sciences"
+      ]
+    },
+    {
+      "id": "sci-plastique",
+      "sub": "chimie",
+      "diff": 3,
+      "q": "De quelle matière première sont principalement issus la plupart des plastiques ?",
+      "exp": "Les plastiques sont des polymères synthétiques fabriqués surtout à partir de dérivés du pétrole et du gaz naturel.",
+      "wiki": [
+        [
+          "Matière plastique",
+          "pétrole",
+          "polymères"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le pétrole",
+        "Le sable",
+        "Le bois",
+        "Le calcaire"
+      ],
+      "themes": [
+        "matériaux"
+      ]
+    },
+    {
+      "id": "sci-adn-lettres",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Combien de bases différentes composent l'alphabet de l'ADN ?",
+      "exp": "Adénine, thymine, guanine et cytosine (A, T, G, C) ; leur ordre constitue l'information génétique.",
+      "wiki": [
+        [
+          "Acide désoxyribonucléique",
+          "adénine",
+          "cytosine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "4",
+        "2",
+        "20",
+        "64"
+      ],
+      "themes": [
+        "génétique"
+      ],
+      "see": [
+        "sci-adn"
+      ]
+    },
+    {
+      "id": "sci-genome-humain",
+      "sub": "biologie",
+      "diff": 4,
+      "q": "En quelle année le séquençage du génome humain est-il annoncé comme achevé pour l'essentiel ?",
+      "exp": "Le projet Génome humain, lancé en 1990, publie une séquence quasi complète en 2003.",
+      "wiki": [
+        [
+          "Projet Génome humain",
+          "2003"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2003",
+        "1990",
+        "1995",
+        "2015"
+      ],
+      "themes": [
+        "génétique"
+      ]
+    },
+    {
+      "id": "sci-dolly",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Quel animal est le premier mammifère cloné à partir d'une cellule adulte, en 1996 ?",
+      "exp": "Née en Écosse, Dolly vit jusqu'en 2003.",
+      "wiki": [
+        [
+          "Dolly (brebis)",
+          "1996",
+          "Écosse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La brebis Dolly",
+        "La souris Mickey",
+        "La vache Marguerite",
+        "Le chat CC"
+      ],
+      "themes": [
+        "biotechnologies"
+      ]
+    },
+    {
+      "id": "sci-crispr",
+      "sub": "biologie",
+      "diff": 4,
+      "q": "Quelles chercheuses reçoivent le prix Nobel de chimie 2020 pour l'outil d'édition génétique CRISPR-Cas9 ?",
+      "exp": "Ces « ciseaux moléculaires » permettent de modifier l'ADN avec une grande précision.",
+      "wiki": [
+        [
+          "CRISPR",
+          "Charpentier",
+          "Doudna",
+          "2020"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Emmanuelle Charpentier et Jennifer Doudna",
+        "Marie Curie et Irène Joliot-Curie",
+        "Rosalind Franklin et Barbara McClintock",
+        "Françoise Barré-Sinoussi et Luc Montagnier"
+      ],
+      "themes": [
+        "biotechnologies"
+      ]
+    },
+    {
+      "id": "sci-vih",
+      "sub": "biologie",
+      "diff": 4,
+      "q": "Quels chercheurs français reçoivent le prix Nobel de médecine 2008 pour la découverte du VIH ?",
+      "exp": "Le virus est identifié en 1983 à l'Institut Pasteur.",
+      "wiki": [
+        [
+          "Virus de l'immunodéficience humaine",
+          "1983",
+          "Pasteur"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Françoise Barré-Sinoussi et Luc Montagnier",
+        "Jacques Monod et François Jacob",
+        "Jean Dausset et Jean-Pierre Changeux",
+        "Pierre et Marie Curie"
+      ],
+      "themes": [
+        "médecine"
+      ]
+    },
+    {
+      "id": "sci-neurones",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Environ combien de neurones compte le cerveau humain ?",
+      "exp": "Les estimations récentes évaluent le nombre de neurones à environ 86 milliards, reliés par des milliers de milliards de synapses.",
+      "wiki": [
+        [
+          "Cerveau humain",
+          "86 milliards",
+          "milliards de neurones"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "86 milliards",
+        "86 millions",
+        "8,6 milliards",
+        "860 milliards"
+      ],
+      "themes": [
+        "corps humain"
+      ]
+    },
+    {
+      "id": "sci-vitamine-c",
+      "sub": "biologie",
+      "diff": 2,
+      "q": "Quelle maladie des marins est causée par une carence en vitamine C ?",
+      "exp": "Les agrumes embarqués sur les navires britanniques ont valu aux marins le surnom de « limeys ».",
+      "wiki": [
+        [
+          "Scorbut",
+          "vitamine C"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le scorbut",
+        "Le béribéri",
+        "Le rachitisme",
+        "La pellagre"
+      ],
+      "themes": [
+        "santé"
+      ]
+    },
+    {
+      "id": "sci-rachitisme",
+      "sub": "biologie",
+      "diff": 4,
+      "q": "Quelle carence provoque le rachitisme chez l'enfant ?",
+      "exp": "La vitamine D, produite par la peau au soleil, est indispensable à la fixation du calcium dans les os.",
+      "wiki": [
+        [
+          "Rachitisme",
+          "vitamine D",
+          "calcium"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une carence en vitamine D",
+        "Une carence en vitamine C",
+        "Une carence en fer",
+        "Une carence en iode"
+      ],
+      "themes": [
+        "santé"
+      ]
+    },
+    {
+      "id": "sci-abeilles",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Comment les abeilles indiquent-elles à leurs congénères l'emplacement d'une source de nourriture ?",
+      "exp": "Karl von Frisch a décrypté cette « danse frétillante », ce qui lui vaut le prix Nobel en 1973.",
+      "wiki": [
+        [
+          "Danse des abeilles",
+          "Karl von Frisch"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Par une danse",
+        "Par un chant",
+        "Par des couleurs",
+        "Par des traces au sol"
+      ],
+      "themes": [
+        "animaux"
+      ]
+    },
+    {
+      "id": "sci-poulpe-coeurs",
+      "sub": "biologie",
+      "diff": 4,
+      "q": "Combien de cœurs possède une pieuvre ?",
+      "exp": "Deux cœurs irriguent les branchies et un troisième le reste du corps ; son sang est bleu.",
+      "wiki": [
+        [
+          "Pieuvre",
+          "trois cœurs",
+          "cœurs",
+          "hémocyanine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "3",
+        "1",
+        "2",
+        "8"
+      ],
+      "themes": [
+        "animaux"
+      ]
+    },
+    {
+      "id": "sci-girafe-cou",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Combien de vertèbres cervicales a une girafe ?",
+      "exp": "Presque tous les mammifères ont 7 vertèbres cervicales ; celles de la girafe sont simplement très longues.",
+      "wiki": [
+        [
+          "Girafe",
+          "vertèbres cervicales"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "7, comme l'être humain",
+        "21",
+        "14",
+        "36"
+      ],
+      "themes": [
+        "animaux"
+      ]
+    },
+    {
+      "id": "sci-champignon",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Les champignons appartiennent au règne végétal.",
+      "exp": "Faux. Les champignons forment un règne à part, les Fungi ; ils ne font pas de photosynthèse et sont plus proches des animaux que des plantes.",
+      "wiki": [
+        [
+          "Fungi",
+          "règne",
+          "photosynthèse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "themes": [
+        "classification"
+      ]
+    },
+    {
+      "id": "sci-classification",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Quel naturaliste suédois a mis au point au XVIIIe siècle la nomenclature binomiale (genre + espèce) ?",
+      "exp": "Homo sapiens, Canis lupus : chaque espèce porte un nom latin en deux mots.",
+      "wiki": [
+        [
+          "Carl von Linné",
+          "nomenclature binomiale"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Carl von Linné",
+        "Charles Darwin",
+        "Buffon",
+        "Lamarck"
+      ],
+      "themes": [
+        "classification"
+      ]
+    },
+    {
+      "id": "sci-homo-sapiens",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "Sur quel continent Homo sapiens est-il apparu ?",
+      "exp": "Les plus anciens fossiles connus, au Maroc (Djebel Irhoud), ont environ 300 000 ans.",
+      "wiki": [
+        [
+          "Homo sapiens",
+          "Afrique",
+          "Djebel Irhoud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Afrique",
+        "L'Asie",
+        "L'Europe",
+        "L'Océanie"
+      ],
+      "themes": [
+        "évolution humaine"
+      ]
+    },
+    {
+      "id": "sci-lucy",
+      "sub": "biologie",
+      "diff": 3,
+      "q": "À quelle espèce appartient Lucy, célèbre fossile découvert en Éthiopie en 1974 ?",
+      "exp": "Âgée d'environ 3,2 millions d'années, Lucy doit son nom à la chanson des Beatles « Lucy in the Sky with Diamonds ».",
+      "wiki": [
+        [
+          "Lucy (australopithèque)",
+          "1974",
+          "Beatles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Australopithecus afarensis",
+        "Homo erectus",
+        "Homo neanderthalensis",
+        "Homo habilis"
+      ],
+      "themes": [
+        "évolution humaine"
+      ]
+    },
+    {
+      "id": "sci-neandertal",
+      "sub": "biologie",
+      "diff": 4,
+      "q": "Les humains actuels non africains portent en moyenne environ 2 % d'ADN néandertalien.",
+      "exp": "Vrai. Les études génétiques montrent des métissages entre Homo sapiens et Néandertaliens ; Svante Pääbo a reçu le Nobel 2022 pour ces travaux.",
+      "wiki": [
+        [
+          "Homme de Néandertal",
+          "Pääbo",
+          "ADN"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "themes": [
+        "évolution humaine"
+      ]
+    },
+    {
+      "id": "sci-planetes-lunes",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "Quelle planète du Système solaire n'a aucun satellite naturel, comme Mercure ?",
+      "exp": "Mercure et Vénus n'ont pas de lune ; Mars en a deux, Phobos et Déimos.",
+      "wiki": [
+        [
+          "Vénus (planète)",
+          "satellite"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Vénus",
+        "Mars",
+        "Neptune",
+        "Uranus"
+      ],
+      "themes": [
+        "système solaire"
+      ]
+    },
+    {
+      "id": "sci-mars-lunes",
+      "sub": "astronomie",
+      "diff": 4,
+      "q": "Comment s'appellent les deux satellites de Mars ?",
+      "exp": "Leurs noms, « peur » et « terreur » en grec, sont ceux des fils du dieu Arès.",
+      "wiki": [
+        [
+          "Phobos (lune)",
+          "Déimos"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Phobos et Déimos",
+        "Io et Europe",
+        "Titan et Rhéa",
+        "Charon et Nix"
+      ],
+      "themes": [
+        "système solaire"
+      ]
+    },
+    {
+      "id": "sci-titan",
+      "sub": "astronomie",
+      "diff": 4,
+      "q": "Quel satellite de Saturne possède une atmosphère épaisse et des lacs de méthane ?",
+      "exp": "La sonde Huygens s'y est posée en 2005 ; c'est le deuxième plus grand satellite du Système solaire.",
+      "wiki": [
+        [
+          "Titan (lune)",
+          "Huygens",
+          "2005"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Titan",
+        "Europe",
+        "Ganymède",
+        "Encelade"
+      ],
+      "themes": [
+        "système solaire"
+      ]
+    },
+    {
+      "id": "sci-comete-halley",
+      "sub": "astronomie",
+      "diff": 3,
+      "q": "Tous les combien d'années environ la comète de Halley revient-elle près de la Terre ?",
+      "exp": "Edmond Halley prédit son retour pour 1758 ; elle est figurée sur la tapisserie de Bayeux en 1066. Prochain passage : 2061.",
+      "wiki": [
+        [
+          "Comète de Halley",
+          "76",
+          "2061"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "76 ans",
+        "10 ans",
+        "250 ans",
+        "1 000 ans"
+      ],
+      "themes": [
+        "comètes"
+      ],
+      "see": [
+        "hf-tapisserie-bayeux"
+      ]
+    },
+    {
+      "id": "sci-etoile-polaire",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Quelle étoile indique approximativement le nord dans le ciel ?",
+      "exp": "Elle est dans la constellation de la Petite Ourse, presque à l'aplomb du pôle Nord céleste.",
+      "wiki": [
+        [
+          "Étoile polaire",
+          "Petite Ourse",
+          "nord"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'étoile Polaire",
+        "Sirius",
+        "Véga",
+        "Bételgeuse"
+      ],
+      "themes": [
+        "constellations"
+      ]
+    },
+    {
+      "id": "sci-grande-ourse",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Comment appelle-t-on aussi l'astérisme des sept étoiles brillantes de la Grande Ourse ?",
+      "exp": "On le nomme aussi le Grand Chariot ; en prolongeant ses deux dernières étoiles, on trouve l'étoile Polaire.",
+      "wiki": [
+        [
+          "Grande Ourse",
+          "casserole",
+          "Polaire"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Grande Casserole",
+        "Le Petit Chariot",
+        "La Croix du Sud",
+        "Le Baudrier d'Orion"
+      ],
+      "themes": [
+        "constellations"
+      ]
+    },
+    {
+      "id": "sci-trou-noir-photo",
+      "sub": "astronomie",
+      "diff": 4,
+      "q": "En quelle année est publiée la première image d'un trou noir, au cœur de la galaxie M87 ?",
+      "exp": "Elle a été obtenue par l'Event Horizon Telescope, un réseau de radiotélescopes répartis sur la planète.",
+      "wiki": [
+        [
+          "Event Horizon Telescope",
+          "M87",
+          "2019"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2019",
+        "2009",
+        "1999",
+        "2023"
+      ],
+      "themes": [
+        "astrophysique"
+      ]
+    },
+    {
+      "id": "sci-supernova",
+      "sub": "astronomie",
+      "diff": 4,
+      "q": "Comment appelle-t-on l'explosion spectaculaire de certaines étoiles en fin de vie ?",
+      "exp": "La nébuleuse du Crabe est le reste d'une supernova observée par des astronomes chinois en 1054.",
+      "wiki": [
+        [
+          "Supernova",
+          "nébuleuse du Crabe",
+          "1054"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une supernova",
+        "Une nova naine",
+        "Un pulsar",
+        "Une étoile filante"
+      ],
+      "themes": [
+        "astrophysique"
+      ]
+    },
+    {
+      "id": "sci-etoile-filante",
+      "sub": "astronomie",
+      "diff": 2,
+      "q": "Qu'est-ce qu'une étoile filante ?",
+      "exp": "Les Perséides, en août, sont une pluie d'étoiles filantes due aux poussières de la comète Swift-Tuttle.",
+      "wiki": [
+        [
+          "Étoile filante",
+          "Perséides",
+          "météore"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une poussière qui se consume en entrant dans l'atmosphère",
+        "Une étoile qui tombe",
+        "Une comète qui explose",
+        "Un satellite en panne"
+      ],
+      "themes": [
+        "astronomie"
+      ]
+    },
+    {
+      "id": "sci-pi-jour",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Quel jour célèbre-t-on la journée de π, en raison de la notation anglo-saxonne 3/14 ?",
+      "exp": "C'est aussi le jour de la naissance d'Albert Einstein (1879) ; l'UNESCO en a fait la Journée internationale des mathématiques.",
+      "wiki": [
+        [
+          "Journée de pi",
+          "14 mars",
+          "Einstein"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le 14 mars",
+        "Le 3 avril",
+        "Le 22 juillet",
+        "Le 1er avril"
+      ],
+      "themes": [
+        "culture mathématique"
+      ]
+    },
+    {
+      "id": "sci-infini",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Quel mathématicien a montré qu'il existe des infinis de tailles différentes ?",
+      "exp": "Cantor prouve à la fin du XIXe siècle que l'ensemble des réels est « plus grand » que celui des entiers.",
+      "wiki": [
+        [
+          "Georg Cantor",
+          "infini"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Georg Cantor",
+        "Leonhard Euler",
+        "Carl Friedrich Gauss",
+        "Bernhard Riemann"
+      ],
+      "themes": [
+        "théorie des ensembles"
+      ]
+    },
+    {
+      "id": "sci-gauss-somme",
+      "sub": "mathematiques",
+      "diff": 3,
+      "q": "Selon une anecdote célèbre, quelle somme le jeune Gauss calcule-t-il instantanément à l'école ?",
+      "exp": "Il additionne les paires 1 + 100, 2 + 99… : 50 paires de 101.",
+      "wiki": [
+        [
+          "Carl Friedrich Gauss",
+          "Brunswick"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1 + 2 + … + 100 = 5 050",
+        "1 + 2 + … + 10 = 55",
+        "2 × 2 × … × 2 = 1 024",
+        "1 + 3 + 5 + … + 99 = 2 500"
+      ],
+      "themes": [
+        "culture mathématique"
+      ]
+    },
+    {
+      "id": "sci-poincare",
+      "sub": "mathematiques",
+      "diff": 5,
+      "q": "Quel mathématicien russe a démontré la conjecture de Poincaré et refusé la médaille Fields en 2006 ?",
+      "exp": "Perelman a aussi refusé le prix d'un million de dollars de l'Institut Clay.",
+      "wiki": [
+        [
+          "Grigori Perelman",
+          "Poincaré",
+          "2006"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Grigori Perelman",
+        "Andreï Kolmogorov",
+        "Vladimir Arnold",
+        "Andrew Wiles"
+      ],
+      "themes": [
+        "mathématiques modernes"
+      ],
+      "see": [
+        "sci-medaille-fields"
+      ]
+    },
+    {
+      "id": "sci-pourcentage",
+      "sub": "mathematiques",
+      "diff": 2,
+      "q": "Un article coûte 80 €. Après une hausse de 25 %, quel est son prix ?",
+      "exp": "25 % de 80 € font 20 € ; 80 + 20 = 100 €.",
+      "wiki": [
+        [
+          "Pourcentage",
+          "hausse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "100 €",
+        "105 €",
+        "95 €",
+        "120 €"
+      ],
+      "themes": [
+        "calcul"
+      ]
+    },
+    {
+      "id": "sci-carre-hypotenuse",
+      "sub": "mathematiques",
+      "diff": 2,
+      "q": "Dans un triangle rectangle dont les côtés de l'angle droit mesurent 3 et 4, combien mesure l'hypoténuse ?",
+      "exp": "D'après Pythagore : 3² + 4² = 9 + 16 = 25 = 5².",
+      "wiki": [
+        [
+          "Théorème de Pythagore",
+          "3",
+          "4",
+          "5"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "5",
+        "7",
+        "6",
+        "12"
+      ],
+      "themes": [
+        "géométrie"
+      ],
+      "see": [
+        "sci-pythagore"
+      ]
+    },
+    {
+      "id": "sci-probabilite-de",
+      "sub": "mathematiques",
+      "diff": 2,
+      "q": "Quelle est la probabilité d'obtenir un 6 en lançant un dé équilibré ?",
+      "exp": "Les six faces ont la même chance ; la théorie moderne des probabilités naît de la correspondance entre Pascal et Fermat en 1654.",
+      "wiki": [
+        [
+          "Probabilité",
+          "Pascal",
+          "Fermat"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1 sur 6",
+        "1 sur 2",
+        "1 sur 12",
+        "1 sur 3"
+      ],
+      "themes": [
+        "probabilités"
+      ]
     }
   ]
 }

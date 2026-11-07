@@ -378,6 +378,3743 @@
           "27"
         ]
       ]
+    },
+    {
+      "id": "hm-cuneiforme",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quelle civilisation a inventé l'écriture cunéiforme vers 3300 av. J.-C. ?",
+      "exp": "L'écriture cunéiforme, tracée avec un roseau sur des tablettes d'argile, naît à Sumer, dans l'actuel Irak.",
+      "wiki": [
+        [
+          "Écriture cunéiforme",
+          "Sumer",
+          "Mésopotamie",
+          "argile"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Sumériens de Mésopotamie",
+        "Les Égyptiens",
+        "Les Phéniciens",
+        "Les Grecs"
+      ],
+      "themes": [
+        "écriture",
+        "Mésopotamie"
+      ]
+    },
+    {
+      "id": "hm-hammurabi",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quel roi de Babylone a fait graver l'un des plus anciens codes de lois connus, vers 1750 av. J.-C. ?",
+      "exp": "Le code de Hammurabi, gravé sur une stèle de basalte, est conservé au musée du Louvre.",
+      "wiki": [
+        [
+          "Code de Hammurabi",
+          "Louvre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hammurabi",
+        "Nabuchodonosor",
+        "Sargon d'Akkad",
+        "Gilgamesh"
+      ],
+      "themes": [
+        "Mésopotamie",
+        "droit"
+      ]
+    },
+    {
+      "id": "hm-phenicien",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quel peuple a mis au point l'alphabet dont dérivent les alphabets grec et latin ?",
+      "exp": "L'alphabet phénicien, consonantique, est adopté et complété par des voyelles par les Grecs vers le VIIIe siècle av. J.-C.",
+      "wiki": [
+        [
+          "Alphabet phénicien",
+          "grec"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Phéniciens",
+        "Les Romains",
+        "Les Hébreux",
+        "Les Perses"
+      ],
+      "themes": [
+        "écriture"
+      ]
+    },
+    {
+      "id": "hm-toutankhamon",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Qui découvre en 1922 le tombeau presque intact de Toutânkhamon ?",
+      "exp": "Financé par Lord Carnarvon, Howard Carter met au jour dans la Vallée des Rois un trésor exceptionnel, dont le célèbre masque d'or.",
+      "wiki": [
+        [
+          "Toutânkhamon",
+          "Howard Carter",
+          "1922"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Howard Carter",
+        "Jean-François Champollion",
+        "Auguste Mariette",
+        "Heinrich Schliemann"
+      ],
+      "themes": [
+        "Égypte ancienne"
+      ]
+    },
+    {
+      "id": "hm-ramses",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quel pharaon a fait construire les temples d'Abou Simbel ?",
+      "exp": "Ramsès II règne environ 66 ans au XIIIe siècle av. J.-C. ; ses temples ont été déplacés dans les années 1960 pour échapper au barrage d'Assouan.",
+      "wiki": [
+        [
+          "Abou Simbel",
+          "Ramsès II"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ramsès II",
+        "Khéops",
+        "Akhenaton",
+        "Toutânkhamon"
+      ],
+      "themes": [
+        "Égypte ancienne"
+      ]
+    },
+    {
+      "id": "hm-cleopatre",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quelle reine d'Égypte fut la compagne de Jules César puis de Marc Antoine ?",
+      "exp": "Dernière souveraine de la dynastie ptolémaïque, Cléopâtre se suicide en 30 av. J.-C. après la défaite d'Actium.",
+      "wiki": [
+        [
+          "Cléopâtre VII",
+          "Marc Antoine",
+          "Actium"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Cléopâtre VII",
+        "Néfertiti",
+        "Hatchepsout",
+        "Bérénice"
+      ],
+      "themes": [
+        "Égypte ancienne",
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-gizeh",
+      "sub": "antiquite",
+      "diff": 1,
+      "q": "Pour quel pharaon a été construite la grande pyramide de Gizeh ?",
+      "exp": "Seule merveille du monde antique encore debout, la pyramide de Khéops a longtemps été le plus haut édifice humain.",
+      "wiki": [
+        [
+          "Pyramide de Khéops",
+          "Gizeh",
+          "merveilles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Khéops",
+        "Ramsès II",
+        "Toutânkhamon",
+        "Akhenaton"
+      ],
+      "themes": [
+        "Égypte ancienne"
+      ]
+    },
+    {
+      "id": "hm-marathon",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quelle victoire athénienne sur les Perses, en 490 av. J.-C., a donné son nom à une épreuve de course ?",
+      "exp": "Selon la légende, un messager court jusqu'à Athènes annoncer la victoire avant de mourir d'épuisement.",
+      "wiki": [
+        [
+          "Bataille de Marathon",
+          "490",
+          "Perses"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marathon",
+        "Salamine",
+        "Platées",
+        "Thermopyles"
+      ],
+      "themes": [
+        "Grèce antique"
+      ],
+      "see": [
+        "sport-marathon"
+      ]
+    },
+    {
+      "id": "hm-thermopyles",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quel roi de Sparte meurt en 480 av. J.-C. avec ses 300 hoplites aux Thermopyles ?",
+      "exp": "Les Spartiates de Léonidas retardent l'immense armée de Xerxès dans un défilé étroit avant d'être encerclés.",
+      "wiki": [
+        [
+          "Bataille des Thermopyles",
+          "Léonidas",
+          "480"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Léonidas",
+        "Périclès",
+        "Lycurgue",
+        "Agésilas"
+      ],
+      "themes": [
+        "Grèce antique"
+      ]
+    },
+    {
+      "id": "hm-salamine",
+      "sub": "antiquite",
+      "diff": 4,
+      "q": "Quelle bataille navale de 480 av. J.-C. voit la flotte grecque de Thémistocle vaincre les Perses ?",
+      "exp": "Attirée dans un détroit, la flotte perse de Xerxès est défaite par les trières grecques.",
+      "wiki": [
+        [
+          "Bataille de Salamine",
+          "Thémistocle",
+          "480"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Salamine",
+        "Actium",
+        "Lépante",
+        "Mycale"
+      ],
+      "themes": [
+        "Grèce antique"
+      ]
+    },
+    {
+      "id": "hm-pericles",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quel stratège a donné son nom au « siècle » d'apogée d'Athènes au Ve siècle av. J.-C. ?",
+      "exp": "Périclès fait construire le Parthénon et consolide la démocratie athénienne.",
+      "wiki": [
+        [
+          "Périclès",
+          "Parthénon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Périclès",
+        "Solon",
+        "Clisthène",
+        "Alcibiade"
+      ],
+      "themes": [
+        "Grèce antique"
+      ]
+    },
+    {
+      "id": "hm-clisthene",
+      "sub": "antiquite",
+      "diff": 4,
+      "q": "À quel Athénien attribue-t-on la fondation de la démocratie, vers 508 av. J.-C. ?",
+      "exp": "Clisthène réorganise les citoyens en dix tribus et fonde les institutions démocratiques d'Athènes.",
+      "wiki": [
+        [
+          "Clisthène (Athènes)",
+          "508",
+          "démocratie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Clisthène",
+        "Périclès",
+        "Dracon",
+        "Pisistrate"
+      ],
+      "themes": [
+        "Grèce antique",
+        "politique"
+      ]
+    },
+    {
+      "id": "hm-alexandre-aristote",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quel philosophe fut le précepteur d'Alexandre le Grand ?",
+      "exp": "Philippe II de Macédoine confie l'éducation de son fils à Aristote, vers 343 av. J.-C.",
+      "wiki": [
+        [
+          "Alexandre le Grand",
+          "Aristote"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Aristote",
+        "Platon",
+        "Socrate",
+        "Diogène"
+      ],
+      "themes": [
+        "Grèce antique"
+      ]
+    },
+    {
+      "id": "hm-alexandrie",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quelle ville d'Égypte, fondée par Alexandre le Grand, abritait une célèbre bibliothèque et un phare ?",
+      "exp": "Fondée en 331 av. J.-C., Alexandrie devient la capitale intellectuelle du monde grec ; son phare était l'une des Sept Merveilles.",
+      "wiki": [
+        [
+          "Alexandrie",
+          "bibliothèque",
+          "phare"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alexandrie",
+        "Le Caire",
+        "Memphis",
+        "Thèbes"
+      ],
+      "themes": [
+        "Antiquité"
+      ]
+    },
+    {
+      "id": "hm-rubicon",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quel fleuve Jules César franchit-il en 49 av. J.-C., déclenchant la guerre civile ?",
+      "exp": "En franchissant en armes cette limite de l'Italie, César défie le Sénat ; on lui prête la phrase « Alea jacta est ».",
+      "wiki": [
+        [
+          "Rubicon",
+          "Alea jacta est",
+          "49"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Rubicon",
+        "Le Tibre",
+        "Le Pô",
+        "Le Rhin"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-auguste",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Qui devient le premier empereur romain en 27 av. J.-C. ?",
+      "exp": "Octave, fils adoptif de César, reçoit le titre d'Auguste ; il fonde le principat et règne jusqu'en 14 apr. J.-C.",
+      "wiki": [
+        [
+          "Auguste",
+          "27 av. J.-C."
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Auguste",
+        "Jules César",
+        "Néron",
+        "Tibère"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-pompei",
+      "sub": "antiquite",
+      "diff": 1,
+      "q": "Quel volcan ensevelit Pompéi en 79 apr. J.-C. ?",
+      "exp": "L'éruption du Vésuve fige la ville sous les cendres ; Pline le Jeune en a laissé un témoignage.",
+      "wiki": [
+        [
+          "Pompéi",
+          "Vésuve",
+          "79"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Vésuve",
+        "L'Etna",
+        "Le Stromboli",
+        "Le Santorin"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-neron",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Sous quel empereur un grand incendie ravage-t-il Rome en 64 ?",
+      "exp": "Néron accuse les chrétiens, qu'il fait persécuter ; la rumeur l'accusait lui-même d'avoir allumé le feu.",
+      "wiki": [
+        [
+          "Grand incendie de Rome",
+          "Néron",
+          "64"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Néron",
+        "Caligula",
+        "Tibère",
+        "Domitien"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-colisee",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Comment s'appelle à l'origine le Colisée de Rome, inauguré en 80 ?",
+      "exp": "Construit sous les empereurs flaviens, il pouvait accueillir environ 50 000 spectateurs pour des combats de gladiateurs.",
+      "wiki": [
+        [
+          "Colisée",
+          "Flavien",
+          "80"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'amphithéâtre Flavien",
+        "Le Circus Maximus",
+        "Le Panthéon",
+        "Le forum de Trajan"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-hannibal",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quel général carthaginois traverse les Alpes avec des éléphants en 218 av. J.-C. ?",
+      "exp": "Hannibal inflige plusieurs défaites à Rome, dont Cannes (216 av. J.-C.), mais est finalement battu par Scipion à Zama.",
+      "wiki": [
+        [
+          "Hannibal Barca",
+          "éléphants",
+          "Alpes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hannibal",
+        "Hamilcar",
+        "Scipion",
+        "Massinissa"
+      ],
+      "themes": [
+        "Rome",
+        "Carthage"
+      ]
+    },
+    {
+      "id": "hm-carthage",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "En quelle année Carthage est-elle détruite par Rome ?",
+      "exp": "À l'issue de la troisième guerre punique, Scipion Émilien rase Carthage, qui devient province romaine d'Afrique.",
+      "wiki": [
+        [
+          "Troisième guerre punique",
+          "146"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "146 av. J.-C.",
+        "202 av. J.-C.",
+        "44 av. J.-C.",
+        "476 apr. J.-C."
+      ],
+      "themes": [
+        "Rome",
+        "Carthage"
+      ]
+    },
+    {
+      "id": "hm-spartacus",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quel gladiateur mène une grande révolte d'esclaves contre Rome en 73-71 av. J.-C. ?",
+      "exp": "Spartacus rassemble des dizaines de milliers d'esclaves avant d'être vaincu par Crassus.",
+      "wiki": [
+        [
+          "Spartacus",
+          "Crassus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Spartacus",
+        "Vercingétorix",
+        "Arminius",
+        "Jugurtha"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-constantin-milan",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quel empereur proclame en 313 la liberté de culte pour les chrétiens par l'édit de Milan ?",
+      "exp": "Constantin fonde aussi Constantinople en 330 sur le site de Byzance ; Théodose fera du christianisme la religion d'État.",
+      "wiki": [
+        [
+          "Édit de Milan",
+          "313",
+          "Constantin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Constantin",
+        "Théodose",
+        "Dioclétien",
+        "Julien"
+      ],
+      "themes": [
+        "Rome",
+        "christianisme"
+      ]
+    },
+    {
+      "id": "hm-qin",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quel empereur, premier unificateur de la Chine, est enterré avec une armée de soldats en terre cuite ?",
+      "exp": "Découverte en 1974 près de Xi'an, l'armée de terre cuite compte des milliers de statues toutes différentes.",
+      "wiki": [
+        [
+          "Qin Shi Huang",
+          "terre cuite",
+          "Xi'an"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Qin Shi Huang",
+        "Kubilai Khan",
+        "Confucius",
+        "Han Wudi"
+      ],
+      "themes": [
+        "Chine ancienne"
+      ]
+    },
+    {
+      "id": "hm-muraille",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "La Grande Muraille de Chine est visible à l'œil nu depuis la Lune.",
+      "exp": "Faux. C'est une idée reçue : la muraille, longue mais étroite, est invisible à l'œil nu depuis la Lune, et même difficile à repérer depuis l'orbite basse.",
+      "wiki": [
+        [
+          "Grande Muraille",
+          "Lune"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "themes": [
+        "Chine",
+        "idées reçues"
+      ]
+    },
+    {
+      "id": "hm-machu-picchu",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Quelle civilisation a bâti la cité de Machu Picchu ?",
+      "exp": "Construite au XVe siècle dans les Andes péruviennes, Machu Picchu est révélée au monde en 1911 par Hiram Bingham.",
+      "wiki": [
+        [
+          "Machu Picchu",
+          "Incas",
+          "1911"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Incas",
+        "Les Mayas",
+        "Les Aztèques",
+        "Les Olmèques"
+      ],
+      "themes": [
+        "Amérique précolombienne"
+      ]
+    },
+    {
+      "id": "hm-tenochtitlan",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quelle ville, capitale des Aztèques, se trouve sous l'actuelle Mexico ?",
+      "exp": "Bâtie sur un lac, Tenochtitlan est prise par Hernán Cortés en 1521.",
+      "wiki": [
+        [
+          "Tenochtitlan",
+          "Mexico",
+          "1521"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Tenochtitlan",
+        "Teotihuacan",
+        "Cuzco",
+        "Chichén Itzá"
+      ],
+      "themes": [
+        "Amérique précolombienne"
+      ]
+    },
+    {
+      "id": "hm-mayas",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "À quelle civilisation appartient la cité de Chichén Itzá ?",
+      "exp": "Chichén Itzá, dans le Yucatán, est célèbre pour sa pyramide de Kukulcán.",
+      "wiki": [
+        [
+          "Chichén Itzá",
+          "Maya",
+          "Yucatán"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Mayas",
+        "Les Incas",
+        "Les Aztèques",
+        "Les Toltèques"
+      ],
+      "themes": [
+        "Amérique précolombienne"
+      ]
+    },
+    {
+      "id": "hm-hegire",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quel événement de 622 marque le début du calendrier musulman ?",
+      "exp": "L'Hégire, exil de Mahomet et de ses compagnons vers Médine, marque l'an 1 du calendrier musulman.",
+      "wiki": [
+        [
+          "Hégire",
+          "622",
+          "Médine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Hégire, départ de Mahomet de La Mecque pour Médine",
+        "La naissance de Mahomet",
+        "La prise de Jérusalem",
+        "La révélation du Coran"
+      ],
+      "themes": [
+        "islam"
+      ]
+    },
+    {
+      "id": "hm-sainte-sophie",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quel empereur byzantin a fait construire la basilique Sainte-Sophie de Constantinople ?",
+      "exp": "Achevée en 537, Sainte-Sophie a été la plus grande église de la chrétienté pendant près de mille ans.",
+      "wiki": [
+        [
+          "Sainte-Sophie (Istanbul)",
+          "Justinien",
+          "537"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Justinien",
+        "Constantin",
+        "Théodose",
+        "Basile II"
+      ],
+      "themes": [
+        "Byzance"
+      ]
+    },
+    {
+      "id": "hm-gengis-khan",
+      "sub": "moyen-age",
+      "diff": 2,
+      "q": "Qui fonde au XIIIe siècle l'Empire mongol, le plus vaste empire continu de l'histoire ?",
+      "exp": "Gengis Khan unifie les tribus mongoles en 1206 ; ses successeurs étendent l'empire de la Chine à l'Europe orientale.",
+      "wiki": [
+        [
+          "Gengis Khan",
+          "1206",
+          "Mongol"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gengis Khan",
+        "Tamerlan",
+        "Attila",
+        "Kubilai Khan"
+      ],
+      "themes": [
+        "Mongols"
+      ]
+    },
+    {
+      "id": "hm-marco-polo",
+      "sub": "moyen-age",
+      "diff": 2,
+      "q": "Quel marchand vénitien a raconté son voyage à la cour de Kubilai Khan ?",
+      "exp": "Le Devisement du monde, dicté en prison vers 1298, fait connaître la Chine à l'Europe.",
+      "wiki": [
+        [
+          "Marco Polo",
+          "Kubilai",
+          "Devisement du monde"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marco Polo",
+        "Christophe Colomb",
+        "Ibn Battûta",
+        "Vasco de Gama"
+      ],
+      "themes": [
+        "explorations"
+      ]
+    },
+    {
+      "id": "hm-leif-erikson",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quel explorateur viking aurait atteint l'Amérique du Nord vers l'an 1000 ?",
+      "exp": "Les vestiges de L'Anse aux Meadows, à Terre-Neuve, confirment une présence viking vers l'an 1000.",
+      "wiki": [
+        [
+          "Leif Erikson",
+          "Anse aux Meadows"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Leif Erikson",
+        "Erik le Rouge",
+        "Ragnar Lodbrok",
+        "Harald à la dent bleue"
+      ],
+      "themes": [
+        "Vikings"
+      ]
+    },
+    {
+      "id": "hm-jerusalem-1099",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "En quelle année les croisés prennent-ils Jérusalem lors de la première croisade ?",
+      "exp": "Après un long siège, les croisés prennent la ville le 15 juillet 1099 et y fondent le royaume latin de Jérusalem.",
+      "wiki": [
+        [
+          "Siège de Jérusalem (1099)",
+          "1099"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1099",
+        "1095",
+        "1187",
+        "1204"
+      ],
+      "themes": [
+        "croisades"
+      ]
+    },
+    {
+      "id": "hm-saladin",
+      "sub": "moyen-age",
+      "diff": 2,
+      "q": "Quel sultan reprend Jérusalem aux croisés en 1187 ?",
+      "exp": "Après sa victoire de Hattin, Saladin reprend Jérusalem ; la troisième croisade échoue à la reconquérir.",
+      "wiki": [
+        [
+          "Saladin",
+          "1187",
+          "Hattin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Saladin",
+        "Soliman le Magnifique",
+        "Mehmed II",
+        "Baybars"
+      ],
+      "themes": [
+        "croisades"
+      ]
+    },
+    {
+      "id": "hm-grenade-1492",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quel royaume musulman tombe en 1492, achevant la Reconquista espagnole ?",
+      "exp": "Les Rois catholiques prennent Grenade en janvier 1492, la même année que le premier voyage de Colomb.",
+      "wiki": [
+        [
+          "Royaume de Grenade",
+          "1492",
+          "Reconquista"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le royaume de Grenade",
+        "Le califat de Cordoue",
+        "Le royaume de Tolède",
+        "L'émirat de Séville"
+      ],
+      "themes": [
+        "Espagne"
+      ]
+    },
+    {
+      "id": "hm-mansa-moussa",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quel souverain africain du XIVe siècle est réputé pour son immense richesse en or ?",
+      "exp": "Son pèlerinage à La Mecque en 1324, où il distribue de grandes quantités d'or, fait connaître le Mali jusqu'en Europe.",
+      "wiki": [
+        [
+          "Mansa Moussa",
+          "Mali",
+          "1324"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mansa Moussa, empereur du Mali",
+        "Soundiata Keïta",
+        "Menelik II",
+        "Askia Mohammed"
+      ],
+      "themes": [
+        "Afrique médiévale"
+      ]
+    },
+    {
+      "id": "hm-vasco-de-gama",
+      "sub": "epoque-moderne",
+      "diff": 2,
+      "q": "Quel navigateur portugais ouvre la route maritime des Indes en contournant l'Afrique, en 1498 ?",
+      "exp": "Vasco de Gama atteint Calicut, en Inde, en 1498 ; Bartolomeu Dias avait franchi le cap de Bonne-Espérance dix ans plus tôt.",
+      "wiki": [
+        [
+          "Vasco de Gama",
+          "Calicut",
+          "1498"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Vasco de Gama",
+        "Bartolomeu Dias",
+        "Fernand de Magellan",
+        "Pedro Álvares Cabral"
+      ],
+      "themes": [
+        "grandes découvertes"
+      ]
+    },
+    {
+      "id": "hm-magellan",
+      "sub": "epoque-moderne",
+      "diff": 2,
+      "q": "Quelle expédition réalise le premier tour du monde, de 1519 à 1522 ?",
+      "exp": "Magellan est tué aux Philippines en 1521 ; Juan Sebastián Elcano ramène en Espagne le seul navire survivant.",
+      "wiki": [
+        [
+          "Fernand de Magellan",
+          "Elcano",
+          "1522"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Celle de Magellan, achevée par Elcano",
+        "Celle de Christophe Colomb",
+        "Celle de Vasco de Gama",
+        "Celle de James Cook"
+      ],
+      "themes": [
+        "grandes découvertes"
+      ]
+    },
+    {
+      "id": "hm-cortes",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quel conquistador fait tomber l'Empire aztèque ?",
+      "exp": "Cortés s'empare de Tenochtitlan en 1521 ; Pizarro conquiert l'Empire inca à partir de 1532.",
+      "wiki": [
+        [
+          "Hernán Cortés",
+          "aztèque",
+          "1521"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hernán Cortés",
+        "Francisco Pizarro",
+        "Diego de Almagro",
+        "Hernando de Soto"
+      ],
+      "themes": [
+        "conquête de l'Amérique"
+      ]
+    },
+    {
+      "id": "hm-luther",
+      "sub": "epoque-moderne",
+      "diff": 2,
+      "q": "Qui publie en 1517 les 95 thèses, déclenchant la Réforme protestante ?",
+      "exp": "Le moine allemand Martin Luther dénonce notamment le commerce des indulgences.",
+      "wiki": [
+        [
+          "Martin Luther",
+          "95 thèses",
+          "1517"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Martin Luther",
+        "Jean Calvin",
+        "Érasme",
+        "Ulrich Zwingli"
+      ],
+      "themes": [
+        "Réforme"
+      ]
+    },
+    {
+      "id": "hm-henri-viii",
+      "sub": "epoque-moderne",
+      "diff": 2,
+      "q": "Quel roi d'Angleterre rompt avec Rome et fonde l'Église anglicane ?",
+      "exp": "Le pape refusant l'annulation de son mariage avec Catherine d'Aragon, Henri VIII se proclame chef de l'Église d'Angleterre en 1534.",
+      "wiki": [
+        [
+          "Henri VIII",
+          "anglicane",
+          "1534"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Henri VIII",
+        "Édouard VI",
+        "Jacques Ier",
+        "Richard III"
+      ],
+      "themes": [
+        "Angleterre",
+        "Réforme"
+      ]
+    },
+    {
+      "id": "hm-armada",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quelle flotte espagnole est défaite en 1588 lors de sa tentative d'invasion de l'Angleterre ?",
+      "exp": "Envoyée par Philippe II contre Élisabeth Ire, l'Armada est vaincue par les Anglais et dispersée par les tempêtes.",
+      "wiki": [
+        [
+          "Invincible Armada",
+          "1588",
+          "Élisabeth"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Invincible Armada",
+        "La flotte de Lépante",
+        "La Grande Flotte",
+        "La flotte des Indes"
+      ],
+      "themes": [
+        "Angleterre",
+        "Espagne"
+      ]
+    },
+    {
+      "id": "hm-lepante",
+      "sub": "epoque-moderne",
+      "diff": 4,
+      "q": "Quelle bataille navale de 1571 voit la Sainte Ligue vaincre la flotte ottomane ?",
+      "exp": "Miguel de Cervantès, futur auteur de Don Quichotte, y perd l'usage de sa main gauche.",
+      "wiki": [
+        [
+          "Bataille de Lépante",
+          "1571"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Lépante",
+        "Trafalgar",
+        "Salamine",
+        "Aboukir"
+      ],
+      "themes": [
+        "Empire ottoman"
+      ]
+    },
+    {
+      "id": "hm-soliman",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Sous quel sultan l'Empire ottoman atteint-il son apogée au XVIe siècle ?",
+      "exp": "Soliman règne de 1520 à 1566 ; il assiège Vienne en 1529 et s'allie avec François Ier.",
+      "wiki": [
+        [
+          "Soliman le Magnifique",
+          "1520",
+          "Vienne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Soliman le Magnifique",
+        "Mehmed II",
+        "Sélim Ier",
+        "Osman Ier"
+      ],
+      "themes": [
+        "Empire ottoman"
+      ]
+    },
+    {
+      "id": "hm-trente-ans",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quels traités mettent fin à la guerre de Trente Ans en 1648 ?",
+      "exp": "Les traités de Westphalie fondent un nouvel équilibre européen fondé sur la souveraineté des États.",
+      "wiki": [
+        [
+          "Traités de Westphalie",
+          "1648"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les traités de Westphalie",
+        "Le traité d'Utrecht",
+        "Le traité des Pyrénées",
+        "La paix d'Augsbourg"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "hm-cromwell",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Qui dirige l'Angleterre comme Lord Protecteur après l'exécution du roi Charles Ier en 1649 ?",
+      "exp": "Après la guerre civile, Cromwell instaure une république puritaine ; la monarchie est restaurée en 1660.",
+      "wiki": [
+        [
+          "Oliver Cromwell",
+          "1649"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Oliver Cromwell",
+        "Thomas More",
+        "Guillaume d'Orange",
+        "Walter Raleigh"
+      ],
+      "themes": [
+        "Angleterre"
+      ]
+    },
+    {
+      "id": "hm-pierre-le-grand",
+      "sub": "epoque-moderne",
+      "diff": 2,
+      "q": "Quel tsar fonde Saint-Pétersbourg en 1703 ?",
+      "exp": "Pierre le Grand veut une « fenêtre sur l'Europe » et modernise la Russie ; la ville devient capitale en 1712.",
+      "wiki": [
+        [
+          "Saint-Pétersbourg",
+          "Pierre le Grand",
+          "1703"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pierre le Grand",
+        "Ivan le Terrible",
+        "Catherine II",
+        "Alexandre Ier"
+      ],
+      "themes": [
+        "Russie"
+      ]
+    },
+    {
+      "id": "hm-catherine-ii",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quelle impératrice de Russie, d'origine allemande, a correspondu avec Voltaire et Diderot ?",
+      "exp": "Catherine II règne de 1762 à 1796 ; elle achète la bibliothèque de Diderot et agrandit fortement l'empire.",
+      "wiki": [
+        [
+          "Catherine II",
+          "Voltaire",
+          "Diderot"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Catherine II",
+        "Élisabeth Ire",
+        "Anne Ire",
+        "Marie-Thérèse"
+      ],
+      "themes": [
+        "Russie",
+        "Lumières"
+      ]
+    },
+    {
+      "id": "hm-declaration-independance",
+      "sub": "epoque-moderne",
+      "diff": 1,
+      "q": "En quelle année les États-Unis proclament-ils leur indépendance ?",
+      "exp": "La Déclaration d'indépendance, rédigée principalement par Thomas Jefferson, est adoptée le 4 juillet 1776.",
+      "wiki": [
+        [
+          "Déclaration d'indépendance des États-Unis",
+          "4 juillet 1776",
+          "Jefferson"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1776",
+        "1789",
+        "1783",
+        "1812"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-boston-tea-party",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quel épisode de 1773 voit des colons jeter des cargaisons de thé dans le port de Boston ?",
+      "exp": "Les colons protestent contre les taxes imposées sans représentation au Parlement britannique.",
+      "wiki": [
+        [
+          "Boston Tea Party",
+          "1773"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Boston Tea Party",
+        "Le massacre de Boston",
+        "La bataille de Lexington",
+        "Le Stamp Act"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-washington",
+      "sub": "epoque-moderne",
+      "diff": 1,
+      "q": "Qui est le premier président des États-Unis ?",
+      "exp": "Commandant de l'armée continentale, George Washington est élu président en 1789.",
+      "wiki": [
+        [
+          "George Washington",
+          "1789",
+          "président"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "Benjamin Franklin"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-bolivar",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quel « Libertador » a mené l'indépendance de plusieurs pays d'Amérique du Sud ?",
+      "exp": "La Bolivie porte le nom de Simón Bolívar, qui libère notamment le Venezuela, la Colombie et l'Équateur.",
+      "wiki": [
+        [
+          "Simón Bolívar",
+          "Libertador",
+          "Bolivie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Simón Bolívar",
+        "José de San Martín",
+        "Bernardo O'Higgins",
+        "Che Guevara"
+      ],
+      "themes": [
+        "Amérique latine"
+      ]
+    },
+    {
+      "id": "hm-garibaldi",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quel révolutionnaire et ses « Chemises rouges » ont contribué à l'unité italienne ?",
+      "exp": "L'expédition des Mille conquiert la Sicile et Naples en 1860 ; le royaume d'Italie est proclamé en 1861.",
+      "wiki": [
+        [
+          "Giuseppe Garibaldi",
+          "Mille",
+          "1861"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Giuseppe Garibaldi",
+        "Camillo Cavour",
+        "Giuseppe Mazzini",
+        "Victor-Emmanuel II"
+      ],
+      "themes": [
+        "Italie"
+      ]
+    },
+    {
+      "id": "hm-bismarck",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quel chancelier réalise l'unité allemande en 1871 ?",
+      "exp": "Après la victoire sur la France, l'Empire allemand est proclamé à Versailles le 18 janvier 1871.",
+      "wiki": [
+        [
+          "Otto von Bismarck",
+          "1871",
+          "Versailles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Otto von Bismarck",
+        "Guillaume II",
+        "Frédéric le Grand",
+        "Konrad Adenauer"
+      ],
+      "themes": [
+        "Allemagne"
+      ]
+    },
+    {
+      "id": "hm-secession",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quelle guerre oppose le Nord et le Sud des États-Unis de 1861 à 1865 ?",
+      "exp": "La victoire du Nord conduit à l'abolition de l'esclavage par le 13e amendement en 1865.",
+      "wiki": [
+        [
+          "Guerre de Sécession",
+          "1861",
+          "1865"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La guerre de Sécession",
+        "La guerre d'indépendance",
+        "La guerre de 1812",
+        "La guerre hispano-américaine"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-lincoln",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quel président américain est assassiné au théâtre en 1865 ?",
+      "exp": "Lincoln est abattu par John Wilkes Booth au théâtre Ford de Washington, quelques jours après la fin de la guerre de Sécession.",
+      "wiki": [
+        [
+          "Abraham Lincoln",
+          "1865",
+          "Booth"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Abraham Lincoln",
+        "John F. Kennedy",
+        "James Garfield",
+        "William McKinley"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-ruee-or",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Dans quel État américain commence la grande ruée vers l'or de 1848 ?",
+      "exp": "La découverte d'or à Sutter's Mill attire plus de 300 000 personnes ; la Californie devient un État dès 1850.",
+      "wiki": [
+        [
+          "Ruée vers l'or en Californie",
+          "1848"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Californie",
+        "L'Alaska",
+        "Le Nevada",
+        "Le Colorado"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-victoria",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quelle reine a régné sur le Royaume-Uni de 1837 à 1901 ?",
+      "exp": "Le règne de Victoria, de 63 ans, correspond à l'apogée de l'Empire britannique ; il n'a été dépassé que par celui d'Élisabeth II.",
+      "wiki": [
+        [
+          "Victoria (reine)",
+          "1837",
+          "1901"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Victoria",
+        "Élisabeth II",
+        "Anne",
+        "Marie II"
+      ],
+      "themes": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "id": "hm-meiji",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "Quelle ère, ouverte en 1868, voit la modernisation rapide du Japon ?",
+      "exp": "L'empereur Meiji reprend le pouvoir aux shoguns et transforme le Japon en puissance industrielle.",
+      "wiki": [
+        [
+          "Ère Meiji",
+          "1868"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'ère Meiji",
+        "L'ère Edo",
+        "L'ère Showa",
+        "L'ère Heian"
+      ],
+      "themes": [
+        "Japon"
+      ]
+    },
+    {
+      "id": "hm-sarajevo",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quel événement du 28 juin 1914 déclenche la Première Guerre mondiale ?",
+      "exp": "L'héritier du trône d'Autriche-Hongrie est tué par Gavrilo Princip ; le jeu des alliances entraîne l'Europe dans la guerre.",
+      "wiki": [
+        [
+          "Attentat de Sarajevo",
+          "28 juin 1914",
+          "François-Ferdinand"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+        "L'invasion de la Belgique",
+        "Le naufrage du Lusitania",
+        "La révolution russe"
+      ],
+      "themes": [
+        "Première Guerre mondiale"
+      ]
+    },
+    {
+      "id": "hm-titanic",
+      "sub": "contemporain",
+      "diff": 1,
+      "q": "En quelle année le Titanic fait-il naufrage ?",
+      "exp": "Le paquebot heurte un iceberg dans la nuit du 14 au 15 avril 1912 lors de son voyage inaugural ; environ 1 500 personnes périssent.",
+      "wiki": [
+        [
+          "Titanic",
+          "1912",
+          "iceberg"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1912",
+        "1905",
+        "1914",
+        "1920"
+      ],
+      "themes": [
+        "catastrophes"
+      ]
+    },
+    {
+      "id": "hm-revolution-russe",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Qui prend le pouvoir en Russie lors de la révolution d'Octobre 1917 ?",
+      "exp": "Les bolcheviks renversent le gouvernement provisoire ; l'URSS est fondée en 1922.",
+      "wiki": [
+        [
+          "Révolution d'Octobre",
+          "Lénine",
+          "1917"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les bolcheviks de Lénine",
+        "Les mencheviks",
+        "Le tsar Nicolas II",
+        "Les Russes blancs"
+      ],
+      "themes": [
+        "Russie"
+      ]
+    },
+    {
+      "id": "hm-krach-1929",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Comment surnomme-t-on le 24 octobre 1929, début du krach de Wall Street ?",
+      "exp": "Le krach boursier ouvre la Grande Dépression, crise économique mondiale des années 1930.",
+      "wiki": [
+        [
+          "Krach de 1929",
+          "jeudi noir"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le jeudi noir",
+        "Le lundi rouge",
+        "Le vendredi sanglant",
+        "Le mardi gras"
+      ],
+      "themes": [
+        "économie"
+      ]
+    },
+    {
+      "id": "hm-hitler-1933",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "En quelle année Hitler devient-il chancelier de l'Allemagne ?",
+      "exp": "Nommé chancelier le 30 janvier 1933, Hitler établit en quelques mois une dictature.",
+      "wiki": [
+        [
+          "Adolf Hitler",
+          "1933",
+          "chancelier"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1933",
+        "1923",
+        "1939",
+        "1929"
+      ],
+      "themes": [
+        "nazisme"
+      ]
+    },
+    {
+      "id": "hm-nuit-cristal",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Comment appelle-t-on le pogrom organisé par les nazis dans la nuit du 9 au 10 novembre 1938 ?",
+      "exp": "Synagogues incendiées, magasins juifs saccagés : le nom vient des éclats de vitrines brisées.",
+      "wiki": [
+        [
+          "Nuit de Cristal",
+          "1938"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Nuit de cristal",
+        "La Nuit des longs couteaux",
+        "La Solution finale",
+        "Le putsch de la Brasserie"
+      ],
+      "themes": [
+        "nazisme",
+        "Shoah"
+      ]
+    },
+    {
+      "id": "hm-pearl-harbor",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quelle attaque japonaise du 7 décembre 1941 fait entrer les États-Unis dans la guerre ?",
+      "exp": "L'aéronavale japonaise attaque la base américaine d'Hawaï ; Roosevelt parle d'« une date qui restera marquée par l'infamie ».",
+      "wiki": [
+        [
+          "Attaque de Pearl Harbor",
+          "1941"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pearl Harbor",
+        "Midway",
+        "Okinawa",
+        "Guadalcanal"
+      ],
+      "themes": [
+        "Seconde Guerre mondiale"
+      ]
+    },
+    {
+      "id": "hm-stalingrad",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quelle bataille de 1942-1943 marque le tournant de la guerre sur le front de l'Est ?",
+      "exp": "La capitulation de la 6e armée allemande en février 1943 est la première grande défaite de la Wehrmacht.",
+      "wiki": [
+        [
+          "Bataille de Stalingrad",
+          "1943"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Stalingrad",
+        "Koursk",
+        "Leningrad",
+        "Moscou"
+      ],
+      "themes": [
+        "Seconde Guerre mondiale"
+      ]
+    },
+    {
+      "id": "hm-auschwitz",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quelle armée libère le camp d'Auschwitz le 27 janvier 1945 ?",
+      "exp": "Le 27 janvier est devenu la Journée internationale dédiée à la mémoire des victimes de la Shoah.",
+      "wiki": [
+        [
+          "Camp de concentration d'Auschwitz",
+          "27 janvier 1945",
+          "Armée rouge"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Armée rouge",
+        "L'armée américaine",
+        "L'armée britannique",
+        "L'armée française"
+      ],
+      "themes": [
+        "Shoah"
+      ]
+    },
+    {
+      "id": "hm-yalta",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quels dirigeants se réunissent à Yalta en février 1945 ?",
+      "exp": "La conférence de Yalta, en Crimée, prépare l'organisation de l'Europe d'après-guerre.",
+      "wiki": [
+        [
+          "Conférence de Yalta",
+          "1945",
+          "Staline"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Roosevelt, Churchill et Staline",
+        "Roosevelt, de Gaulle et Staline",
+        "Truman, Attlee et Staline",
+        "Churchill, de Gaulle et Truman"
+      ],
+      "themes": [
+        "Seconde Guerre mondiale"
+      ]
+    },
+    {
+      "id": "hm-onu-1945",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "En quelle année l'Organisation des Nations unies est-elle fondée ?",
+      "exp": "La Charte des Nations unies est signée à San Francisco le 26 juin 1945 et entre en vigueur le 24 octobre.",
+      "wiki": [
+        [
+          "Organisation des Nations unies",
+          "1945",
+          "San Francisco"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1945",
+        "1919",
+        "1948",
+        "1950"
+      ],
+      "themes": [
+        "ONU"
+      ],
+      "see": [
+        "pol-onu"
+      ]
+    },
+    {
+      "id": "hm-plan-marshall",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Comment s'appelle le programme américain d'aide à la reconstruction de l'Europe lancé en 1947 ?",
+      "exp": "Le plan Marshall apporte environ 13 milliards de dollars à l'Europe occidentale entre 1948 et 1952.",
+      "wiki": [
+        [
+          "Plan Marshall",
+          "1947"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le plan Marshall",
+        "La doctrine Truman",
+        "Le New Deal",
+        "Le plan Schuman"
+      ],
+      "themes": [
+        "guerre froide"
+      ]
+    },
+    {
+      "id": "hm-otan",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "En quelle année l'OTAN est-elle créée ?",
+      "exp": "Le traité de l'Atlantique Nord est signé à Washington le 4 avril 1949 ; le pacte de Varsovie lui répond en 1955.",
+      "wiki": [
+        [
+          "Organisation du traité de l'Atlantique Nord",
+          "1949"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1949",
+        "1945",
+        "1955",
+        "1961"
+      ],
+      "themes": [
+        "guerre froide"
+      ]
+    },
+    {
+      "id": "hm-mao-1949",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Qui proclame la République populaire de Chine en 1949 ?",
+      "exp": "Le 1er octobre 1949, Mao proclame la République populaire à Pékin ; les nationalistes se replient à Taïwan.",
+      "wiki": [
+        [
+          "Mao Zedong",
+          "1949",
+          "République populaire de Chine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mao Zedong",
+        "Tchang Kaï-chek",
+        "Deng Xiaoping",
+        "Sun Yat-sen"
+      ],
+      "themes": [
+        "Chine"
+      ]
+    },
+    {
+      "id": "hm-longue-marche",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "Comment appelle-t-on le repli des communistes chinois sur plus de 10 000 km en 1934-1935 ?",
+      "exp": "Cet épisode forge la légende de Mao, qui prend la direction du parti pendant la marche.",
+      "wiki": [
+        [
+          "Longue Marche",
+          "1934"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Longue Marche",
+        "La Grande Marche",
+        "La Révolution culturelle",
+        "Le Grand Bond en avant"
+      ],
+      "themes": [
+        "Chine"
+      ]
+    },
+    {
+      "id": "hm-inde-1947",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "En quelle année l'Inde obtient-elle son indépendance ?",
+      "exp": "Le 15 août 1947, l'Inde devient indépendante ; la partition avec le Pakistan provoque d'énormes déplacements et violences.",
+      "wiki": [
+        [
+          "Indépendance de l'Inde",
+          "1947",
+          "Pakistan"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1947",
+        "1930",
+        "1950",
+        "1962"
+      ],
+      "themes": [
+        "décolonisation"
+      ],
+      "see": [
+        "hm-marche-sel"
+      ]
+    },
+    {
+      "id": "hm-israel-1948",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Qui proclame l'indépendance de l'État d'Israël le 14 mai 1948 ?",
+      "exp": "Le lendemain, les pays arabes voisins entrent en guerre contre le nouvel État.",
+      "wiki": [
+        [
+          "David Ben Gourion",
+          "1948"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "David Ben Gourion",
+        "Golda Meir",
+        "Theodor Herzl",
+        "Menahem Begin"
+      ],
+      "themes": [
+        "Proche-Orient"
+      ]
+    },
+    {
+      "id": "hm-coree",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quelle guerre oppose de 1950 à 1953 les deux parties d'une péninsule asiatique ?",
+      "exp": "Le conflit s'achève par un armistice, sans traité de paix, le long du 38e parallèle.",
+      "wiki": [
+        [
+          "Guerre de Corée",
+          "1950",
+          "38e parallèle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La guerre de Corée",
+        "La guerre du Vietnam",
+        "La guerre d'Indochine",
+        "La guerre sino-japonaise"
+      ],
+      "themes": [
+        "guerre froide"
+      ]
+    },
+    {
+      "id": "hm-mur-construction",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "En quelle année le mur de Berlin est-il construit ?",
+      "exp": "Érigé dans la nuit du 12 au 13 août 1961 par la RDA, il sépare Berlin-Est de Berlin-Ouest pendant 28 ans.",
+      "wiki": [
+        [
+          "Mur de Berlin",
+          "1961",
+          "RDA"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1961",
+        "1949",
+        "1953",
+        "1968"
+      ],
+      "themes": [
+        "guerre froide"
+      ],
+      "see": [
+        "hm-mur-berlin"
+      ]
+    },
+    {
+      "id": "hm-cuba-1959",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Qui prend le pouvoir à Cuba en 1959 ?",
+      "exp": "La révolution renverse le dictateur Batista ; Fidel Castro dirige l'île jusqu'en 2008.",
+      "wiki": [
+        [
+          "Révolution cubaine",
+          "1959",
+          "Batista"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Fidel Castro",
+        "Fulgencio Batista",
+        "Juan Perón",
+        "Raúl Castro"
+      ],
+      "themes": [
+        "Amérique latine"
+      ],
+      "see": [
+        "hm-cuba"
+      ]
+    },
+    {
+      "id": "hm-kennedy",
+      "sub": "contemporain",
+      "diff": 1,
+      "q": "Dans quelle ville John F. Kennedy est-il assassiné en 1963 ?",
+      "exp": "Le 22 novembre 1963, le président est abattu dans sa voiture décapotable ; Lee Harvey Oswald est arrêté.",
+      "wiki": [
+        [
+          "Assassinat de John F. Kennedy",
+          "Dallas",
+          "1963"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dallas",
+        "Washington",
+        "New York",
+        "Chicago"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-mlk",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Qui prononce le discours « I have a dream » à Washington en 1963 ?",
+      "exp": "Le pasteur Martin Luther King, prix Nobel de la paix 1964, est assassiné à Memphis en 1968.",
+      "wiki": [
+        [
+          "Martin Luther King",
+          "I have a dream",
+          "1963"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Martin Luther King",
+        "Malcolm X",
+        "Barack Obama",
+        "Nelson Mandela"
+      ],
+      "themes": [
+        "droits civiques"
+      ]
+    },
+    {
+      "id": "hm-rosa-parks",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quelle femme refuse en 1955 de céder sa place à un passager blanc dans un bus de Montgomery ?",
+      "exp": "Son arrestation déclenche le boycott des bus de Montgomery, étape majeure du mouvement des droits civiques.",
+      "wiki": [
+        [
+          "Rosa Parks",
+          "Montgomery",
+          "1955"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Rosa Parks",
+        "Angela Davis",
+        "Harriet Tubman",
+        "Coretta Scott King"
+      ],
+      "themes": [
+        "droits civiques"
+      ]
+    },
+    {
+      "id": "hm-vietnam",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "En quelle année Saïgon tombe-t-elle, mettant fin à la guerre du Vietnam ?",
+      "exp": "Le 30 avril 1975, les troupes nord-vietnamiennes entrent dans Saïgon, rebaptisée Hô-Chi-Minh-Ville.",
+      "wiki": [
+        [
+          "Chute de Saïgon",
+          "1975"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1975",
+        "1968",
+        "1973",
+        "1954"
+      ],
+      "themes": [
+        "guerre froide"
+      ]
+    },
+    {
+      "id": "hm-printemps-prague",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quelle tentative de « socialisme à visage humain » est écrasée par les chars soviétiques en 1968 ?",
+      "exp": "Alexander Dubček tente de libéraliser la Tchécoslovaquie ; les troupes du pacte de Varsovie interviennent en août 1968.",
+      "wiki": [
+        [
+          "Printemps de Prague",
+          "1968",
+          "Dubček"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Printemps de Prague",
+        "L'insurrection de Budapest",
+        "Solidarność",
+        "La révolution de Velours"
+      ],
+      "themes": [
+        "guerre froide"
+      ]
+    },
+    {
+      "id": "hm-tiananmen",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quelle place de Pékin est le théâtre d'une répression sanglante des manifestants en juin 1989 ?",
+      "exp": "Le 4 juin 1989, l'armée réprime le mouvement étudiant ; l'image de l'« homme au tank » a fait le tour du monde.",
+      "wiki": [
+        [
+          "Manifestations de la place Tian'anmen",
+          "1989"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Tian'anmen",
+        "Wangfujing",
+        "La Cité interdite",
+        "Le Bund"
+      ],
+      "themes": [
+        "Chine"
+      ]
+    },
+    {
+      "id": "hm-gorbatchev",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Comment s'appelle la politique de restructuration lancée par Mikhaïl Gorbatchev en URSS ?",
+      "exp": "Avec la glasnost (transparence), la perestroïka vise à réformer l'URSS ; Gorbatchev reçoit le prix Nobel de la paix en 1990.",
+      "wiki": [
+        [
+          "Perestroïka",
+          "Gorbatchev"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La perestroïka",
+        "Le goulag",
+        "Le plan quinquennal",
+        "La NEP"
+      ],
+      "themes": [
+        "URSS"
+      ],
+      "see": [
+        "hm-urss"
+      ]
+    },
+    {
+      "id": "hm-rwanda",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "En quelle année a lieu le génocide des Tutsi au Rwanda ?",
+      "exp": "D'avril à juillet 1994, environ 800 000 personnes, en majorité tutsi, sont massacrées.",
+      "wiki": [
+        [
+          "Génocide des Tutsi au Rwanda",
+          "1994"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1994",
+        "1984",
+        "1999",
+        "2004"
+      ],
+      "themes": [
+        "Afrique"
+      ]
+    },
+    {
+      "id": "hm-11-septembre",
+      "sub": "contemporain",
+      "diff": 1,
+      "q": "En quelle année ont lieu les attentats contre le World Trade Center à New York ?",
+      "exp": "Le 11 septembre 2001, des terroristes d'al-Qaïda détournent quatre avions ; près de 3 000 personnes sont tuées.",
+      "wiki": [
+        [
+          "Attentats du 11 septembre 2001",
+          "al-Qaïda"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2001",
+        "1999",
+        "2003",
+        "1993"
+      ],
+      "themes": [
+        "terrorisme"
+      ]
+    },
+    {
+      "id": "hm-iran-1979",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quel religieux prend le pouvoir en Iran lors de la révolution de 1979 ?",
+      "exp": "La révolution renverse le shah et instaure une République islamique.",
+      "wiki": [
+        [
+          "Révolution iranienne",
+          "1979",
+          "Khomeini"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'ayatollah Khomeini",
+        "Le shah Mohammad Reza Pahlavi",
+        "Ali Khamenei",
+        "Mahmoud Ahmadinejad"
+      ],
+      "themes": [
+        "Proche-Orient"
+      ]
+    },
+    {
+      "id": "hm-printemps-arabe",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Dans quel pays commence le « Printemps arabe » fin 2010 ?",
+      "exp": "L'immolation de Mohamed Bouazizi à Sidi Bouzid déclenche la révolution qui renverse Ben Ali en janvier 2011.",
+      "wiki": [
+        [
+          "Printemps arabe",
+          "Tunisie",
+          "Bouazizi"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Tunisie",
+        "L'Égypte",
+        "La Libye",
+        "La Syrie"
+      ],
+      "themes": [
+        "monde arabe"
+      ]
+    },
+    {
+      "id": "hm-brexit",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "En quelle année les Britanniques votent-ils par référendum pour quitter l'Union européenne ?",
+      "exp": "Le « leave » l'emporte avec 51,9 % le 23 juin 2016 ; la sortie effective a lieu le 31 janvier 2020.",
+      "wiki": [
+        [
+          "Référendum sur l'appartenance du Royaume-Uni à l'Union européenne",
+          "2016"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2016",
+        "2020",
+        "2014",
+        "2019"
+      ],
+      "themes": [
+        "Europe"
+      ],
+      "see": [
+        "pol-ue-27"
+      ]
+    },
+    {
+      "id": "hm-thatcher",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quelle Première ministre britannique était surnommée « la Dame de fer » ?",
+      "exp": "Margaret Thatcher dirige le gouvernement de 1979 à 1990 ; le surnom vient d'un journal soviétique.",
+      "wiki": [
+        [
+          "Margaret Thatcher",
+          "Dame de fer"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Margaret Thatcher",
+        "Theresa May",
+        "Élisabeth II",
+        "Indira Gandhi"
+      ],
+      "themes": [
+        "Royaume-Uni"
+      ]
+    },
+    {
+      "id": "hm-khmers-rouges",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "Quel dirigeant des Khmers rouges est responsable de la mort d'environ un quart de la population cambodgienne ?",
+      "exp": "De 1975 à 1979, le régime des Khmers rouges provoque la mort de près de deux millions de personnes.",
+      "wiki": [
+        [
+          "Pol Pot",
+          "Khmers rouges"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pol Pot",
+        "Hô Chi Minh",
+        "Norodom Sihanouk",
+        "Hun Sen"
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "hm-classement-xxe",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Classe ces événements de l'histoire mondiale du XXe siècle.",
+      "exp": "Révolution russe (1917), krach de Wall Street (1929), Pearl Harbor (1941), fondation de l'OTAN (1949) et premier pas sur la Lune (1969).",
+      "wiki": [
+        [
+          "Krach de 1929",
+          "1929"
+        ],
+        [
+          "Organisation du traité de l'Atlantique Nord",
+          "1949"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "classement",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": [
+        "Révolution russe",
+        "Krach de Wall Street",
+        "Pearl Harbor",
+        "Fondation de l'OTAN",
+        "Premier homme sur la Lune"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "hm-explorateurs-asso",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Associe chaque explorateur à sa découverte.",
+      "exp": "Ces voyages entre 1492 et 1534 transforment la connaissance du monde par les Européens.",
+      "wiki": [
+        [
+          "Détroit de Magellan",
+          "Magellan"
+        ],
+        [
+          "Vasco de Gama",
+          "Inde"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Vasco de Gama",
+          "La route maritime des Indes"
+        ],
+        [
+          "Christophe Colomb",
+          "Les Antilles"
+        ],
+        [
+          "Jacques Cartier",
+          "Le Saint-Laurent"
+        ],
+        [
+          "Fernand de Magellan",
+          "Le détroit au sud de l'Amérique"
+        ]
+      ],
+      "themes": [
+        "grandes découvertes"
+      ]
+    },
+    {
+      "id": "hm-hieroglyphes-sens",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Que signifie le mot « hiéroglyphe » ?",
+      "exp": "Du grec hieros (sacré) et gluphein (graver) ; les hiéroglyphes étaient surtout gravés sur les monuments.",
+      "wiki": [
+        [
+          "Hiéroglyphe",
+          "sacré"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gravure sacrée",
+        "Écriture du Nil",
+        "Langue des pharaons",
+        "Signe d'or"
+      ],
+      "themes": [
+        "Égypte ancienne"
+      ]
+    },
+    {
+      "id": "hm-akhenaton",
+      "sub": "antiquite",
+      "diff": 4,
+      "q": "Quel pharaon tente d'imposer le culte d'un dieu unique, Aton, au XIVe siècle av. J.-C. ?",
+      "exp": "Époux de Néfertiti, il fonde une nouvelle capitale, Amarna ; ses réformes sont abandonnées après sa mort.",
+      "wiki": [
+        [
+          "Akhenaton",
+          "Aton",
+          "Néfertiti"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Akhenaton",
+        "Ramsès II",
+        "Thoutmôsis III",
+        "Khéphren"
+      ],
+      "themes": [
+        "Égypte ancienne"
+      ]
+    },
+    {
+      "id": "hm-babylone-jardins",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Dans quelle ville se trouvaient, selon la tradition, les jardins suspendus comptés parmi les Sept Merveilles ?",
+      "exp": "Leur existence reste discutée : aucune trace archéologique certaine n'a été retrouvée.",
+      "wiki": [
+        [
+          "Jardins suspendus de Babylone",
+          "merveilles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Babylone",
+        "Ninive",
+        "Persépolis",
+        "Ur"
+      ],
+      "themes": [
+        "Mésopotamie"
+      ]
+    },
+    {
+      "id": "hm-darius",
+      "sub": "antiquite",
+      "diff": 4,
+      "q": "Quel empire est fondé par Cyrus le Grand au VIe siècle av. J.-C. ?",
+      "exp": "Cyrus prend Babylone en 539 av. J.-C. ; ses successeurs Darius et Xerxès affrontent les Grecs.",
+      "wiki": [
+        [
+          "Empire achéménide",
+          "Cyrus",
+          "539"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Empire perse achéménide",
+        "L'Empire assyrien",
+        "L'Empire hittite",
+        "L'Empire séleucide"
+      ],
+      "themes": [
+        "Perse"
+      ]
+    },
+    {
+      "id": "hm-jeux-olympiques-antiques",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "En quelle année date-t-on traditionnellement les premiers Jeux olympiques antiques ?",
+      "exp": "Organisés à Olympie en l'honneur de Zeus, ils servaient aussi de repère chronologique (les olympiades).",
+      "wiki": [
+        [
+          "Jeux olympiques antiques",
+          "776",
+          "Olympie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "776 av. J.-C.",
+        "1896 av. J.-C.",
+        "490 av. J.-C.",
+        "44 av. J.-C."
+      ],
+      "themes": [
+        "Grèce antique"
+      ],
+      "see": [
+        "sport-coubertin"
+      ]
+    },
+    {
+      "id": "hm-sparte-education",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Comment appelait-on l'éducation militaire très dure des jeunes Spartiates ?",
+      "exp": "Dès 7 ans, les garçons étaient retirés à leur famille pour être formés au combat et à l'endurance.",
+      "wiki": [
+        [
+          "Agôgè",
+          "Sparte"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'agogè",
+        "La paideia",
+        "Le gymnase",
+        "L'éphébie"
+      ],
+      "themes": [
+        "Grèce antique"
+      ]
+    },
+    {
+      "id": "hm-pax-romana",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Comment appelle-t-on la longue période de stabilité de l'Empire romain inaugurée par Auguste ?",
+      "exp": "Elle dure environ deux siècles, jusqu'à la fin du règne de Marc Aurèle (180).",
+      "wiki": [
+        [
+          "Pax Romana",
+          "Auguste"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Pax Romana",
+        "Le Bas-Empire",
+        "La Tétrarchie",
+        "Le Haut Moyen Âge"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-trajan",
+      "sub": "antiquite",
+      "diff": 4,
+      "q": "Sous quel empereur l'Empire romain atteint-il sa plus grande extension, en 117 ?",
+      "exp": "Trajan conquiert notamment la Dacie ; sa colonne, à Rome, raconte ces campagnes.",
+      "wiki": [
+        [
+          "Trajan",
+          "Dacie",
+          "117"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Trajan",
+        "Hadrien",
+        "Auguste",
+        "Constantin"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-hadrien-mur",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Quel empereur fait construire un mur à travers la Grande-Bretagne au IIe siècle ?",
+      "exp": "Long d'environ 120 km, le mur d'Hadrien marquait la frontière nord de la province de Bretagne.",
+      "wiki": [
+        [
+          "Mur d'Hadrien",
+          "Hadrien",
+          "122",
+          "Bretagne",
+          "km"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hadrien",
+        "Trajan",
+        "Claude",
+        "Septime Sévère"
+      ],
+      "themes": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "hm-latin-langues",
+      "sub": "antiquite",
+      "diff": 2,
+      "q": "Laquelle de ces langues n’est PAS une langue romane, issue du latin ?",
+      "exp": "Les langues romanes comprennent notamment le français, l'italien, l'espagnol, le portugais, le roumain et le catalan.",
+      "wiki": [
+        [
+          "Langues romanes",
+          "roumain",
+          "catalan"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'allemand",
+        "Le roumain",
+        "Le portugais",
+        "Le catalan"
+      ],
+      "themes": [
+        "langues"
+      ]
+    },
+    {
+      "id": "hm-jesus",
+      "sub": "antiquite",
+      "diff": 3,
+      "q": "Sous quel gouverneur romain de Judée Jésus est-il crucifié selon les Évangiles ?",
+      "exp": "Préfet de Judée de 26 à 36 environ, Pilate est mentionné par l'historien Tacite.",
+      "wiki": [
+        [
+          "Ponce Pilate",
+          "Judée",
+          "Tacite"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ponce Pilate",
+        "Hérode le Grand",
+        "Caïphe",
+        "Néron"
+      ],
+      "themes": [
+        "Antiquité",
+        "christianisme"
+      ]
+    },
+    {
+      "id": "hm-byzance-fin",
+      "sub": "moyen-age",
+      "diff": 2,
+      "q": "Comment appelle-t-on l'Empire romain d'Orient, qui survit jusqu'en 1453 ?",
+      "exp": "Le nom vient de Byzance, ancien nom de Constantinople ; ses habitants se disaient « Romains ».",
+      "wiki": [
+        [
+          "Empire byzantin",
+          "Byzance",
+          "1453"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Empire byzantin",
+        "Le Saint-Empire romain germanique",
+        "L'Empire ottoman",
+        "L'Empire latin"
+      ],
+      "themes": [
+        "Byzance"
+      ],
+      "see": [
+        "hm-constantinople"
+      ]
+    },
+    {
+      "id": "hm-saint-empire",
+      "sub": "moyen-age",
+      "diff": 4,
+      "q": "En quelle année Otton Ier est-il couronné empereur, fondant le Saint-Empire romain germanique ?",
+      "exp": "Le Saint-Empire dure jusqu'en 1806, date à laquelle Napoléon pousse François II à le dissoudre.",
+      "wiki": [
+        [
+          "Saint-Empire romain germanique",
+          "962",
+          "1806"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "962",
+        "800",
+        "1066",
+        "1356"
+      ],
+      "themes": [
+        "Europe médiévale"
+      ]
+    },
+    {
+      "id": "hm-al-andalus",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quelle ville était la capitale du califat omeyyade d'Al-Andalus au Xe siècle ?",
+      "exp": "Cordoue était alors l'une des plus grandes villes d'Europe ; sa mosquée-cathédrale témoigne de cet âge d'or.",
+      "wiki": [
+        [
+          "Califat de Cordoue",
+          "Cordoue"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Cordoue",
+        "Grenade",
+        "Séville",
+        "Tolède"
+      ],
+      "themes": [
+        "Espagne"
+      ],
+      "see": [
+        "hm-grenade-1492"
+      ]
+    },
+    {
+      "id": "hm-bagdad-sagesse",
+      "sub": "moyen-age",
+      "diff": 4,
+      "q": "Dans quelle ville se trouvait la Maison de la sagesse, grand centre de traduction et de savoir au IXe siècle ?",
+      "exp": "Sous les Abbassides, on y traduit en arabe les savants grecs, perses et indiens.",
+      "wiki": [
+        [
+          "Maison de la sagesse",
+          "Bagdad",
+          "Abbassides"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bagdad",
+        "Damas",
+        "Le Caire",
+        "Cordoue"
+      ],
+      "themes": [
+        "monde musulman"
+      ]
+    },
+    {
+      "id": "hm-hanse",
+      "sub": "moyen-age",
+      "diff": 4,
+      "q": "Comment s'appelait l'association des villes marchandes d'Europe du Nord, dont Lübeck était la tête ?",
+      "exp": "Du XIIe au XVIIe siècle, la Hanse domine le commerce de la Baltique et de la mer du Nord.",
+      "wiki": [
+        [
+          "Hanse",
+          "Lübeck",
+          "Baltique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Hanse",
+        "La Ligue lombarde",
+        "La Sérénissime",
+        "Le Zollverein"
+      ],
+      "themes": [
+        "commerce"
+      ]
+    },
+    {
+      "id": "hm-venise-doge",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quel titre portait le chef élu de la république de Venise ?",
+      "exp": "Le doge résidait au palais des Doges ; la république de Venise disparaît en 1797, conquise par Bonaparte.",
+      "wiki": [
+        [
+          "Doge de Venise",
+          "1797"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Doge",
+        "Podestat",
+        "Gonfalonier",
+        "Consul"
+      ],
+      "themes": [
+        "Italie"
+      ]
+    },
+    {
+      "id": "hm-medicis",
+      "sub": "moyen-age",
+      "diff": 2,
+      "q": "Quelle famille de banquiers a dominé Florence et protégé les artistes de la Renaissance ?",
+      "exp": "Laurent le Magnifique protège notamment Botticelli et le jeune Michel-Ange ; deux reines de France sont des Médicis.",
+      "wiki": [
+        [
+          "Médicis",
+          "Laurent le Magnifique",
+          "Florence"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Médicis",
+        "Les Borgia",
+        "Les Sforza",
+        "Les Habsbourg"
+      ],
+      "themes": [
+        "Renaissance"
+      ],
+      "see": [
+        "hf-catherine-medicis"
+      ]
+    },
+    {
+      "id": "hm-gutenberg-bible",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Quel livre est le premier grand ouvrage imprimé en Europe avec des caractères mobiles ?",
+      "exp": "La « Bible à 42 lignes » de Gutenberg est imprimée à Mayence vers 1455.",
+      "wiki": [
+        [
+          "Bible de Gutenberg",
+          "42 lignes",
+          "Mayence"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Bible",
+        "L'Iliade",
+        "Le Coran",
+        "La Divine Comédie"
+      ],
+      "themes": [
+        "imprimerie"
+      ],
+      "see": [
+        "tech-gutenberg"
+      ]
+    },
+    {
+      "id": "hm-samourai",
+      "sub": "moyen-age",
+      "diff": 2,
+      "q": "Comment appelle-t-on les guerriers de la noblesse militaire du Japon féodal ?",
+      "exp": "Ils suivaient un code d'honneur, le bushido ; la classe des samouraïs est abolie lors de l'ère Meiji.",
+      "wiki": [
+        [
+          "Samouraï",
+          "bushido",
+          "Meiji"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les samouraïs",
+        "Les ninjas",
+        "Les shoguns",
+        "Les daimyos"
+      ],
+      "themes": [
+        "Japon"
+      ],
+      "see": [
+        "hm-meiji"
+      ]
+    },
+    {
+      "id": "hm-angkor",
+      "sub": "moyen-age",
+      "diff": 3,
+      "q": "Dans quel pays se trouve le temple d'Angkor Vat ?",
+      "exp": "Construit au XIIe siècle par l'Empire khmer, c'est le plus grand monument religieux du monde ; il figure sur le drapeau cambodgien.",
+      "wiki": [
+        [
+          "Angkor Vat",
+          "Cambodge",
+          "khmer"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Cambodge",
+        "La Thaïlande",
+        "Le Vietnam",
+        "Le Laos"
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "hm-renaissance-italie",
+      "sub": "epoque-moderne",
+      "diff": 2,
+      "q": "Dans quel pays la Renaissance artistique est-elle née au XVe siècle ?",
+      "exp": "Florence en est le berceau, avec Brunelleschi, Donatello et Masaccio, puis Léonard, Michel-Ange et Raphaël.",
+      "wiki": [
+        [
+          "Renaissance italienne",
+          "Florence",
+          "Brunelleschi"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Italie",
+        "La France",
+        "L'Espagne",
+        "Les Pays-Bas"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "hm-tordesillas",
+      "sub": "epoque-moderne",
+      "diff": 4,
+      "q": "Quel traité de 1494 partage le Nouveau Monde entre l'Espagne et le Portugal ?",
+      "exp": "Une ligne nord-sud est tracée dans l'Atlantique : c'est pourquoi on parle portugais au Brésil.",
+      "wiki": [
+        [
+          "Traité de Tordesillas",
+          "1494"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le traité de Tordesillas",
+        "Le traité de Saragosse",
+        "Le traité de Madrid",
+        "Le traité de Lisbonne"
+      ],
+      "themes": [
+        "grandes découvertes"
+      ],
+      "see": [
+        "geo-langue-bresil"
+      ]
+    },
+    {
+      "id": "hm-pizarro",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quel conquistador fait tomber l'Empire inca ?",
+      "exp": "Il capture l'empereur Atahualpa en 1532 et le fait exécuter en 1533.",
+      "wiki": [
+        [
+          "Francisco Pizarro",
+          "Atahualpa",
+          "1532"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Francisco Pizarro",
+        "Hernán Cortés",
+        "Vasco Núñez de Balboa",
+        "Pedro de Valdivia"
+      ],
+      "themes": [
+        "conquête de l'Amérique"
+      ],
+      "see": [
+        "hm-cortes"
+      ]
+    },
+    {
+      "id": "hm-galilee-proces",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "En quelle année Galilée est-il condamné par l'Inquisition pour avoir défendu l'héliocentrisme ?",
+      "exp": "Contraint d'abjurer, il est assigné à résidence ; on lui prête, sans preuve, la phrase « Et pourtant elle tourne ».",
+      "wiki": [
+        [
+          "Galilée (savant)",
+          "1633",
+          "Inquisition"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1633",
+        "1543",
+        "1687",
+        "1610"
+      ],
+      "themes": [
+        "sciences",
+        "Église"
+      ],
+      "see": [
+        "sci-copernic"
+      ]
+    },
+    {
+      "id": "hm-mayflower",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quel navire transporte en 1620 les « pères pèlerins » vers l'Amérique du Nord ?",
+      "exp": "Ces puritains anglais fondent la colonie de Plymouth, dans l'actuel Massachusetts.",
+      "wiki": [
+        [
+          "Mayflower",
+          "1620",
+          "Plymouth"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Mayflower",
+        "Le Santa María",
+        "La Pinta",
+        "Le Beagle"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-traite-negriere",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Comment appelle-t-on le commerce triangulaire reliant l'Europe, l'Afrique et l'Amérique ?",
+      "exp": "Entre le XVIe et le XIXe siècle, plus de 12 millions d'Africains sont déportés vers les Amériques.",
+      "wiki": [
+        [
+          "Traite atlantique",
+          "12 millions"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La traite atlantique",
+        "La route de la soie",
+        "La route des épices",
+        "Le commerce des fourrures"
+      ],
+      "themes": [
+        "esclavage"
+      ],
+      "see": [
+        "hf-code-noir"
+      ]
+    },
+    {
+      "id": "hm-glorieuse-revolution",
+      "sub": "epoque-moderne",
+      "diff": 5,
+      "q": "Quelle révolution de 1688 installe Guillaume d'Orange sur le trône d'Angleterre ?",
+      "exp": "Elle aboutit au Bill of Rights de 1689, qui limite le pouvoir royal au profit du Parlement.",
+      "wiki": [
+        [
+          "Glorieuse Révolution",
+          "1688",
+          "Bill of Rights"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Glorieuse Révolution",
+        "La révolution puritaine",
+        "La révolution industrielle",
+        "La guerre des Deux-Roses"
+      ],
+      "themes": [
+        "Angleterre"
+      ]
+    },
+    {
+      "id": "hm-frederic-ii",
+      "sub": "epoque-moderne",
+      "diff": 4,
+      "q": "Quel roi de Prusse, ami de Voltaire, était surnommé « le Grand » ?",
+      "exp": "Despote éclairé, Frédéric II accueille Voltaire à Potsdam, au château de Sans-Souci.",
+      "wiki": [
+        [
+          "Frédéric II (roi de Prusse)",
+          "Sans-Souci",
+          "Voltaire"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Frédéric II",
+        "Frédéric-Guillaume Ier",
+        "Guillaume Ier",
+        "Frédéric III"
+      ],
+      "themes": [
+        "Lumières"
+      ]
+    },
+    {
+      "id": "hm-cook",
+      "sub": "epoque-moderne",
+      "diff": 3,
+      "q": "Quel navigateur britannique a cartographié la Nouvelle-Zélande et la côte est de l'Australie au XVIIIe siècle ?",
+      "exp": "Il est tué à Hawaï en 1779 lors de son troisième voyage.",
+      "wiki": [
+        [
+          "James Cook",
+          "Hawaï",
+          "1779"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "James Cook",
+        "Abel Tasman",
+        "Francis Drake",
+        "William Bligh"
+      ],
+      "themes": [
+        "explorations"
+      ]
+    },
+    {
+      "id": "hm-revolution-industrielle",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Dans quel pays la révolution industrielle commence-t-elle au XVIIIe siècle ?",
+      "exp": "Charbon, machine à vapeur et industrie textile transforment d'abord l'économie britannique.",
+      "wiki": [
+        [
+          "Révolution industrielle",
+          "Grande-Bretagne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Grande-Bretagne",
+        "La France",
+        "L'Allemagne",
+        "Les États-Unis"
+      ],
+      "themes": [
+        "révolution industrielle"
+      ],
+      "see": [
+        "tech-watt"
+      ]
+    },
+    {
+      "id": "hm-stephenson",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "Quel ingénieur britannique a construit la locomotive Rocket en 1829 ?",
+      "exp": "Avec son fils Robert, il construit aussi la ligne Liverpool-Manchester, ouverte en 1830.",
+      "wiki": [
+        [
+          "George Stephenson",
+          "Rocket",
+          "1829"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "George Stephenson",
+        "James Watt",
+        "Richard Trevithick",
+        "Isambard Kingdom Brunel"
+      ],
+      "themes": [
+        "révolution industrielle"
+      ]
+    },
+    {
+      "id": "hm-abolition-uk",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "En quelle année le Royaume-Uni abolit-il l'esclavage dans la plupart de ses colonies ?",
+      "exp": "La traite est interdite en 1807 ; l'abolition de l'esclavage est votée en 1833.",
+      "wiki": [
+        [
+          "Slavery Abolition Act 1833",
+          "1833"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1833",
+        "1848",
+        "1865",
+        "1807"
+      ],
+      "themes": [
+        "esclavage"
+      ]
+    },
+    {
+      "id": "hm-mandela-prison",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Sur quelle île Nelson Mandela a-t-il passé la majeure partie de sa détention ?",
+      "exp": "Il y reste 18 de ses 27 années de prison, au large du Cap.",
+      "wiki": [
+        [
+          "Robben Island",
+          "Mandela",
+          "Cap"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Robben Island",
+        "Sainte-Hélène",
+        "Alcatraz",
+        "L'île du Diable"
+      ],
+      "themes": [
+        "Afrique du Sud"
+      ],
+      "see": [
+        "hm-mandela"
+      ]
+    },
+    {
+      "id": "hm-apartheid",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Que signifie le mot « apartheid » en afrikaans ?",
+      "exp": "Le régime d'apartheid, institutionnalisé en 1948 en Afrique du Sud, organise la ségrégation raciale jusqu'au début des années 1990.",
+      "wiki": [
+        [
+          "Apartheid",
+          "séparation",
+          "1948"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Séparation",
+        "Égalité",
+        "Pays",
+        "Liberté"
+      ],
+      "themes": [
+        "Afrique du Sud"
+      ]
+    },
+    {
+      "id": "hm-solidarnosc",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quel syndicat polonais, mené par Lech Wałęsa, s'oppose au régime communiste dans les années 1980 ?",
+      "exp": "Né en 1980 dans les chantiers navals de Gdańsk, il contribue à la chute du communisme en 1989.",
+      "wiki": [
+        [
+          "Solidarność",
+          "Wałęsa",
+          "Gdańsk"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Solidarność",
+        "La Charte 77",
+        "Le Forum civique",
+        "Le Front national du salut"
+      ],
+      "themes": [
+        "guerre froide"
+      ]
+    },
+    {
+      "id": "hm-velours",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "Comment appelle-t-on la révolution pacifique qui met fin au communisme en Tchécoslovaquie en 1989 ?",
+      "exp": "L'écrivain Václav Havel devient président ; la révolution des Œillets (1974) est portugaise.",
+      "wiki": [
+        [
+          "Révolution de Velours",
+          "Havel",
+          "1989"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La révolution de Velours",
+        "La révolution des Œillets",
+        "La révolution orange",
+        "La révolution des Roses"
+      ],
+      "themes": [
+        "guerre froide"
+      ]
+    },
+    {
+      "id": "hm-oeillets",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "Quel pays met fin à sa dictature lors de la révolution des Œillets en 1974 ?",
+      "exp": "Des militaires renversent le régime salazariste le 25 avril 1974 ; les soldats portaient des œillets dans leurs fusils.",
+      "wiki": [
+        [
+          "Révolution des Œillets",
+          "1974",
+          "Portugal"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Portugal",
+        "L'Espagne",
+        "La Grèce",
+        "L'Italie"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "hm-franco",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quel dictateur gouverne l'Espagne de 1939 à sa mort en 1975 ?",
+      "exp": "Vainqueur de la guerre civile, Franco désigne Juan Carlos comme successeur ; la démocratie est rétablie après sa mort.",
+      "wiki": [
+        [
+          "Francisco Franco",
+          "1939",
+          "1975"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Francisco Franco",
+        "Antonio Salazar",
+        "Benito Mussolini",
+        "Miguel Primo de Rivera"
+      ],
+      "themes": [
+        "Espagne"
+      ]
+    },
+    {
+      "id": "hm-mussolini",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Quel dictateur fonde le fascisme en Italie et prend le pouvoir en 1922 ?",
+      "exp": "Après la marche sur Rome d'octobre 1922, il est nommé président du Conseil ; il est exécuté par des partisans en 1945.",
+      "wiki": [
+        [
+          "Benito Mussolini",
+          "1922",
+          "marche sur Rome"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Benito Mussolini",
+        "Francisco Franco",
+        "Victor-Emmanuel III",
+        "Gabriele D'Annunzio"
+      ],
+      "themes": [
+        "fascisme"
+      ]
+    },
+    {
+      "id": "hm-weimar",
+      "sub": "contemporain",
+      "diff": 4,
+      "q": "Comment appelle-t-on le régime démocratique allemand de 1918 à 1933 ?",
+      "exp": "Née après la défaite de 1918, elle est fragilisée par l'hyperinflation de 1923 et la crise de 1929.",
+      "wiki": [
+        [
+          "République de Weimar",
+          "1918",
+          "1933"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La république de Weimar",
+        "Le IIe Reich",
+        "La RDA",
+        "La Confédération du Rhin"
+      ],
+      "themes": [
+        "Allemagne"
+      ]
+    },
+    {
+      "id": "hm-new-deal",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quelle politique Franklin D. Roosevelt lance-t-il en 1933 pour sortir de la Grande Dépression ?",
+      "exp": "Grands travaux, aides sociales et régulation bancaire visent à relancer l'économie américaine.",
+      "wiki": [
+        [
+          "New Deal",
+          "Roosevelt",
+          "1933"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le New Deal",
+        "Le plan Marshall",
+        "La Prohibition",
+        "La doctrine Monroe"
+      ],
+      "themes": [
+        "États-Unis"
+      ],
+      "see": [
+        "hm-krach-1929"
+      ]
+    },
+    {
+      "id": "hm-hiroshima-nagasaki",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Sur quelle ville la seconde bombe atomique est-elle larguée, le 9 août 1945 ?",
+      "exp": "Kokura était la cible initiale, mais les nuages ont détourné l'avion vers Nagasaki.",
+      "wiki": [
+        [
+          "Bombardements atomiques d'Hiroshima et Nagasaki",
+          "Nagasaki",
+          "Kokura"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nagasaki",
+        "Hiroshima",
+        "Kyoto",
+        "Kokura"
+      ],
+      "themes": [
+        "Seconde Guerre mondiale"
+      ],
+      "see": [
+        "hm-hiroshima"
+      ]
+    },
+    {
+      "id": "hm-nuremberg",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Dans quelle ville se tient le procès des principaux dirigeants nazis en 1945-1946 ?",
+      "exp": "Le tribunal militaire international y juge notamment Göring ; la notion de crime contre l'humanité y est appliquée.",
+      "wiki": [
+        [
+          "Procès de Nuremberg",
+          "Göring",
+          "crime contre l'humanité"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nuremberg",
+        "Berlin",
+        "Munich",
+        "La Haye"
+      ],
+      "themes": [
+        "Seconde Guerre mondiale"
+      ]
+    },
+    {
+      "id": "hm-rda-rfa",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Comment s'appelait l'Allemagne de l'Est communiste ?",
+      "exp": "La République démocratique allemande existe de 1949 à 1990 ; l'Allemagne de l'Ouest est la RFA.",
+      "wiki": [
+        [
+          "République démocratique allemande",
+          "1949",
+          "1990"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La RDA",
+        "La RFA",
+        "La Prusse",
+        "La Bavière"
+      ],
+      "themes": [
+        "guerre froide"
+      ],
+      "see": [
+        "hm-mur-construction"
+      ]
+    },
+    {
+      "id": "hm-decolonisation-afrique",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "En quelle année de nombreuses colonies françaises d'Afrique subsaharienne accèdent-elles à l'indépendance ?",
+      "exp": "Surnommée « l'année de l'Afrique », 1960 voit l'indépendance de 17 pays africains, dont le Sénégal, le Mali et Madagascar.",
+      "wiki": [
+        [
+          "Décolonisation",
+          "1960",
+          "Sénégal",
+          "Madagascar"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1960",
+        "1945",
+        "1975",
+        "1955"
+      ],
+      "themes": [
+        "décolonisation"
+      ]
+    },
+    {
+      "id": "hm-bandung",
+      "sub": "contemporain",
+      "diff": 5,
+      "q": "Quelle conférence de 1955 réunit en Indonésie des pays d'Asie et d'Afrique souvent récemment décolonisés ?",
+      "exp": "Elle annonce le mouvement des non-alignés, qui refuse de choisir entre les blocs de la guerre froide.",
+      "wiki": [
+        [
+          "Conférence de Bandung",
+          "1955",
+          "non-alignés"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La conférence de Bandung",
+        "La conférence de Yalta",
+        "La conférence de Genève",
+        "La conférence de Potsdam"
+      ],
+      "themes": [
+        "décolonisation"
+      ]
+    },
+    {
+      "id": "hm-obama",
+      "sub": "contemporain",
+      "diff": 1,
+      "q": "Qui devient en 2009 le premier président afro-américain des États-Unis ?",
+      "exp": "Élu en 2008, réélu en 2012, il reçoit le prix Nobel de la paix en 2009.",
+      "wiki": [
+        [
+          "Barack Obama",
+          "2009",
+          "Nobel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Barack Obama",
+        "Colin Powell",
+        "Joe Biden",
+        "Jesse Jackson"
+      ],
+      "themes": [
+        "États-Unis"
+      ]
+    },
+    {
+      "id": "hm-chernobyl",
+      "sub": "contemporain",
+      "diff": 2,
+      "q": "Dans quel pays actuel se trouve la centrale de Tchernobyl, où une catastrophe nucléaire a lieu en 1986 ?",
+      "exp": "L'explosion du réacteur 4, le 26 avril 1986, contamine une grande partie de l'Europe.",
+      "wiki": [
+        [
+          "Catastrophe nucléaire de Tchernobyl",
+          "1986",
+          "Ukraine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Ukraine",
+        "La Russie",
+        "La Biélorussie",
+        "La Pologne"
+      ],
+      "themes": [
+        "catastrophes"
+      ]
+    },
+    {
+      "id": "hm-fukushima",
+      "sub": "contemporain",
+      "diff": 3,
+      "q": "Quel événement provoque en 2011 l'accident nucléaire de Fukushima ?",
+      "exp": "Le séisme du 11 mars 2011 et le tsunami qui suit privent la centrale de refroidissement.",
+      "wiki": [
+        [
+          "Accident nucléaire de Fukushima",
+          "2011",
+          "tsunami"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un séisme suivi d'un tsunami",
+        "Une erreur humaine lors d'un test",
+        "Un incendie de forêt",
+        "Un attentat"
+      ],
+      "themes": [
+        "catastrophes"
+      ]
+    },
+    {
+      "id": "hm-covid",
+      "sub": "contemporain",
+      "diff": 1,
+      "q": "En quelle année l'OMS déclare-t-elle la pandémie de Covid-19 ?",
+      "exp": "L'OMS qualifie la situation de pandémie le 11 mars 2020 ; le virus avait été identifié fin 2019 à Wuhan.",
+      "wiki": [
+        [
+          "Pandémie de Covid-19",
+          "11 mars 2020",
+          "Wuhan"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2020",
+        "2019",
+        "2021",
+        "2018"
+      ],
+      "themes": [
+        "épidémies"
+      ],
+      "see": [
+        "sci-oms"
+      ]
     }
   ]
 }

@@ -4,97 +4,1777 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "tech-gutenberg", "sub": "inventions", "diff": 1, "themes": ["imprimerie", "Renaissance"],
+      "id": "tech-gutenberg",
+      "sub": "inventions",
+      "diff": 1,
+      "themes": [
+        "imprimerie",
+        "Renaissance"
+      ],
       "q": "À qui attribue-t-on, vers 1450, la mise au point de l'imprimerie à caractères mobiles en Europe ?",
-      "choices": ["Johannes Gutenberg", "Léonard de Vinci", "Galilée", "Érasme"],
+      "choices": [
+        "Johannes Gutenberg",
+        "Léonard de Vinci",
+        "Galilée",
+        "Érasme"
+      ],
       "exp": "À Mayence, Gutenberg combine caractères métalliques mobiles, encre grasse et presse : le livre peut être reproduit rapidement. Sa Bible, imprimée vers 1455, est l'un des premiers grands livres imprimés en Europe.",
       "anec": "Des caractères mobiles existaient déjà en Chine et en Corée plusieurs siècles auparavant.",
-      "see": ["tech-classement"],
-      "wiki": [["Johannes Gutenberg", "imprimerie", "Mayence"]]
+      "see": [
+        "tech-classement"
+      ],
+      "wiki": [
+        [
+          "Johannes Gutenberg",
+          "imprimerie",
+          "Mayence"
+        ]
+      ]
     },
     {
-      "id": "tech-watt", "sub": "inventions", "diff": 2, "themes": ["révolution industrielle", "énergie"],
+      "id": "tech-watt",
+      "sub": "inventions",
+      "diff": 2,
+      "themes": [
+        "révolution industrielle",
+        "énergie"
+      ],
       "q": "Quel ingénieur écossais améliore de façon décisive la machine à vapeur au XVIIIe siècle ?",
-      "choices": ["James Watt", "Thomas Edison", "Isaac Newton", "George Stephenson"],
+      "choices": [
+        "James Watt",
+        "Thomas Edison",
+        "Isaac Newton",
+        "George Stephenson"
+      ],
       "exp": "James Watt ajoute notamment un condenseur séparé (brevet de 1769) qui réduit fortement la consommation de charbon, contribuant à l'essor de la révolution industrielle.",
       "anec": "L'unité de puissance, le watt, porte son nom.",
-      "wiki": [["James Watt", "vapeur", "1769"]]
+      "wiki": [
+        [
+          "James Watt",
+          "vapeur",
+          "1769"
+        ]
+      ]
     },
     {
-      "id": "tech-telephone", "sub": "inventions", "diff": 2, "themes": ["télécommunications"],
+      "id": "tech-telephone",
+      "sub": "inventions",
+      "diff": 2,
+      "themes": [
+        "télécommunications"
+      ],
       "q": "Qui dépose en 1876 le brevet du téléphone aux États-Unis ?",
-      "choices": ["Alexander Graham Bell", "Thomas Edison", "Guglielmo Marconi", "Samuel Morse"],
+      "choices": [
+        "Alexander Graham Bell",
+        "Thomas Edison",
+        "Guglielmo Marconi",
+        "Samuel Morse"
+      ],
       "exp": "Alexander Graham Bell dépose son brevet en 1876, quelques heures avant une demande similaire d'Elisha Gray. L'invention a fait l'objet de longues controverses de paternité, notamment avec l'Italien Antonio Meucci.",
-      "wiki": [["Alexander Graham Bell", "1876", "Meucci"]]
+      "wiki": [
+        [
+          "Alexander Graham Bell",
+          "1876",
+          "Meucci"
+        ]
+      ]
     },
     {
-      "id": "tech-franklin", "sub": "inventions", "diff": 2, "themes": ["électricité"],
+      "id": "tech-franklin",
+      "sub": "inventions",
+      "diff": 2,
+      "themes": [
+        "électricité"
+      ],
       "q": "Qui invente le paratonnerre au XVIIIe siècle ?",
-      "choices": ["Benjamin Franklin", "Alessandro Volta", "André-Marie Ampère", "Nikola Tesla"],
+      "choices": [
+        "Benjamin Franklin",
+        "Alessandro Volta",
+        "André-Marie Ampère",
+        "Nikola Tesla"
+      ],
       "exp": "Benjamin Franklin, savant et homme politique américain, montre la nature électrique de la foudre et propose dans les années 1750 une tige métallique reliée à la terre pour protéger les bâtiments.",
-      "wiki": [["Paratonnerre", "Franklin"]]
+      "wiki": [
+        [
+          "Paratonnerre",
+          "Franklin"
+        ]
+      ]
     },
     {
-      "id": "tech-classement", "fmt": "classement", "sub": "inventions", "diff": 3, "themes": ["histoire des techniques"],
+      "id": "tech-classement",
+      "fmt": "classement",
+      "sub": "inventions",
+      "diff": 3,
+      "themes": [
+        "histoire des techniques"
+      ],
       "q": "Classe ces inventions.",
       "orderLabel": "de la plus ancienne à la plus récente",
-      "items": ["Imprimerie à caractères mobiles de Gutenberg", "Machine à vapeur de Watt", "Téléphone de Bell", "Transistor"],
+      "items": [
+        "Imprimerie à caractères mobiles de Gutenberg",
+        "Machine à vapeur de Watt",
+        "Téléphone de Bell",
+        "Transistor"
+      ],
       "exp": "Vers 1450 pour l'imprimerie de Gutenberg, 1769 pour le brevet de Watt, 1876 pour le téléphone et 1947 pour le transistor, inventé aux laboratoires Bell.",
-      "see": ["tech-gutenberg", "tech-watt", "tech-telephone"],
-      "wiki": [["Transistor", "1947"]]
+      "see": [
+        "tech-gutenberg",
+        "tech-watt",
+        "tech-telephone"
+      ],
+      "wiki": [
+        [
+          "Transistor",
+          "1947"
+        ]
+      ]
     },
     {
-      "id": "tech-lovelace", "sub": "informatique", "diff": 3, "themes": ["programmation", "femmes de science"],
+      "id": "tech-lovelace",
+      "sub": "informatique",
+      "diff": 3,
+      "themes": [
+        "programmation",
+        "femmes de science"
+      ],
       "q": "Qui est souvent considérée comme la première programmeuse de l'histoire ?",
-      "choices": ["Ada Lovelace", "Grace Hopper", "Marie Curie", "Hedy Lamarr"],
+      "choices": [
+        "Ada Lovelace",
+        "Grace Hopper",
+        "Marie Curie",
+        "Hedy Lamarr"
+      ],
       "exp": "Au XIXe siècle, Ada Lovelace écrit pour la machine analytique de Charles Babbage ce qui est considéré comme le premier algorithme destiné à être exécuté par une machine.",
       "anec": "Un langage de programmation, Ada, a été nommé en son honneur.",
-      "wiki": [["Ada Lovelace", "Babbage"]]
+      "wiki": [
+        [
+          "Ada Lovelace",
+          "Babbage"
+        ]
+      ]
     },
     {
-      "id": "tech-web", "sub": "informatique", "diff": 2, "themes": ["Internet"],
+      "id": "tech-web",
+      "sub": "informatique",
+      "diff": 2,
+      "themes": [
+        "Internet"
+      ],
       "q": "Qui invente le World Wide Web au CERN, en 1989-1990 ?",
-      "choices": ["Tim Berners-Lee", "Bill Gates", "Steve Jobs", "Vinton Cerf"],
+      "choices": [
+        "Tim Berners-Lee",
+        "Bill Gates",
+        "Steve Jobs",
+        "Vinton Cerf"
+      ],
       "exp": "Le Britannique Tim Berners-Lee propose au CERN un système d'hypertexte qui devient le Web. Il ne faut pas confondre le Web et Internet, le réseau sur lequel il fonctionne.",
       "anec": "Vinton Cerf est l'un des pères du protocole TCP/IP, la base d'Internet.",
-      "wiki": [["World Wide Web", "Berners-Lee", "CERN"]]
+      "wiki": [
+        [
+          "World Wide Web",
+          "Berners-Lee",
+          "CERN"
+        ]
+      ]
     },
     {
-      "id": "tech-octet", "fmt": "saisie", "sub": "informatique", "diff": 1, "themes": ["numérique"],
+      "id": "tech-octet",
+      "fmt": "saisie",
+      "sub": "informatique",
+      "diff": 1,
+      "themes": [
+        "numérique"
+      ],
       "q": "Combien de bits contient un octet ?",
-      "accepted": ["8", "huit"],
+      "accepted": [
+        "8",
+        "huit"
+      ],
       "exp": "Un octet est composé de 8 bits, ce qui permet de représenter 256 valeurs différentes (de 0 à 255).",
-      "wiki": [["Octet", "8 bits"]]
+      "wiki": [
+        [
+          "Octet",
+          "8 bits"
+        ]
+      ]
     },
     {
-      "id": "tech-minitel", "fmt": "vrai_faux", "answer": true, "sub": "informatique", "diff": 3, "themes": ["télécommunications", "France"],
+      "id": "tech-minitel",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "informatique",
+      "diff": 3,
+      "themes": [
+        "télécommunications",
+        "France"
+      ],
       "q": "Le Minitel a été définitivement arrêté en France en 2012.",
       "exp": "Vrai. Lancé au début des années 1980, le service Minitel de France Télécom a été fermé le 30 juin 2012.",
-      "wiki": [["Minitel", "2012"]]
+      "wiki": [
+        [
+          "Minitel",
+          "2012"
+        ]
+      ]
     },
     {
-      "id": "tech-spoutnik", "sub": "espace", "diff": 2, "themes": ["conquête spatiale", "guerre froide"],
+      "id": "tech-spoutnik",
+      "sub": "espace",
+      "diff": 2,
+      "themes": [
+        "conquête spatiale",
+        "guerre froide"
+      ],
       "q": "Quel est le premier satellite artificiel mis en orbite, en 1957 ?",
-      "choices": ["Spoutnik 1", "Explorer 1", "Vostok 1", "Apollo 1"],
+      "choices": [
+        "Spoutnik 1",
+        "Explorer 1",
+        "Vostok 1",
+        "Apollo 1"
+      ],
       "exp": "L'URSS lance Spoutnik 1 le 4 octobre 1957, ouvrant l'ère spatiale et la course à l'espace avec les États-Unis, qui répondent avec Explorer 1 en 1958.",
-      "see": ["tech-apollo"],
-      "wiki": [["Spoutnik 1", "1957"]]
+      "see": [
+        "tech-apollo"
+      ],
+      "wiki": [
+        [
+          "Spoutnik 1",
+          "1957"
+        ]
+      ]
     },
     {
-      "id": "tech-apollo", "sub": "espace", "diff": 1, "themes": ["conquête spatiale", "Lune"],
+      "id": "tech-apollo",
+      "sub": "espace",
+      "diff": 1,
+      "themes": [
+        "conquête spatiale",
+        "Lune"
+      ],
       "q": "Qui est le premier homme à marcher sur la Lune, en juillet 1969 ?",
-      "choices": ["Neil Armstrong", "Buzz Aldrin", "Youri Gagarine", "Michael Collins"],
+      "choices": [
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Youri Gagarine",
+        "Michael Collins"
+      ],
       "exp": "Lors de la mission Apollo 11, Neil Armstrong pose le pied sur la Lune, suivi de Buzz Aldrin, tandis que Michael Collins reste en orbite. Youri Gagarine fut, lui, le premier homme dans l'espace (1961).",
-      "see": ["tech-spoutnik", "sci-lune-distance"],
-      "wiki": [["Apollo 11", "Armstrong", "Aldrin"]]
+      "see": [
+        "tech-spoutnik",
+        "sci-lune-distance"
+      ],
+      "wiki": [
+        [
+          "Apollo 11",
+          "Armstrong",
+          "Aldrin"
+        ]
+      ]
     },
     {
-      "id": "tech-lumiere", "sub": "inventions", "diff": 2, "themes": ["cinéma", "image"],
+      "id": "tech-lumiere",
+      "sub": "inventions",
+      "diff": 2,
+      "themes": [
+        "cinéma",
+        "image"
+      ],
       "q": "Quel appareil les frères Lumière font-ils breveter en 1895 ?",
-      "choices": ["Le cinématographe", "Le phonographe", "L'appareil photo", "La télévision"],
+      "choices": [
+        "Le cinématographe",
+        "Le phonographe",
+        "L'appareil photo",
+        "La télévision"
+      ],
       "exp": "Le cinématographe d'Auguste et Louis Lumière permet à la fois de filmer et de projeter. La première projection publique payante a lieu le 28 décembre 1895 au Grand Café, à Paris.",
-      "see": ["cine-classement"],
-      "wiki": [["Cinématographe", "Lumière", "1895"]]
+      "see": [
+        "cine-classement"
+      ],
+      "wiki": [
+        [
+          "Cinématographe",
+          "Lumière",
+          "1895"
+        ]
+      ]
+    },
+    {
+      "id": "tech-edison-ampoule",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Quel inventeur américain a mis au point en 1879 une ampoule à incandescence durable ?",
+      "exp": "Edison n'a pas inventé le principe, mais un filament de carbone efficace et tout un système de distribution électrique.",
+      "wiki": [
+        [
+          "Thomas Edison",
+          "ampoule",
+          "1879"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Thomas Edison",
+        "Nikola Tesla",
+        "Alexander Graham Bell",
+        "George Westinghouse"
+      ],
+      "themes": [
+        "électricité"
+      ]
+    },
+    {
+      "id": "tech-phonographe",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Quel appareil Thomas Edison invente-t-il en 1877 ?",
+      "exp": "Le phonographe enregistre et reproduit le son sur un cylindre ; le Français Charles Cros en avait décrit le principe peu avant.",
+      "wiki": [
+        [
+          "Phonographe",
+          "Edison",
+          "1877"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le phonographe",
+        "Le télégraphe",
+        "Le cinématographe",
+        "Le téléphone"
+      ],
+      "themes": [
+        "son"
+      ]
+    },
+    {
+      "id": "tech-volta-pile",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Qui invente la pile électrique en 1800 ?",
+      "exp": "La pile de Volta empile des disques de zinc et de cuivre séparés par du carton imbibé de saumure ; le volt porte son nom.",
+      "wiki": [
+        [
+          "Pile voltaïque",
+          "Volta",
+          "1800"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alessandro Volta",
+        "André-Marie Ampère",
+        "Michael Faraday",
+        "Benjamin Franklin"
+      ],
+      "themes": [
+        "électricité"
+      ]
+    },
+    {
+      "id": "tech-faraday",
+      "sub": "inventions",
+      "diff": 4,
+      "q": "Quel physicien découvre l'induction électromagnétique en 1831, base des générateurs électriques ?",
+      "exp": "En déplaçant un aimant dans une bobine, Faraday produit un courant : c'est le principe des dynamos et alternateurs.",
+      "wiki": [
+        [
+          "Michael Faraday",
+          "induction",
+          "1831"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Michael Faraday",
+        "James Watt",
+        "Thomas Edison",
+        "Nikola Tesla"
+      ],
+      "themes": [
+        "électricité"
+      ]
+    },
+    {
+      "id": "tech-tesla",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Quel inventeur a défendu le courant alternatif face au courant continu d'Edison ?",
+      "exp": "La « guerre des courants » de la fin du XIXe siècle tourne à l'avantage du courant alternatif, plus facile à transporter.",
+      "wiki": [
+        [
+          "Nikola Tesla",
+          "courant alternatif"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nikola Tesla",
+        "Thomas Edison",
+        "Guglielmo Marconi",
+        "Werner von Siemens"
+      ],
+      "themes": [
+        "électricité"
+      ]
+    },
+    {
+      "id": "tech-marconi",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Quel inventeur italien réalise en 1901 la première transmission radio transatlantique ?",
+      "exp": "Marconi reçoit le prix Nobel de physique en 1909 pour ses travaux sur la télégraphie sans fil.",
+      "wiki": [
+        [
+          "Guglielmo Marconi",
+          "1901",
+          "transatlantique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Guglielmo Marconi",
+        "Alessandro Volta",
+        "Enrico Fermi",
+        "Antonio Meucci"
+      ],
+      "themes": [
+        "télécommunications"
+      ]
+    },
+    {
+      "id": "tech-morse",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Quel code de communication, inventé dans les années 1830, utilise des points et des traits ?",
+      "exp": "Samuel Morse et Alfred Vail le mettent au point pour le télégraphe électrique ; « SOS » s'écrit ··· ––– ···.",
+      "wiki": [
+        [
+          "Code Morse",
+          "Samuel Morse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le code Morse",
+        "Le braille",
+        "Le code Baudot",
+        "Le sémaphore"
+      ],
+      "themes": [
+        "télécommunications"
+      ]
+    },
+    {
+      "id": "tech-braille",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Quel jeune Français aveugle a inventé en 1829 un système d'écriture en relief ?",
+      "exp": "Aveugle depuis l'enfance, Louis Braille crée à l'âge de 20 ans son alphabet de six points ; il repose au Panthéon.",
+      "wiki": [
+        [
+          "Louis Braille",
+          "1829",
+          "Panthéon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Louis Braille",
+        "Valentin Haüy",
+        "Charles Barbier",
+        "Louis Pasteur"
+      ],
+      "themes": [
+        "accessibilité"
+      ]
+    },
+    {
+      "id": "tech-chappe",
+      "sub": "inventions",
+      "diff": 4,
+      "q": "Quel système de communication à longue distance Claude Chappe met-il au point en 1794 ?",
+      "exp": "Des tours équipées de bras articulés transmettent des messages à vue ; la ligne Paris-Lille est la première.",
+      "wiki": [
+        [
+          "Claude Chappe",
+          "télégraphe",
+          "1794"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le télégraphe optique",
+        "Le télégraphe électrique",
+        "Le pigeon voyageur",
+        "La radio"
+      ],
+      "themes": [
+        "télécommunications"
+      ]
+    },
+    {
+      "id": "tech-photo-daguerre",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Quel procédé photographique présenté en 1839 porte le nom de son inventeur ?",
+      "exp": "Louis Daguerre perfectionne le travail de Niépce ; l'État français achète le procédé et l'offre au monde.",
+      "wiki": [
+        [
+          "Daguerréotype",
+          "1839",
+          "Daguerre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le daguerréotype",
+        "Le calotype",
+        "Le kinétoscope",
+        "Le stéréoscope"
+      ],
+      "themes": [
+        "photographie"
+      ],
+      "see": [
+        "art-niepce"
+      ]
+    },
+    {
+      "id": "tech-velo",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Comment s'appelait l'ancêtre du vélo, sans pédales, inventé par le baron Drais en 1817 ?",
+      "exp": "On avançait en poussant avec les pieds ; les pédales apparaissent dans les années 1860 avec le vélocipède de Michaux.",
+      "wiki": [
+        [
+          "Draisienne",
+          "1817",
+          "Drais"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La draisienne",
+        "Le vélocipède",
+        "Le grand-bi",
+        "La bicyclette"
+      ],
+      "themes": [
+        "transports"
+      ]
+    },
+    {
+      "id": "tech-automobile",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Qui fait breveter en 1886 la première automobile à moteur à essence ?",
+      "exp": "La Benz Patent-Motorwagen est un tricycle ; en 1888, Bertha Benz réalise le premier long trajet en automobile.",
+      "wiki": [
+        [
+          "Carl Benz",
+          "1886"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Carl Benz",
+        "Henry Ford",
+        "Louis Renault",
+        "Gottlieb Daimler"
+      ],
+      "themes": [
+        "transports"
+      ]
+    },
+    {
+      "id": "tech-ford-t",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Quel modèle de Ford, produit à la chaîne à partir de 1913, a démocratisé l'automobile ?",
+      "exp": "La chaîne de montage fait chuter les prix ; plus de 15 millions de Ford T sont produites jusqu'en 1927.",
+      "wiki": [
+        [
+          "Ford T",
+          "chaîne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Ford T",
+        "La Ford Mustang",
+        "La Coccinelle",
+        "La 2 CV"
+      ],
+      "themes": [
+        "transports",
+        "industrie"
+      ]
+    },
+    {
+      "id": "tech-cugnot",
+      "sub": "inventions",
+      "diff": 4,
+      "q": "Quel ingénieur français construit en 1770 le fardier, premier véhicule automobile à vapeur ?",
+      "exp": "Le fardier de Cugnot, destiné à tirer des canons, est conservé au musée des Arts et Métiers à Paris.",
+      "wiki": [
+        [
+          "Fardier de Cugnot",
+          "1770",
+          "Arts et Métiers"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nicolas-Joseph Cugnot",
+        "Denis Papin",
+        "Jacques de Vaucanson",
+        "Joseph Marie Jacquard"
+      ],
+      "themes": [
+        "transports"
+      ]
+    },
+    {
+      "id": "tech-wright",
+      "sub": "inventions",
+      "diff": 1,
+      "q": "Quels frères réalisent en 1903 le premier vol motorisé contrôlé en avion ?",
+      "exp": "Le 17 décembre 1903, à Kitty Hawk, Orville Wright vole 12 secondes sur environ 37 m.",
+      "wiki": [
+        [
+          "Frères Wright",
+          "1903",
+          "Kitty Hawk"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les frères Wright",
+        "Les frères Lumière",
+        "Les frères Montgolfier",
+        "Les frères Voisin"
+      ],
+      "themes": [
+        "aviation"
+      ]
+    },
+    {
+      "id": "tech-bleriot",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Qui réalise en 1909 la première traversée de la Manche en avion ?",
+      "exp": "Le 25 juillet 1909, Blériot relie Calais à Douvres en environ 37 minutes.",
+      "wiki": [
+        [
+          "Louis Blériot",
+          "1909",
+          "Manche"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Louis Blériot",
+        "Roland Garros",
+        "Clément Ader",
+        "Henri Farman"
+      ],
+      "themes": [
+        "aviation"
+      ]
+    },
+    {
+      "id": "tech-lindbergh",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Qui réussit en 1927 la première traversée de l'Atlantique en solitaire et sans escale ?",
+      "exp": "À bord du Spirit of St. Louis, il relie New York à Paris en environ 33 h 30.",
+      "wiki": [
+        [
+          "Charles Lindbergh",
+          "1927",
+          "Spirit of St. Louis"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Charles Lindbergh",
+        "Amelia Earhart",
+        "Jean Mermoz",
+        "Louis Blériot"
+      ],
+      "themes": [
+        "aviation"
+      ]
+    },
+    {
+      "id": "tech-ader",
+      "sub": "inventions",
+      "diff": 4,
+      "q": "Comment Clément Ader a-t-il appelé son appareil volant, donnant naissance au mot « avion » ?",
+      "exp": "Le 9 octobre 1890, l'Éole d'Ader décolle sur une cinquantaine de mètres ; il nomme ses appareils suivants « Avion ».",
+      "wiki": [
+        [
+          "Clément Ader",
+          "Éole",
+          "1890"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Éole puis Avion",
+        "Albatros",
+        "Libellule",
+        "Icare"
+      ],
+      "themes": [
+        "aviation"
+      ]
+    },
+    {
+      "id": "tech-machine-a-coudre",
+      "sub": "inventions",
+      "diff": 4,
+      "q": "Quel tailleur français fait breveter en 1830 l'une des premières machines à coudre ?",
+      "exp": "Ses machines sont détruites par des ouvriers tailleurs qui craignaient pour leur emploi.",
+      "wiki": [
+        [
+          "Barthélemy Thimonnier",
+          "1830"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Barthélemy Thimonnier",
+        "Isaac Singer",
+        "Joseph Marie Jacquard",
+        "Elias Howe"
+      ],
+      "themes": [
+        "industrie"
+      ]
+    },
+    {
+      "id": "tech-jacquard",
+      "sub": "inventions",
+      "diff": 4,
+      "q": "Quelle invention de Joseph Marie Jacquard, utilisant des cartes perforées, préfigure la programmation ?",
+      "exp": "Les cartes perforées commandent le motif du tissu ; Babbage s'en inspirera pour sa machine analytique.",
+      "wiki": [
+        [
+          "Métier Jacquard",
+          "cartes perforées"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le métier à tisser automatique",
+        "La machine à calculer",
+        "Le piano mécanique",
+        "L'imprimante"
+      ],
+      "themes": [
+        "industrie",
+        "informatique"
+      ]
+    },
+    {
+      "id": "tech-pascaline",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Quel philosophe invente en 1642 une machine à calculer, la Pascaline ?",
+      "exp": "Pascal la conçoit à 19 ans pour aider son père, collecteur d'impôts.",
+      "wiki": [
+        [
+          "Pascaline",
+          "Blaise Pascal",
+          "1642"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Blaise Pascal",
+        "René Descartes",
+        "Gottfried Leibniz",
+        "Isaac Newton"
+      ],
+      "themes": [
+        "calcul"
+      ]
+    },
+    {
+      "id": "tech-appert",
+      "sub": "inventions",
+      "diff": 4,
+      "q": "Qui invente au début du XIXe siècle la conservation des aliments par stérilisation dans des bocaux ?",
+      "exp": "L'appertisation, publiée en 1810, est l'ancêtre de la conserve.",
+      "wiki": [
+        [
+          "Nicolas Appert",
+          "1810",
+          "appertisation"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nicolas Appert",
+        "Louis Pasteur",
+        "Antoine Parmentier",
+        "Charles Tellier"
+      ],
+      "themes": [
+        "alimentation"
+      ]
+    },
+    {
+      "id": "tech-dynamite",
+      "sub": "inventions",
+      "diff": 2,
+      "q": "Qui a inventé la dynamite ?",
+      "exp": "Brevetée en 1867, la dynamite stabilise la nitroglycérine ; Nobel lèguera sa fortune pour créer ses prix.",
+      "wiki": [
+        [
+          "Dynamite",
+          "1867",
+          "Nobel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alfred Nobel",
+        "Thomas Edison",
+        "Antoine Lavoisier",
+        "Nikola Tesla"
+      ],
+      "themes": [
+        "chimie"
+      ],
+      "see": [
+        "sci-nobel"
+      ]
+    },
+    {
+      "id": "tech-inventions-asso",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Associe chaque invention à son inventeur.",
+      "exp": "Ces inventions s'échelonnent de 1752 à 1885.",
+      "wiki": [
+        [
+          "Paratonnerre",
+          "Franklin"
+        ],
+        [
+          "Montgolfière",
+          "Montgolfier"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Paratonnerre",
+          "Benjamin Franklin"
+        ],
+        [
+          "Téléphone",
+          "Alexander Graham Bell"
+        ],
+        [
+          "Vaccin contre la rage",
+          "Louis Pasteur"
+        ],
+        [
+          "Montgolfière",
+          "Les frères Montgolfier"
+        ]
+      ],
+      "themes": [
+        "inventions"
+      ]
+    },
+    {
+      "id": "tech-ordre-transports",
+      "sub": "inventions",
+      "diff": 3,
+      "q": "Classe ces moyens de transport selon leur première apparition.",
+      "exp": "1783, années 1800-1820, 1886, 1903, puis les fusées du XXe siècle.",
+      "wiki": [
+        [
+          "Locomotive à vapeur",
+          "Stephenson"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "classement",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": [
+        "Montgolfière",
+        "Locomotive à vapeur",
+        "Automobile à essence",
+        "Avion motorisé",
+        "Fusée spatiale"
+      ],
+      "themes": [
+        "transports"
+      ]
+    },
+    {
+      "id": "tech-turing",
+      "sub": "informatique",
+      "diff": 2,
+      "q": "Quel mathématicien britannique a contribué à casser le code Enigma pendant la Seconde Guerre mondiale ?",
+      "exp": "Alan Turing est aussi un père de l'informatique théorique ; un prix d'informatique porte son nom.",
+      "wiki": [
+        [
+          "Alan Turing",
+          "Enigma"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alan Turing",
+        "John von Neumann",
+        "Charles Babbage",
+        "Claude Shannon"
+      ],
+      "themes": [
+        "informatique",
+        "histoire"
+      ]
+    },
+    {
+      "id": "tech-eniac",
+      "sub": "informatique",
+      "diff": 4,
+      "q": "Quel ordinateur électronique géant, présenté en 1946 aux États-Unis, pesait environ 30 tonnes ?",
+      "exp": "L'ENIAC comptait environ 17 000 tubes à vide et occupait une grande salle.",
+      "wiki": [
+        [
+          "ENIAC",
+          "1946",
+          "tubes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'ENIAC",
+        "Le Colossus",
+        "L'UNIVAC",
+        "Le Mark I"
+      ],
+      "themes": [
+        "informatique",
+        "histoire"
+      ]
+    },
+    {
+      "id": "tech-microprocesseur",
+      "sub": "informatique",
+      "diff": 4,
+      "q": "Quelle entreprise commercialise en 1971 le premier microprocesseur, le 4004 ?",
+      "exp": "L'Intel 4004 intègre toute l'unité de calcul sur une seule puce.",
+      "wiki": [
+        [
+          "Intel 4004",
+          "1971"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Intel",
+        "IBM",
+        "Apple",
+        "Texas Instruments"
+      ],
+      "themes": [
+        "informatique"
+      ]
+    },
+    {
+      "id": "tech-loi-moore",
+      "sub": "informatique",
+      "diff": 4,
+      "q": "Que prédit la « loi de Moore » ?",
+      "exp": "Énoncée par Gordon Moore, cofondateur d'Intel, elle a guidé l'industrie pendant des décennies.",
+      "wiki": [
+        [
+          "Loi de Moore",
+          "transistors"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le doublement régulier du nombre de transistors sur une puce",
+        "La baisse du prix de l'électricité",
+        "La vitesse maximale des processeurs",
+        "La durée de vie des disques durs"
+      ],
+      "themes": [
+        "informatique"
+      ]
+    },
+    {
+      "id": "tech-apple",
+      "sub": "informatique",
+      "diff": 2,
+      "q": "Qui fonde Apple en 1976 avec Steve Wozniak et Ronald Wayne ?",
+      "exp": "Fondée dans un garage de Californie, Apple lance l'Apple II (1977), le Macintosh (1984) puis l'iPhone (2007).",
+      "wiki": [
+        [
+          "Apple",
+          "1976",
+          "Wozniak"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Steve Jobs",
+        "Bill Gates",
+        "Paul Allen",
+        "Larry Page"
+      ],
+      "themes": [
+        "informatique",
+        "entreprises"
+      ]
+    },
+    {
+      "id": "tech-microsoft",
+      "sub": "informatique",
+      "diff": 2,
+      "q": "Qui fonde Microsoft en 1975 avec Paul Allen ?",
+      "exp": "Le système MS-DOS puis Windows font de Microsoft le leader des logiciels pour PC.",
+      "wiki": [
+        [
+          "Microsoft",
+          "1975",
+          "Paul Allen"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Steve Ballmer",
+        "Mark Zuckerberg"
+      ],
+      "themes": [
+        "informatique",
+        "entreprises"
+      ]
+    },
+    {
+      "id": "tech-iphone",
+      "sub": "informatique",
+      "diff": 1,
+      "q": "En quelle année Apple présente-t-il le premier iPhone ?",
+      "exp": "Présenté par Steve Jobs le 9 janvier 2007, l'iPhone popularise le smartphone tactile.",
+      "wiki": [
+        [
+          "IPhone",
+          "2007"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2007",
+        "2001",
+        "2010",
+        "2004"
+      ],
+      "themes": [
+        "numérique"
+      ]
+    },
+    {
+      "id": "tech-google",
+      "sub": "informatique",
+      "diff": 2,
+      "q": "Qui fonde Google en 1998 ?",
+      "exp": "Doctorants à Stanford, ils créent un moteur de recherche fondé sur l'algorithme PageRank.",
+      "wiki": [
+        [
+          "Google",
+          "Larry Page",
+          "Sergey Brin",
+          "1998"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Larry Page et Sergey Brin",
+        "Bill Gates et Paul Allen",
+        "Jeff Bezos et MacKenzie Scott",
+        "Steve Jobs et Steve Wozniak"
+      ],
+      "themes": [
+        "numérique",
+        "entreprises"
+      ]
+    },
+    {
+      "id": "tech-wikipedia",
+      "sub": "informatique",
+      "diff": 2,
+      "q": "En quelle année l'encyclopédie collaborative Wikipédia est-elle lancée ?",
+      "exp": "Lancée par Jimmy Wales et Larry Sanger en janvier 2001, elle existe dans plus de 300 langues.",
+      "wiki": [
+        [
+          "Wikipédia",
+          "2001",
+          "Jimmy Wales"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2001",
+        "1995",
+        "2005",
+        "2010"
+      ],
+      "themes": [
+        "numérique"
+      ]
+    },
+    {
+      "id": "tech-facebook",
+      "sub": "informatique",
+      "diff": 2,
+      "q": "Qui fonde Facebook en 2004 à l'université Harvard ?",
+      "exp": "D'abord réservé aux étudiants, Facebook s'ouvre à tous en 2006 et devient le plus grand réseau social.",
+      "wiki": [
+        [
+          "Facebook",
+          "Zuckerberg",
+          "2004"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mark Zuckerberg",
+        "Jack Dorsey",
+        "Elon Musk",
+        "Larry Page"
+      ],
+      "themes": [
+        "numérique",
+        "réseaux sociaux"
+      ]
+    },
+    {
+      "id": "tech-linux",
+      "sub": "informatique",
+      "diff": 3,
+      "q": "Qui crée en 1991 le noyau du système d'exploitation libre Linux ?",
+      "exp": "Étudiant finlandais, Linus Torvalds publie son noyau librement ; Linux équipe aujourd'hui la plupart des serveurs et Android.",
+      "wiki": [
+        [
+          "Linux",
+          "Linus Torvalds",
+          "1991"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Linus Torvalds",
+        "Richard Stallman",
+        "Dennis Ritchie",
+        "Ken Thompson"
+      ],
+      "themes": [
+        "logiciel libre"
+      ]
+    },
+    {
+      "id": "tech-arpanet",
+      "sub": "informatique",
+      "diff": 4,
+      "q": "Quel réseau, ancêtre d'Internet, relie ses premiers ordinateurs en 1969 ?",
+      "exp": "Financé par la défense américaine, ARPANET relie d'abord quatre universités de l'Ouest des États-Unis.",
+      "wiki": [
+        [
+          "ARPANET",
+          "1969"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "ARPANET",
+        "Minitel",
+        "Cyclades",
+        "Usenet"
+      ],
+      "themes": [
+        "Internet"
+      ]
+    },
+    {
+      "id": "tech-email-arobase",
+      "sub": "informatique",
+      "diff": 3,
+      "q": "Qui envoie en 1971 le premier courrier électronique utilisant le signe @ ?",
+      "exp": "Ray Tomlinson choisit l'arobase pour séparer le nom de l'utilisateur de celui de la machine.",
+      "wiki": [
+        [
+          "Ray Tomlinson",
+          "1971",
+          "arobase"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ray Tomlinson",
+        "Tim Berners-Lee",
+        "Vinton Cerf",
+        "Bill Gates"
+      ],
+      "themes": [
+        "Internet"
+      ]
+    },
+    {
+      "id": "tech-bug",
+      "sub": "informatique",
+      "diff": 3,
+      "q": "D'où viendrait l'usage du mot « bug » pour désigner une erreur informatique ?",
+      "exp": "L'équipe de Grace Hopper colle dans son journal un papillon de nuit trouvé dans le Mark II, mais le terme existait déjà chez les ingénieurs.",
+      "wiki": [
+        [
+          "Bug (informatique)",
+          "1947",
+          "Hopper"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "D'un insecte retrouvé dans un relais d'ordinateur en 1947",
+        "D'un acronyme militaire",
+        "Du nom d'un ingénieur",
+        "D'un virus célèbre"
+      ],
+      "themes": [
+        "informatique"
+      ]
+    },
+    {
+      "id": "tech-binaire",
+      "sub": "informatique",
+      "diff": 2,
+      "q": "Combien de chiffres utilise le système binaire ?",
+      "exp": "Le binaire n'utilise que 0 et 1, ce qui correspond aux deux états d'un circuit électronique.",
+      "wiki": [
+        [
+          "Système binaire",
+          "0",
+          "1"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2",
+        "8",
+        "10",
+        "16"
+      ],
+      "themes": [
+        "informatique"
+      ],
+      "see": [
+        "tech-octet"
+      ]
+    },
+    {
+      "id": "tech-ia-deep-blue",
+      "sub": "informatique",
+      "diff": 3,
+      "q": "Quel ordinateur d'IBM bat le champion du monde d'échecs Garry Kasparov en 1997 ?",
+      "exp": "C'est la première défaite d'un champion du monde en titre face à une machine dans un match en conditions de tournoi.",
+      "wiki": [
+        [
+          "Deep Blue",
+          "Kasparov",
+          "1997"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Deep Blue",
+        "Watson",
+        "AlphaGo",
+        "HAL 9000"
+      ],
+      "themes": [
+        "intelligence artificielle"
+      ]
+    },
+    {
+      "id": "tech-alphago",
+      "sub": "informatique",
+      "diff": 4,
+      "q": "Quel programme de Google DeepMind bat en 2016 l'un des meilleurs joueurs mondiaux de go ?",
+      "exp": "AlphaGo bat le Sud-Coréen Lee Sedol 4 parties à 1, une étape majeure de l'intelligence artificielle.",
+      "wiki": [
+        [
+          "AlphaGo",
+          "2016",
+          "Lee Sedol"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "AlphaGo",
+        "Deep Blue",
+        "Watson",
+        "Stockfish"
+      ],
+      "themes": [
+        "intelligence artificielle"
+      ]
+    },
+    {
+      "id": "tech-html",
+      "sub": "informatique",
+      "diff": 3,
+      "q": "Quel langage sert à décrire la structure des pages web ?",
+      "exp": "HyperText Markup Language, créé par Tim Berners-Lee ; le CSS gère la mise en forme et JavaScript l'interactivité.",
+      "wiki": [
+        [
+          "Hypertext Markup Language",
+          "Berners-Lee"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le HTML",
+        "Le Python",
+        "Le SQL",
+        "Le C++"
+      ],
+      "themes": [
+        "web"
+      ],
+      "see": [
+        "tech-web"
+      ]
+    },
+    {
+      "id": "tech-gagarine",
+      "sub": "espace",
+      "diff": 1,
+      "q": "Qui est le premier homme à aller dans l'espace, en 1961 ?",
+      "exp": "Le 12 avril 1961, le cosmonaute soviétique fait un tour de la Terre en 108 minutes à bord de Vostok 1.",
+      "wiki": [
+        [
+          "Youri Gagarine",
+          "1961",
+          "Vostok"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Youri Gagarine",
+        "Neil Armstrong",
+        "Alexeï Leonov",
+        "John Glenn"
+      ],
+      "themes": [
+        "conquête spatiale"
+      ]
+    },
+    {
+      "id": "tech-laika",
+      "sub": "espace",
+      "diff": 2,
+      "q": "Comment s'appelait la chienne envoyée en orbite par l'URSS en 1957 ?",
+      "exp": "Laïka est le premier être vivant mis en orbite, à bord de Spoutnik 2 ; elle meurt pendant la mission.",
+      "wiki": [
+        [
+          "Laïka",
+          "Spoutnik 2",
+          "1957"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Laïka",
+        "Belka",
+        "Strelka",
+        "Pchiolka"
+      ],
+      "themes": [
+        "conquête spatiale"
+      ]
+    },
+    {
+      "id": "tech-terechkova",
+      "sub": "espace",
+      "diff": 3,
+      "q": "Qui est la première femme à voyager dans l'espace, en 1963 ?",
+      "exp": "La Soviétique Valentina Terechkova effectue 48 orbites à bord de Vostok 6 en juin 1963.",
+      "wiki": [
+        [
+          "Valentina Terechkova",
+          "1963",
+          "Vostok 6"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Valentina Terechkova",
+        "Sally Ride",
+        "Svetlana Savitskaïa",
+        "Claudie Haigneré"
+      ],
+      "themes": [
+        "conquête spatiale"
+      ]
+    },
+    {
+      "id": "tech-leonov",
+      "sub": "espace",
+      "diff": 4,
+      "q": "Qui réalise en 1965 la première sortie extravéhiculaire dans l'espace ?",
+      "exp": "Le 18 mars 1965, Leonov sort de Voskhod 2 pendant une douzaine de minutes et a du mal à rentrer, sa combinaison ayant gonflé.",
+      "wiki": [
+        [
+          "Alexeï Leonov",
+          "1965",
+          "Voskhod"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alexeï Leonov",
+        "Youri Gagarine",
+        "Edward White",
+        "Neil Armstrong"
+      ],
+      "themes": [
+        "conquête spatiale"
+      ]
+    },
+    {
+      "id": "tech-apollo-13",
+      "sub": "espace",
+      "diff": 2,
+      "q": "Quelle mission lunaire de 1970 est célèbre pour la phrase « Houston, nous avons un problème » ?",
+      "exp": "Après l'explosion d'un réservoir d'oxygène, l'équipage contourne la Lune et revient sain et sauf.",
+      "wiki": [
+        [
+          "Apollo 13",
+          "1970"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Apollo 13",
+        "Apollo 11",
+        "Apollo 1",
+        "Apollo 17"
+      ],
+      "themes": [
+        "conquête spatiale"
+      ],
+      "see": [
+        "tech-apollo"
+      ]
+    },
+    {
+      "id": "tech-dernier-lune",
+      "sub": "espace",
+      "diff": 4,
+      "q": "En quelle année a eu lieu la dernière mission habitée sur la Lune du programme Apollo ?",
+      "exp": "Apollo 17, en décembre 1972 ; douze astronautes au total ont marché sur la Lune.",
+      "wiki": [
+        [
+          "Apollo 17",
+          "1972"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1972",
+        "1969",
+        "1975",
+        "1981"
+      ],
+      "themes": [
+        "conquête spatiale"
+      ]
+    },
+    {
+      "id": "tech-hubble",
+      "sub": "espace",
+      "diff": 3,
+      "q": "Quel télescope spatial, lancé en 1990, a révolutionné l'astronomie ?",
+      "exp": "Victime d'un défaut de miroir corrigé en 1993, Hubble a livré des images d'une précision inégalée ; James Webb lui succède depuis 2021.",
+      "wiki": [
+        [
+          "Télescope spatial Hubble",
+          "1990"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hubble",
+        "James Webb",
+        "Kepler",
+        "Herschel"
+      ],
+      "themes": [
+        "astronomie spatiale"
+      ]
+    },
+    {
+      "id": "tech-jwst",
+      "sub": "espace",
+      "diff": 3,
+      "q": "Quel télescope spatial, lancé en décembre 2021, observe surtout dans l'infrarouge ?",
+      "exp": "Lancé par une fusée Ariane 5 depuis Kourou, il est positionné à 1,5 million de km de la Terre.",
+      "wiki": [
+        [
+          "Télescope spatial James Webb",
+          "2021",
+          "Ariane 5"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "James Webb",
+        "Hubble",
+        "Spitzer",
+        "Gaia"
+      ],
+      "themes": [
+        "astronomie spatiale"
+      ]
+    },
+    {
+      "id": "tech-kourou",
+      "sub": "espace",
+      "diff": 2,
+      "q": "Où se trouve le centre spatial d'où décollent les fusées Ariane ?",
+      "exp": "Sa proximité de l'équateur donne aux fusées un élan supplémentaire grâce à la rotation de la Terre.",
+      "wiki": [
+        [
+          "Centre spatial guyanais",
+          "Kourou",
+          "équateur"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "À Kourou, en Guyane",
+        "À Cap Canaveral",
+        "À Baïkonour",
+        "À Toulouse"
+      ],
+      "themes": [
+        "espace",
+        "France"
+      ]
+    },
+    {
+      "id": "tech-thomas-pesquet",
+      "sub": "espace",
+      "diff": 2,
+      "q": "Quel astronaute est le premier Français à avoir commandé la Station spatiale internationale ?",
+      "exp": "Thomas Pesquet commande la Station spatiale internationale en 2021 ; Jean-Loup Chrétien fut le premier Français dans l'espace en 1982.",
+      "wiki": [
+        [
+          "Thomas Pesquet",
+          "ISS",
+          "2021"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Thomas Pesquet",
+        "Jean-Loup Chrétien",
+        "Claudie Haigneré",
+        "Philippe Perrin"
+      ],
+      "themes": [
+        "espace",
+        "France"
+      ]
+    },
+    {
+      "id": "tech-premier-francais",
+      "sub": "espace",
+      "diff": 4,
+      "q": "Qui est le premier Français à être allé dans l'espace, en 1982 ?",
+      "exp": "Il séjourne à bord de la station soviétique Saliout 7 en juin 1982.",
+      "wiki": [
+        [
+          "Jean-Loup Chrétien",
+          "1982",
+          "Saliout 7"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean-Loup Chrétien",
+        "Patrick Baudry",
+        "Thomas Pesquet",
+        "Michel Tognini"
+      ],
+      "themes": [
+        "espace",
+        "France"
+      ]
+    },
+    {
+      "id": "tech-voyager",
+      "sub": "espace",
+      "diff": 4,
+      "q": "Quelle sonde lancée en 1977 est devenue l'objet humain le plus éloigné de la Terre ?",
+      "exp": "Voyager 1 a quitté l'héliosphère en 2012 ; elle emporte un disque d'or avec des sons et images de la Terre.",
+      "wiki": [
+        [
+          "Voyager 1",
+          "1977"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Voyager 1",
+        "Pioneer 10",
+        "New Horizons",
+        "Cassini"
+      ],
+      "themes": [
+        "exploration spatiale"
+      ]
+    },
+    {
+      "id": "tech-curiosity",
+      "sub": "espace",
+      "diff": 3,
+      "q": "Comment s'appelle le robot de la NASA qui explore Mars depuis 2012 dans le cratère Gale ?",
+      "exp": "Curiosity, de la taille d'une voiture, embarque l'instrument ChemCam conçu en partie en France ; Perseverance l'a rejoint en 2021.",
+      "wiki": [
+        [
+          "Curiosity (astromobile)",
+          "2012"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Curiosity",
+        "Sojourner",
+        "Opportunity",
+        "Rosetta"
+      ],
+      "themes": [
+        "exploration spatiale"
+      ]
+    },
+    {
+      "id": "tech-rosetta",
+      "sub": "espace",
+      "diff": 4,
+      "q": "Quelle sonde européenne a déposé en 2014 l'atterrisseur Philae sur une comète ?",
+      "exp": "Philae se pose sur la comète Tchourioumov-Guérassimenko le 12 novembre 2014, une première historique.",
+      "wiki": [
+        [
+          "Rosetta (sonde spatiale)",
+          "Philae",
+          "2014"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Rosetta",
+        "Huygens",
+        "Giotto",
+        "Mars Express"
+      ],
+      "themes": [
+        "exploration spatiale"
+      ]
+    },
+    {
+      "id": "tech-satellites-gps",
+      "sub": "espace",
+      "diff": 3,
+      "q": "Quel système de navigation par satellite développe l'Union européenne, concurrent du GPS américain ?",
+      "exp": "Galileo fournit des services de géolocalisation précis ; Glonass est russe et Beidou chinois.",
+      "wiki": [
+        [
+          "Galileo (système de positionnement)",
+          "GPS"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Galileo",
+        "Glonass",
+        "Beidou",
+        "Iridium"
+      ],
+      "themes": [
+        "satellites"
+      ]
     }
   ]
 }

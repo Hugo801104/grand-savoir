@@ -370,6 +370,3575 @@
           "profond"
         ]
       ]
+    },
+    {
+      "id": "geo-cap-japon",
+      "sub": "capitales",
+      "diff": 1,
+      "q": "Quelle est la capitale du Japon ?",
+      "exp": "Tokyo, anciennement Edo, est devenue capitale en 1868 ; Kyoto l'avait été pendant plus de mille ans.",
+      "wiki": [
+        [
+          "Tokyo",
+          "capitale",
+          "Edo"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Tokyo",
+        "Kyoto",
+        "Osaka",
+        "Hiroshima"
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "geo-cap-suisse",
+      "sub": "capitales",
+      "diff": 2,
+      "q": "Quelle ville est le siège des autorités fédérales suisses ?",
+      "exp": "La Suisse n'a pas officiellement de capitale ; Berne est la « ville fédérale », siège du gouvernement et du Parlement.",
+      "wiki": [
+        [
+          "Berne",
+          "ville fédérale"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Berne",
+        "Genève",
+        "Zurich",
+        "Lausanne"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-cap-maroc",
+      "sub": "capitales",
+      "diff": 2,
+      "q": "Quelle est la capitale du Maroc ?",
+      "exp": "Rabat est la capitale politique, Casablanca la capitale économique et la plus grande ville.",
+      "wiki": [
+        [
+          "Rabat",
+          "capitale"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Rabat",
+        "Casablanca",
+        "Marrakech",
+        "Fès"
+      ],
+      "themes": [
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-cap-nz",
+      "sub": "capitales",
+      "diff": 2,
+      "q": "Quelle est la capitale de la Nouvelle-Zélande ?",
+      "exp": "Wellington, au sud de l'île du Nord, est la capitale la plus australe d'un État souverain.",
+      "wiki": [
+        [
+          "Wellington",
+          "capitale"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Wellington",
+        "Auckland",
+        "Christchurch",
+        "Dunedin"
+      ],
+      "themes": [
+        "Océanie"
+      ]
+    },
+    {
+      "id": "geo-cap-egypte",
+      "sub": "capitales",
+      "diff": 1,
+      "q": "Quelle est la capitale de l'Égypte ?",
+      "exp": "Le Caire, sur le Nil, est l'une des plus grandes agglomérations d'Afrique.",
+      "wiki": [
+        [
+          "Le Caire",
+          "Nil"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Caire",
+        "Alexandrie",
+        "Louxor",
+        "Assouan"
+      ],
+      "themes": [
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-cap-argentine",
+      "sub": "capitales",
+      "diff": 1,
+      "q": "Quelle est la capitale de l'Argentine ?",
+      "exp": "Buenos Aires est située sur le Río de la Plata, face à Montevideo, capitale de l'Uruguay.",
+      "wiki": [
+        [
+          "Buenos Aires",
+          "Río de la Plata"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Buenos Aires",
+        "Montevideo",
+        "Santiago",
+        "Córdoba"
+      ],
+      "themes": [
+        "Amérique du Sud"
+      ]
+    },
+    {
+      "id": "geo-cap-vietnam",
+      "sub": "capitales",
+      "diff": 3,
+      "q": "Quelle est la capitale du Vietnam ?",
+      "exp": "Hanoï est la capitale ; Hô-Chi-Minh-Ville (ex-Saïgon) est la plus grande ville du pays.",
+      "wiki": [
+        [
+          "Hanoï",
+          "capitale"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hanoï",
+        "Hô-Chi-Minh-Ville",
+        "Hué",
+        "Da Nang"
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "geo-cap-pakistan",
+      "sub": "capitales",
+      "diff": 4,
+      "q": "Quelle est la capitale du Pakistan ?",
+      "exp": "Ville nouvelle construite dans les années 1960, Islamabad a remplacé Karachi comme capitale.",
+      "wiki": [
+        [
+          "Islamabad",
+          "Karachi"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Islamabad",
+        "Karachi",
+        "Lahore",
+        "Rawalpindi"
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "geo-cap-kenya",
+      "sub": "capitales",
+      "diff": 3,
+      "q": "Quelle est la capitale du Kenya ?",
+      "exp": "Nairobi est l'une des grandes villes d'Afrique de l'Est ; Kampala est la capitale de l'Ouganda.",
+      "wiki": [
+        [
+          "Nairobi",
+          "Kenya"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nairobi",
+        "Mombasa",
+        "Kampala",
+        "Dodoma"
+      ],
+      "themes": [
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-cap-perou",
+      "sub": "capitales",
+      "diff": 2,
+      "q": "Quelle est la capitale du Pérou ?",
+      "exp": "Lima a été fondée par Francisco Pizarro en 1535 ; Cuzco était la capitale de l'Empire inca.",
+      "wiki": [
+        [
+          "Lima",
+          "Pizarro",
+          "1535"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Lima",
+        "Cuzco",
+        "La Paz",
+        "Quito"
+      ],
+      "themes": [
+        "Amérique du Sud"
+      ]
+    },
+    {
+      "id": "geo-cap-norvege",
+      "sub": "capitales",
+      "diff": 2,
+      "q": "Quelle est la capitale de la Norvège ?",
+      "exp": "Oslo s'est appelée Christiania de 1624 à 1925.",
+      "wiki": [
+        [
+          "Oslo",
+          "Christiania"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Oslo",
+        "Bergen",
+        "Stockholm",
+        "Copenhague"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-cap-australie-ville",
+      "sub": "capitales",
+      "diff": 3,
+      "q": "Quelle est la ville la plus peuplée d'Australie ?",
+      "exp": "Sydney est la plus grande ville du pays, devant Melbourne ; la capitale est Canberra.",
+      "wiki": [
+        [
+          "Sydney",
+          "Australie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Brisbane"
+      ],
+      "themes": [
+        "Océanie"
+      ],
+      "see": [
+        "geo-australie"
+      ]
+    },
+    {
+      "id": "geo-cap-asso-europe",
+      "sub": "capitales",
+      "diff": 2,
+      "q": "Associe chaque pays européen à sa capitale.",
+      "exp": "Budapest est née en 1873 de la fusion de Buda, Óbuda et Pest, de part et d'autre du Danube.",
+      "wiki": [
+        [
+          "Budapest",
+          "1873"
+        ],
+        [
+          "Helsinki",
+          "Finlande"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Portugal",
+          "Lisbonne"
+        ],
+        [
+          "Hongrie",
+          "Budapest"
+        ],
+        [
+          "Irlande",
+          "Dublin"
+        ],
+        [
+          "Finlande",
+          "Helsinki"
+        ]
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-cap-asso-afrique",
+      "sub": "capitales",
+      "diff": 3,
+      "q": "Associe chaque pays africain à sa capitale.",
+      "exp": "Yamoussoukro est la capitale officielle de la Côte d'Ivoire depuis 1983, mais Abidjan reste la capitale économique.",
+      "wiki": [
+        [
+          "Yamoussoukro",
+          "1983"
+        ],
+        [
+          "Addis-Abeba",
+          "Éthiopie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Sénégal",
+          "Dakar"
+        ],
+        [
+          "Mali",
+          "Bamako"
+        ],
+        [
+          "Côte d'Ivoire",
+          "Yamoussoukro"
+        ],
+        [
+          "Éthiopie",
+          "Addis-Abeba"
+        ]
+      ],
+      "themes": [
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-cap-asso-asie",
+      "sub": "capitales",
+      "diff": 3,
+      "q": "Associe chaque pays asiatique à sa capitale.",
+      "exp": "L'Indonésie construit une nouvelle capitale, Nusantara, sur l'île de Bornéo, pour remplacer progressivement Jakarta.",
+      "wiki": [
+        [
+          "Jakarta",
+          "Nusantara"
+        ],
+        [
+          "Séoul",
+          "Corée du Sud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Thaïlande",
+          "Bangkok"
+        ],
+        [
+          "Indonésie",
+          "Jakarta"
+        ],
+        [
+          "Corée du Sud",
+          "Séoul"
+        ],
+        [
+          "Philippines",
+          "Manille"
+        ]
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "geo-cap-ameriques",
+      "sub": "capitales",
+      "diff": 3,
+      "q": "Associe chaque pays d'Amérique à sa capitale.",
+      "exp": "Bogota, perchée à environ 2 600 m d'altitude, est l'une des capitales les plus hautes du monde.",
+      "wiki": [
+        [
+          "Bogota",
+          "altitude",
+          "capitale",
+          "2 6"
+        ],
+        [
+          "Caracas",
+          "Venezuela"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Colombie",
+          "Bogota"
+        ],
+        [
+          "Chili",
+          "Santiago"
+        ],
+        [
+          "Venezuela",
+          "Caracas"
+        ],
+        [
+          "Cuba",
+          "La Havane"
+        ]
+      ],
+      "themes": [
+        "Amériques"
+      ]
+    },
+    {
+      "id": "geo-nil",
+      "sub": "reliefs-eaux",
+      "diff": 1,
+      "q": "Quel fleuve traverse l'Égypte ?",
+      "exp": "Le Nil, long d'environ 6 700 km, est l'un des deux plus longs fleuves du monde avec l'Amazone.",
+      "wiki": [
+        [
+          "Nil",
+          "Égypte"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Nil",
+        "Le Niger",
+        "Le Congo",
+        "Le Zambèze"
+      ],
+      "themes": [
+        "Afrique",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-mississippi",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Dans quel golfe se jette le Mississippi ?",
+      "exp": "Le Mississippi traverse les États-Unis du nord au sud et se jette près de La Nouvelle-Orléans.",
+      "wiki": [
+        [
+          "Mississippi (fleuve)",
+          "golfe du Mexique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le golfe du Mexique",
+        "Le golfe du Saint-Laurent",
+        "La baie d'Hudson",
+        "Le golfe de Californie"
+      ],
+      "themes": [
+        "Amérique du Nord",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-yangtze",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel est le plus long fleuve d'Asie ?",
+      "exp": "Le Yangzi (fleuve Bleu), environ 6 300 km, accueille le barrage des Trois-Gorges, le plus puissant du monde.",
+      "wiki": [
+        [
+          "Yangzi Jiang",
+          "Trois-Gorges"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Yangzi Jiang",
+        "Le Mékong",
+        "Le Gange",
+        "L'Indus"
+      ],
+      "themes": [
+        "Asie",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-gange",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel fleuve est sacré pour les hindous ?",
+      "exp": "Les pèlerins se baignent dans le Gange, notamment à Varanasi (Bénarès).",
+      "wiki": [
+        [
+          "Gange",
+          "Varanasi",
+          "sacré"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Gange",
+        "L'Indus",
+        "Le Brahmapoutre",
+        "Le Mékong"
+      ],
+      "themes": [
+        "Asie",
+        "religion"
+      ]
+    },
+    {
+      "id": "geo-rhin",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Dans quel pays le Rhin prend-il sa source ?",
+      "exp": "Né dans les Alpes suisses, le Rhin traverse le lac de Constance et forme une partie de la frontière franco-allemande avant les Pays-Bas.",
+      "wiki": [
+        [
+          "Rhin",
+          "Suisse",
+          "Constance"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Suisse",
+        "L'Allemagne",
+        "L'Autriche",
+        "La France"
+      ],
+      "themes": [
+        "Europe",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-seine-source",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Où la Seine prend-elle sa source ?",
+      "exp": "La Seine naît à Source-Seine (Côte-d'Or) et se jette dans la Manche entre Le Havre et Honfleur.",
+      "wiki": [
+        [
+          "Seine",
+          "Langres",
+          "Manche"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sur le plateau de Langres, en Bourgogne",
+        "Dans le Massif central",
+        "Dans les Vosges",
+        "Dans le Jura"
+      ],
+      "themes": [
+        "France",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-rhone-lac",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel lac le Rhône traverse-t-il avant d'entrer en France ?",
+      "exp": "Né du glacier du Rhône en Suisse, il traverse le Léman et sort à Genève.",
+      "wiki": [
+        [
+          "Rhône",
+          "Léman",
+          "Genève"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le lac Léman",
+        "Le lac de Constance",
+        "Le lac Majeur",
+        "Le lac d'Annecy"
+      ],
+      "themes": [
+        "France",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-k2",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Quel est le deuxième plus haut sommet du monde ?",
+      "exp": "Le K2 (8 611 m), à la frontière entre le Pakistan et la Chine, est réputé plus difficile à gravir que l'Everest.",
+      "wiki": [
+        [
+          "K2",
+          "8 611"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le K2",
+        "Le Kangchenjunga",
+        "Le Lhotse",
+        "Le Makalu"
+      ],
+      "themes": [
+        "montagnes"
+      ],
+      "see": [
+        "geo-everest"
+      ]
+    },
+    {
+      "id": "geo-aconcagua",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel est le plus haut sommet d'Amérique du Sud ?",
+      "exp": "L'Aconcagua, en Argentine, culmine à environ 6 960 m ; c'est le plus haut sommet hors d'Asie.",
+      "wiki": [
+        [
+          "Aconcagua",
+          "Argentine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Aconcagua",
+        "Le Chimborazo",
+        "Le Huascarán",
+        "Le Cotopaxi"
+      ],
+      "themes": [
+        "montagnes",
+        "Amérique du Sud"
+      ]
+    },
+    {
+      "id": "geo-kilimandjaro",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Quel est le plus haut sommet d'Afrique ?",
+      "exp": "Volcan de Tanzanie culminant à 5 895 m, le Kilimandjaro porte des glaciers sommitaux qui reculent rapidement.",
+      "wiki": [
+        [
+          "Kilimandjaro",
+          "Tanzanie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Kilimandjaro",
+        "Le mont Kenya",
+        "Le Ruwenzori",
+        "Le mont Cameroun"
+      ],
+      "themes": [
+        "montagnes",
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-denali",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Quel est le plus haut sommet d'Amérique du Nord ?",
+      "exp": "Le Denali (environ 6 190 m), en Alaska, s'est appelé mont McKinley jusqu'en 2015.",
+      "wiki": [
+        [
+          "Denali",
+          "Alaska",
+          "McKinley"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Denali",
+        "Le mont Whitney",
+        "Le mont Logan",
+        "Le pic d'Orizaba"
+      ],
+      "themes": [
+        "montagnes",
+        "Amérique du Nord"
+      ]
+    },
+    {
+      "id": "geo-elbrouz",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Quel sommet est souvent considéré comme le plus haut d'Europe ?",
+      "exp": "Situé dans le Caucase russe (5 642 m), l'Elbrouz est retenu comme le point culminant de l'Europe selon la limite adoptée ; sinon, c'est le mont Blanc.",
+      "wiki": [
+        [
+          "Elbrouz",
+          "Caucase"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Elbrouz",
+        "Le mont Blanc",
+        "Le Cervin",
+        "Le Grossglockner"
+      ],
+      "themes": [
+        "montagnes",
+        "Europe"
+      ],
+      "see": [
+        "geo-mont-blanc"
+      ]
+    },
+    {
+      "id": "geo-pyrenees",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+      "exp": "Les Pyrénées s'étendent sur environ 430 km de l'Atlantique à la Méditerranée ; l'Andorre se niche en leur cœur.",
+      "wiki": [
+        [
+          "Pyrénées",
+          "Andorre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Pyrénées",
+        "Les Alpes",
+        "Le Jura",
+        "Les Vosges"
+      ],
+      "themes": [
+        "France",
+        "montagnes"
+      ]
+    },
+    {
+      "id": "geo-pacifique",
+      "sub": "reliefs-eaux",
+      "diff": 1,
+      "q": "Quel est le plus grand océan du monde ?",
+      "exp": "Le Pacifique couvre environ un tiers de la surface terrestre, plus que toutes les terres émergées réunies.",
+      "wiki": [
+        [
+          "Océan Pacifique",
+          "plus grand"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'océan Pacifique",
+        "L'océan Atlantique",
+        "L'océan Indien",
+        "L'océan Arctique"
+      ],
+      "themes": [
+        "océans"
+      ]
+    },
+    {
+      "id": "geo-fosse-mariannes",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Où se trouve le point le plus profond des océans ?",
+      "exp": "La fosse des Mariannes, dans le Pacifique, atteint environ 11 000 m au Challenger Deep.",
+      "wiki": [
+        [
+          "Fosse des Mariannes",
+          "Challenger"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dans la fosse des Mariannes",
+        "Dans la fosse de Porto Rico",
+        "Au large du Japon",
+        "Au centre de l'Atlantique"
+      ],
+      "themes": [
+        "océans"
+      ]
+    },
+    {
+      "id": "geo-mer-morte",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quelle étendue d'eau est le point le plus bas des terres émergées ?",
+      "exp": "Le rivage de la mer Morte se trouve à plus de 400 m sous le niveau de la mer ; sa salinité permet de flotter sans effort.",
+      "wiki": [
+        [
+          "Mer Morte",
+          "niveau de la mer"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La mer Morte",
+        "La mer Caspienne",
+        "Le lac Assal",
+        "La vallée de la Mort"
+      ],
+      "themes": [
+        "lacs"
+      ]
+    },
+    {
+      "id": "geo-caspienne",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quelle est la plus grande étendue d'eau fermée du monde ?",
+      "exp": "La mer Caspienne, entre l'Europe et l'Asie, est parfois considérée comme le plus grand lac du monde.",
+      "wiki": [
+        [
+          "Mer Caspienne",
+          "lac",
+          "fermée",
+          "endoréique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La mer Caspienne",
+        "Le lac Supérieur",
+        "Le lac Victoria",
+        "La mer d'Aral"
+      ],
+      "themes": [
+        "lacs"
+      ]
+    },
+    {
+      "id": "geo-victoria-lac",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel est le plus grand lac d'Afrique ?",
+      "exp": "Partagé entre l'Ouganda, le Kenya et la Tanzanie, le lac Victoria est l'une des sources du Nil.",
+      "wiki": [
+        [
+          "Lac Victoria",
+          "Nil"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le lac Victoria",
+        "Le lac Tanganyika",
+        "Le lac Malawi",
+        "Le lac Tchad"
+      ],
+      "themes": [
+        "lacs",
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-niagara",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Entre quels deux pays se trouvent les chutes du Niagara ?",
+      "exp": "Les chutes du Niagara relient le lac Érié au lac Ontario ; les chutes Victoria sont entre la Zambie et le Zimbabwe.",
+      "wiki": [
+        [
+          "Chutes du Niagara",
+          "Ontario",
+          "Érié"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les États-Unis et le Canada",
+        "Le Brésil et l'Argentine",
+        "Le Zimbabwe et la Zambie",
+        "Le Canada et le Groenland"
+      ],
+      "themes": [
+        "chutes"
+      ]
+    },
+    {
+      "id": "geo-iguazu",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Entre quels pays se trouvent les chutes d'Iguazú ?",
+      "exp": "Les chutes d'Iguazú forment un ensemble d'environ 275 cascades.",
+      "wiki": [
+        [
+          "Chutes d'Iguazú",
+          "Argentine",
+          "Brésil"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Argentine et le Brésil",
+        "Le Venezuela et la Colombie",
+        "Le Pérou et la Bolivie",
+        "Le Chili et l'Argentine"
+      ],
+      "themes": [
+        "chutes",
+        "Amérique du Sud"
+      ]
+    },
+    {
+      "id": "geo-angel",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Où se trouve la plus haute chute d'eau du monde, le Salto Ángel ?",
+      "exp": "Le Salto Ángel tombe d'environ 979 m du haut d'un tepuy.",
+      "wiki": [
+        [
+          "Salto Ángel",
+          "Venezuela",
+          "979"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Au Venezuela",
+        "Au Brésil",
+        "En Norvège",
+        "Au Canada"
+      ],
+      "themes": [
+        "chutes"
+      ]
+    },
+    {
+      "id": "geo-bosphore",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel détroit traverse la ville d'Istanbul ?",
+      "exp": "Le Bosphore relie la mer Noire à la mer de Marmara et sépare l'Europe de l'Asie.",
+      "wiki": [
+        [
+          "Bosphore",
+          "Istanbul",
+          "mer Noire"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Bosphore",
+        "Les Dardanelles",
+        "Le détroit de Gibraltar",
+        "Le détroit d'Ormuz"
+      ],
+      "themes": [
+        "détroits"
+      ]
+    },
+    {
+      "id": "geo-ormuz",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Quel détroit stratégique relie le golfe Persique à la mer d'Oman ?",
+      "exp": "Une part importante du pétrole mondial transite par le détroit d'Ormuz, entre l'Iran et Oman.",
+      "wiki": [
+        [
+          "Détroit d'Ormuz",
+          "pétrole"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le détroit d'Ormuz",
+        "Le détroit de Bab-el-Mandeb",
+        "Le canal de Suez",
+        "Le détroit de Malacca"
+      ],
+      "themes": [
+        "détroits",
+        "géopolitique"
+      ]
+    },
+    {
+      "id": "geo-panama",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Quels océans le canal de Panama relie-t-il ?",
+      "exp": "Inauguré en 1914 par les États-Unis après l'échec français, le canal évite le contournement de l'Amérique du Sud.",
+      "wiki": [
+        [
+          "Canal de Panama",
+          "1914"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Atlantique et le Pacifique",
+        "L'Atlantique et l'Indien",
+        "Le Pacifique et l'Arctique",
+        "La Méditerranée et la mer Rouge"
+      ],
+      "themes": [
+        "canaux"
+      ]
+    },
+    {
+      "id": "geo-groenland",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Quelle est la plus grande île du monde, hors continents ?",
+      "exp": "Le Groenland, territoire autonome rattaché au Danemark, est recouvert en grande partie par une calotte glaciaire.",
+      "wiki": [
+        [
+          "Groenland",
+          "Danemark",
+          "île"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Groenland",
+        "Madagascar",
+        "Bornéo",
+        "La Nouvelle-Guinée"
+      ],
+      "themes": [
+        "îles"
+      ]
+    },
+    {
+      "id": "geo-madagascar",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Dans quel océan se trouve Madagascar ?",
+      "exp": "Madagascar, quatrième plus grande île du monde, abrite une faune unique comme les lémuriens.",
+      "wiki": [
+        [
+          "Madagascar",
+          "océan Indien",
+          "lémuriens"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'océan Indien",
+        "L'océan Atlantique",
+        "L'océan Pacifique",
+        "La mer Rouge"
+      ],
+      "themes": [
+        "îles",
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-atacama",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel désert du Chili est l'un des plus arides du monde ?",
+      "exp": "Certaines stations de l'Atacama n'ont enregistré presque aucune pluie depuis des décennies ; l'air sec y attire les observatoires astronomiques.",
+      "wiki": [
+        [
+          "Désert d'Atacama",
+          "Chili",
+          "aride"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Atacama",
+        "Le Gobi",
+        "Le Kalahari",
+        "Le Namib"
+      ],
+      "themes": [
+        "déserts"
+      ]
+    },
+    {
+      "id": "geo-gobi",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Entre quels pays s'étend le désert de Gobi ?",
+      "exp": "Le Gobi, désert froid d'Asie centrale, est célèbre pour ses fossiles de dinosaures.",
+      "wiki": [
+        [
+          "Désert de Gobi",
+          "Mongolie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Mongolie et la Chine",
+        "L'Inde et le Pakistan",
+        "L'Iran et l'Afghanistan",
+        "Le Kazakhstan et la Russie"
+      ],
+      "themes": [
+        "déserts"
+      ]
+    },
+    {
+      "id": "geo-amazonie",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Dans quel pays se trouve la plus grande partie de la forêt amazonienne ?",
+      "exp": "Environ 60 % de la forêt amazonienne se trouve au Brésil ; elle s'étend sur neuf pays et territoires, dont la Guyane française.",
+      "wiki": [
+        [
+          "Forêt amazonienne",
+          "Brésil",
+          "Guyane"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Brésil",
+        "Le Pérou",
+        "La Colombie",
+        "Le Venezuela"
+      ],
+      "themes": [
+        "forêts"
+      ]
+    },
+    {
+      "id": "geo-volga",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel est le plus long fleuve d'Europe ?",
+      "exp": "La Volga, environ 3 500 km, coule entièrement en Russie et se jette dans la mer Caspienne.",
+      "wiki": [
+        [
+          "Volga",
+          "Caspienne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Volga",
+        "Le Danube",
+        "Le Rhin",
+        "Le Dniepr"
+      ],
+      "themes": [
+        "Europe",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-point-culminant-france",
+      "sub": "france",
+      "diff": 2,
+      "q": "Quel est le point culminant de la France métropolitaine ?",
+      "exp": "Avec environ 4 805 m, le mont Blanc domine les Alpes françaises ; le puy de Sancy est le plus haut sommet du Massif central.",
+      "wiki": [
+        [
+          "Mont Blanc",
+          "point culminant"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le mont Blanc",
+        "Le pic du Midi",
+        "Le puy de Sancy",
+        "La Barre des Écrins"
+      ],
+      "themes": [
+        "France",
+        "montagnes"
+      ]
+    },
+    {
+      "id": "geo-sancy",
+      "sub": "france",
+      "diff": 3,
+      "q": "Quel est le plus haut sommet du Massif central ?",
+      "exp": "Le puy de Sancy culmine à 1 885 m ; le puy de Dôme (1 465 m) est le plus célèbre volcan de la chaîne des Puys.",
+      "wiki": [
+        [
+          "Puy de Sancy",
+          "1 885"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le puy de Sancy",
+        "Le puy de Dôme",
+        "Le plomb du Cantal",
+        "Le mont Aigoual"
+      ],
+      "themes": [
+        "France",
+        "montagnes"
+      ]
+    },
+    {
+      "id": "geo-garonne",
+      "sub": "france",
+      "diff": 2,
+      "q": "Quel fleuve traverse Toulouse et Bordeaux ?",
+      "exp": "La Garonne naît en Espagne, dans le val d'Aran ; elle rejoint la Dordogne pour former l'estuaire de la Gironde.",
+      "wiki": [
+        [
+          "Garonne",
+          "Toulouse",
+          "Gironde"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Garonne",
+        "La Dordogne",
+        "La Loire",
+        "L'Adour"
+      ],
+      "themes": [
+        "France",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-gironde",
+      "sub": "france",
+      "diff": 3,
+      "q": "Quel est le plus grand estuaire d'Europe occidentale ?",
+      "exp": "La Gironde naît de la confluence de la Garonne et de la Dordogne au bec d'Ambès.",
+      "wiki": [
+        [
+          "Estuaire de la Gironde",
+          "Ambès"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Gironde",
+        "L'estuaire de la Seine",
+        "L'estuaire de la Loire",
+        "L'estuaire de l'Elbe"
+      ],
+      "themes": [
+        "France",
+        "fleuves"
+      ]
+    },
+    {
+      "id": "geo-camargue",
+      "sub": "france",
+      "diff": 2,
+      "q": "Quelle région naturelle est formée par le delta du Rhône ?",
+      "exp": "La Camargue est célèbre pour ses chevaux blancs, ses taureaux, ses flamants roses et ses salins.",
+      "wiki": [
+        [
+          "Camargue",
+          "delta du Rhône",
+          "flamants"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Camargue",
+        "La Crau",
+        "Les Landes",
+        "La Brenne"
+      ],
+      "themes": [
+        "France"
+      ]
+    },
+    {
+      "id": "geo-dune-pilat",
+      "sub": "france",
+      "diff": 2,
+      "q": "Où se trouve la dune du Pilat, la plus haute d'Europe ?",
+      "exp": "La dune du Pilat atteint environ 100 m de haut et avance lentement vers l'intérieur des terres.",
+      "wiki": [
+        [
+          "Dune du Pilat",
+          "Arcachon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Près du bassin d'Arcachon",
+        "En Vendée",
+        "Sur la côte d'Opale",
+        "En Camargue"
+      ],
+      "themes": [
+        "France",
+        "littoral"
+      ]
+    },
+    {
+      "id": "geo-verdon",
+      "sub": "france",
+      "diff": 3,
+      "q": "Dans quelle région se trouvent les gorges du Verdon ?",
+      "exp": "Ce canyon, parmi les plus spectaculaires d'Europe, se termine dans le lac de Sainte-Croix.",
+      "wiki": [
+        [
+          "Gorges du Verdon",
+          "Sainte-Croix"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "En Provence",
+        "En Auvergne",
+        "En Occitanie près de Millau",
+        "En Bourgogne"
+      ],
+      "themes": [
+        "France"
+      ]
+    },
+    {
+      "id": "geo-corse-capitale",
+      "sub": "france",
+      "diff": 2,
+      "q": "Quelle ville est la préfecture de la Corse-du-Sud ?",
+      "exp": "Ajaccio est la préfecture de la Corse-du-Sud et le siège de la collectivité de Corse ; Bastia est la préfecture de la Haute-Corse.",
+      "wiki": [
+        [
+          "Ajaccio",
+          "Corse-du-Sud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ajaccio",
+        "Bastia",
+        "Corte",
+        "Porto-Vecchio"
+      ],
+      "themes": [
+        "France",
+        "régions"
+      ]
+    },
+    {
+      "id": "geo-guyane",
+      "sub": "france",
+      "diff": 2,
+      "q": "Avec quels pays la Guyane française a-t-elle une frontière terrestre ?",
+      "exp": "La frontière avec le Brésil, environ 730 km, est la plus longue frontière terrestre de la France.",
+      "wiki": [
+        [
+          "Guyane",
+          "Brésil",
+          "Suriname"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Brésil et le Suriname",
+        "Le Venezuela et le Guyana",
+        "La Colombie et le Brésil",
+        "Le Suriname et le Guyana"
+      ],
+      "themes": [
+        "France",
+        "outre-mer"
+      ]
+    },
+    {
+      "id": "geo-reunion",
+      "sub": "france",
+      "diff": 2,
+      "q": "Dans quel océan se trouve l'île de La Réunion ?",
+      "exp": "La Réunion abrite le piton de la Fournaise, l'un des volcans les plus actifs du monde.",
+      "wiki": [
+        [
+          "La Réunion",
+          "océan Indien",
+          "Fournaise"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'océan Indien",
+        "L'océan Atlantique",
+        "L'océan Pacifique",
+        "La mer des Caraïbes"
+      ],
+      "themes": [
+        "France",
+        "outre-mer"
+      ]
+    },
+    {
+      "id": "geo-outremer-asso",
+      "sub": "france",
+      "diff": 3,
+      "q": "Associe chaque territoire ultramarin à son océan ou sa mer.",
+      "exp": "Grâce à ses outre-mer, la France possède le deuxième plus vaste domaine maritime du monde.",
+      "wiki": [
+        [
+          "Mayotte",
+          "océan Indien"
+        ],
+        [
+          "Saint-Pierre-et-Miquelon",
+          "Atlantique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Martinique",
+          "Mer des Caraïbes"
+        ],
+        [
+          "Mayotte",
+          "Océan Indien"
+        ],
+        [
+          "Polynésie française",
+          "Océan Pacifique"
+        ],
+        [
+          "Saint-Pierre-et-Miquelon",
+          "Océan Atlantique Nord"
+        ]
+      ],
+      "themes": [
+        "France",
+        "outre-mer"
+      ]
+    },
+    {
+      "id": "geo-villes-france",
+      "sub": "france",
+      "diff": 2,
+      "q": "Classe ces villes françaises selon leur population (commune).",
+      "exp": "Paris compte un peu plus de 2 millions d'habitants, Marseille environ 870 000, Lyon 520 000, Nice 350 000 et Lille 235 000 (Toulouse, non citée, est quatrième).",
+      "wiki": [
+        [
+          "Liste des communes de France les plus peuplées",
+          "Marseille",
+          "Lille"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "classement",
+      "orderLabel": "de la plus peuplée à la moins peuplée",
+      "items": [
+        "Paris",
+        "Marseille",
+        "Lyon",
+        "Nice",
+        "Lille"
+      ],
+      "themes": [
+        "France",
+        "démographie"
+      ]
+    },
+    {
+      "id": "geo-massif-armoricain",
+      "sub": "france",
+      "diff": 4,
+      "q": "Quel massif ancien occupe la Bretagne et une partie de la Normandie ?",
+      "exp": "Très ancien et érodé, le Massif armoricain culmine à seulement 417 m au mont des Avaloirs.",
+      "wiki": [
+        [
+          "Massif armoricain",
+          "Avaloirs"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Massif armoricain",
+        "Le Massif central",
+        "Le massif des Vosges",
+        "Le massif de l'Esterel"
+      ],
+      "themes": [
+        "France",
+        "relief"
+      ]
+    },
+    {
+      "id": "geo-vatican",
+      "sub": "geopolitique",
+      "diff": 1,
+      "q": "Quel est le plus petit État du monde ?",
+      "exp": "Avec 0,44 km², la cité du Vatican, siège de la papauté, est enclavée dans Rome.",
+      "wiki": [
+        [
+          "Vatican",
+          "0,44"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Vatican",
+        "Monaco",
+        "Saint-Marin",
+        "Le Liechtenstein"
+      ],
+      "themes": [
+        "États"
+      ]
+    },
+    {
+      "id": "geo-monaco",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel est le pays le plus densément peuplé du monde ?",
+      "exp": "Environ 38 000 habitants sur 2 km² : Monaco dépasse les 18 000 habitants au km².",
+      "wiki": [
+        [
+          "Monaco",
+          "densément",
+          "habitants"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Monaco",
+        "Singapour",
+        "Le Bangladesh",
+        "Malte"
+      ],
+      "themes": [
+        "États",
+        "démographie"
+      ]
+    },
+    {
+      "id": "geo-pays-enclaves",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Quel pays est entièrement enclavé dans l'Afrique du Sud ?",
+      "exp": "Le Lesotho, royaume montagneux, est l'un des trois États au monde entièrement entourés par un seul autre pays, avec le Vatican et Saint-Marin.",
+      "wiki": [
+        [
+          "Lesotho",
+          "Afrique du Sud",
+          "enclavé"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Lesotho",
+        "L'Eswatini",
+        "Le Botswana",
+        "Le Malawi"
+      ],
+      "themes": [
+        "États",
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-fuseaux-france",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Quel pays compte le plus grand nombre de fuseaux horaires, grâce à ses territoires d'outre-mer ?",
+      "exp": "Avec ses outre-mer, la France s'étend sur 12 fuseaux horaires (13 en comptant l'Antarctique), plus que la Russie.",
+      "wiki": [
+        [
+          "Fuseau horaire",
+          "France"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La France",
+        "La Russie",
+        "Les États-Unis",
+        "Le Royaume-Uni"
+      ],
+      "themes": [
+        "États"
+      ]
+    },
+    {
+      "id": "geo-pays-plus-langues",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Quel pays compte le plus grand nombre de langues vivantes, plus de 800 ?",
+      "exp": "La Papouasie-Nouvelle-Guinée concentre plus de 10 % des langues du monde.",
+      "wiki": [
+        [
+          "Langues en Papouasie-Nouvelle-Guinée",
+          "800"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Papouasie-Nouvelle-Guinée",
+        "L'Inde",
+        "Le Nigeria",
+        "L'Indonésie"
+      ],
+      "themes": [
+        "langues"
+      ]
+    },
+    {
+      "id": "geo-schengen",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Dans quel pays se trouve le village de Schengen, qui a donné son nom à l'espace de libre circulation européen ?",
+      "exp": "L'accord de Schengen est signé en 1985 sur un bateau de la Moselle, au point de rencontre de trois frontières.",
+      "wiki": [
+        [
+          "Schengen",
+          "Luxembourg",
+          "1985"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Luxembourg",
+        "La Belgique",
+        "L'Allemagne",
+        "Les Pays-Bas"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-equateur-pays",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Lequel de ces pays n'est PAS traversé par l'équateur ?",
+      "exp": "L'équateur traverse notamment l'Équateur, la Colombie, le Brésil, le Gabon, le Congo, la RDC, l'Ouganda, le Kenya, la Somalie et l'Indonésie.",
+      "wiki": [
+        [
+          "Équateur terrestre",
+          "Gabon",
+          "Kenya"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Nigeria",
+        "Le Brésil",
+        "L'Indonésie",
+        "Le Kenya"
+      ],
+      "themes": [
+        "géographie physique"
+      ]
+    },
+    {
+      "id": "geo-tropique-cancer",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Le tropique du Cancer traverse le Sahara.",
+      "exp": "Vrai. Le tropique du Cancer, vers 23° 26′ de latitude nord, traverse le Sahara (Algérie, Libye, Égypte…), puis l'Arabie, l'Inde et la Chine.",
+      "wiki": [
+        [
+          "Sahara",
+          "de part et d'autre du tropique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "themes": [
+        "géographie physique"
+      ]
+    },
+    {
+      "id": "geo-langue-bresil",
+      "sub": "geopolitique",
+      "diff": 1,
+      "q": "Quelle langue parle-t-on officiellement au Brésil ?",
+      "exp": "Ancienne colonie portugaise, le Brésil est le pays qui compte le plus de lusophones au monde.",
+      "wiki": [
+        [
+          "Brésil",
+          "portugais"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le portugais",
+        "L'espagnol",
+        "Le brésilien",
+        "Le français"
+      ],
+      "themes": [
+        "langues",
+        "Amérique du Sud"
+      ]
+    },
+    {
+      "id": "geo-francophonie",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel pays compte le plus grand nombre de locuteurs du français au monde ?",
+      "exp": "La RDC, plus de 100 millions d'habitants, est souvent présentée comme le plus grand pays francophone par le nombre d'habitants.",
+      "wiki": [
+        [
+          "République démocratique du Congo",
+          "francophone"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La République démocratique du Congo",
+        "La France",
+        "Le Canada",
+        "La Belgique"
+      ],
+      "themes": [
+        "langues",
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-australie-etats",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Combien d'États compte l'Australie ?",
+      "exp": "Nouvelle-Galles du Sud, Victoria, Queensland, Australie-Méridionale, Australie-Occidentale et Tasmanie, plus des territoires dont celui de la capitale.",
+      "wiki": [
+        [
+          "États et territoires de l'Australie",
+          "Tasmanie",
+          "Queensland"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "4"
+      ],
+      "themes": [
+        "Océanie"
+      ]
+    },
+    {
+      "id": "geo-etats-unis-etats",
+      "sub": "geopolitique",
+      "diff": 1,
+      "q": "Combien d'États comptent les États-Unis ?",
+      "exp": "Les deux derniers admis, en 1959, sont l'Alaska et Hawaï ; Washington D.C. n'est pas un État.",
+      "wiki": [
+        [
+          "États des États-Unis",
+          "50",
+          "Hawaï"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "50",
+        "48",
+        "52",
+        "51"
+      ],
+      "themes": [
+        "Amérique du Nord"
+      ]
+    },
+    {
+      "id": "geo-alaska",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "À quel pays les États-Unis ont-ils acheté l'Alaska en 1867 ?",
+      "exp": "L'achat, pour 7,2 millions de dollars, fut d'abord moqué comme « la folie de Seward ».",
+      "wiki": [
+        [
+          "Achat de l'Alaska",
+          "1867",
+          "Seward"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "À la Russie",
+        "Au Canada",
+        "Au Royaume-Uni",
+        "À l'Espagne"
+      ],
+      "themes": [
+        "Amérique du Nord",
+        "histoire"
+      ]
+    },
+    {
+      "id": "geo-ue-fondateurs",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Lequel de ces pays est l'un des six fondateurs de la Communauté économique européenne en 1957 ?",
+      "exp": "Les six fondateurs : France, Allemagne de l'Ouest, Italie, Belgique, Pays-Bas et Luxembourg.",
+      "wiki": [
+        [
+          "Traité de Rome",
+          "1957"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Luxembourg",
+        "L'Espagne",
+        "Le Royaume-Uni",
+        "Le Danemark"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-plus-peuple-afrique",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Quel est le pays le plus peuplé d'Afrique ?",
+      "exp": "Le Nigeria compte plus de 200 millions d'habitants ; Lagos est l'une des plus grandes villes d'Afrique.",
+      "wiki": [
+        [
+          "Nigeria",
+          "pays le plus peuplé d'Afrique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Nigeria",
+        "L'Égypte",
+        "L'Éthiopie",
+        "La République démocratique du Congo"
+      ],
+      "themes": [
+        "Afrique",
+        "démographie"
+      ]
+    },
+    {
+      "id": "geo-continents",
+      "sub": "geopolitique",
+      "diff": 1,
+      "q": "Quel est le plus grand continent par la superficie ?",
+      "exp": "L'Asie couvre environ 30 % des terres émergées et concentre près de 60 % de la population mondiale.",
+      "wiki": [
+        [
+          "Asie",
+          "superficie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Asie",
+        "L'Afrique",
+        "L'Amérique",
+        "L'Antarctique"
+      ],
+      "themes": [
+        "continents"
+      ]
+    },
+    {
+      "id": "geo-hemisphere-sud",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Quand c'est l'été en France, quelle saison est-ce en Australie ?",
+      "exp": "Les saisons sont inversées entre les deux hémisphères à cause de l'inclinaison de l'axe de la Terre.",
+      "wiki": [
+        [
+          "Saison",
+          "hémisphère sud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'hiver",
+        "Le printemps",
+        "L'été aussi",
+        "L'automne"
+      ],
+      "themes": [
+        "géographie physique"
+      ]
+    },
+    {
+      "id": "geo-meridien-greenwich",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Par quelle ville passe le méridien d'origine adopté internationalement en 1884 ?",
+      "exp": "La France a longtemps utilisé le méridien de Paris, avant de se rallier à celui de Greenwich en 1911.",
+      "wiki": [
+        [
+          "Méridien de Greenwich",
+          "1884"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Greenwich, près de Londres",
+        "Paris",
+        "Madrid",
+        "Washington"
+      ],
+      "themes": [
+        "géographie physique"
+      ]
+    },
+    {
+      "id": "geo-monnaies-1",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Associe chaque pays à sa monnaie.",
+      "exp": "Le Royaume-Uni n'a jamais adopté l'euro ; la livre sterling est l'une des plus anciennes monnaies encore utilisées.",
+      "wiki": [
+        [
+          "Yen",
+          "Japon"
+        ],
+        [
+          "Livre sterling",
+          "Royaume-Uni"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Japon",
+          "Yen"
+        ],
+        [
+          "Royaume-Uni",
+          "Livre sterling"
+        ],
+        [
+          "Inde",
+          "Roupie"
+        ],
+        [
+          "Russie",
+          "Rouble"
+        ]
+      ],
+      "themes": [
+        "monnaies"
+      ]
+    },
+    {
+      "id": "geo-monnaies-2",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Associe chacun de ces pays, qui n'utilisent pas l'euro, à sa monnaie.",
+      "exp": "La Pologne et la Suède sont membres de l'Union européenne mais n'utilisent pas l'euro.",
+      "wiki": [
+        [
+          "Réal brésilien",
+          "Brésil"
+        ],
+        [
+          "Złoty",
+          "Pologne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Brésil",
+          "Real"
+        ],
+        [
+          "Afrique du Sud",
+          "Rand"
+        ],
+        [
+          "Pologne",
+          "Zloty"
+        ],
+        [
+          "Suède",
+          "Couronne"
+        ]
+      ],
+      "themes": [
+        "monnaies"
+      ]
+    },
+    {
+      "id": "geo-monnaie-chine",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Comment s'appelle la monnaie de la Chine ?",
+      "exp": "Renminbi signifie « monnaie du peuple » ; le won est coréen et le baht thaïlandais.",
+      "wiki": [
+        [
+          "Renminbi",
+          "yuan"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le yuan (renminbi)",
+        "Le yen",
+        "Le won",
+        "Le baht"
+      ],
+      "themes": [
+        "monnaies"
+      ]
+    },
+    {
+      "id": "geo-monnaie-suisse",
+      "sub": "geopolitique",
+      "diff": 1,
+      "q": "Quelle monnaie utilise la Suisse ?",
+      "exp": "La Suisse, qui ne fait pas partie de l'Union européenne, conserve le franc suisse.",
+      "wiki": [
+        [
+          "Franc suisse",
+          "Suisse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le franc suisse",
+        "L'euro",
+        "Le mark",
+        "La couronne"
+      ],
+      "themes": [
+        "monnaies"
+      ]
+    },
+    {
+      "id": "geo-zone-euro-hors-ue",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Lequel de ces pays utilise l'euro sans être membre de l'Union européenne ?",
+      "exp": "Le Monténégro et le Kosovo l'utilisent unilatéralement ; Monaco, Saint-Marin, le Vatican et Andorre par accord avec l'UE.",
+      "wiki": [
+        [
+          "Euro",
+          "Monténégro",
+          "Kosovo"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Monténégro",
+        "La Suisse",
+        "La Norvège",
+        "Le Royaume-Uni"
+      ],
+      "themes": [
+        "monnaies",
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-kazakhstan",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Quel est le plus grand pays du monde sans accès à l'océan ?",
+      "exp": "Le Kazakhstan, environ 2,7 millions de km², borde la mer Caspienne, qui est une mer fermée.",
+      "wiki": [
+        [
+          "Kazakhstan",
+          "enclavé",
+          "Caspienne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Kazakhstan",
+        "La Mongolie",
+        "Le Tchad",
+        "La Bolivie"
+      ],
+      "themes": [
+        "États"
+      ]
+    },
+    {
+      "id": "geo-chili-long",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel pays d'Amérique du Sud s'étire sur plus de 4 000 km de long pour une largeur moyenne d'environ 180 km ?",
+      "exp": "Coincé entre la cordillère des Andes et le Pacifique, le Chili va du désert d'Atacama à la Terre de Feu.",
+      "wiki": [
+        [
+          "Chili",
+          "Andes",
+          "Atacama"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Chili",
+        "L'Argentine",
+        "Le Pérou",
+        "La Colombie"
+      ],
+      "themes": [
+        "Amérique du Sud"
+      ]
+    },
+    {
+      "id": "geo-indonesie-iles",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel pays est le plus grand archipel du monde, avec plus de 17 000 îles ?",
+      "exp": "Les principales îles indonésiennes sont Java, Sumatra, Bornéo (partagée), Sulawesi et la Nouvelle-Guinée occidentale.",
+      "wiki": [
+        [
+          "Indonésie",
+          "archipel",
+          "Java"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Indonésie",
+        "Les Philippines",
+        "Le Japon",
+        "La Grèce"
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "geo-japon-iles",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quelle est la plus grande île du Japon ?",
+      "exp": "Honshū abrite Tokyo, Osaka et Kyoto ; le mont Fuji s'y dresse aussi.",
+      "wiki": [
+        [
+          "Honshū",
+          "Tokyo",
+          "Fuji"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Honshū",
+        "Hokkaidō",
+        "Kyūshū",
+        "Shikoku"
+      ],
+      "themes": [
+        "Asie"
+      ]
+    },
+    {
+      "id": "geo-istanbul",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Quelle grande ville est située à la fois en Europe et en Asie ?",
+      "exp": "Le Bosphore coupe Istanbul en deux ; la ville s'est appelée Byzance puis Constantinople.",
+      "wiki": [
+        [
+          "Istanbul",
+          "Bosphore",
+          "Constantinople"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Istanbul",
+        "Moscou",
+        "Le Caire",
+        "Athènes"
+      ],
+      "themes": [
+        "villes"
+      ],
+      "see": [
+        "geo-bosphore"
+      ]
+    },
+    {
+      "id": "geo-ushuaia",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quelle ville argentine se présente comme la plus australe du monde ?",
+      "exp": "Située en Terre de Feu, Ushuaïa est un point de départ pour les croisières vers l'Antarctique.",
+      "wiki": [
+        [
+          "Ushuaïa",
+          "Terre de Feu"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ushuaïa",
+        "Punta Arenas",
+        "Le Cap",
+        "Hobart"
+      ],
+      "themes": [
+        "villes"
+      ]
+    },
+    {
+      "id": "geo-reykjavik",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quelle est la capitale d'État souverain la plus septentrionale du monde ?",
+      "exp": "Reykjavik, capitale de l'Islande, se trouve vers 64° de latitude nord ; Nuuk, capitale du Groenland, n'est pas un État souverain.",
+      "wiki": [
+        [
+          "Reykjavik",
+          "Islande"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Reykjavik",
+        "Oslo",
+        "Helsinki",
+        "Nuuk"
+      ],
+      "themes": [
+        "villes"
+      ]
+    },
+    {
+      "id": "geo-la-paz",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Quelle ville de Bolivie, siège du gouvernement, est l'une des plus hautes au monde, vers 3 600 m ?",
+      "exp": "Sucre est la capitale constitutionnelle de la Bolivie, mais le gouvernement siège à La Paz.",
+      "wiki": [
+        [
+          "La Paz",
+          "Sucre",
+          "Bolivie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Paz",
+        "Sucre",
+        "Quito",
+        "Cuzco"
+      ],
+      "themes": [
+        "villes",
+        "Amérique du Sud"
+      ]
+    },
+    {
+      "id": "geo-venise",
+      "sub": "geopolitique",
+      "diff": 1,
+      "q": "Quelle ville italienne est construite sur une lagune et parcourue de canaux ?",
+      "exp": "Bâtie sur plus d'une centaine d'îlots, Venise est menacée par l'acqua alta, les hautes eaux.",
+      "wiki": [
+        [
+          "Venise",
+          "lagune",
+          "canaux"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Venise",
+        "Florence",
+        "Naples",
+        "Gênes"
+      ],
+      "themes": [
+        "villes"
+      ]
+    },
+    {
+      "id": "geo-rio-christ",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Dans quelle ville se dresse la statue du Christ rédempteur sur le Corcovado ?",
+      "exp": "Inaugurée en 1931, la statue de 30 m domine la baie de Rio ; elle a été conçue avec le sculpteur français Paul Landowski.",
+      "wiki": [
+        [
+          "Statue du Christ Rédempteur",
+          "Corcovado",
+          "Landowski",
+          "1931"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasília",
+        "Salvador"
+      ],
+      "themes": [
+        "monuments"
+      ]
+    },
+    {
+      "id": "geo-uluru",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Dans quel pays se trouve Uluru (Ayers Rock), monolithe sacré pour les Aborigènes ?",
+      "exp": "Ce grand rocher de grès rouge, au centre du pays, est un site inscrit au patrimoine mondial.",
+      "wiki": [
+        [
+          "Uluru",
+          "Australie",
+          "Aborigènes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Australie",
+        "La Nouvelle-Zélande",
+        "L'Afrique du Sud",
+        "Les États-Unis"
+      ],
+      "themes": [
+        "Océanie"
+      ]
+    },
+    {
+      "id": "geo-grand-canyon",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Quel fleuve a creusé le Grand Canyon ?",
+      "exp": "En Arizona, la gorge atteint environ 1 800 m de profondeur et révèle près de deux milliards d'années d'histoire géologique.",
+      "wiki": [
+        [
+          "Grand Canyon",
+          "Colorado",
+          "Arizona"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Colorado",
+        "Le Mississippi",
+        "Le Rio Grande",
+        "Le Missouri"
+      ],
+      "themes": [
+        "Amérique du Nord"
+      ]
+    },
+    {
+      "id": "geo-yellowstone",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel est le premier parc national du monde, créé en 1872 aux États-Unis ?",
+      "exp": "Yellowstone, célèbre pour ses geysers comme Old Faithful, repose sur un supervolcan.",
+      "wiki": [
+        [
+          "Parc national de Yellowstone",
+          "1872",
+          "geysers"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Yellowstone",
+        "Yosemite",
+        "Grand Canyon",
+        "Everglades"
+      ],
+      "themes": [
+        "parcs naturels"
+      ]
+    },
+    {
+      "id": "geo-grande-barriere",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Au large de quel pays se trouve la Grande Barrière de corail ?",
+      "exp": "Longue de plus de 2 000 km, c'est la plus grande structure vivante du monde ; elle souffre du blanchissement des coraux.",
+      "wiki": [
+        [
+          "Grande Barrière de corail",
+          "Australie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Australie",
+        "L'Indonésie",
+        "Les Maldives",
+        "La Nouvelle-Calédonie"
+      ],
+      "themes": [
+        "océans"
+      ]
+    },
+    {
+      "id": "geo-galapagos",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "À quel pays appartiennent les îles Galápagos, où Darwin a fait des observations décisives ?",
+      "exp": "Darwin y observe en 1835 des pinsons et des tortues géantes différents d'une île à l'autre.",
+      "wiki": [
+        [
+          "Îles Galápagos",
+          "Équateur",
+          "Darwin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Équateur",
+        "Le Chili",
+        "Le Pérou",
+        "La Colombie"
+      ],
+      "themes": [
+        "îles"
+      ],
+      "see": [
+        "sci-darwin"
+      ]
+    },
+    {
+      "id": "geo-islande",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Quel pays est surnommé « la terre de glace et de feu » ?",
+      "exp": "L'Islande, sur la dorsale médio-atlantique, compte de nombreux volcans, geysers et glaciers.",
+      "wiki": [
+        [
+          "Islande",
+          "volcans",
+          "geysers"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Islande",
+        "La Norvège",
+        "Le Groenland",
+        "La Finlande"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-fjords",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Quel pays est célèbre pour ses fjords, vallées glaciaires envahies par la mer ?",
+      "exp": "Les fjords norvégiens, comme le Geirangerfjord, sont inscrits au patrimoine mondial.",
+      "wiki": [
+        [
+          "Fjord",
+          "Norvège"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Norvège",
+        "Les Pays-Bas",
+        "Le Danemark",
+        "La Pologne"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-polders",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel pays a gagné une grande partie de son territoire sur la mer grâce aux polders ?",
+      "exp": "Environ un quart du pays se trouve sous le niveau de la mer, protégé par des digues.",
+      "wiki": [
+        [
+          "Polder",
+          "Pays-Bas"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Pays-Bas",
+        "La Belgique",
+        "Le Danemark",
+        "L'Allemagne"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-finlande-lacs",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel pays est surnommé « le pays des mille lacs » ?",
+      "exp": "La Finlande compte en réalité près de 188 000 lacs.",
+      "wiki": [
+        [
+          "Finlande",
+          "lacs"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Finlande",
+        "Le Canada",
+        "La Suède",
+        "La Suisse"
+      ],
+      "themes": [
+        "Europe"
+      ]
+    },
+    {
+      "id": "geo-mousson",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Comment appelle-t-on le vent saisonnier qui apporte des pluies abondantes en Asie du Sud en été ?",
+      "exp": "La mousson d'été est vitale pour l'agriculture indienne ; le mistral et le sirocco soufflent en Méditerranée.",
+      "wiki": [
+        [
+          "Mousson",
+          "Asie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La mousson",
+        "Le mistral",
+        "Le sirocco",
+        "Le foehn"
+      ],
+      "themes": [
+        "climat"
+      ]
+    },
+    {
+      "id": "geo-mistral",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Dans quelle vallée souffle le mistral, vent froid et sec du nord ?",
+      "exp": "Le mistral descend la vallée du Rhône jusqu'à la Méditerranée ; il dégage souvent le ciel provençal.",
+      "wiki": [
+        [
+          "Mistral (vent)",
+          "Rhône"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La vallée du Rhône",
+        "La vallée de la Loire",
+        "La vallée de la Seine",
+        "La vallée de la Garonne"
+      ],
+      "themes": [
+        "climat",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-antarctique",
+      "sub": "geopolitique",
+      "diff": 2,
+      "q": "Quel continent abrite le pôle Sud ?",
+      "exp": "L'Antarctique est un continent recouvert de glace ; l'Arctique, autour du pôle Nord, est un océan gelé.",
+      "wiki": [
+        [
+          "Antarctique",
+          "pôle Sud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Antarctique",
+        "L'Arctique",
+        "L'Océanie",
+        "L'Amérique du Sud"
+      ],
+      "themes": [
+        "pôles"
+      ]
+    },
+    {
+      "id": "geo-traite-antarctique",
+      "sub": "geopolitique",
+      "diff": 4,
+      "q": "Quel traité de 1959 réserve l'Antarctique à des activités pacifiques et scientifiques ?",
+      "exp": "Signé à Washington, il gèle les revendications territoriales ; la France y possède la base Dumont-d'Urville en Terre Adélie.",
+      "wiki": [
+        [
+          "Traité sur l'Antarctique",
+          "1959"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le traité sur l'Antarctique",
+        "Le traité de Rome",
+        "Le protocole de Kyoto",
+        "La convention de Montego Bay"
+      ],
+      "themes": [
+        "pôles"
+      ]
+    },
+    {
+      "id": "geo-everest-pays",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Entre quels pays se trouve le sommet de l'Everest ?",
+      "exp": "La frontière passe par le sommet ; on l'appelle Chomolungma en tibétain et Sagarmatha en népalais.",
+      "wiki": [
+        [
+          "Everest",
+          "Népal",
+          "Chine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Népal et la Chine",
+        "L'Inde et le Népal",
+        "Le Pakistan et la Chine",
+        "Le Bhoutan et l'Inde"
+      ],
+      "themes": [
+        "montagnes"
+      ],
+      "see": [
+        "geo-everest"
+      ]
+    },
+    {
+      "id": "geo-sahara-pays",
+      "sub": "geopolitique",
+      "diff": 3,
+      "q": "Quel est le plus grand pays d'Afrique par la superficie ?",
+      "exp": "Depuis l'indépendance du Soudan du Sud en 2011, l'Algérie est le plus vaste pays du continent.",
+      "wiki": [
+        [
+          "Algérie",
+          "plus grand pays d'Afrique",
+          "2011"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Algérie",
+        "La République démocratique du Congo",
+        "Le Soudan",
+        "La Libye"
+      ],
+      "themes": [
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-regions-capitales",
+      "sub": "france",
+      "diff": 2,
+      "q": "Associe chaque région à son chef-lieu.",
+      "exp": "Depuis 2016, la France métropolitaine compte 13 régions ; Strasbourg est aussi le siège du Parlement européen.",
+      "wiki": [
+        [
+          "Occitanie (région administrative)",
+          "Toulouse"
+        ],
+        [
+          "Grand Est",
+          "Strasbourg"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Bretagne",
+          "Rennes"
+        ],
+        [
+          "Occitanie",
+          "Toulouse"
+        ],
+        [
+          "Nouvelle-Aquitaine",
+          "Bordeaux"
+        ],
+        [
+          "Grand Est",
+          "Strasbourg"
+        ]
+      ],
+      "themes": [
+        "régions"
+      ],
+      "see": [
+        "hf-regions-2016"
+      ]
+    },
+    {
+      "id": "geo-regions-capitales-2",
+      "sub": "france",
+      "diff": 3,
+      "q": "Associe chacune de ces régions du nord-ouest et du centre à son chef-lieu.",
+      "exp": "Caen a gardé le siège du conseil régional de Normandie, tandis que Rouen est le chef-lieu.",
+      "wiki": [
+        [
+          "Normandie (région administrative)",
+          "Rouen",
+          "Caen"
+        ],
+        [
+          "Centre-Val de Loire",
+          "Orléans"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Normandie",
+          "Rouen"
+        ],
+        [
+          "Pays de la Loire",
+          "Nantes"
+        ],
+        [
+          "Centre-Val de Loire",
+          "Orléans"
+        ],
+        [
+          "Bourgogne-Franche-Comté",
+          "Dijon"
+        ]
+      ],
+      "themes": [
+        "régions"
+      ]
+    },
+    {
+      "id": "geo-hauts-de-france",
+      "sub": "france",
+      "diff": 2,
+      "q": "Quel est le chef-lieu de la région Hauts-de-France ?",
+      "exp": "La région est née en 2016 de la fusion du Nord-Pas-de-Calais et de la Picardie.",
+      "wiki": [
+        [
+          "Hauts-de-France",
+          "Lille",
+          "Picardie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Lille",
+        "Amiens",
+        "Arras",
+        "Calais"
+      ],
+      "themes": [
+        "régions"
+      ]
+    },
+    {
+      "id": "geo-departements-numeros",
+      "sub": "france",
+      "diff": 3,
+      "q": "Associe chaque numéro à son département.",
+      "exp": "Les numéros suivent à l'origine l'ordre alphabétique des départements ; le Nord est le département le plus peuplé.",
+      "wiki": [
+        [
+          "Bouches-du-Rhône",
+          "13"
+        ],
+        [
+          "Nord (département français)",
+          "59"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "13",
+          "Bouches-du-Rhône"
+        ],
+        [
+          "33",
+          "Gironde"
+        ],
+        [
+          "59",
+          "Nord"
+        ],
+        [
+          "69",
+          "Rhône"
+        ]
+      ],
+      "themes": [
+        "départements"
+      ]
+    },
+    {
+      "id": "geo-dep-75",
+      "sub": "france",
+      "diff": 1,
+      "q": "Quel département porte le numéro 75 ?",
+      "exp": "Paris est à la fois une commune et un département ; il porte le numéro 75, qui était celui de l'ancien département de la Seine.",
+      "wiki": [
+        [
+          "Paris",
+          "75"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Paris",
+        "Le Rhône",
+        "Les Yvelines",
+        "La Seine-Saint-Denis"
+      ],
+      "themes": [
+        "départements"
+      ]
+    },
+    {
+      "id": "geo-vignemale",
+      "sub": "france",
+      "diff": 4,
+      "q": "Quel est le plus haut sommet des Pyrénées françaises ?",
+      "exp": "Le Vignemale culmine à 3 298 m ; l'Aneto, point culminant de toute la chaîne, est en Espagne.",
+      "wiki": [
+        [
+          "Vignemale",
+          "3 298"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Vignemale",
+        "Le pic du Midi de Bigorre",
+        "Le Canigou",
+        "L'Aneto"
+      ],
+      "themes": [
+        "montagnes",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-grand-ballon",
+      "sub": "france",
+      "diff": 4,
+      "q": "Quel est le point culminant du massif des Vosges ?",
+      "exp": "Le Grand Ballon atteint 1 424 m ; les sommets arrondis des Vosges sont appelés « ballons ».",
+      "wiki": [
+        [
+          "Grand Ballon",
+          "1 424",
+          "Vosges"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Grand Ballon",
+        "Le Hohneck",
+        "Le ballon d'Alsace",
+        "Le Donon"
+      ],
+      "themes": [
+        "montagnes",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-cinto",
+      "sub": "france",
+      "diff": 4,
+      "q": "Quel est le plus haut sommet de Corse ?",
+      "exp": "Le Monte Cinto culmine à 2 706 m ; la Corse est surnommée « une montagne dans la mer ».",
+      "wiki": [
+        [
+          "Monte Cinto",
+          "2 706",
+          "Corse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Monte Cinto",
+        "Le Monte Rotondo",
+        "Le Monte d'Oro",
+        "L'Incudine"
+      ],
+      "themes": [
+        "montagnes",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-oleron",
+      "sub": "france",
+      "diff": 3,
+      "q": "Quelle est la plus grande île de la France métropolitaine après la Corse ?",
+      "exp": "Oléron, en Charente-Maritime, est reliée au continent par un viaduc depuis 1966.",
+      "wiki": [
+        [
+          "Île d'Oléron",
+          "Charente-Maritime",
+          "1966"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'île d'Oléron",
+        "Belle-Île-en-Mer",
+        "L'île de Ré",
+        "L'île de Noirmoutier"
+      ],
+      "themes": [
+        "îles",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-belle-ile",
+      "sub": "france",
+      "diff": 3,
+      "q": "Quelle est la plus grande île de Bretagne ?",
+      "exp": "Située au large de Quiberon, Belle-Île a inspiré Claude Monet et accueilli Sarah Bernhardt.",
+      "wiki": [
+        [
+          "Belle-Île-en-Mer",
+          "Quiberon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Belle-Île-en-Mer",
+        "Ouessant",
+        "L'île de Groix",
+        "L'île de Batz"
+      ],
+      "themes": [
+        "îles",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-ouessant",
+      "sub": "france",
+      "diff": 4,
+      "q": "Quel est le point le plus occidental de la France métropolitaine (îles comprises) ?",
+      "exp": "Au large du Finistère, Ouessant est réputée pour ses phares et ses courants dangereux.",
+      "wiki": [
+        [
+          "Ouessant",
+          "Finistère",
+          "phares"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'île d'Ouessant",
+        "La pointe du Raz",
+        "Le cap Fréhel",
+        "L'île de Sein"
+      ],
+      "themes": [
+        "îles",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-loire-chateaux",
+      "sub": "france",
+      "diff": 2,
+      "q": "Quel fleuve traverse Orléans, Blois, Tours et Nantes ?",
+      "exp": "Le Val de Loire, entre Sully-sur-Loire et Chalonnes, est inscrit au patrimoine mondial de l'UNESCO depuis 2000.",
+      "wiki": [
+        [
+          "Val de Loire",
+          "UNESCO",
+          "2000"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Loire",
+        "Le Cher",
+        "La Vienne",
+        "La Seine"
+      ],
+      "themes": [
+        "fleuves",
+        "France"
+      ],
+      "see": [
+        "geo-loire"
+      ]
+    },
+    {
+      "id": "geo-dordogne",
+      "sub": "france",
+      "diff": 3,
+      "q": "Quelle rivière rejoint la Garonne pour former l'estuaire de la Gironde ?",
+      "exp": "Née au puy de Sancy, la Dordogne traverse le Périgord avant de confluer au bec d'Ambès.",
+      "wiki": [
+        [
+          "Dordogne (rivière)",
+          "Ambès",
+          "Sancy"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Dordogne",
+        "Le Lot",
+        "Le Tarn",
+        "La Charente"
+      ],
+      "themes": [
+        "fleuves",
+        "France"
+      ],
+      "see": [
+        "geo-gironde"
+      ]
+    },
+    {
+      "id": "geo-baie-somme",
+      "sub": "france",
+      "diff": 3,
+      "q": "Quelle baie de la Manche abrite la plus grande colonie de phoques veaux-marins de France ?",
+      "exp": "Classée parmi les plus belles baies du monde, elle accueille phoques veaux-marins et phoques gris.",
+      "wiki": [
+        [
+          "Baie de Somme",
+          "phoques"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La baie de Somme",
+        "La baie du Mont-Saint-Michel",
+        "La baie de Saint-Brieuc",
+        "La baie de Seine"
+      ],
+      "themes": [
+        "littoral",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-etang-berre",
+      "sub": "france",
+      "diff": 4,
+      "q": "Quel est le plus grand étang salé de France, près de Marseille ?",
+      "exp": "L'étang de Berre couvre environ 155 km² ; l'étang de Thau est célèbre pour ses huîtres de Bouzigues.",
+      "wiki": [
+        [
+          "Étang de Berre",
+          "155"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'étang de Berre",
+        "L'étang de Thau",
+        "L'étang de Vaccarès",
+        "L'étang de Biguglia"
+      ],
+      "themes": [
+        "littoral",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-lac-france",
+      "sub": "france",
+      "diff": 4,
+      "q": "Quel est le plus grand lac naturel entièrement situé en France ?",
+      "exp": "En Savoie, le lac du Bourget a inspiré Lamartine (« Le Lac ») ; le Léman est partagé avec la Suisse.",
+      "wiki": [
+        [
+          "Lac du Bourget",
+          "Lamartine",
+          "Savoie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le lac du Bourget",
+        "Le lac d'Annecy",
+        "Le lac Léman",
+        "Le lac de Grand-Lieu"
+      ],
+      "themes": [
+        "lacs",
+        "France"
+      ]
+    },
+    {
+      "id": "geo-mont-gerbier",
+      "sub": "france",
+      "diff": 3,
+      "q": "Où le plus long fleuve de France prend-il sa source ?",
+      "exp": "La Loire naît au pied du mont Gerbier-de-Jonc, en Ardèche, à environ 1 400 m d'altitude.",
+      "wiki": [
+        [
+          "Mont Gerbier de Jonc",
+          "Loire",
+          "Ardèche"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Au mont Gerbier-de-Jonc",
+        "Au mont Mézenc",
+        "Au plateau de Langres",
+        "Au puy de Sancy"
+      ],
+      "themes": [
+        "fleuves",
+        "France"
+      ],
+      "see": [
+        "geo-loire"
+      ]
+    },
+    {
+      "id": "geo-roquefort-cave",
+      "sub": "france",
+      "diff": 4,
+      "q": "Dans quel département se trouvent les caves de Roquefort-sur-Soulzon ?",
+      "exp": "Les fleurines, fissures naturelles de la roche, y assurent une ventilation idéale pour l'affinage.",
+      "wiki": [
+        [
+          "Roquefort-sur-Soulzon",
+          "Aveyron",
+          "fleurines"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Aveyron",
+        "Le Lot",
+        "Le Tarn",
+        "La Lozère"
+      ],
+      "themes": [
+        "terroirs",
+        "France"
+      ],
+      "see": [
+        "gastro-roquefort"
+      ]
+    },
+    {
+      "id": "geo-viaduc-millau",
+      "sub": "france",
+      "diff": 2,
+      "q": "Quel ouvrage d'art inauguré en 2004 est le pont à haubans le plus haut du monde ?",
+      "exp": "Conçu avec l'architecte Norman Foster, il franchit la vallée du Tarn ; une de ses piles dépasse 340 m avec le pylône.",
+      "wiki": [
+        [
+          "Viaduc de Millau",
+          "2004",
+          "Foster"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le viaduc de Millau",
+        "Le pont de Normandie",
+        "Le pont de l'Île de Ré",
+        "Le pont de Saint-Nazaire"
+      ],
+      "themes": [
+        "ouvrages d'art"
+      ]
+    },
+    {
+      "id": "geo-mer-noire",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel fleuve se jette dans la mer Noire en formant un vaste delta en Roumanie ?",
+      "exp": "Le delta du Danube est l'une des plus grandes zones humides d'Europe.",
+      "wiki": [
+        [
+          "Delta du Danube",
+          "Roumanie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Danube",
+        "Le Dniepr",
+        "La Volga",
+        "Le Don"
+      ],
+      "themes": [
+        "fleuves"
+      ],
+      "see": [
+        "geo-danube"
+      ]
+    },
+    {
+      "id": "geo-plus-long-fleuve-france-sortant",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Lequel de ces fleuves prend sa source hors de France ?",
+      "exp": "Le Rhône naît en Suisse et le Rhin aussi ; la Garonne, elle, naît en Espagne.",
+      "wiki": [
+        [
+          "Rhône",
+          "Suisse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Rhône",
+        "La Loire",
+        "La Seine",
+        "La Charente"
+      ],
+      "themes": [
+        "fleuves"
+      ],
+      "see": [
+        "geo-rhone-lac"
+      ]
+    },
+    {
+      "id": "geo-saint-laurent",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quel fleuve relie les Grands Lacs à l'océan Atlantique ?",
+      "exp": "Il traverse Montréal et Québec ; Jacques Cartier l'explore au XVIe siècle.",
+      "wiki": [
+        [
+          "Fleuve Saint-Laurent",
+          "Grands Lacs",
+          "Québec"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Saint-Laurent",
+        "Le Mississippi",
+        "L'Hudson",
+        "Le Mackenzie"
+      ],
+      "themes": [
+        "fleuves"
+      ],
+      "see": [
+        "hf-jacques-cartier"
+      ]
+    },
+    {
+      "id": "geo-grands-lacs",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Quel est le plus grand des Grands Lacs d'Amérique du Nord ?",
+      "exp": "Le lac Supérieur est le plus grand lac d'eau douce du monde par sa superficie.",
+      "wiki": [
+        [
+          "Lac Supérieur",
+          "eau douce"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le lac Supérieur",
+        "Le lac Michigan",
+        "Le lac Huron",
+        "Le lac Ontario"
+      ],
+      "themes": [
+        "lacs"
+      ]
+    },
+    {
+      "id": "geo-zambeze",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Sur quel fleuve se trouvent les chutes Victoria ?",
+      "exp": "À la frontière entre la Zambie et le Zimbabwe, elles sont appelées Mosi-oa-Tunya, « la fumée qui gronde ».",
+      "wiki": [
+        [
+          "Chutes Victoria",
+          "Zambèze",
+          "Mosi-oa-Tunya"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Zambèze",
+        "Le Congo",
+        "Le Limpopo",
+        "L'Orange"
+      ],
+      "themes": [
+        "chutes",
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-congo-fleuve",
+      "sub": "reliefs-eaux",
+      "diff": 4,
+      "q": "Quel fleuve africain est le deuxième du monde par son débit ?",
+      "exp": "Le Congo traverse deux fois l'équateur ; son débit n'est dépassé que par celui de l'Amazone.",
+      "wiki": [
+        [
+          "Congo (fleuve)",
+          "débit",
+          "équateur"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Congo",
+        "Le Nil",
+        "Le Niger",
+        "Le Zambèze"
+      ],
+      "themes": [
+        "fleuves",
+        "Afrique"
+      ]
+    },
+    {
+      "id": "geo-alpes-pays",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Lequel de ces pays n'est PAS traversé par les Alpes ?",
+      "exp": "Les Alpes s'étendent sur la France, l'Italie, la Suisse, le Liechtenstein, l'Allemagne, l'Autriche, la Slovénie et Monaco.",
+      "wiki": [
+        [
+          "Alpes",
+          "Slovénie",
+          "Liechtenstein"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Belgique",
+        "La Slovénie",
+        "L'Autriche",
+        "Le Liechtenstein"
+      ],
+      "themes": [
+        "montagnes"
+      ]
+    },
+    {
+      "id": "geo-andes",
+      "sub": "reliefs-eaux",
+      "diff": 2,
+      "q": "Quelle est la plus longue chaîne de montagnes continentale du monde ?",
+      "exp": "Les Andes s'étirent sur environ 7 000 km le long de la côte ouest de l'Amérique du Sud.",
+      "wiki": [
+        [
+          "Cordillère des Andes",
+          "km",
+          "Amérique du Sud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La cordillère des Andes",
+        "L'Himalaya",
+        "Les Rocheuses",
+        "L'Oural"
+      ],
+      "themes": [
+        "montagnes"
+      ]
+    },
+    {
+      "id": "geo-oural",
+      "sub": "reliefs-eaux",
+      "diff": 3,
+      "q": "Quelle chaîne de montagnes marque traditionnellement la limite entre l'Europe et l'Asie en Russie ?",
+      "exp": "Cette chaîne ancienne et peu élevée s'étend du nord au sud sur environ 2 500 km.",
+      "wiki": [
+        [
+          "Oural",
+          "Europe",
+          "Asie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Oural",
+        "Le Caucase",
+        "L'Altaï",
+        "Les Carpates"
+      ],
+      "themes": [
+        "montagnes"
+      ]
     }
   ]
 }

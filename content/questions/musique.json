@@ -264,6 +264,1357 @@
           "anche"
         ]
       ]
+    },
+    {
+      "id": "mus-bach-toccata",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel compositeur baroque allemand a écrit les Concertos brandebourgeois ?",
+      "exp": "Bach les dédie en 1721 au margrave de Brandebourg ; ils ne furent sans doute jamais joués à sa cour.",
+      "wiki": [
+        [
+          "Concertos brandebourgeois",
+          "Bach",
+          "1721"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean-Sébastien Bach",
+        "Georg Friedrich Haendel",
+        "Georg Philipp Telemann",
+        "Antonio Vivaldi"
+      ],
+      "themes": [
+        "baroque"
+      ]
+    },
+    {
+      "id": "mus-haendel-messie",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel compositeur a écrit l'oratorio Le Messie, avec son célèbre « Alléluia » ?",
+      "exp": "Né en Allemagne, Haendel fait carrière à Londres ; Le Messie est créé à Dublin en 1742.",
+      "wiki": [
+        [
+          "Le Messie (Haendel)",
+          "Dublin",
+          "1742"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Georg Friedrich Haendel",
+        "Jean-Sébastien Bach",
+        "Joseph Haydn",
+        "Henry Purcell"
+      ],
+      "themes": [
+        "baroque"
+      ]
+    },
+    {
+      "id": "mus-lully",
+      "sub": "classique",
+      "diff": 4,
+      "q": "Quel compositeur d'origine italienne domine la musique à la cour de Louis XIV ?",
+      "exp": "Lully meurt en 1687 de la gangrène après s'être frappé le pied avec la canne qui lui servait à battre la mesure.",
+      "wiki": [
+        [
+          "Jean-Baptiste Lully",
+          "Louis XIV",
+          "1687"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean-Baptiste Lully",
+        "Jean-Philippe Rameau",
+        "Marc-Antoine Charpentier",
+        "François Couperin"
+      ],
+      "themes": [
+        "baroque",
+        "Louis XIV"
+      ]
+    },
+    {
+      "id": "mus-mozart-flute",
+      "sub": "classique",
+      "diff": 2,
+      "q": "Quel opéra de Mozart met en scène la Reine de la Nuit et l'oiseleur Papageno ?",
+      "exp": "Créée à Vienne en 1791, quelques semaines avant la mort de Mozart.",
+      "wiki": [
+        [
+          "La Flûte enchantée",
+          "Papageno",
+          "1791"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Flûte enchantée",
+        "Don Giovanni",
+        "Les Noces de Figaro",
+        "Così fan tutte"
+      ],
+      "themes": [
+        "Mozart",
+        "opéra"
+      ]
+    },
+    {
+      "id": "mus-mozart-requiem",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quelle œuvre Mozart laisse-t-il inachevée à sa mort en 1791 ?",
+      "exp": "Commandé anonymement, le Requiem est complété par son élève Franz Xaver Süssmayr.",
+      "wiki": [
+        [
+          "Requiem (Mozart)",
+          "Süssmayr"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Son Requiem",
+        "La Flûte enchantée",
+        "Sa 40e symphonie",
+        "Don Giovanni"
+      ],
+      "themes": [
+        "Mozart"
+      ]
+    },
+    {
+      "id": "mus-beethoven-5",
+      "sub": "classique",
+      "diff": 2,
+      "q": "Quelle symphonie de Beethoven commence par le célèbre motif « ta-ta-ta-taaa » ?",
+      "exp": "Ce motif de quatre notes, parfois présenté comme « le destin qui frappe à la porte », ouvre la 5e symphonie (1808).",
+      "wiki": [
+        [
+          "Symphonie no 5 de Beethoven",
+          "1808"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Cinquième",
+        "La Neuvième",
+        "La Sixième",
+        "La Troisième"
+      ],
+      "themes": [
+        "Beethoven"
+      ],
+      "see": [
+        "mus-beethoven"
+      ]
+    },
+    {
+      "id": "mus-beethoven-elise",
+      "sub": "classique",
+      "diff": 2,
+      "q": "Quel compositeur a écrit la pièce pour piano « Lettre à Élise » ?",
+      "exp": "L'identité d'Élise reste discutée ; la partition n'a été publiée qu'en 1867, après la mort du compositeur.",
+      "wiki": [
+        [
+          "Lettre à Élise",
+          "Beethoven",
+          "1867"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Beethoven",
+        "Mozart",
+        "Chopin",
+        "Schubert"
+      ],
+      "themes": [
+        "Beethoven",
+        "piano"
+      ]
+    },
+    {
+      "id": "mus-chopin-paris",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Dans quel cimetière parisien est enterré Frédéric Chopin ?",
+      "exp": "Son cœur, selon ses volontés, a été rapporté à Varsovie, dans l'église Sainte-Croix.",
+      "wiki": [
+        [
+          "Frédéric Chopin",
+          "Père-Lachaise",
+          "Varsovie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Père-Lachaise",
+        "Montmartre",
+        "Montparnasse",
+        "Le Panthéon"
+      ],
+      "themes": [
+        "romantisme",
+        "piano"
+      ]
+    },
+    {
+      "id": "mus-liszt",
+      "sub": "classique",
+      "diff": 4,
+      "q": "Quel pianiste virtuose hongrois a écrit les Rhapsodies hongroises ?",
+      "exp": "Liszt déchaînait les foules en concert, au point qu'on a parlé de « Lisztomanie ».",
+      "wiki": [
+        [
+          "Franz Liszt",
+          "Rhapsodies hongroises"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Franz Liszt",
+        "Béla Bartók",
+        "Frédéric Chopin",
+        "Johannes Brahms"
+      ],
+      "themes": [
+        "romantisme"
+      ]
+    },
+    {
+      "id": "mus-schubert",
+      "sub": "classique",
+      "diff": 4,
+      "q": "Quel compositeur viennois a écrit plus de 600 lieder, dont Le Roi des aulnes ?",
+      "exp": "Schubert meurt à 31 ans en 1828 ; sa Symphonie « Inachevée » n'a que deux mouvements.",
+      "wiki": [
+        [
+          "Franz Schubert",
+          "lieder",
+          "Roi des aulnes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Franz Schubert",
+        "Robert Schumann",
+        "Johannes Brahms",
+        "Gustav Mahler"
+      ],
+      "themes": [
+        "romantisme"
+      ]
+    },
+    {
+      "id": "mus-berlioz",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel compositeur français a écrit la Symphonie fantastique en 1830 ?",
+      "exp": "Cette symphonie à programme raconte les rêves d'un artiste amoureux et désespéré.",
+      "wiki": [
+        [
+          "Symphonie fantastique",
+          "Berlioz",
+          "1830"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hector Berlioz",
+        "Camille Saint-Saëns",
+        "Georges Bizet",
+        "Charles Gounod"
+      ],
+      "themes": [
+        "romantisme"
+      ]
+    },
+    {
+      "id": "mus-carmen",
+      "sub": "classique",
+      "diff": 2,
+      "q": "Quel compositeur a écrit l'opéra Carmen ?",
+      "exp": "Créée en 1875 à l'Opéra-Comique, Carmen est d'abord mal accueillie ; Bizet meurt trois mois plus tard.",
+      "wiki": [
+        [
+          "Carmen (opéra)",
+          "Bizet",
+          "1875"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Georges Bizet",
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Jules Massenet"
+      ],
+      "themes": [
+        "opéra"
+      ]
+    },
+    {
+      "id": "mus-verdi-traviata",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel compositeur italien a écrit La Traviata et Aida ?",
+      "exp": "La Traviata (1853) s'inspire de La Dame aux camélias d'Alexandre Dumas fils.",
+      "wiki": [
+        [
+          "Giuseppe Verdi",
+          "La Traviata",
+          "Aida"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Giuseppe Verdi",
+        "Giacomo Puccini",
+        "Gioachino Rossini",
+        "Vincenzo Bellini"
+      ],
+      "themes": [
+        "opéra"
+      ]
+    },
+    {
+      "id": "mus-puccini",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel opéra de Puccini se déroule au Japon et raconte l'histoire de Cio-Cio-San ?",
+      "exp": "Créé en 1904 à Milan, l'opéra raconte l'abandon d'une jeune Japonaise par un officier américain.",
+      "wiki": [
+        [
+          "Madama Butterfly",
+          "Puccini",
+          "1904"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Madame Butterfly",
+        "Turandot",
+        "La Bohème",
+        "Tosca"
+      ],
+      "themes": [
+        "opéra"
+      ]
+    },
+    {
+      "id": "mus-rossini-barbier",
+      "sub": "classique",
+      "diff": 4,
+      "q": "Quel compositeur a écrit Le Barbier de Séville en 1816 ?",
+      "exp": "Rossini l'aurait composé en moins de trois semaines ; il s'inspire de la pièce de Beaumarchais.",
+      "wiki": [
+        [
+          "Le Barbier de Séville (Rossini)",
+          "1816",
+          "Beaumarchais"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gioachino Rossini",
+        "Wolfgang Amadeus Mozart",
+        "Gaetano Donizetti",
+        "Giuseppe Verdi"
+      ],
+      "themes": [
+        "opéra"
+      ]
+    },
+    {
+      "id": "mus-wagner",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel compositeur a créé la Tétralogie de L'Anneau du Nibelung ?",
+      "exp": "Ce cycle de quatre opéras dure une quinzaine d'heures ; Wagner fait construire un théâtre à Bayreuth pour le jouer.",
+      "wiki": [
+        [
+          "L'Anneau du Nibelung",
+          "Wagner",
+          "Bayreuth"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Richard Wagner",
+        "Richard Strauss",
+        "Gustav Mahler",
+        "Anton Bruckner"
+      ],
+      "themes": [
+        "opéra"
+      ]
+    },
+    {
+      "id": "mus-tchaikovski-ballets",
+      "sub": "classique",
+      "diff": 2,
+      "q": "Lequel de ces ballets a été composé par Tchaïkovski ?",
+      "exp": "Tchaïkovski a composé Le Lac des cygnes, La Belle au bois dormant et Casse-Noisette ; Le Sacre et L'Oiseau de feu sont de Stravinsky.",
+      "wiki": [
+        [
+          "Casse-Noisette",
+          "Tchaïkovski"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Casse-Noisette",
+        "Le Sacre du printemps",
+        "L'Oiseau de feu",
+        "Boléro"
+      ],
+      "themes": [
+        "ballet"
+      ]
+    },
+    {
+      "id": "mus-sacre",
+      "sub": "classique",
+      "diff": 4,
+      "q": "Quel ballet de Stravinsky provoque un scandale lors de sa création à Paris en 1913 ?",
+      "exp": "Les rythmes violents et la chorégraphie de Nijinski déclenchent un chahut au théâtre des Champs-Élysées.",
+      "wiki": [
+        [
+          "Le Sacre du printemps",
+          "1913",
+          "Nijinski"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Sacre du printemps",
+        "L'Oiseau de feu",
+        "Petrouchka",
+        "Pulcinella"
+      ],
+      "themes": [
+        "musique moderne"
+      ]
+    },
+    {
+      "id": "mus-debussy",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel compositeur français a écrit Clair de lune et La Mer ?",
+      "exp": "Debussy est souvent associé à l'impressionnisme musical, même s'il refusait cette étiquette.",
+      "wiki": [
+        [
+          "Claude Debussy",
+          "Clair de lune",
+          "La Mer"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Claude Debussy",
+        "Maurice Ravel",
+        "Gabriel Fauré",
+        "Erik Satie"
+      ],
+      "themes": [
+        "musique française"
+      ]
+    },
+    {
+      "id": "mus-satie",
+      "sub": "classique",
+      "diff": 4,
+      "q": "Quel compositeur excentrique a écrit les Gymnopédies ?",
+      "exp": "Ces trois pièces pour piano de 1888 ont une simplicité hypnotique qui a influencé la musique minimaliste.",
+      "wiki": [
+        [
+          "Erik Satie",
+          "Gymnopédies",
+          "1888"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Erik Satie",
+        "Claude Debussy",
+        "Francis Poulenc",
+        "Darius Milhaud"
+      ],
+      "themes": [
+        "musique française"
+      ]
+    },
+    {
+      "id": "mus-saint-saens",
+      "sub": "classique",
+      "diff": 3,
+      "q": "Quel compositeur français a écrit Le Carnaval des animaux ?",
+      "exp": "Composé en 1886, il ne l'autorise à être publié qu'après sa mort, à part « Le Cygne ».",
+      "wiki": [
+        [
+          "Le Carnaval des animaux",
+          "Saint-Saëns",
+          "1886"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Camille Saint-Saëns",
+        "Paul Dukas",
+        "Maurice Ravel",
+        "Gabriel Fauré"
+      ],
+      "themes": [
+        "musique française"
+      ]
+    },
+    {
+      "id": "mus-dukas",
+      "sub": "classique",
+      "diff": 4,
+      "q": "Quelle œuvre de Paul Dukas a été rendue célèbre par Mickey dans le film Fantasia ?",
+      "exp": "Ce poème symphonique de 1897 s'inspire d'une ballade de Goethe.",
+      "wiki": [
+        [
+          "L'Apprenti sorcier (Dukas)",
+          "Fantasia",
+          "Goethe"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Apprenti sorcier",
+        "Le Boléro",
+        "Une nuit sur le mont Chauve",
+        "La Danse macabre"
+      ],
+      "themes": [
+        "musique française",
+        "cinéma"
+      ]
+    },
+    {
+      "id": "mus-orchestre-chef",
+      "sub": "classique",
+      "diff": 1,
+      "q": "Comment appelle-t-on la personne qui dirige un orchestre ?",
+      "exp": "Il donne le tempo, coordonne les musiciens et propose une interprétation de l'œuvre.",
+      "wiki": [
+        [
+          "Chef d'orchestre",
+          "orchestre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le chef d'orchestre",
+        "Le premier violon",
+        "Le maestro de chapelle",
+        "Le compositeur"
+      ],
+      "themes": [
+        "orchestre"
+      ]
+    },
+    {
+      "id": "mus-brel",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "Quel chanteur belge a interprété « Ne me quitte pas » et « Amsterdam » ?",
+      "exp": "Brel arrête la scène en 1967 puis s'installe aux îles Marquises ; il meurt en 1978 et repose à Hiva Oa, près de Gauguin.",
+      "wiki": [
+        [
+          "Jacques Brel",
+          "Ne me quitte pas",
+          "Hiva Oa"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jacques Brel",
+        "Georges Brassens",
+        "Léo Ferré",
+        "Charles Aznavour"
+      ],
+      "themes": [
+        "chanson française"
+      ]
+    },
+    {
+      "id": "mus-brassens",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "Quel chanteur à la moustache et à la pipe a écrit « Les Copains d'abord » ?",
+      "exp": "Né à Sète, Brassens accompagne ses chansons à la guitare, avec son contrebassiste Pierre Nicolas.",
+      "wiki": [
+        [
+          "Georges Brassens",
+          "Copains d'abord",
+          "Sète"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Georges Brassens",
+        "Jacques Brel",
+        "Léo Ferré",
+        "Boby Lapointe"
+      ],
+      "themes": [
+        "chanson française"
+      ]
+    },
+    {
+      "id": "mus-aznavour",
+      "sub": "populaire",
+      "diff": 3,
+      "q": "Quel chanteur français d'origine arménienne a interprété « La Bohème » ?",
+      "exp": "Aznavour a écrit plus de 1 000 chansons et chanté en plusieurs langues ; il meurt en 2018.",
+      "wiki": [
+        [
+          "Charles Aznavour",
+          "La Bohème",
+          "arménienne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Charles Aznavour",
+        "Gilbert Bécaud",
+        "Serge Gainsbourg",
+        "Yves Montand"
+      ],
+      "themes": [
+        "chanson française"
+      ]
+    },
+    {
+      "id": "mus-gainsbourg",
+      "sub": "populaire",
+      "diff": 3,
+      "q": "Quel artiste a écrit « La Javanaise » et « Je t'aime… moi non plus » ?",
+      "exp": "Provocateur, Gainsbourg a écrit pour de nombreuses interprètes, dont Jane Birkin et France Gall.",
+      "wiki": [
+        [
+          "Serge Gainsbourg",
+          "Javanaise",
+          "Birkin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Serge Gainsbourg",
+        "Alain Bashung",
+        "Michel Polnareff",
+        "Jacques Dutronc"
+      ],
+      "themes": [
+        "chanson française"
+      ]
+    },
+    {
+      "id": "mus-johnny",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "Quel chanteur était surnommé « l'idole des jeunes » ?",
+      "exp": "Johnny Hallyday a popularisé le rock en France ; un hommage populaire lui est rendu sur les Champs-Élysées en 2017.",
+      "wiki": [
+        [
+          "Johnny Hallyday",
+          "idole des jeunes",
+          "2017"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Johnny Hallyday",
+        "Eddy Mitchell",
+        "Claude François",
+        "Michel Sardou"
+      ],
+      "themes": [
+        "chanson française"
+      ]
+    },
+    {
+      "id": "mus-barbara",
+      "sub": "populaire",
+      "diff": 3,
+      "q": "Quelle chanteuse a écrit « L'Aigle noir » et « Göttingen » ?",
+      "exp": "« Göttingen » (1964) est devenue un symbole de réconciliation franco-allemande.",
+      "wiki": [
+        [
+          "Barbara (chanteuse)",
+          "Göttingen",
+          "Aigle noir"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Barbara",
+        "Juliette Gréco",
+        "Édith Piaf",
+        "Dalida"
+      ],
+      "themes": [
+        "chanson française"
+      ]
+    },
+    {
+      "id": "mus-dalida",
+      "sub": "populaire",
+      "diff": 3,
+      "q": "Quelle chanteuse née au Caire a interprété « Gigi l'amoroso » et « Paroles, paroles » ?",
+      "exp": "Dalida a vendu des millions de disques en plusieurs langues ; elle a été élue Miss Égypte en 1954.",
+      "wiki": [
+        [
+          "Dalida",
+          "Caire"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dalida",
+        "Sheila",
+        "Nana Mouskouri",
+        "Mireille Mathieu"
+      ],
+      "themes": [
+        "chanson française"
+      ]
+    },
+    {
+      "id": "mus-elvis",
+      "sub": "populaire",
+      "diff": 1,
+      "q": "Quel chanteur américain était surnommé « le King » ?",
+      "exp": "Elvis Presley popularise le rock'n'roll dans les années 1950 ; il meurt en 1977 à Graceland.",
+      "wiki": [
+        [
+          "Elvis Presley",
+          "King",
+          "Graceland"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Frank Sinatra",
+        "Chuck Berry"
+      ],
+      "themes": [
+        "rock"
+      ]
+    },
+    {
+      "id": "mus-mj-thriller",
+      "sub": "populaire",
+      "diff": 1,
+      "q": "Quel album de Michael Jackson, sorti en 1982, est souvent présenté comme le plus vendu de l'histoire ?",
+      "exp": "Thriller s'est vendu à des dizaines de millions d'exemplaires ; son clip a révolutionné le genre.",
+      "wiki": [
+        [
+          "Thriller (album)",
+          "Michael Jackson",
+          "1982"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Thriller",
+        "Bad",
+        "Off the Wall",
+        "Dangerous"
+      ],
+      "themes": [
+        "pop"
+      ]
+    },
+    {
+      "id": "mus-queen",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "Quel était le chanteur du groupe Queen ?",
+      "exp": "Né à Zanzibar, Freddie Mercury a écrit « Bohemian Rhapsody » (1975) ; il meurt en 1991.",
+      "wiki": [
+        [
+          "Freddie Mercury",
+          "Queen",
+          "Zanzibar"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Freddie Mercury",
+        "David Bowie",
+        "Mick Jagger",
+        "Robert Plant"
+      ],
+      "themes": [
+        "rock"
+      ]
+    },
+    {
+      "id": "mus-rolling-stones",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "Quel est le chanteur des Rolling Stones ?",
+      "exp": "Fondés à Londres en 1962, les Rolling Stones sont l'un des groupes de rock les plus durables de l'histoire.",
+      "wiki": [
+        [
+          "The Rolling Stones",
+          "Mick Jagger",
+          "1962"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mick Jagger",
+        "Keith Richards",
+        "Roger Daltrey",
+        "Paul McCartney"
+      ],
+      "themes": [
+        "rock"
+      ]
+    },
+    {
+      "id": "mus-woodstock",
+      "sub": "populaire",
+      "diff": 3,
+      "q": "En quelle année a lieu le festival de Woodstock ?",
+      "exp": "Près de 400 000 personnes s'y réunissent en août 1969 ; Jimi Hendrix y joue un hymne américain saturé de distorsion.",
+      "wiki": [
+        [
+          "Festival de Woodstock",
+          "1969",
+          "Hendrix"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1969",
+        "1965",
+        "1972",
+        "1967"
+      ],
+      "themes": [
+        "rock"
+      ]
+    },
+    {
+      "id": "mus-bob-marley",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "De quel pays Bob Marley, figure du reggae, était-il originaire ?",
+      "exp": "Avec les Wailers, Bob Marley fait connaître le reggae au monde entier ; il meurt en 1981.",
+      "wiki": [
+        [
+          "Bob Marley",
+          "Jamaïque",
+          "reggae"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Jamaïque",
+        "Cuba",
+        "Trinité-et-Tobago",
+        "Haïti"
+      ],
+      "themes": [
+        "reggae"
+      ]
+    },
+    {
+      "id": "mus-jazz-nouvelle-orleans",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "Dans quelle ville le jazz est-il né, au début du XXe siècle ?",
+      "exp": "Le jazz mêle blues, ragtime et fanfares ; Louis Armstrong en est une figure majeure.",
+      "wiki": [
+        [
+          "Jazz",
+          "Nouvelle-Orléans"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Nouvelle-Orléans",
+        "New York",
+        "Chicago",
+        "Memphis"
+      ],
+      "themes": [
+        "jazz"
+      ]
+    },
+    {
+      "id": "mus-armstrong",
+      "sub": "populaire",
+      "diff": 3,
+      "q": "Quel trompettiste et chanteur de jazz a interprété « What a Wonderful World » ?",
+      "exp": "Surnommé « Satchmo », Louis Armstrong est l'un des musiciens les plus influents du XXe siècle.",
+      "wiki": [
+        [
+          "Louis Armstrong",
+          "What a Wonderful World",
+          "Satchmo"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Louis Armstrong",
+        "Miles Davis",
+        "Dizzy Gillespie",
+        "Chet Baker"
+      ],
+      "themes": [
+        "jazz"
+      ]
+    },
+    {
+      "id": "mus-django",
+      "sub": "populaire",
+      "diff": 4,
+      "q": "Quel guitariste manouche a créé le jazz manouche avec le Quintette du Hot Club de France ?",
+      "exp": "Malgré deux doigts de la main gauche paralysés après un incendie, Django développe une technique unique.",
+      "wiki": [
+        [
+          "Django Reinhardt",
+          "Hot Club de France"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Django Reinhardt",
+        "Stéphane Grappelli",
+        "Biréli Lagrène",
+        "Thomas Dutronc"
+      ],
+      "themes": [
+        "jazz"
+      ]
+    },
+    {
+      "id": "mus-daft-punk",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "Quel duo français de musique électronique se produisait casqué de robots ?",
+      "exp": "Thomas Bangalter et Guy-Manuel de Homem-Christo ont marqué la French Touch ; le duo se sépare en 2021.",
+      "wiki": [
+        [
+          "Daft Punk",
+          "2021",
+          "Bangalter"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Daft Punk",
+        "Justice",
+        "Air",
+        "Cassius"
+      ],
+      "themes": [
+        "musique électronique"
+      ]
+    },
+    {
+      "id": "mus-fete-musique",
+      "sub": "populaire",
+      "diff": 2,
+      "q": "À quelle date a lieu la Fête de la musique ?",
+      "exp": "Lancée en 1982 par le ministère de la Culture de Jack Lang, elle célèbre le solstice d'été.",
+      "wiki": [
+        [
+          "Fête de la musique",
+          "21 juin",
+          "1982"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le 21 juin",
+        "Le 14 juillet",
+        "Le 1er mai",
+        "Le 21 mars"
+      ],
+      "themes": [
+        "culture"
+      ]
+    },
+    {
+      "id": "mus-genres-asso",
+      "sub": "populaire",
+      "diff": 3,
+      "q": "Associe chaque artiste à son genre musical.",
+      "exp": "Ces artistes ont chacun profondément marqué leur genre.",
+      "wiki": [
+        [
+          "Miles Davis",
+          "jazz"
+        ],
+        [
+          "Metallica",
+          "heavy metal"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Bob Marley",
+          "Reggae"
+        ],
+        [
+          "Miles Davis",
+          "Jazz"
+        ],
+        [
+          "Édith Piaf",
+          "Chanson réaliste"
+        ],
+        [
+          "Metallica",
+          "Heavy metal"
+        ]
+      ],
+      "themes": [
+        "genres musicaux"
+      ]
+    },
+    {
+      "id": "mus-piano-touches",
+      "sub": "instruments",
+      "diff": 2,
+      "q": "Combien de touches compte un piano moderne standard ?",
+      "exp": "Un piano compte 52 touches blanches et 36 noires, couvrant sept octaves et un quart.",
+      "wiki": [
+        [
+          "Piano",
+          "88 touches"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "88",
+        "76",
+        "96",
+        "64"
+      ],
+      "themes": [
+        "piano"
+      ]
+    },
+    {
+      "id": "mus-piano-inventeur",
+      "sub": "instruments",
+      "diff": 4,
+      "q": "Qui a inventé le piano vers 1700 à Florence ?",
+      "exp": "Son « gravicembalo col piano e forte » permettait de jouer doux et fort, contrairement au clavecin.",
+      "wiki": [
+        [
+          "Bartolomeo Cristofori",
+          "piano",
+          "Florence"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bartolomeo Cristofori",
+        "Antonio Stradivari",
+        "Ignaz Pleyel",
+        "Sébastien Érard"
+      ],
+      "themes": [
+        "piano"
+      ]
+    },
+    {
+      "id": "mus-stradivarius",
+      "sub": "instruments",
+      "diff": 3,
+      "q": "Quel luthier italien est célèbre pour ses violons, parmi les plus chers du monde ?",
+      "exp": "Ses instruments, fabriqués à Crémone aux XVIIe et XVIIIe siècles, sont appelés des stradivarius.",
+      "wiki": [
+        [
+          "Antonio Stradivari",
+          "Crémone"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Antonio Stradivari",
+        "Bartolomeo Cristofori",
+        "Andrea Amati",
+        "Niccolò Paganini"
+      ],
+      "themes": [
+        "lutherie"
+      ]
+    },
+    {
+      "id": "mus-violon-cordes",
+      "sub": "instruments",
+      "diff": 2,
+      "q": "Combien de cordes possède un violon ?",
+      "exp": "Ses quatre cordes sont accordées en sol, ré, la, mi.",
+      "wiki": [
+        [
+          "Violon",
+          "quatre cordes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "themes": [
+        "cordes"
+      ]
+    },
+    {
+      "id": "mus-guitare-cordes",
+      "sub": "instruments",
+      "diff": 1,
+      "q": "Combien de cordes compte une guitare classique ?",
+      "exp": "Une guitare classique compte six cordes ; la guitare basse en a généralement quatre.",
+      "wiki": [
+        [
+          "Guitare",
+          "six cordes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "6",
+        "4",
+        "5",
+        "12"
+      ],
+      "themes": [
+        "cordes"
+      ]
+    },
+    {
+      "id": "mus-cor-cuivre",
+      "sub": "instruments",
+      "diff": 3,
+      "q": "À quelle famille d'instruments appartient la flûte traversière, même en métal ?",
+      "exp": "Comme le saxophone, la flûte est classée parmi les bois : le son ne naît pas de la vibration des lèvres dans une embouchure.",
+      "wiki": [
+        [
+          "Flûte traversière",
+          "bois"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les bois",
+        "Les cuivres",
+        "Les percussions",
+        "Les cordes"
+      ],
+      "themes": [
+        "familles d'instruments"
+      ],
+      "see": [
+        "mus-saxophone"
+      ]
+    },
+    {
+      "id": "mus-harpe-pedales",
+      "sub": "instruments",
+      "diff": 4,
+      "q": "Combien de pédales compte une harpe de concert ?",
+      "exp": "Chaque pédale correspond à une note de la gamme et permet de la hausser ou de la baisser d'un demi-ton.",
+      "wiki": [
+        [
+          "Harpe",
+          "pédales"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "7",
+        "3",
+        "5",
+        "12"
+      ],
+      "themes": [
+        "cordes"
+      ]
+    },
+    {
+      "id": "mus-instrument-pays",
+      "sub": "instruments",
+      "diff": 3,
+      "q": "Associe chaque instrument traditionnel à sa région d'origine.",
+      "exp": "La cornemuse existe aussi en Bretagne (biniou) et en Espagne ; le didgeridoo est joué par les Aborigènes.",
+      "wiki": [
+        [
+          "Balalaïka",
+          "Russie"
+        ],
+        [
+          "Didgeridoo",
+          "Australie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Cornemuse",
+          "Écosse"
+        ],
+        [
+          "Balalaïka",
+          "Russie"
+        ],
+        [
+          "Didgeridoo",
+          "Australie"
+        ],
+        [
+          "Sitar",
+          "Inde"
+        ]
+      ],
+      "themes": [
+        "instruments du monde"
+      ]
+    },
+    {
+      "id": "mus-portee",
+      "sub": "instruments",
+      "diff": 2,
+      "q": "Combien de lignes compte une portée musicale ?",
+      "exp": "Les notes s'écrivent sur et entre les cinq lignes de la portée ; la clé indique leur hauteur.",
+      "wiki": [
+        [
+          "Portée (musique)",
+          "cinq lignes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "themes": [
+        "solfège"
+      ]
+    },
+    {
+      "id": "mus-notes-gamme",
+      "sub": "instruments",
+      "diff": 1,
+      "q": "Quelle note vient après « sol » dans la gamme de do majeur ?",
+      "exp": "Do, ré, mi, fa, sol, la, si : ces noms viennent des premières syllabes d'un hymne latin à saint Jean.",
+      "wiki": [
+        [
+          "Ut queant laxis",
+          "Guido"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La",
+        "Si",
+        "Fa",
+        "Do"
+      ],
+      "themes": [
+        "solfège"
+      ]
+    },
+    {
+      "id": "mus-orgue",
+      "sub": "instruments",
+      "diff": 3,
+      "q": "Quel instrument est surnommé « le roi des instruments » ?",
+      "exp": "Mozart aurait donné ce surnom à l'orgue, capable d'imiter de nombreux instruments grâce à ses jeux.",
+      "wiki": [
+        [
+          "Orgue",
+          "roi des instruments"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'orgue",
+        "Le piano",
+        "Le violon",
+        "La harpe"
+      ],
+      "themes": [
+        "claviers"
+      ]
     }
   ]
 }

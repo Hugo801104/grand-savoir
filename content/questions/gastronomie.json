@@ -4,77 +4,1641 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "gastro-roquefort", "sub": "terroirs", "diff": 2, "themes": ["fromages"],
+      "id": "gastro-roquefort",
+      "sub": "terroirs",
+      "diff": 2,
+      "themes": [
+        "fromages"
+      ],
       "q": "Avec quel lait est fabriqué le roquefort ?",
-      "choices": ["Le lait de brebis", "Le lait de vache", "Le lait de chèvre", "Le lait de bufflonne"],
+      "choices": [
+        "Le lait de brebis",
+        "Le lait de vache",
+        "Le lait de chèvre",
+        "Le lait de bufflonne"
+      ],
       "exp": "Le roquefort est un fromage à pâte persillée au lait cru de brebis, affiné dans les caves de Roquefort-sur-Soulzon, en Aveyron.",
       "anec": "Il a été en 1925 le premier fromage à bénéficier d'une appellation d'origine en France.",
-      "see": ["gastro-aoc", "gastro-fromages"],
-      "wiki": [["Roquefort (fromage)", "brebis", "1925"]]
+      "see": [
+        "gastro-aoc",
+        "gastro-fromages"
+      ],
+      "wiki": [
+        [
+          "Roquefort (fromage)",
+          "brebis",
+          "1925"
+        ]
+      ]
     },
     {
-      "id": "gastro-fromages", "fmt": "association", "sub": "terroirs", "diff": 2, "themes": ["fromages", "régions"],
+      "id": "gastro-fromages",
+      "fmt": "association",
+      "sub": "terroirs",
+      "diff": 2,
+      "themes": [
+        "fromages",
+        "régions"
+      ],
       "q": "Associe chaque fromage à sa région d'origine.",
-      "pairs": [["Comté", "Jura"], ["Camembert de Normandie", "Normandie"], ["Reblochon", "Savoie"], ["Munster", "Vosges et Alsace"]],
+      "pairs": [
+        [
+          "Comté",
+          "Jura"
+        ],
+        [
+          "Camembert de Normandie",
+          "Normandie"
+        ],
+        [
+          "Reblochon",
+          "Savoie"
+        ],
+        [
+          "Munster",
+          "Vosges et Alsace"
+        ]
+      ],
       "exp": "Le comté est produit dans le massif du Jura ; le camembert vient de Normandie ; le reblochon des Savoie ; le munster du massif des Vosges, côté alsacien et lorrain.",
-      "wiki": [["Comté (fromage)", "Jura"], ["Camembert de Normandie", "Normandie"], ["Reblochon", "Savoie"], ["Munster (fromage)", "Vosges"]]
+      "wiki": [
+        [
+          "Comté (fromage)",
+          "Jura"
+        ],
+        [
+          "Camembert de Normandie",
+          "Normandie"
+        ],
+        [
+          "Reblochon",
+          "Savoie"
+        ],
+        [
+          "Munster (fromage)",
+          "Vosges"
+        ]
+      ]
     },
     {
-      "id": "gastro-bouillabaisse", "sub": "terroirs", "diff": 1, "themes": ["plats régionaux"],
+      "id": "gastro-bouillabaisse",
+      "sub": "terroirs",
+      "diff": 1,
+      "themes": [
+        "plats régionaux"
+      ],
       "q": "De quelle ville la bouillabaisse est-elle la spécialité emblématique ?",
-      "choices": ["Marseille", "Nice", "Bordeaux", "Brest"],
+      "choices": [
+        "Marseille",
+        "Nice",
+        "Bordeaux",
+        "Brest"
+      ],
       "exp": "La bouillabaisse est une soupe de poissons de roche de la tradition marseillaise, servie avec de la rouille et des croûtons.",
-      "wiki": [["Bouillabaisse", "Marseille"]]
+      "wiki": [
+        [
+          "Bouillabaisse",
+          "Marseille"
+        ]
+      ]
     },
     {
-      "id": "gastro-aoc", "sub": "terroirs", "diff": 2, "themes": ["labels"],
+      "id": "gastro-aoc",
+      "sub": "terroirs",
+      "diff": 2,
+      "themes": [
+        "labels"
+      ],
       "q": "Que signifie le sigle AOC ?",
-      "choices": ["Appellation d'origine contrôlée", "Agriculture d'origine certifiée", "Association des origines culinaires", "Appellation officielle de cuisine"],
+      "choices": [
+        "Appellation d'origine contrôlée",
+        "Agriculture d'origine certifiée",
+        "Association des origines culinaires",
+        "Appellation officielle de cuisine"
+      ],
       "exp": "L'AOC garantit qu'un produit est élaboré dans une zone géographique délimitée selon un savoir-faire reconnu. Elle est gérée par l'INAO ; son équivalent européen est l'AOP.",
-      "see": ["gastro-roquefort"],
-      "wiki": [["Appellation d'origine contrôlée", "INAO"]]
+      "see": [
+        "gastro-roquefort"
+      ],
+      "wiki": [
+        [
+          "Appellation d'origine contrôlée",
+          "INAO"
+        ]
+      ]
     },
     {
-      "id": "gastro-dom-perignon", "sub": "culture-culinaire", "diff": 3, "themes": ["vin", "Champagne"],
+      "id": "gastro-dom-perignon",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "themes": [
+        "vin",
+        "Champagne"
+      ],
       "q": "Quel moine bénédictin est traditionnellement associé à l'histoire du champagne ?",
-      "choices": ["Dom Pérignon", "Dom Juan", "Saint Bernard", "Frère Tuck"],
+      "choices": [
+        "Dom Pérignon",
+        "Dom Juan",
+        "Saint Bernard",
+        "Frère Tuck"
+      ],
       "exp": "Dom Pierre Pérignon (1638-1715), cellérier de l'abbaye d'Hautvillers, a amélioré l'assemblage des vins. La légende qui fait de lui l'« inventeur » du champagne est toutefois très exagérée.",
-      "wiki": [["Dom Pérignon", "Hautvillers"]]
+      "wiki": [
+        [
+          "Dom Pérignon",
+          "Hautvillers"
+        ]
+      ]
     },
     {
-      "id": "gastro-unesco", "fmt": "vrai_faux", "answer": true, "sub": "culture-culinaire", "diff": 2, "themes": ["patrimoine"],
+      "id": "gastro-unesco",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "themes": [
+        "patrimoine"
+      ],
       "q": "Le « repas gastronomique des Français » est inscrit au patrimoine culturel immatériel de l'UNESCO.",
       "exp": "Vrai. Il est inscrit en 2010 : c'est une pratique sociale (accord mets-vins, ordre des plats, art de la table) qui est reconnue, et non une recette en particulier.",
       "anec": "La baguette de pain française a également été inscrite en 2022.",
-      "wiki": [["Repas gastronomique des Français", "2010"]]
+      "wiki": [
+        [
+          "Repas gastronomique des Français",
+          "2010"
+        ]
+      ]
     },
     {
-      "id": "gastro-viennoiserie", "sub": "culture-culinaire", "diff": 2, "themes": ["pâtisserie", "étymologie"],
+      "id": "gastro-viennoiserie",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "themes": [
+        "pâtisserie",
+        "étymologie"
+      ],
       "q": "D'où vient le nom « viennoiserie » ?",
-      "choices": ["De la ville de Vienne, en Autriche", "De la ville de Vienne, en Isère", "Du verbe « venir »", "D'un boulanger nommé Viennot"],
+      "choices": [
+        "De la ville de Vienne, en Autriche",
+        "De la ville de Vienne, en Isère",
+        "Du verbe « venir »",
+        "D'un boulanger nommé Viennot"
+      ],
       "exp": "Le terme vient de la « boulangerie viennoise » ouverte à Paris vers 1838-1839 par l'Autrichien August Zang, qui fit connaître le pain viennois et le kipferl, ancêtre du croissant.",
-      "wiki": [["Viennoiserie", "Vienne", "Zang"]]
+      "wiki": [
+        [
+          "Viennoiserie",
+          "Vienne",
+          "Zang"
+        ]
+      ]
     },
     {
-      "id": "gastro-tomate", "fmt": "vrai_faux", "answer": true, "sub": "culture-culinaire", "diff": 1, "themes": ["botanique"],
+      "id": "gastro-tomate",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "culture-culinaire",
+      "diff": 1,
+      "themes": [
+        "botanique"
+      ],
       "q": "D'un point de vue botanique, la tomate est un fruit.",
       "exp": "Vrai. Botaniquement, un fruit se forme à partir de la fleur et contient les graines : c'est le cas de la tomate. En cuisine, on la classe pourtant parmi les légumes.",
       "anec": "La tomate est originaire d'Amérique du Sud et n'a été adoptée en Europe que progressivement à partir du XVIe siècle.",
-      "wiki": [["Tomate", "fruit"]]
+      "wiki": [
+        [
+          "Tomate",
+          "fruit"
+        ]
+      ]
     },
     {
-      "id": "gastro-paella", "sub": "cuisines-monde", "diff": 2, "themes": ["Espagne"],
+      "id": "gastro-paella",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "themes": [
+        "Espagne"
+      ],
       "q": "De quelle région d'Espagne la paella est-elle originaire ?",
-      "choices": ["La région de Valence", "L'Andalousie", "La Catalogne", "Le Pays basque"],
+      "choices": [
+        "La région de Valence",
+        "L'Andalousie",
+        "La Catalogne",
+        "Le Pays basque"
+      ],
       "exp": "La paella est née dans la région de Valence, où le riz est cultivé. La paella valencienne traditionnelle contient du poulet, du lapin et des haricots, plutôt que des fruits de mer.",
-      "wiki": [["Paella", "Valence"]]
+      "wiki": [
+        [
+          "Paella",
+          "Valence"
+        ]
+      ]
     },
     {
-      "id": "gastro-sushi", "sub": "cuisines-monde", "diff": 1, "themes": ["Japon"],
+      "id": "gastro-sushi",
+      "sub": "cuisines-monde",
+      "diff": 1,
+      "themes": [
+        "Japon"
+      ],
       "q": "Quel est l'ingrédient commun à tous les sushis ?",
-      "choices": ["Le riz vinaigré", "Le poisson cru", "L'algue nori", "Le wasabi"],
+      "choices": [
+        "Le riz vinaigré",
+        "Le poisson cru",
+        "L'algue nori",
+        "Le wasabi"
+      ],
       "exp": "Le mot « sushi » désigne le riz assaisonné de vinaigre. Le poisson cru n'est pas obligatoire, et le poisson cru seul s'appelle le sashimi.",
-      "wiki": [["Sushi", "riz", "vinaigre"]]
+      "wiki": [
+        [
+          "Sushi",
+          "riz",
+          "vinaigre"
+        ]
+      ]
+    },
+    {
+      "id": "gastro-cassoulet",
+      "sub": "terroirs",
+      "diff": 2,
+      "q": "Quel plat mijoté à base de haricots blancs et de confit est une spécialité du Languedoc ?",
+      "exp": "Castelnaudary, Carcassonne et Toulouse se disputent la recette d'origine ; le plat tire son nom de la « cassole », un plat en terre.",
+      "wiki": [
+        [
+          "Cassoulet",
+          "Castelnaudary",
+          "cassole"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le cassoulet",
+        "La choucroute",
+        "Le pot-au-feu",
+        "La garbure"
+      ],
+      "themes": [
+        "plats régionaux"
+      ]
+    },
+    {
+      "id": "gastro-choucroute",
+      "sub": "terroirs",
+      "diff": 1,
+      "q": "De quelle région la choucroute est-elle la spécialité emblématique ?",
+      "exp": "Le chou blanc fermenté est servi avec des charcuteries et des pommes de terre.",
+      "wiki": [
+        [
+          "Choucroute",
+          "Alsace",
+          "chou"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Alsace",
+        "La Bretagne",
+        "La Savoie",
+        "La Provence"
+      ],
+      "themes": [
+        "plats régionaux"
+      ]
+    },
+    {
+      "id": "gastro-tartiflette",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "Quel fromage entre dans la recette de la tartiflette ?",
+      "exp": "La tartiflette a été popularisée dans les années 1980 par l'interprofession du reblochon, même si elle s'inspire de plats anciens.",
+      "wiki": [
+        [
+          "Tartiflette",
+          "reblochon",
+          "1980"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le reblochon",
+        "Le beaufort",
+        "La tomme",
+        "Le comté"
+      ],
+      "themes": [
+        "plats régionaux"
+      ],
+      "see": [
+        "gastro-fromages"
+      ]
+    },
+    {
+      "id": "gastro-ratatouille",
+      "sub": "terroirs",
+      "diff": 1,
+      "q": "Quel plat provençal associe aubergines, courgettes, poivrons et tomates ?",
+      "exp": "Spécialité niçoise à l'origine, la ratatouille a donné son nom à un film d'animation de Pixar en 2007.",
+      "wiki": [
+        [
+          "Ratatouille",
+          "Nice",
+          "aubergines"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La ratatouille",
+        "La bouillabaisse",
+        "La tapenade",
+        "La pissaladière"
+      ],
+      "themes": [
+        "plats régionaux"
+      ]
+    },
+    {
+      "id": "gastro-bourguignon",
+      "sub": "terroirs",
+      "diff": 2,
+      "q": "Dans quel liquide le bœuf bourguignon mijote-t-il ?",
+      "exp": "Ce plat de Bourgogne cuit longuement avec lardons, champignons et petits oignons.",
+      "wiki": [
+        [
+          "Bœuf bourguignon",
+          "vin rouge"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Du vin rouge",
+        "De la bière",
+        "Du cidre",
+        "Du vin blanc"
+      ],
+      "themes": [
+        "plats régionaux"
+      ]
+    },
+    {
+      "id": "gastro-galette-bretonne",
+      "sub": "terroirs",
+      "diff": 2,
+      "q": "Avec quelle farine est traditionnellement préparée la galette bretonne ?",
+      "exp": "La galette complète contient jambon, œuf et fromage ; la crêpe sucrée se fait avec de la farine de froment.",
+      "wiki": [
+        [
+          "Galette de sarrasin",
+          "blé noir"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le sarrasin (blé noir)",
+        "Le froment",
+        "Le seigle",
+        "Le maïs"
+      ],
+      "themes": [
+        "plats régionaux"
+      ]
+    },
+    {
+      "id": "gastro-kouign-amann",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "Quelle pâtisserie bretonne de Douarnenez est très riche en beurre et en sucre ?",
+      "exp": "Son nom signifie « gâteau au beurre » en breton ; il serait né vers 1860 à Douarnenez.",
+      "wiki": [
+        [
+          "Kouign-amann",
+          "Douarnenez",
+          "beurre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le kouign-amann",
+        "Le far breton",
+        "Le gâteau basque",
+        "Le canelé"
+      ],
+      "themes": [
+        "pâtisserie"
+      ]
+    },
+    {
+      "id": "gastro-canele",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "De quelle ville le canelé est-il la spécialité ?",
+      "exp": "Ce petit gâteau caramélisé, parfumé au rhum et à la vanille, serait lié au jaune d'œuf restant après le collage des vins au blanc d'œuf.",
+      "wiki": [
+        [
+          "Canelé",
+          "Bordeaux",
+          "rhum"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bordeaux",
+        "Lyon",
+        "Toulouse",
+        "Nantes"
+      ],
+      "themes": [
+        "pâtisserie"
+      ]
+    },
+    {
+      "id": "gastro-bouchon-lyon",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "Comment appelle-t-on un restaurant traditionnel lyonnais ?",
+      "exp": "Le bouchon sert des spécialités comme le saucisson brioché, la quenelle ou le tablier de sapeur ; l'estaminet est nordiste et la winstub alsacienne.",
+      "wiki": [
+        [
+          "Bouchon lyonnais",
+          "quenelle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un bouchon",
+        "Un estaminet",
+        "Une winstub",
+        "Une auberge"
+      ],
+      "themes": [
+        "traditions"
+      ]
+    },
+    {
+      "id": "gastro-calisson",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "De quelle ville le calisson est-il la spécialité ?",
+      "exp": "Fait de pâte de melon confit et d'amandes sous un glaçage royal ; le nougat est la spécialité de Montélimar.",
+      "wiki": [
+        [
+          "Calisson",
+          "Aix-en-Provence",
+          "amandes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Aix-en-Provence",
+        "Montélimar",
+        "Nancy",
+        "Carpentras"
+      ],
+      "themes": [
+        "confiseries"
+      ]
+    },
+    {
+      "id": "gastro-nougat",
+      "sub": "terroirs",
+      "diff": 2,
+      "q": "Quelle ville de la Drôme est célèbre pour son nougat ?",
+      "exp": "Le nougat de Montélimar contient des amandes, du miel de lavande et du blanc d'œuf.",
+      "wiki": [
+        [
+          "Nougat de Montélimar",
+          "miel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Montélimar",
+        "Valence",
+        "Nyons",
+        "Die"
+      ],
+      "themes": [
+        "confiseries"
+      ]
+    },
+    {
+      "id": "gastro-moutarde",
+      "sub": "terroirs",
+      "diff": 2,
+      "q": "Quelle ville est réputée pour sa moutarde ?",
+      "exp": "La moutarde de Dijon désigne une recette ; une grande partie des graines est aujourd'hui importée, notamment du Canada.",
+      "wiki": [
+        [
+          "Moutarde de Dijon",
+          "Canada"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dijon",
+        "Lyon",
+        "Bordeaux",
+        "Reims"
+      ],
+      "themes": [
+        "condiments"
+      ]
+    },
+    {
+      "id": "gastro-piment-espelette",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "Dans quelle région cultive-t-on le piment d'Espelette AOP ?",
+      "exp": "Après la récolte, les piments sont suspendus en guirlandes sur les façades des maisons pour sécher.",
+      "wiki": [
+        [
+          "Piment d'Espelette",
+          "Pays basque",
+          "AOP"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Pays basque",
+        "La Provence",
+        "La Corse",
+        "Le Roussillon"
+      ],
+      "themes": [
+        "épices"
+      ]
+    },
+    {
+      "id": "gastro-sel-guerande",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "Comment s'appelle la fine couche de sel récoltée à la surface des marais salants de Guérande ?",
+      "exp": "Récoltée à la main par les paludiers, la fleur de sel est très prisée des cuisiniers.",
+      "wiki": [
+        [
+          "Fleur de sel",
+          "Guérande",
+          "paludiers"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La fleur de sel",
+        "Le gros sel",
+        "Le sel gemme",
+        "Le sel de céleri"
+      ],
+      "themes": [
+        "condiments"
+      ]
+    },
+    {
+      "id": "gastro-camembert-boite",
+      "sub": "terroirs",
+      "diff": 4,
+      "q": "Quel fromage normand, selon la légende, aurait été mis au point par Marie Harel vers 1791 ?",
+      "exp": "La boîte en bois de peuplier, inventée vers 1890, a permis de l'expédier loin et de le rendre célèbre.",
+      "wiki": [
+        [
+          "Camembert (fromage)",
+          "Marie Harel",
+          "1791"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le camembert",
+        "Le livarot",
+        "Le pont-l'évêque",
+        "Le neufchâtel"
+      ],
+      "themes": [
+        "fromages"
+      ]
+    },
+    {
+      "id": "gastro-comte-affinage",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "Quel fromage à pâte pressée cuite est le plus produit sous AOP en France ?",
+      "exp": "Il faut environ 450 litres de lait de vache montbéliarde pour fabriquer une meule de 40 kg.",
+      "wiki": [
+        [
+          "Comté (fromage)",
+          "montbéliarde",
+          "AOP"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le comté",
+        "Le beaufort",
+        "L'emmental",
+        "Le cantal"
+      ],
+      "themes": [
+        "fromages"
+      ]
+    },
+    {
+      "id": "gastro-fromage-chevre",
+      "sub": "terroirs",
+      "diff": 2,
+      "q": "Lequel de ces fromages est fabriqué avec du lait de chèvre ?",
+      "exp": "Ce petit fromage du Berry, dans le Cher, bénéficie d'une AOP.",
+      "wiki": [
+        [
+          "Crottin de Chavignol",
+          "chèvre",
+          "Cher"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le crottin de Chavignol",
+        "Le brie de Meaux",
+        "Le cantal",
+        "Le munster"
+      ],
+      "themes": [
+        "fromages"
+      ]
+    },
+    {
+      "id": "gastro-de-gaulle-fromages",
+      "sub": "terroirs",
+      "diff": 3,
+      "q": "Selon une phrase attribuée au général de Gaulle, comment gouverner un pays qui a… ?",
+      "exp": "« Comment voulez-vous gouverner un pays qui a 246 variétés de fromage ? » : la phrase lui est prêtée, avec un chiffre qui varie selon les sources.",
+      "wiki": [
+        [
+          "Liste de fromages français",
+          "246"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "246 variétés de fromages",
+        "1 000 vins",
+        "300 recettes de soupe",
+        "22 régions"
+      ],
+      "themes": [
+        "fromages",
+        "citations"
+      ]
+    },
+    {
+      "id": "gastro-escoffier",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "Quel chef français, surnommé « le roi des cuisiniers et le cuisinier des rois », a codifié la cuisine moderne ?",
+      "exp": "Escoffier (1846-1935) organise les brigades de cuisine et invente la pêche Melba ; son Guide culinaire fait référence.",
+      "wiki": [
+        [
+          "Auguste Escoffier",
+          "pêche Melba",
+          "brigade"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Auguste Escoffier",
+        "Paul Bocuse",
+        "Marie-Antoine Carême",
+        "Joël Robuchon"
+      ],
+      "themes": [
+        "grands chefs"
+      ]
+    },
+    {
+      "id": "gastro-bocuse",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Quel chef lyonnais a donné son nom à un célèbre concours de cuisine ?",
+      "exp": "Le Bocuse d'or, créé en 1987, est souvent présenté comme les championnats du monde de la cuisine.",
+      "wiki": [
+        [
+          "Paul Bocuse",
+          "Bocuse d'or",
+          "1987"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Paul Bocuse",
+        "Joël Robuchon",
+        "Alain Ducasse",
+        "Pierre Gagnaire"
+      ],
+      "themes": [
+        "grands chefs"
+      ]
+    },
+    {
+      "id": "gastro-guide-michelin",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Pourquoi le fabricant de pneus Michelin a-t-il lancé son guide en 1900 ?",
+      "exp": "Plus les automobilistes roulaient, plus ils usaient de pneus ; les étoiles des restaurants apparaissent en 1926.",
+      "wiki": [
+        [
+          "Guide Michelin",
+          "1900",
+          "étoiles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pour encourager les automobilistes à voyager",
+        "Pour vendre des livres de cuisine",
+        "Pour concurrencer le Gault et Millau",
+        "Pour promouvoir le tourisme ferroviaire"
+      ],
+      "themes": [
+        "guides"
+      ]
+    },
+    {
+      "id": "gastro-careme",
+      "sub": "culture-culinaire",
+      "diff": 4,
+      "q": "Quel cuisinier du début du XIXe siècle, surnommé le « roi des chefs », est célèbre pour ses pièces montées ?",
+      "exp": "Carême cuisine pour Talleyrand et les grands d'Europe ; il théorise les grandes sauces de la cuisine française.",
+      "wiki": [
+        [
+          "Marie-Antoine Carême",
+          "pièces montées",
+          "Talleyrand"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marie-Antoine Carême",
+        "Auguste Escoffier",
+        "Vatel",
+        "La Varenne"
+      ],
+      "themes": [
+        "grands chefs"
+      ]
+    },
+    {
+      "id": "gastro-sauces-meres",
+      "sub": "culture-culinaire",
+      "diff": 4,
+      "q": "Laquelle de ces sauces est une sauce mère de la cuisine française classique ?",
+      "exp": "Escoffier retient cinq sauces mères : béchamel, velouté, espagnole, sauce tomate et hollandaise.",
+      "wiki": [
+        [
+          "Sauce mère",
+          "béchamel",
+          "Escoffier"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La béchamel",
+        "La sauce gribiche",
+        "Le ketchup",
+        "La sauce soja"
+      ],
+      "themes": [
+        "techniques"
+      ]
+    },
+    {
+      "id": "gastro-croissant-origine",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "Le croissant est une invention française.",
+      "exp": "Faux. Il descend du kipferl autrichien, introduit à Paris au XIXe siècle par les boulangeries viennoises ; la version feuilletée au beurre s'est ensuite développée en France.",
+      "wiki": [
+        [
+          "Croissant (viennoiserie)",
+          "kipferl"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "vrai_faux",
+      "answer": false,
+      "themes": [
+        "viennoiserie"
+      ],
+      "see": [
+        "gastro-viennoiserie"
+      ]
+    },
+    {
+      "id": "gastro-baguette-unesco",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Quel aliment français est inscrit au patrimoine culturel immatériel de l'UNESCO en 2022 ?",
+      "exp": "L'inscription reconnaît les savoir-faire artisanaux et la culture de la baguette de pain.",
+      "wiki": [
+        [
+          "Baguette (pain)",
+          "UNESCO",
+          "2022",
+          "patrimoine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le savoir-faire de la baguette",
+        "Le croissant",
+        "Le camembert",
+        "Le macaron"
+      ],
+      "themes": [
+        "patrimoine"
+      ],
+      "see": [
+        "gastro-unesco"
+      ]
+    },
+    {
+      "id": "gastro-macaron",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "Quelle maison parisienne a popularisé le macaron composé de deux coques garnies ?",
+      "exp": "Au début du XXe siècle, Pierre Desfontaines, de Ladurée, aurait eu l'idée d'assembler deux coques avec de la ganache.",
+      "wiki": [
+        [
+          "Macaron",
+          "Ladurée"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ladurée",
+        "Fauchon",
+        "Lenôtre",
+        "Dalloyau"
+      ],
+      "themes": [
+        "pâtisserie"
+      ]
+    },
+    {
+      "id": "gastro-tarte-tatin",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Quelle particularité a la tarte Tatin ?",
+      "exp": "Selon la légende, les sœurs Tatin, à Lamotte-Beuvron, auraient renversé une tarte aux pommes par accident.",
+      "wiki": [
+        [
+          "Tarte Tatin",
+          "Lamotte-Beuvron",
+          "pommes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Elle est cuite à l'envers, pâte au-dessus",
+        "Elle n'a pas de pâte",
+        "Elle se mange froide uniquement",
+        "Elle est flambée au calvados"
+      ],
+      "themes": [
+        "pâtisserie"
+      ]
+    },
+    {
+      "id": "gastro-paris-brest",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "En l'honneur de quelle épreuve a été créé le Paris-Brest ?",
+      "exp": "En 1910, un pâtissier invente ce gâteau en forme de roue pour la course cycliste Paris-Brest-Paris.",
+      "wiki": [
+        [
+          "Paris-Brest",
+          "cycliste"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une course cycliste",
+        "Un rallye automobile",
+        "Une course de voiliers",
+        "Une liaison ferroviaire"
+      ],
+      "themes": [
+        "pâtisserie"
+      ]
+    },
+    {
+      "id": "gastro-mille-feuille",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "Combien de couches de pâte feuilletée trouve-t-on classiquement dans un mille-feuille ?",
+      "exp": "Malgré son nom, le gâteau compte trois abaisses de pâte feuilletée ; ce sont les feuillets de la pâte qui se comptent par centaines.",
+      "wiki": [
+        [
+          "Mille-feuille",
+          "trois"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "3",
+        "1 000",
+        "10",
+        "2"
+      ],
+      "themes": [
+        "pâtisserie"
+      ]
+    },
+    {
+      "id": "gastro-galette-rois",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Que trouve-t-on caché dans la galette des rois ?",
+      "exp": "Celui qui trouve la fève devient le roi ou la reine du jour ; la galette se mange autour de l'Épiphanie, début janvier.",
+      "wiki": [
+        [
+          "Galette des rois",
+          "fève",
+          "Épiphanie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une fève",
+        "Une pièce d'or",
+        "Une bague",
+        "Une cuillère"
+      ],
+      "themes": [
+        "traditions"
+      ]
+    },
+    {
+      "id": "gastro-beaujolais",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Quel jour sort traditionnellement le beaujolais nouveau ?",
+      "exp": "Ce vin de primeur, issu du cépage gamay, est célébré dans de nombreux pays.",
+      "wiki": [
+        [
+          "Beaujolais nouveau",
+          "troisième jeudi de novembre",
+          "gamay"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le troisième jeudi de novembre",
+        "Le 1er janvier",
+        "Le 14 juillet",
+        "Le premier lundi de septembre"
+      ],
+      "themes": [
+        "vin"
+      ]
+    },
+    {
+      "id": "gastro-cepages",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "Associe chaque région viticole à un cépage emblématique.",
+      "exp": "Le Bordeaux est un assemblage, souvent de merlot et de cabernet sauvignon.",
+      "wiki": [
+        [
+          "Pinot noir",
+          "Bourgogne"
+        ],
+        [
+          "Riesling",
+          "Alsace"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Bourgogne (vin rouge)",
+          "Pinot noir"
+        ],
+        [
+          "Beaujolais",
+          "Gamay"
+        ],
+        [
+          "Alsace",
+          "Riesling"
+        ],
+        [
+          "Bordeaux",
+          "Merlot"
+        ]
+      ],
+      "themes": [
+        "vin"
+      ]
+    },
+    {
+      "id": "gastro-champagne-bulles",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Quelle méthode produit les bulles du champagne ?",
+      "exp": "On ajoute sucre et levures pour provoquer la prise de mousse en bouteille : c'est la méthode champenoise ou traditionnelle.",
+      "wiki": [
+        [
+          "Prise de mousse",
+          "fermentation",
+          "bouteille",
+          "levures"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une seconde fermentation en bouteille",
+        "L'ajout de gaz carbonique",
+        "Une fermentation en cuve ouverte",
+        "La distillation"
+      ],
+      "themes": [
+        "vin"
+      ],
+      "see": [
+        "gastro-dom-perignon"
+      ]
+    },
+    {
+      "id": "gastro-cognac",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "Le cognac est une eau-de-vie de…",
+      "exp": "Il est distillé à partir de vin blanc de la région de Cognac, en Charente, puis vieilli en fûts de chêne ; le calvados est une eau-de-vie de cidre.",
+      "wiki": [
+        [
+          "Cognac (eau-de-vie)",
+          "vin",
+          "Charente"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Vin",
+        "Pomme",
+        "Poire",
+        "Grain"
+      ],
+      "themes": [
+        "spiritueux"
+      ]
+    },
+    {
+      "id": "gastro-sommelier",
+      "sub": "culture-culinaire",
+      "diff": 2,
+      "q": "Comment s'appelle le spécialiste du vin dans un restaurant ?",
+      "exp": "L'œnologue est un scientifique qui élabore le vin ; le caviste le vend en boutique.",
+      "wiki": [
+        [
+          "Sommelier",
+          "vin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le sommelier",
+        "Le maître d'hôtel",
+        "Le caviste",
+        "L'œnologue"
+      ],
+      "themes": [
+        "vin"
+      ]
+    },
+    {
+      "id": "gastro-terroir-mots",
+      "sub": "culture-culinaire",
+      "diff": 3,
+      "q": "Que désigne l'expression « appellation d'origine protégée » (AOP) ?",
+      "exp": "L'AOP protège à l'échelle européenne la dénomination d'un produit lié à son terroir et à son savoir-faire.",
+      "wiki": [
+        [
+          "Appellation d'origine protégée",
+          "européen"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le label européen équivalent de l'AOC",
+        "Un label réservé aux vins bio",
+        "Une marque déposée par un producteur",
+        "Une note donnée par un guide"
+      ],
+      "themes": [
+        "labels"
+      ],
+      "see": [
+        "gastro-aoc"
+      ]
+    },
+    {
+      "id": "gastro-pizza-margherita",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "En l'honneur de qui la pizza Margherita aurait-elle été nommée en 1889 ?",
+      "exp": "Ses couleurs (tomate, mozzarella, basilic) rappellent le drapeau italien ; l'art du pizzaiolo napolitain est inscrit à l'UNESCO.",
+      "wiki": [
+        [
+          "Pizza Margherita",
+          "Marguerite",
+          "1889"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "De la reine Marguerite de Savoie",
+        "D'une marguerite, la fleur",
+        "D'une pizzaiola napolitaine",
+        "D'une chanteuse d'opéra"
+      ],
+      "themes": [
+        "cuisine italienne"
+      ]
+    },
+    {
+      "id": "gastro-pates-carbonara",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "Lequel de ces ingrédients ne figure pas dans la carbonara traditionnelle italienne ?",
+      "exp": "La recette romaine associe guanciale (joue de porc), jaunes d'œuf, pecorino et poivre, sans crème.",
+      "wiki": [
+        [
+          "Pâtes à la carbonara",
+          "guanciale",
+          "pecorino"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La crème fraîche",
+        "Le jaune d'œuf",
+        "Le guanciale",
+        "Le pecorino"
+      ],
+      "themes": [
+        "cuisine italienne"
+      ]
+    },
+    {
+      "id": "gastro-tiramisu",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "Que signifie « tiramisu » en italien ?",
+      "exp": "Ce dessert au mascarpone, au café et aux biscuits serait originaire de la région de Trévise, en Vénétie.",
+      "wiki": [
+        [
+          "Tiramisu",
+          "mascarpone",
+          "Trévise"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« Remonte-moi le moral »",
+        "« Petit nuage »",
+        "« Gâteau du dimanche »",
+        "« Douceur de Venise »"
+      ],
+      "themes": [
+        "cuisine italienne"
+      ]
+    },
+    {
+      "id": "gastro-tapas",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "Comment appelle-t-on les petites portions servies à l'apéritif en Espagne ?",
+      "exp": "Les mezzés sont servis au Proche-Orient, les antipasti en Italie et les dim sum en Chine.",
+      "wiki": [
+        [
+          "Tapas",
+          "Espagne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les tapas",
+        "Les mezzés",
+        "Les antipasti",
+        "Les dim sum"
+      ],
+      "themes": [
+        "cuisine espagnole"
+      ]
+    },
+    {
+      "id": "gastro-gaspacho",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "De quelle région d'Espagne vient le gaspacho, soupe froide de tomates ?",
+      "exp": "Le gaspacho associe tomates, poivrons, concombre, ail, huile d'olive et pain.",
+      "wiki": [
+        [
+          "Gaspacho",
+          "Andalousie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Andalousie",
+        "La Catalogne",
+        "La Galice",
+        "Le Pays basque"
+      ],
+      "themes": [
+        "cuisine espagnole"
+      ]
+    },
+    {
+      "id": "gastro-kimchi",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "De quel pays le kimchi, chou fermenté pimenté, est-il le plat national ?",
+      "exp": "La préparation du kimjang, en grande quantité avant l'hiver, est inscrite à l'UNESCO.",
+      "wiki": [
+        [
+          "Kimchi",
+          "Corée",
+          "kimjang"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Corée",
+        "Le Japon",
+        "La Chine",
+        "Le Vietnam"
+      ],
+      "themes": [
+        "cuisine asiatique"
+      ]
+    },
+    {
+      "id": "gastro-pho",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "De quel pays la soupe pho est-elle originaire ?",
+      "exp": "Ce bouillon parfumé aux nouilles de riz et au bœuf vient du nord du Vietnam, autour de Hanoï.",
+      "wiki": [
+        [
+          "Phở",
+          "Vietnam",
+          "Hanoï"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Vietnam",
+        "La Thaïlande",
+        "Le Cambodge",
+        "La Corée"
+      ],
+      "themes": [
+        "cuisine asiatique"
+      ]
+    },
+    {
+      "id": "gastro-couscous",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "De quelle région du monde le couscous est-il originaire ?",
+      "exp": "Le couscous, à base de semoule roulée, est inscrit en 2020 au patrimoine immatériel de l'UNESCO, à l'initiative de quatre pays du Maghreb.",
+      "wiki": [
+        [
+          "Couscous",
+          "Maghreb",
+          "2020"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Du Maghreb",
+        "Du Moyen-Orient",
+        "De l'Inde",
+        "De la Turquie"
+      ],
+      "themes": [
+        "cuisine du Maghreb"
+      ]
+    },
+    {
+      "id": "gastro-houmous",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "Quel ingrédient principal compose le houmous ?",
+      "exp": "Le houmous associe pois chiches, crème de sésame (tahini), citron et ail.",
+      "wiki": [
+        [
+          "Houmous",
+          "pois chiche",
+          "tahini"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le pois chiche",
+        "La lentille",
+        "La fève",
+        "Le haricot blanc"
+      ],
+      "themes": [
+        "cuisine du Proche-Orient"
+      ]
+    },
+    {
+      "id": "gastro-curry",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "Qu'est-ce que le garam masala ?",
+      "exp": "Il associe notamment cannelle, cardamome, clou de girofle, cumin et poivre ; le paneer est un fromage et le naan un pain.",
+      "wiki": [
+        [
+          "Garam masala",
+          "épices"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un mélange d'épices indien",
+        "Un fromage indien",
+        "Un pain indien",
+        "Une sauce au yaourt"
+      ],
+      "themes": [
+        "cuisine indienne"
+      ]
+    },
+    {
+      "id": "gastro-wasabi",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "Qu'est-ce que le wasabi servi avec les sushis ?",
+      "exp": "Le vrai wasabi, rare et coûteux, est souvent remplacé par du raifort coloré en vert ; le gingembre mariné s'appelle gari.",
+      "wiki": [
+        [
+          "Wasabi",
+          "raifort"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Une racine piquante râpée",
+        "Une algue séchée",
+        "Une sauce fermentée",
+        "Un gingembre mariné"
+      ],
+      "themes": [
+        "cuisine japonaise"
+      ],
+      "see": [
+        "gastro-sushi"
+      ]
+    },
+    {
+      "id": "gastro-tofu",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "À partir de quoi fabrique-t-on le tofu ?",
+      "exp": "Originaire de Chine, le tofu est une source de protéines végétales très utilisée en Asie.",
+      "wiki": [
+        [
+          "Tofu",
+          "soja",
+          "Chine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Du lait de soja caillé",
+        "Du riz fermenté",
+        "Du lait de coco",
+        "De la farine de blé"
+      ],
+      "themes": [
+        "cuisine asiatique"
+      ]
+    },
+    {
+      "id": "gastro-chocolat-origine",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "Quelle civilisation consommait déjà le cacao sous forme de boisson amère avant l'arrivée des Européens ?",
+      "exp": "Le cacao, « nourriture des dieux », était aussi utilisé comme monnaie par les Aztèques.",
+      "wiki": [
+        [
+          "Cacao",
+          "Aztèques",
+          "Mayas"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Mayas et les Aztèques",
+        "Les Égyptiens de l'Antiquité",
+        "Les Grecs de l'Antiquité",
+        "Les Romains de l'Empire"
+      ],
+      "themes": [
+        "histoire de l'alimentation"
+      ]
+    },
+    {
+      "id": "gastro-pomme-terre-origine",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "De quel continent la pomme de terre est-elle originaire ?",
+      "exp": "Domestiquée dans les Andes il y a des millénaires, elle arrive en Europe au XVIe siècle.",
+      "wiki": [
+        [
+          "Pomme de terre",
+          "Andes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Amérique du Sud",
+        "L'Europe",
+        "L'Asie",
+        "L'Afrique"
+      ],
+      "themes": [
+        "histoire de l'alimentation"
+      ],
+      "see": [
+        "hf-parmentier"
+      ]
+    },
+    {
+      "id": "gastro-cafe-origine",
+      "sub": "cuisines-monde",
+      "diff": 3,
+      "q": "Selon la tradition, dans quel pays a-t-on découvert le café ?",
+      "exp": "Le berger Kaldi aurait remarqué l'agitation de ses chèvres après qu'elles eurent mangé des baies de caféier.",
+      "wiki": [
+        [
+          "Café",
+          "Éthiopie",
+          "Kaldi"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Éthiopie",
+        "Le Brésil",
+        "La Colombie",
+        "L'Inde"
+      ],
+      "themes": [
+        "histoire de l'alimentation"
+      ]
+    },
+    {
+      "id": "gastro-the",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "Quel pays est le premier producteur mondial de thé ?",
+      "exp": "La Chine produit nettement plus de thé que l'Inde, deuxième ; le Royaume-Uni est un grand consommateur, pas producteur.",
+      "wiki": [
+        [
+          "Thé",
+          "Chine",
+          "Inde"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Chine",
+        "L'Inde",
+        "Le Royaume-Uni",
+        "Le Japon"
+      ],
+      "themes": [
+        "boissons"
+      ]
+    },
+    {
+      "id": "gastro-plats-pays",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "Associe chaque plat à son pays.",
+      "exp": "Le goulasch est une soupe-ragoût au paprika ; le ceviche, du poisson cru mariné dans le citron vert.",
+      "wiki": [
+        [
+          "Goulasch",
+          "Hongrie"
+        ],
+        [
+          "Ceviche",
+          "Pérou"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Paella",
+          "Espagne"
+        ],
+        [
+          "Moussaka",
+          "Grèce"
+        ],
+        [
+          "Goulasch",
+          "Hongrie"
+        ],
+        [
+          "Ceviche",
+          "Pérou"
+        ]
+      ],
+      "themes": [
+        "cuisines du monde"
+      ]
+    },
+    {
+      "id": "gastro-vegetarien",
+      "sub": "cuisines-monde",
+      "diff": 2,
+      "q": "Quel régime exclut tous les produits d'origine animale, y compris les œufs, le lait et le miel ?",
+      "exp": "Le végétarien exclut viande et poisson ; le pescétarien mange du poisson ; le flexitarien réduit sa consommation de viande.",
+      "wiki": [
+        [
+          "Végétalisme",
+          "produits d'origine animale"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le végétalisme (alimentation végane)",
+        "Le végétarisme",
+        "Le flexitarisme",
+        "Le pescétarisme"
+      ],
+      "themes": [
+        "alimentation"
+      ]
     }
   ]
 }

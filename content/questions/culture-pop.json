@@ -4,63 +4,1429 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "pop-asterix", "sub": "bd", "diff": 1, "themes": ["bande dessinée franco-belge"],
+      "id": "pop-asterix",
+      "sub": "bd",
+      "diff": 1,
+      "themes": [
+        "bande dessinée franco-belge"
+      ],
       "q": "Qui sont les créateurs d'Astérix ?",
-      "choices": ["René Goscinny et Albert Uderzo", "Hergé et Edgar P. Jacobs", "Morris et Goscinny", "Franquin et Peyo"],
+      "choices": [
+        "René Goscinny et Albert Uderzo",
+        "Hergé et Edgar P. Jacobs",
+        "Morris et Goscinny",
+        "Franquin et Peyo"
+      ],
       "exp": "Astérix naît en 1959 dans le premier numéro du magazine Pilote, sous la plume de René Goscinny (scénario) et le crayon d'Albert Uderzo (dessin).",
       "anec": "Goscinny a aussi scénarisé Lucky Luke, dessiné par Morris.",
-      "see": ["hf-alesia"],
-      "wiki": [["Astérix", "Goscinny", "1959"]]
+      "see": [
+        "hf-alesia"
+      ],
+      "wiki": [
+        [
+          "Astérix",
+          "Goscinny",
+          "1959"
+        ]
+      ]
     },
     {
-      "id": "pop-milou", "sub": "bd", "diff": 1, "themes": ["bande dessinée franco-belge"],
+      "id": "pop-milou",
+      "sub": "bd",
+      "diff": 1,
+      "themes": [
+        "bande dessinée franco-belge"
+      ],
       "q": "Comment s'appelle le chien de Tintin ?",
-      "choices": ["Milou", "Idéfix", "Rantanplan", "Pif"],
+      "choices": [
+        "Milou",
+        "Idéfix",
+        "Rantanplan",
+        "Pif"
+      ],
       "exp": "Milou, fox-terrier blanc, accompagne Tintin dès sa première aventure en 1929. Idéfix est le chien d'Obélix ; Rantanplan celui des aventures de Lucky Luke.",
-      "wiki": [["Milou", "Tintin", "fox-terrier"]]
+      "wiki": [
+        [
+          "Milou",
+          "Tintin",
+          "fox-terrier"
+        ]
+      ]
     },
     {
-      "id": "pop-schtroumpfs", "sub": "bd", "diff": 2, "themes": ["bande dessinée franco-belge"],
+      "id": "pop-schtroumpfs",
+      "sub": "bd",
+      "diff": 2,
+      "themes": [
+        "bande dessinée franco-belge"
+      ],
       "q": "Quel auteur belge a créé les Schtroumpfs ?",
-      "choices": ["Peyo", "Hergé", "Franquin", "Morris"],
+      "choices": [
+        "Peyo",
+        "Hergé",
+        "Franquin",
+        "Morris"
+      ],
       "exp": "Les Schtroumpfs apparaissent en 1958 dans la série Johan et Pirlouit de Peyo, dans le journal Spirou, avant d'avoir leurs propres aventures.",
-      "wiki": [["Les Schtroumpfs", "Peyo", "1958"]]
+      "wiki": [
+        [
+          "Les Schtroumpfs",
+          "Peyo",
+          "1958"
+        ]
+      ]
     },
     {
-      "id": "pop-mario", "sub": "jeux-video", "diff": 2, "themes": ["Nintendo"],
+      "id": "pop-mario",
+      "sub": "jeux-video",
+      "diff": 2,
+      "themes": [
+        "Nintendo"
+      ],
       "q": "Quel métier exerce Mario, la mascotte de Nintendo ?",
-      "choices": ["Plombier", "Charpentier", "Cuisinier", "Pompier"],
+      "choices": [
+        "Plombier",
+        "Charpentier",
+        "Cuisinier",
+        "Pompier"
+      ],
       "exp": "Mario est présenté comme plombier, notamment depuis Mario Bros. (1983). Il a été créé par Shigeru Miyamoto.",
       "anec": "Dans Donkey Kong (1981), sa première apparition, il s'appelait Jumpman et était charpentier.",
-      "wiki": [["Mario (personnage)", "plombier", "Jumpman"]]
+      "wiki": [
+        [
+          "Mario (personnage)",
+          "plombier",
+          "Jumpman"
+        ]
+      ]
     },
     {
-      "id": "pop-tetris", "sub": "jeux-video", "diff": 3, "themes": ["jeux vidéo classiques"],
+      "id": "pop-tetris",
+      "sub": "jeux-video",
+      "diff": 3,
+      "themes": [
+        "jeux vidéo classiques"
+      ],
       "q": "Dans quel pays le jeu Tetris a-t-il été créé en 1984 ?",
-      "choices": ["En Union soviétique", "Au Japon", "Aux États-Unis", "En Finlande"],
+      "choices": [
+        "En Union soviétique",
+        "Au Japon",
+        "Aux États-Unis",
+        "En Finlande"
+      ],
       "exp": "Tetris a été conçu à Moscou par l'informaticien Alexeï Pajitnov, qui travaillait à l'Académie des sciences d'URSS.",
-      "wiki": [["Tetris", "Pajitnov", "1984"]]
+      "wiki": [
+        [
+          "Tetris",
+          "Pajitnov",
+          "1984"
+        ]
+      ]
     },
     {
-      "id": "pop-pikachu", "sub": "jeux-video", "diff": 1, "themes": ["Pokémon"],
+      "id": "pop-pikachu",
+      "sub": "jeux-video",
+      "diff": 1,
+      "themes": [
+        "Pokémon"
+      ],
       "q": "Quel Pokémon est la mascotte de la franchise Pokémon ?",
-      "choices": ["Pikachu", "Salamèche", "Rondoudou", "Évoli"],
+      "choices": [
+        "Pikachu",
+        "Salamèche",
+        "Rondoudou",
+        "Évoli"
+      ],
       "exp": "Pikachu, Pokémon de type électrique, est devenu la mascotte de la franchise, notamment grâce au dessin animé où il accompagne Sacha.",
-      "wiki": [["Pikachu", "mascotte"]]
+      "wiki": [
+        [
+          "Pikachu",
+          "mascotte"
+        ]
+      ]
     },
     {
-      "id": "pop-harry-potter", "sub": "series-livres", "diff": 1, "themes": ["littérature jeunesse", "fantasy"],
+      "id": "pop-harry-potter",
+      "sub": "series-livres",
+      "diff": 1,
+      "themes": [
+        "littérature jeunesse",
+        "fantasy"
+      ],
       "q": "Qui a écrit la saga Harry Potter ?",
-      "choices": ["J. K. Rowling", "J. R. R. Tolkien", "C. S. Lewis", "Philip Pullman"],
+      "choices": [
+        "J. K. Rowling",
+        "J. R. R. Tolkien",
+        "C. S. Lewis",
+        "Philip Pullman"
+      ],
       "exp": "La Britannique J. K. Rowling publie le premier tome, Harry Potter à l'école des sorciers, en 1997. La saga compte sept romans.",
-      "wiki": [["Harry Potter", "Rowling", "1997"]]
+      "wiki": [
+        [
+          "Harry Potter",
+          "Rowling",
+          "1997"
+        ]
+      ]
     },
     {
-      "id": "pop-simpson", "sub": "series-livres", "diff": 1, "themes": ["séries animées"],
+      "id": "pop-simpson",
+      "sub": "series-livres",
+      "diff": 1,
+      "themes": [
+        "séries animées"
+      ],
       "q": "Dans quelle ville fictive vit la famille Simpson ?",
-      "choices": ["Springfield", "South Park", "Quahog", "Shelbyville"],
+      "choices": [
+        "Springfield",
+        "South Park",
+        "Quahog",
+        "Shelbyville"
+      ],
       "exp": "Créés par Matt Groening, les Simpson vivent à Springfield, un nom choisi notamment parce que de nombreuses villes américaines le portent. Shelbyville est la ville rivale dans la série.",
-      "wiki": [["Les Simpson", "Springfield", "Groening"]]
+      "wiki": [
+        [
+          "Les Simpson",
+          "Springfield",
+          "Groening"
+        ]
+      ]
+    },
+    {
+      "id": "pop-herge",
+      "sub": "bd",
+      "diff": 1,
+      "q": "Quel auteur belge a créé Tintin ?",
+      "exp": "Hergé, de son vrai nom Georges Remi, signe avec ses initiales inversées (R. G.) ; Tintin naît en 1929.",
+      "wiki": [
+        [
+          "Hergé",
+          "Georges Remi",
+          "1929"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hergé",
+        "Franquin",
+        "Peyo",
+        "Edgar P. Jacobs"
+      ],
+      "themes": [
+        "bande dessinée franco-belge"
+      ],
+      "see": [
+        "pop-milou"
+      ]
+    },
+    {
+      "id": "pop-haddock",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Quel est le juron préféré du capitaine Haddock ?",
+      "exp": "Le capitaine apparaît dans Le Crabe aux pinces d'or (1941) ; « Par Toutatis ! » est le juron des Gaulois d'Astérix.",
+      "wiki": [
+        [
+          "Capitaine Haddock",
+          "mille sabords"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« Mille millions de mille sabords ! »",
+        "« Par Toutatis ! »",
+        "« Sapristi ! »",
+        "« Ventrebleu ! »"
+      ],
+      "themes": [
+        "Tintin"
+      ]
+    },
+    {
+      "id": "pop-tintin-lune",
+      "sub": "bd",
+      "diff": 3,
+      "q": "Dans quel album Tintin marche-t-il sur la Lune, quinze ans avant Neil Armstrong ?",
+      "exp": "Paru en 1954, cet album suit Objectif Lune (1953), avec la célèbre fusée à damier rouge et blanc.",
+      "wiki": [
+        [
+          "On a marché sur la Lune",
+          "1954",
+          "Objectif Lune"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "On a marché sur la Lune",
+        "Objectif Lune",
+        "Le Temple du Soleil",
+        "Vol 714 pour Sydney"
+      ],
+      "themes": [
+        "Tintin"
+      ],
+      "see": [
+        "tech-apollo"
+      ]
+    },
+    {
+      "id": "pop-obelix-potion",
+      "sub": "bd",
+      "diff": 1,
+      "q": "Pourquoi Obélix n'a-t-il pas le droit de boire la potion magique ?",
+      "exp": "Les effets de la potion sont permanents chez lui ; il s'en plaint régulièrement.",
+      "wiki": [
+        [
+          "Obélix",
+          "potion magique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Il est tombé dedans quand il était petit",
+        "Il est allergique",
+        "Il est trop gourmand",
+        "Panoramix le punit"
+      ],
+      "themes": [
+        "Astérix"
+      ],
+      "see": [
+        "pop-asterix"
+      ]
+    },
+    {
+      "id": "pop-panoramix",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Comment s'appelle le druide du village d'Astérix ?",
+      "exp": "Panoramix prépare la potion magique ; Abraracourcix est le chef et Assurancetourix le barde.",
+      "wiki": [
+        [
+          "Panoramix",
+          "druide",
+          "potion"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Panoramix",
+        "Abraracourcix",
+        "Assurancetourix",
+        "Idéfix"
+      ],
+      "themes": [
+        "Astérix"
+      ]
+    },
+    {
+      "id": "pop-lucky-luke",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Quel cow-boy « tire plus vite que son ombre » ?",
+      "exp": "Créé par le Belge Morris en 1946, Lucky Luke affronte notamment les Dalton ; il a remplacé sa cigarette par un brin d'herbe en 1983.",
+      "wiki": [
+        [
+          "Lucky Luke",
+          "Morris",
+          "Dalton"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Lucky Luke",
+        "Blueberry",
+        "Jerry Spring",
+        "Buddy Longway"
+      ],
+      "themes": [
+        "bande dessinée franco-belge"
+      ]
+    },
+    {
+      "id": "pop-gaston",
+      "sub": "bd",
+      "diff": 3,
+      "q": "Quel personnage de Franquin est un employé gaffeur du journal Spirou ?",
+      "exp": "Gaston apparaît en 1957 ; ses inventions catastrophiques font le désespoir de M. De Mesmaeker.",
+      "wiki": [
+        [
+          "Gaston Lagaffe",
+          "Franquin",
+          "1957"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gaston Lagaffe",
+        "Fantasio",
+        "Spip",
+        "Marsupilami"
+      ],
+      "themes": [
+        "bande dessinée franco-belge"
+      ]
+    },
+    {
+      "id": "pop-marsupilami",
+      "sub": "bd",
+      "diff": 3,
+      "q": "Quel animal imaginaire à longue queue a été créé par Franquin ?",
+      "exp": "Il apparaît en 1952 dans les aventures de Spirou et Fantasio ; son cri est « Houba ! ».",
+      "wiki": [
+        [
+          "Marsupilami",
+          "Franquin",
+          "Houba"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Marsupilami",
+        "Le Schtroumpf",
+        "Le Snorky",
+        "Le Houba"
+      ],
+      "themes": [
+        "bande dessinée franco-belge"
+      ]
+    },
+    {
+      "id": "pop-blake-mortimer",
+      "sub": "bd",
+      "diff": 4,
+      "q": "Qui a créé les aventures de Blake et Mortimer ?",
+      "exp": "Collaborateur d'Hergé, Jacobs publie La Marque jaune en 1956, l'un des albums les plus célèbres.",
+      "wiki": [
+        [
+          "Blake et Mortimer",
+          "Jacobs",
+          "Marque jaune"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Edgar P. Jacobs",
+        "Hergé",
+        "Jacques Martin",
+        "Bob de Moor"
+      ],
+      "themes": [
+        "bande dessinée franco-belge"
+      ]
+    },
+    {
+      "id": "pop-angouleme",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Dans quelle ville se tient le grand festival international de la bande dessinée chaque janvier ?",
+      "exp": "Créé en 1974, le festival décerne notamment le Grand Prix de la ville d'Angoulême.",
+      "wiki": [
+        [
+          "Festival international de la bande dessinée d'Angoulême",
+          "1974"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Angoulême",
+        "Lyon",
+        "Bruxelles",
+        "Saint-Malo"
+      ],
+      "themes": [
+        "festivals"
+      ]
+    },
+    {
+      "id": "pop-superman",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Comment s'appelle la planète d'origine de Superman ?",
+      "exp": "Créé en 1938, Superman est envoyé sur Terre par ses parents juste avant la destruction de Krypton.",
+      "wiki": [
+        [
+          "Superman",
+          "Krypton",
+          "1938"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Krypton",
+        "Tatooine",
+        "Vulcain",
+        "Gallifrey"
+      ],
+      "themes": [
+        "comics"
+      ]
+    },
+    {
+      "id": "pop-batman-ville",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Dans quelle ville fictive vit Batman ?",
+      "exp": "Metropolis est la ville de Superman ; Bruce Wayne y combat le Joker et bien d'autres.",
+      "wiki": [
+        [
+          "Batman",
+          "Gotham City",
+          "Joker"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gotham City",
+        "Metropolis",
+        "Star City",
+        "Central City"
+      ],
+      "themes": [
+        "comics"
+      ]
+    },
+    {
+      "id": "pop-spiderman",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Quelle est l'identité secrète de Spider-Man ?",
+      "exp": "Créé par Stan Lee et Steve Ditko en 1962 : « Un grand pouvoir implique de grandes responsabilités ».",
+      "wiki": [
+        [
+          "Spider-Man",
+          "Peter Parker",
+          "Stan Lee"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Peter Parker",
+        "Bruce Wayne",
+        "Clark Kent",
+        "Tony Stark"
+      ],
+      "themes": [
+        "comics"
+      ]
+    },
+    {
+      "id": "pop-manga-one-piece",
+      "sub": "bd",
+      "diff": 3,
+      "q": "Quel manga d'Eiichirō Oda suit le pirate Monkey D. Luffy ?",
+      "exp": "Publié depuis 1997, One Piece est l'un des mangas les plus vendus de l'histoire.",
+      "wiki": [
+        [
+          "One Piece",
+          "Oda",
+          "Luffy"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "One Piece",
+        "Naruto",
+        "Dragon Ball",
+        "Bleach"
+      ],
+      "themes": [
+        "manga"
+      ]
+    },
+    {
+      "id": "pop-dragon-ball",
+      "sub": "bd",
+      "diff": 2,
+      "q": "Qui est le héros de Dragon Ball, d'Akira Toriyama ?",
+      "exp": "Dragon Ball (1984-1995), inspiré du roi des singes chinois, a contribué à populariser le manga en France via le Club Dorothée.",
+      "wiki": [
+        [
+          "Dragon Ball",
+          "Son Goku",
+          "Toriyama"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Son Goku",
+        "Naruto",
+        "Luffy",
+        "Astro"
+      ],
+      "themes": [
+        "manga"
+      ]
+    },
+    {
+      "id": "pop-pong",
+      "sub": "jeux-video",
+      "diff": 3,
+      "q": "Quel jeu vidéo d'Atari, simulant un match de tennis de table, lance l'industrie du jeu d'arcade en 1972 ?",
+      "exp": "Conçu par Allan Alcorn, Pong est l'un des premiers grands succès commerciaux du jeu vidéo.",
+      "wiki": [
+        [
+          "Pong",
+          "Atari",
+          "1972"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pong",
+        "Space Invaders",
+        "Pac-Man",
+        "Tetris"
+      ],
+      "themes": [
+        "histoire du jeu vidéo"
+      ]
+    },
+    {
+      "id": "pop-pacman",
+      "sub": "jeux-video",
+      "diff": 2,
+      "q": "Quel personnage jaune mange des pac-gommes en fuyant des fantômes ?",
+      "exp": "Sorti en 1980 par Namco, sa forme évoquerait une pizza à laquelle il manque une part.",
+      "wiki": [
+        [
+          "Pac-Man",
+          "1980",
+          "Namco"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pac-Man",
+        "Kirby",
+        "Mario",
+        "Sonic"
+      ],
+      "themes": [
+        "histoire du jeu vidéo"
+      ]
+    },
+    {
+      "id": "pop-sonic",
+      "sub": "jeux-video",
+      "diff": 2,
+      "q": "Quel hérisson bleu est la mascotte de Sega ?",
+      "exp": "Créé en 1991 pour concurrencer Mario, Sonic est réputé pour sa vitesse.",
+      "wiki": [
+        [
+          "Sonic the Hedgehog",
+          "Sega",
+          "1991"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sonic",
+        "Knuckles",
+        "Crash Bandicoot",
+        "Spyro"
+      ],
+      "themes": [
+        "mascottes"
+      ]
+    },
+    {
+      "id": "pop-zelda",
+      "sub": "jeux-video",
+      "diff": 2,
+      "q": "Comment s'appelle le héros de la série The Legend of Zelda ?",
+      "exp": "Erreur fréquente : Zelda est la princesse ; le héros vêtu de vert s'appelle Link.",
+      "wiki": [
+        [
+          "The Legend of Zelda",
+          "Link",
+          "princesse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Link",
+        "Zelda",
+        "Ganon",
+        "Navi"
+      ],
+      "themes": [
+        "Nintendo"
+      ]
+    },
+    {
+      "id": "pop-minecraft",
+      "sub": "jeux-video",
+      "diff": 2,
+      "q": "Quel jeu de construction à base de blocs est l'un des jeux vidéo les plus vendus de l'histoire ?",
+      "exp": "Créé par le Suédois Markus « Notch » Persson et sorti en 2011, il est racheté par Microsoft en 2014.",
+      "wiki": [
+        [
+          "Minecraft",
+          "Notch",
+          "2014"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Minecraft",
+        "Fortnite",
+        "Roblox",
+        "Les Sims"
+      ],
+      "themes": [
+        "jeux vidéo"
+      ]
+    },
+    {
+      "id": "pop-ubisoft",
+      "sub": "jeux-video",
+      "diff": 3,
+      "q": "Quelle entreprise française a créé les séries Assassin's Creed et Rayman ?",
+      "exp": "Fondée en Bretagne en 1986 par les frères Guillemot, Ubisoft est l'un des grands éditeurs mondiaux.",
+      "wiki": [
+        [
+          "Ubisoft",
+          "Guillemot",
+          "1986"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ubisoft",
+        "Quantic Dream",
+        "Dontnod",
+        "Gameloft"
+      ],
+      "themes": [
+        "jeux vidéo français"
+      ]
+    },
+    {
+      "id": "pop-game-boy",
+      "sub": "jeux-video",
+      "diff": 3,
+      "q": "Quel jeu était vendu avec la console portable Game Boy en 1989 ?",
+      "exp": "L'association Game Boy-Tetris a fait de la console un immense succès.",
+      "wiki": [
+        [
+          "Game Boy",
+          "Tetris",
+          "1989"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Tetris",
+        "Super Mario Land",
+        "Pokémon Rouge",
+        "Zelda"
+      ],
+      "themes": [
+        "consoles"
+      ],
+      "see": [
+        "pop-tetris"
+      ]
+    },
+    {
+      "id": "pop-playstation",
+      "sub": "jeux-video",
+      "diff": 2,
+      "q": "Quelle entreprise japonaise fabrique les consoles PlayStation ?",
+      "exp": "La première PlayStation sort en 1994 au Japon ; la Xbox est fabriquée par Microsoft.",
+      "wiki": [
+        [
+          "PlayStation",
+          "Sony",
+          "1994"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sony",
+        "Nintendo",
+        "Sega",
+        "Microsoft"
+      ],
+      "themes": [
+        "consoles"
+      ]
+    },
+    {
+      "id": "pop-pokemon-starters",
+      "sub": "jeux-video",
+      "diff": 3,
+      "q": "Lequel de ces Pokémon fait partie des trois de départ de la première génération ?",
+      "exp": "Les trois Pokémon de départ sont Bulbizarre, Salamèche et Carapuce.",
+      "wiki": [
+        [
+          "Bulbizarre",
+          "Salamèche",
+          "Carapuce"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bulbizarre",
+        "Pikachu",
+        "Évoli",
+        "Rondoudou"
+      ],
+      "themes": [
+        "Pokémon"
+      ],
+      "see": [
+        "pop-pikachu"
+      ]
+    },
+    {
+      "id": "pop-friends",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "Dans quelle ville se déroule la série Friends ?",
+      "exp": "Diffusée de 1994 à 2004, la série suit six amis qui se retrouvent au café Central Perk.",
+      "wiki": [
+        [
+          "Friends",
+          "New York",
+          "Central Perk"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Boston"
+      ],
+      "themes": [
+        "séries américaines"
+      ]
+    },
+    {
+      "id": "pop-game-thrones",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "Quelle série est adaptée des romans de George R. R. Martin, Le Trône de fer ?",
+      "exp": "Diffusée de 2011 à 2019 sur HBO, la série se déroule notamment sur le continent de Westeros.",
+      "wiki": [
+        [
+          "Game of Thrones",
+          "George R. R. Martin",
+          "Westeros"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Game of Thrones",
+        "The Witcher",
+        "Le Seigneur des anneaux",
+        "Vikings"
+      ],
+      "themes": [
+        "séries américaines"
+      ]
+    },
+    {
+      "id": "pop-breaking-bad",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Dans Breaking Bad, quel est le métier initial de Walter White ?",
+      "exp": "Atteint d'un cancer, il se met à fabriquer de la méthamphétamine ; la série est diffusée de 2008 à 2013.",
+      "wiki": [
+        [
+          "Breaking Bad",
+          "Walter White",
+          "chimie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Professeur de chimie",
+        "Pharmacien",
+        "Médecin",
+        "Policier"
+      ],
+      "themes": [
+        "séries américaines"
+      ]
+    },
+    {
+      "id": "pop-stranger-things",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Dans quelle petite ville fictive se déroule la série Stranger Things ?",
+      "exp": "La série de Netflix, lancée en 2016, se déroule dans l'Indiana des années 1980.",
+      "wiki": [
+        [
+          "Stranger Things",
+          "Hawkins",
+          "Indiana"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hawkins",
+        "Twin Peaks",
+        "Riverdale",
+        "Springfield"
+      ],
+      "themes": [
+        "séries américaines"
+      ]
+    },
+    {
+      "id": "pop-casa-papel",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "De quel pays vient la série La Casa de papel ?",
+      "exp": "Ses braqueurs portent des masques de Dalí et des combinaisons rouges ; « Bella ciao » y est devenu un hymne.",
+      "wiki": [
+        [
+          "La casa de papel",
+          "Espagne",
+          "Dalí"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Espagne",
+        "Le Mexique",
+        "L'Argentine",
+        "L'Italie"
+      ],
+      "themes": [
+        "séries européennes"
+      ]
+    },
+    {
+      "id": "pop-kaamelott",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "Quel créateur a imaginé la série française Kaamelott, parodie des légendes arthuriennes ?",
+      "exp": "Diffusée sur M6 de 2005 à 2009, la série a été prolongée au cinéma en 2021.",
+      "wiki": [
+        [
+          "Kaamelott",
+          "Alexandre Astier",
+          "M6"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alexandre Astier",
+        "Jamel Debbouze",
+        "Kad Merad",
+        "Gad Elmaleh"
+      ],
+      "themes": [
+        "séries françaises"
+      ],
+      "see": [
+        "myth-arthur"
+      ]
+    },
+    {
+      "id": "pop-lupin-serie",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Quel acteur incarne Assane Diop dans la série Lupin de Netflix ?",
+      "exp": "Sortie en 2021, la série a battu des records d'audience pour une production française sur Netflix.",
+      "wiki": [
+        [
+          "Lupin (série télévisée, 2021)",
+          "Omar Sy",
+          "Assane Diop",
+          "2021",
+          "Netflix"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Omar Sy",
+        "Jean Dujardin",
+        "Vincent Cassel",
+        "Pierre Niney"
+      ],
+      "themes": [
+        "séries françaises"
+      ],
+      "see": [
+        "lit-arsene-lupin"
+      ]
+    },
+    {
+      "id": "pop-hunger-games",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Comment s'appelle l'héroïne de la saga Hunger Games ?",
+      "exp": "Écrite par Suzanne Collins, la trilogie paraît à partir de 2008.",
+      "wiki": [
+        [
+          "Hunger Games",
+          "Suzanne Collins"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Katniss Everdeen",
+        "Hermione Granger",
+        "Tris Prior",
+        "Bella Swan"
+      ],
+      "themes": [
+        "sagas"
+      ]
+    },
+    {
+      "id": "pop-hogwarts-maisons",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "Laquelle de ces maisons ne fait pas partie de Poudlard dans Harry Potter ?",
+      "exp": "Les quatre maisons sont Gryffondor, Serpentard, Serdaigle et Poufsouffle.",
+      "wiki": [
+        [
+          "Poudlard",
+          "Gryffondor",
+          "Poufsouffle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dragonard",
+        "Gryffondor",
+        "Serdaigle",
+        "Poufsouffle"
+      ],
+      "themes": [
+        "Harry Potter"
+      ],
+      "see": [
+        "pop-harry-potter"
+      ]
+    },
+    {
+      "id": "pop-star-wars-pere",
+      "sub": "series-livres",
+      "diff": 1,
+      "q": "Quelle réplique célèbre Dark Vador adresse-t-il à Luke Skywalker dans L'Empire contre-attaque ?",
+      "exp": "On cite souvent à tort « Luke, je suis ton père » : dans la version originale, Vador dit « Non, je suis ton père ».",
+      "wiki": [
+        [
+          "Dark Vador",
+          "Je suis ton père",
+          "L'Empire contre-attaque"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« Je suis ton père »",
+        "« Que la Force soit avec toi »",
+        "« C'est un piège »",
+        "« J'ai un mauvais pressentiment »"
+      ],
+      "themes": [
+        "Star Wars"
+      ],
+      "see": [
+        "cine-star-wars"
+      ]
+    },
+    {
+      "id": "pop-sorcier-oz",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Quelle route Dorothy suit-elle dans Le Magicien d'Oz ?",
+      "exp": "Elle mène à la Cité d'émeraude ; le film de 1939 a rendu célèbre la chanson « Over the Rainbow ».",
+      "wiki": [
+        [
+          "Le Magicien d'Oz",
+          "Over the Rainbow"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La route de briques jaunes",
+        "La route de l'arc-en-ciel",
+        "Le chemin des étoiles",
+        "La route d'émeraude"
+      ],
+      "themes": [
+        "classiques"
+      ]
+    },
+    {
+      "id": "pop-disney-mickey",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "En quelle année Mickey Mouse apparaît-il dans Steamboat Willie ?",
+      "exp": "C'est l'un des premiers dessins animés avec son synchronisé ; il est entré dans le domaine public aux États-Unis en 2024.",
+      "wiki": [
+        [
+          "Steamboat Willie",
+          "1928",
+          "domaine public"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1928",
+        "1937",
+        "1919",
+        "1945"
+      ],
+      "themes": [
+        "Disney"
+      ]
+    },
+    {
+      "id": "pop-roi-lion",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "Comment s'appelle le lionceau héros du Roi lion de Disney (1994) ?",
+      "exp": "Mufasa est son père, Scar son oncle et Nala son amie ; « Hakuna Matata » signifie « pas de soucis » en swahili.",
+      "wiki": [
+        [
+          "Le Roi lion",
+          "Simba",
+          "Hakuna Matata"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Simba",
+        "Nala",
+        "Mufasa",
+        "Scar"
+      ],
+      "themes": [
+        "Disney"
+      ]
+    },
+    {
+      "id": "pop-reine-neiges",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Quel film Disney de 2013 a popularisé la chanson « Libérée, délivrée » ?",
+      "exp": "Inspiré d'un conte d'Andersen, c'est longtemps le film d'animation le plus rentable de l'histoire.",
+      "wiki": [
+        [
+          "La Reine des neiges",
+          "Andersen",
+          "2013"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Reine des neiges",
+        "Raiponce",
+        "Vaiana",
+        "Encanto"
+      ],
+      "themes": [
+        "Disney"
+      ]
+    },
+    {
+      "id": "pop-tele-annee",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "En quelle année la télévision publique française diffuse-t-elle sa première émission régulière ?",
+      "exp": "Le 26 avril 1935, une première émission officielle est diffusée depuis le ministère des PTT.",
+      "wiki": [
+        [
+          "Télévision en France",
+          "1935"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1935",
+        "1950",
+        "1925",
+        "1968"
+      ],
+      "themes": [
+        "télévision"
+      ]
+    },
+    {
+      "id": "pop-qui-veut-gagner",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Combien valait la plus haute marche de « Qui veut gagner des millions ? » en France ?",
+      "exp": "Lancée en 2000 et présentée par Jean-Pierre Foucault, l'émission propose quatre réponses et des jokers.",
+      "wiki": [
+        [
+          "Qui veut gagner des millions ?",
+          "Foucault",
+          "2000"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1 million d'euros (ou 3 millions de francs)",
+        "500 000 euros",
+        "100 000 euros",
+        "10 millions d'euros"
+      ],
+      "themes": [
+        "jeux télévisés"
+      ]
+    },
+    {
+      "id": "pop-questions-champion",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "Quel animateur a présenté « Questions pour un champion » pendant plus de trente ans ?",
+      "exp": "Lancé en 1988 sur France 3, le jeu a été présenté par Julien Lepers jusqu'en 2016, puis par Samuel Étienne.",
+      "wiki": [
+        [
+          "Questions pour un champion",
+          "Julien Lepers",
+          "1988"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Julien Lepers",
+        "Jean-Pierre Foucault",
+        "Nagui",
+        "Jacques Martin"
+      ],
+      "themes": [
+        "jeux télévisés"
+      ]
+    },
+    {
+      "id": "pop-chiffres-lettres",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Quel jeu télévisé français, créé en 1965, est l'un des plus anciens au monde ?",
+      "exp": "Créé par Armand Jammot, il a accompagné des générations de téléspectateurs avec son célèbre « Le compte est bon ».",
+      "wiki": [
+        [
+          "Des chiffres et des lettres",
+          "1965",
+          "Jammot"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Des chiffres et des lettres",
+        "Le Juste Prix",
+        "Pyramide",
+        "Fort Boyard"
+      ],
+      "themes": [
+        "jeux télévisés"
+      ]
+    },
+    {
+      "id": "pop-fort-boyard",
+      "sub": "series-livres",
+      "diff": 2,
+      "q": "Où se trouve le fort où est tourné le jeu Fort Boyard ?",
+      "exp": "Construit au XIXe siècle pour protéger l'arsenal de Rochefort, le fort sert de décor au jeu depuis 1990.",
+      "wiki": [
+        [
+          "Fort Boyard (monument)",
+          "Oléron",
+          "Rochefort"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Entre l'île d'Aix et l'île d'Oléron",
+        "Dans la rade de Brest",
+        "Au large de Saint-Malo",
+        "Dans la baie de Somme"
+      ],
+      "themes": [
+        "jeux télévisés"
+      ]
+    },
+    {
+      "id": "pop-club-dorothee",
+      "sub": "series-livres",
+      "diff": 4,
+      "q": "Sur quelle chaîne était diffusé le Club Dorothée de 1987 à 1997 ?",
+      "exp": "L'émission a fait découvrir de nombreux dessins animés japonais à toute une génération.",
+      "wiki": [
+        [
+          "Club Dorothée",
+          "TF1",
+          "1987"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "TF1",
+        "Antenne 2",
+        "La Cinq",
+        "M6"
+      ],
+      "themes": [
+        "télévision"
+      ],
+      "see": [
+        "pop-dragon-ball"
+      ]
+    },
+    {
+      "id": "pop-iznogoud",
+      "sub": "series-livres",
+      "diff": 4,
+      "q": "Quel vizir de bande dessinée veut « devenir calife à la place du calife » ?",
+      "exp": "Créé par René Goscinny et Jean Tabary en 1962, son nom est un jeu de mots sur « he is no good ».",
+      "wiki": [
+        [
+          "Iznogoud",
+          "calife",
+          "Goscinny"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Iznogoud",
+        "Abdallah",
+        "Achille Talon",
+        "Sinbad"
+      ],
+      "themes": [
+        "bande dessinée"
+      ]
+    },
+    {
+      "id": "pop-personnages-auteurs",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Associe chaque personnage de BD à son créateur.",
+      "exp": "Ces quatre auteurs belges sont des piliers de l'école franco-belge de bande dessinée.",
+      "wiki": [
+        [
+          "Hergé",
+          "Tintin"
+        ],
+        [
+          "Morris (dessinateur)",
+          "Lucky Luke"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Tintin",
+          "Hergé"
+        ],
+        [
+          "Gaston Lagaffe",
+          "Franquin"
+        ],
+        [
+          "Lucky Luke",
+          "Morris"
+        ],
+        [
+          "Les Schtroumpfs",
+          "Peyo"
+        ]
+      ],
+      "themes": [
+        "bande dessinée"
+      ],
+      "see": [
+        "pop-schtroumpfs"
+      ]
+    },
+    {
+      "id": "pop-mascottes-asso",
+      "sub": "series-livres",
+      "diff": 3,
+      "q": "Associe chaque mascotte de jeu vidéo à son éditeur.",
+      "exp": "Ces mascottes ont accompagné l'essor des consoles et des salles d'arcade.",
+      "wiki": [
+        [
+          "Rayman",
+          "Ubisoft"
+        ],
+        [
+          "Mario (personnage)",
+          "Nintendo"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Mario",
+          "Nintendo"
+        ],
+        [
+          "Sonic",
+          "Sega"
+        ],
+        [
+          "Pac-Man",
+          "Namco"
+        ],
+        [
+          "Rayman",
+          "Ubisoft"
+        ]
+      ],
+      "themes": [
+        "jeux vidéo"
+      ]
     }
   ]
 }

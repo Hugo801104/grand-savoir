@@ -285,6 +285,1301 @@
           "Beauvoir"
         ]
       ]
+    },
+    {
+      "id": "philo-connais-toi",
+      "sub": "antique",
+      "diff": 2,
+      "q": "Quelle maxime, inscrite au temple de Delphes, Socrate avait-il faite sienne ?",
+      "exp": "L'inscription du temple d'Apollon invite à reconnaître ses limites ; Socrate en fait le point de départ de la philosophie.",
+      "wiki": [
+        [
+          "Connais-toi toi-même",
+          "Delphes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« Connais-toi toi-même »",
+        "« Je pense, donc je suis »",
+        "« Carpe diem »",
+        "« L'homme est la mesure de toute chose »"
+      ],
+      "themes": [
+        "Socrate"
+      ]
+    },
+    {
+      "id": "philo-sais-rien",
+      "sub": "antique",
+      "diff": 2,
+      "q": "Quel philosophe est associé à la formule « Je sais que je ne sais rien » ?",
+      "exp": "La formule résume l'ironie socratique : reconnaître son ignorance est le début de la sagesse.",
+      "wiki": [
+        [
+          "Socrate",
+          "ignorance"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Socrate",
+        "Platon",
+        "Aristote",
+        "Diogène"
+      ],
+      "themes": [
+        "Socrate"
+      ],
+      "see": [
+        "philo-socrate"
+      ]
+    },
+    {
+      "id": "philo-academie",
+      "sub": "antique",
+      "diff": 3,
+      "q": "Quelle école Platon fonde-t-il à Athènes vers 387 av. J.-C. ?",
+      "exp": "L'Académie, qui a donné son nom aux institutions savantes, fonctionne pendant des siècles ; Aristote y étudie vingt ans.",
+      "wiki": [
+        [
+          "Académie de Platon",
+          "387"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Académie",
+        "Le Lycée",
+        "Le Portique",
+        "Le Jardin"
+      ],
+      "themes": [
+        "Platon"
+      ]
+    },
+    {
+      "id": "philo-lycee",
+      "sub": "antique",
+      "diff": 3,
+      "q": "Quel philosophe a fondé le Lycée à Athènes ?",
+      "exp": "Ses élèves sont appelés péripatéticiens, car il enseignait, dit-on, en marchant.",
+      "wiki": [
+        [
+          "Lycée (école philosophique)",
+          "péripatéticien"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Aristote",
+        "Platon",
+        "Épicure",
+        "Zénon de Citium"
+      ],
+      "themes": [
+        "Aristote"
+      ]
+    },
+    {
+      "id": "philo-aristote-animal",
+      "sub": "antique",
+      "diff": 3,
+      "q": "Quel philosophe a défini l'homme comme un « animal politique » ?",
+      "exp": "Dans Les Politiques, Aristote affirme que l'homme est fait pour vivre dans la cité.",
+      "wiki": [
+        [
+          "Aristote",
+          "animal politique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Aristote",
+        "Platon",
+        "Hobbes",
+        "Rousseau"
+      ],
+      "themes": [
+        "Aristote"
+      ]
+    },
+    {
+      "id": "philo-diogene",
+      "sub": "antique",
+      "diff": 3,
+      "q": "Quel philosophe cynique vivait, dit-on, dans un tonneau ?",
+      "exp": "À Alexandre le Grand qui lui demandait ce qu'il désirait, il aurait répondu : « Ôte-toi de mon soleil ».",
+      "wiki": [
+        [
+          "Diogène de Sinope",
+          "tonneau",
+          "Alexandre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Diogène de Sinope",
+        "Épicure",
+        "Zénon",
+        "Héraclite"
+      ],
+      "themes": [
+        "cynisme"
+      ]
+    },
+    {
+      "id": "philo-heraclite",
+      "sub": "antique",
+      "diff": 4,
+      "q": "Quel philosophe présocratique affirmait qu'« on ne se baigne jamais deux fois dans le même fleuve » ?",
+      "exp": "Pour Héraclite, tout change sans cesse ; il voit dans le devenir et les contraires la loi du monde.",
+      "wiki": [
+        [
+          "Héraclite",
+          "fleuve"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Héraclite",
+        "Parménide",
+        "Thalès",
+        "Démocrite"
+      ],
+      "themes": [
+        "présocratiques"
+      ]
+    },
+    {
+      "id": "philo-democrite",
+      "sub": "antique",
+      "diff": 4,
+      "q": "Quel philosophe grec a imaginé que la matière est faite de particules indivisibles, les atomes ?",
+      "exp": "Avec son maître Leucippe, Démocrite conçoit un monde fait d'atomes et de vide, plus de deux millénaires avant la physique moderne.",
+      "wiki": [
+        [
+          "Démocrite",
+          "atomes",
+          "Leucippe"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Démocrite",
+        "Héraclite",
+        "Pythagore",
+        "Empédocle"
+      ],
+      "themes": [
+        "présocratiques"
+      ]
+    },
+    {
+      "id": "philo-epicure",
+      "sub": "antique",
+      "diff": 3,
+      "q": "Quel philosophe voit dans le plaisir, compris comme absence de trouble, le but de la vie ?",
+      "exp": "Contrairement à l'idée reçue, l'épicurisme prône des plaisirs simples et mesurés, l'ataraxie.",
+      "wiki": [
+        [
+          "Épicure",
+          "ataraxie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Épicure",
+        "Zénon de Citium",
+        "Diogène",
+        "Sénèque"
+      ],
+      "themes": [
+        "épicurisme"
+      ]
+    },
+    {
+      "id": "philo-stoicisme",
+      "sub": "antique",
+      "diff": 3,
+      "q": "Quelle école de philosophie invite à distinguer ce qui dépend de nous de ce qui n'en dépend pas ?",
+      "exp": "Fondé par Zénon de Citium, le stoïcisme est illustré à Rome par Sénèque, Épictète et Marc Aurèle.",
+      "wiki": [
+        [
+          "Stoïcisme",
+          "Épictète",
+          "Marc Aurèle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le stoïcisme",
+        "L'épicurisme",
+        "Le scepticisme",
+        "Le cynisme"
+      ],
+      "themes": [
+        "stoïcisme"
+      ]
+    },
+    {
+      "id": "philo-marc-aurele",
+      "sub": "antique",
+      "diff": 3,
+      "q": "Quel empereur romain a écrit les Pensées pour moi-même ?",
+      "exp": "Rédigées en grec pendant ses campagnes, ces notes sont un classique de la sagesse stoïcienne.",
+      "wiki": [
+        [
+          "Marc Aurèle",
+          "Pensées"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marc Aurèle",
+        "Hadrien",
+        "Auguste",
+        "Julien"
+      ],
+      "themes": [
+        "stoïcisme"
+      ]
+    },
+    {
+      "id": "philo-saint-augustin",
+      "sub": "antique",
+      "diff": 4,
+      "q": "Quel penseur chrétien, évêque d'Hippone, a écrit Les Confessions ?",
+      "exp": "Écrites vers 400, Les Confessions racontent sa jeunesse et sa conversion ; c'est souvent vu comme la première autobiographie.",
+      "wiki": [
+        [
+          "Augustin d'Hippone",
+          "Confessions"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Saint Augustin",
+        "Saint Thomas d'Aquin",
+        "Saint Anselme",
+        "Boèce"
+      ],
+      "themes": [
+        "philosophie chrétienne"
+      ]
+    },
+    {
+      "id": "philo-thomas-aquin",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Quel théologien du XIIIe siècle a cherché à concilier la pensée d'Aristote et la foi chrétienne ?",
+      "exp": "Sa Somme théologique est un monument de la philosophie scolastique.",
+      "wiki": [
+        [
+          "Thomas d'Aquin",
+          "Aristote",
+          "Somme théologique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Thomas d'Aquin",
+        "Augustin d'Hippone",
+        "Pierre Abélard",
+        "Guillaume d'Ockham"
+      ],
+      "themes": [
+        "philosophie médiévale"
+      ]
+    },
+    {
+      "id": "philo-rasoir-ockham",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Quel principe recommande de ne pas multiplier les hypothèses sans nécessité ?",
+      "exp": "Attribué au franciscain Guillaume d'Ockham, ce principe d'économie est très utilisé en sciences.",
+      "wiki": [
+        [
+          "Rasoir d'Ockham",
+          "Guillaume d'Ockham"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le rasoir d'Ockham",
+        "Le pari de Pascal",
+        "Le doute méthodique",
+        "L'impératif catégorique"
+      ],
+      "themes": [
+        "logique"
+      ]
+    },
+    {
+      "id": "philo-pascal-pari",
+      "sub": "moderne",
+      "diff": 3,
+      "q": "Qu'est-ce que le « pari de Pascal » ?",
+      "exp": "Dans les Pensées, Pascal soutient qu'on a tout à gagner et peu à perdre à croire en Dieu.",
+      "wiki": [
+        [
+          "Pari de Pascal",
+          "Pensées"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un argument selon lequel il est raisonnable de parier sur l'existence de Dieu",
+        "Un problème de probabilités sur les jeux de dés",
+        "Un défi lancé à Descartes",
+        "Un pari sur la fin du monde"
+      ],
+      "themes": [
+        "Pascal"
+      ]
+    },
+    {
+      "id": "philo-roseau",
+      "sub": "moderne",
+      "diff": 2,
+      "q": "Qui a écrit « L'homme n'est qu'un roseau, le plus faible de la nature ; mais c'est un roseau pensant » ?",
+      "exp": "Cette pensée célèbre souligne à la fois la fragilité et la grandeur de l'être humain.",
+      "wiki": [
+        [
+          "Pensées (Pascal)",
+          "Pensées"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Blaise Pascal",
+        "René Descartes",
+        "Michel de Montaigne",
+        "Jean de La Fontaine"
+      ],
+      "themes": [
+        "Pascal"
+      ]
+    },
+    {
+      "id": "philo-discours-methode",
+      "sub": "moderne",
+      "diff": 3,
+      "q": "En quelle année Descartes publie-t-il le Discours de la méthode ?",
+      "exp": "Écrit en français et non en latin, il s'adresse à tous ceux qui usent de leur « bon sens ».",
+      "wiki": [
+        [
+          "Discours de la méthode",
+          "1637",
+          "bon sens"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1637",
+        "1580",
+        "1690",
+        "1781"
+      ],
+      "themes": [
+        "Descartes"
+      ],
+      "see": [
+        "philo-descartes"
+      ]
+    },
+    {
+      "id": "philo-hobbes-loup",
+      "sub": "moderne",
+      "diff": 3,
+      "q": "Quelle formule Hobbes reprend-il pour décrire l'état de nature ?",
+      "exp": "Sans État, la guerre de tous contre tous règne ; d'où la nécessité d'un pouvoir fort, le Léviathan.",
+      "wiki": [
+        [
+          "Thomas Hobbes",
+          "loup pour l'homme"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« L'homme est un loup pour l'homme »",
+        "« L'homme naît bon »",
+        "« L'enfer, c'est les autres »",
+        "« Dieu est mort »"
+      ],
+      "themes": [
+        "philosophie politique"
+      ],
+      "see": [
+        "philo-oeuvres"
+      ]
+    },
+    {
+      "id": "philo-locke",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Quel philosophe anglais compare l'esprit à la naissance à une « table rase » ?",
+      "exp": "Pour Locke, toutes nos idées viennent de l'expérience : c'est l'empirisme ; il a aussi théorisé la tolérance et le gouvernement limité.",
+      "wiki": [
+        [
+          "John Locke",
+          "table rase",
+          "empirisme"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "John Locke",
+        "David Hume",
+        "Thomas Hobbes",
+        "George Berkeley"
+      ],
+      "themes": [
+        "empirisme"
+      ]
+    },
+    {
+      "id": "philo-montesquieu-separation",
+      "sub": "moderne",
+      "diff": 2,
+      "q": "Quel philosophe des Lumières a théorisé la séparation des pouvoirs dans De l'esprit des lois ?",
+      "exp": "« Il faut que, par la disposition des choses, le pouvoir arrête le pouvoir » : exécutif, législatif et judiciaire doivent être séparés.",
+      "wiki": [
+        [
+          "De l'esprit des lois",
+          "Montesquieu",
+          "séparation des pouvoirs"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Montesquieu",
+        "Voltaire",
+        "Rousseau",
+        "Diderot"
+      ],
+      "themes": [
+        "philosophie politique"
+      ]
+    },
+    {
+      "id": "philo-rousseau-bon",
+      "sub": "moderne",
+      "diff": 3,
+      "q": "Quel philosophe soutient que l'homme naît bon et que la société le corrompt ?",
+      "exp": "Rousseau développe cette idée dans le Discours sur l'origine de l'inégalité (1755) ; il écrit aussi l'Émile sur l'éducation.",
+      "wiki": [
+        [
+          "Jean-Jacques Rousseau",
+          "Discours sur l'origine et les fondements de l'inégalité parmi les hommes",
+          "1755"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean-Jacques Rousseau",
+        "Thomas Hobbes",
+        "Voltaire",
+        "Machiavel"
+      ],
+      "themes": [
+        "Lumières"
+      ],
+      "see": [
+        "philo-rousseau"
+      ]
+    },
+    {
+      "id": "philo-voltaire-tolerance",
+      "sub": "moderne",
+      "diff": 3,
+      "q": "Quel ouvrage Voltaire publie-t-il en 1763 à la suite de l'affaire Calas ?",
+      "exp": "Il y défend la liberté de conscience contre le fanatisme religieux.",
+      "wiki": [
+        [
+          "Traité sur la tolérance",
+          "1763",
+          "Calas"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Traité sur la tolérance",
+        "Candide",
+        "Dictionnaire philosophique",
+        "Zadig"
+      ],
+      "themes": [
+        "Lumières"
+      ],
+      "see": [
+        "hf-affaire-calas"
+      ]
+    },
+    {
+      "id": "philo-kant-lumieres",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Quelle devise Kant donne-t-il aux Lumières dans son texte de 1784 ?",
+      "exp": "Pour Kant, les Lumières sont la sortie de l'homme hors de l'état de minorité dont il est lui-même responsable.",
+      "wiki": [
+        [
+          "Qu'est-ce que les Lumières ?",
+          "Sapere aude",
+          "1784"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« Sapere aude » (ose savoir)",
+        "« Carpe diem » (cueille le jour)",
+        "« Cogito ergo sum » (je pense donc je suis)",
+        "« Memento mori » (souviens-toi que tu mourras)"
+      ],
+      "themes": [
+        "Kant"
+      ]
+    },
+    {
+      "id": "philo-imperatif",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Comment Kant appelle-t-il la loi morale qui commande sans condition ?",
+      "exp": "« Agis seulement d'après la maxime grâce à laquelle tu peux vouloir en même temps qu'elle devienne une loi universelle. »",
+      "wiki": [
+        [
+          "Impératif catégorique",
+          "Kant"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'impératif catégorique",
+        "L'impératif hypothétique",
+        "Le contrat social",
+        "La volonté de puissance"
+      ],
+      "themes": [
+        "Kant",
+        "morale"
+      ]
+    },
+    {
+      "id": "philo-hume",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Quel philosophe écossais a critiqué l'idée de causalité, éveillant Kant de son « sommeil dogmatique » ?",
+      "exp": "Pour Hume, nous ne voyons jamais la causalité, seulement des successions habituelles d'événements.",
+      "wiki": [
+        [
+          "David Hume",
+          "causalité"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "David Hume",
+        "Adam Smith",
+        "John Locke",
+        "Thomas Reid"
+      ],
+      "themes": [
+        "empirisme"
+      ]
+    },
+    {
+      "id": "philo-spinoza-dieu",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Quel philosophe identifie Dieu et la Nature (« Deus sive Natura ») ?",
+      "exp": "Exclu de la communauté juive d'Amsterdam en 1656, Spinoza développe une philosophie de la joie et de la liberté.",
+      "wiki": [
+        [
+          "Baruch Spinoza",
+          "Deus sive Natura"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Baruch Spinoza",
+        "Leibniz",
+        "Descartes",
+        "Malebranche"
+      ],
+      "themes": [
+        "rationalisme"
+      ]
+    },
+    {
+      "id": "philo-leibniz",
+      "sub": "moderne",
+      "diff": 4,
+      "q": "Quel philosophe affirme que nous vivons dans « le meilleur des mondes possibles », idée moquée par Voltaire ?",
+      "exp": "Leibniz, aussi mathématicien (inventeur du calcul infinitésimal avec Newton), est la cible de Candide à travers Pangloss.",
+      "wiki": [
+        [
+          "Gottfried Wilhelm Leibniz",
+          "meilleur des mondes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Leibniz",
+        "Spinoza",
+        "Pascal",
+        "Malebranche"
+      ],
+      "themes": [
+        "rationalisme"
+      ],
+      "see": [
+        "lit-candide"
+      ]
+    },
+    {
+      "id": "philo-hegel",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel philosophe allemand est célèbre pour sa dialectique et sa Phénoménologie de l'esprit ?",
+      "exp": "Publiée en 1807, la Phénoménologie de l'esprit décrit le parcours de la conscience vers le savoir absolu.",
+      "wiki": [
+        [
+          "Georg Wilhelm Friedrich Hegel",
+          "Phénoménologie de l'esprit",
+          "1807"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hegel",
+        "Kant",
+        "Fichte",
+        "Schelling"
+      ],
+      "themes": [
+        "idéalisme allemand"
+      ]
+    },
+    {
+      "id": "philo-marx",
+      "sub": "contemporaine",
+      "diff": 2,
+      "q": "Qui a coécrit le Manifeste du Parti communiste en 1848 avec Karl Marx ?",
+      "exp": "Le Manifeste se termine par « Prolétaires de tous les pays, unissez-vous ! ».",
+      "wiki": [
+        [
+          "Manifeste du Parti communiste",
+          "Engels",
+          "1848"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Friedrich Engels",
+        "Lénine",
+        "Pierre-Joseph Proudhon",
+        "Mikhaïl Bakounine"
+      ],
+      "themes": [
+        "marxisme"
+      ]
+    },
+    {
+      "id": "philo-capital",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Comment s'intitule le grand ouvrage de Marx sur l'économie politique ?",
+      "exp": "Le premier livre du Capital paraît en 1867 ; il analyse l'exploitation du travail dans le capitalisme.",
+      "wiki": [
+        [
+          "Le Capital",
+          "Marx",
+          "1867"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Capital",
+        "La Richesse des nations",
+        "L'Idéologie allemande",
+        "Le Contrat social"
+      ],
+      "themes": [
+        "marxisme"
+      ]
+    },
+    {
+      "id": "philo-religion-opium",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Quel penseur a écrit que la religion est « l'opium du peuple » ?",
+      "exp": "La formule date de 1843-1844 ; pour Marx, la religion console d'une misère réelle sans la supprimer.",
+      "wiki": [
+        [
+          "Critique de la philosophie du droit de Hegel",
+          "opium",
+          "religion"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Karl Marx",
+        "Friedrich Nietzsche",
+        "Voltaire",
+        "Sigmund Freud"
+      ],
+      "themes": [
+        "marxisme"
+      ]
+    },
+    {
+      "id": "philo-dieu-mort",
+      "sub": "contemporaine",
+      "diff": 2,
+      "q": "Quel philosophe a proclamé « Dieu est mort » ?",
+      "exp": "La formule apparaît dans Le Gai Savoir (1882) : elle constate la fin des valeurs traditionnelles.",
+      "wiki": [
+        [
+          "Friedrich Nietzsche",
+          "Gai Savoir"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Friedrich Nietzsche",
+        "Karl Marx",
+        "Jean-Paul Sartre",
+        "Arthur Schopenhauer"
+      ],
+      "themes": [
+        "Nietzsche"
+      ],
+      "see": [
+        "philo-nietzsche"
+      ]
+    },
+    {
+      "id": "philo-schopenhauer",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel philosophe pessimiste a écrit Le Monde comme volonté et comme représentation ?",
+      "exp": "Pour Schopenhauer, la vie oscille « comme un pendule » entre la souffrance et l'ennui.",
+      "wiki": [
+        [
+          "Arthur Schopenhauer",
+          "volonté",
+          "représentation"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Arthur Schopenhauer",
+        "Friedrich Nietzsche",
+        "Søren Kierkegaard",
+        "Hegel"
+      ],
+      "themes": [
+        "philosophie allemande"
+      ]
+    },
+    {
+      "id": "philo-kierkegaard",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel penseur danois est souvent considéré comme le précurseur de l'existentialisme ?",
+      "exp": "Kierkegaard insiste sur l'angoisse, le choix et la foi de l'individu singulier.",
+      "wiki": [
+        [
+          "Søren Kierkegaard",
+          "existentialisme"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Søren Kierkegaard",
+        "Hans Christian Andersen",
+        "Niels Bohr",
+        "Martin Heidegger"
+      ],
+      "themes": [
+        "existentialisme"
+      ]
+    },
+    {
+      "id": "philo-freud",
+      "sub": "contemporaine",
+      "diff": 2,
+      "q": "Qui a fondé la psychanalyse ?",
+      "exp": "Le médecin viennois explore l'inconscient à partir des rêves et des lapsus ; L'Interprétation du rêve paraît en 1899-1900.",
+      "wiki": [
+        [
+          "Sigmund Freud",
+          "psychanalyse",
+          "inconscient"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sigmund Freud",
+        "Carl Gustav Jung",
+        "Jacques Lacan",
+        "Alfred Adler"
+      ],
+      "themes": [
+        "psychanalyse"
+      ]
+    },
+    {
+      "id": "philo-bergson",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel philosophe français reçoit le prix Nobel de littérature en 1927 ?",
+      "exp": "Bergson, penseur de la durée et de l'intuition, est l'un des philosophes les plus célèbres de son temps.",
+      "wiki": [
+        [
+          "Henri Bergson",
+          "Nobel",
+          "1927"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Henri Bergson",
+        "Jean-Paul Sartre",
+        "Albert Camus",
+        "Alain"
+      ],
+      "themes": [
+        "philosophie française"
+      ]
+    },
+    {
+      "id": "philo-heidegger",
+      "sub": "contemporaine",
+      "diff": 5,
+      "q": "Quel philosophe allemand a publié Être et Temps en 1927 ?",
+      "exp": "L'ouvrage interroge le sens de l'être ; son engagement nazi en 1933 reste très controversé.",
+      "wiki": [
+        [
+          "Être et Temps",
+          "Heidegger",
+          "1927"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Martin Heidegger",
+        "Edmund Husserl",
+        "Karl Jaspers",
+        "Hannah Arendt"
+      ],
+      "themes": [
+        "phénoménologie"
+      ]
+    },
+    {
+      "id": "philo-arendt",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Quelle philosophe a forgé l'expression « banalité du mal » après le procès Eichmann ?",
+      "exp": "Dans Eichmann à Jérusalem (1963), elle décrit un bureaucrate ordinaire plutôt qu'un monstre.",
+      "wiki": [
+        [
+          "Hannah Arendt",
+          "banalité du mal",
+          "Eichmann"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hannah Arendt",
+        "Simone Weil",
+        "Simone de Beauvoir",
+        "Rosa Luxemburg"
+      ],
+      "themes": [
+        "philosophie politique"
+      ]
+    },
+    {
+      "id": "philo-camus-sisyphe",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Quel mythe Albert Camus utilise-t-il pour illustrer l'absurde ?",
+      "exp": "« Il faut imaginer Sisyphe heureux », conclut Camus dans cet essai de 1942.",
+      "wiki": [
+        [
+          "Le Mythe de Sisyphe",
+          "Camus",
+          "1942"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le mythe de Sisyphe",
+        "Le mythe de Prométhée",
+        "Le mythe d'Icare",
+        "Le mythe d'Œdipe"
+      ],
+      "themes": [
+        "absurde"
+      ],
+      "see": [
+        "lit-camus"
+      ]
+    },
+    {
+      "id": "philo-foucault",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel philosophe a écrit Surveiller et punir (1975), sur la naissance de la prison ?",
+      "exp": "Foucault y analyse le pouvoir disciplinaire, à partir notamment du panoptique de Bentham.",
+      "wiki": [
+        [
+          "Surveiller et punir",
+          "Foucault",
+          "1975"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Michel Foucault",
+        "Gilles Deleuze",
+        "Pierre Bourdieu",
+        "Jacques Derrida"
+      ],
+      "themes": [
+        "philosophie française"
+      ]
+    },
+    {
+      "id": "philo-levi-strauss",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel anthropologue français a écrit Tristes Tropiques ?",
+      "exp": "Publié en 1955, le livre commence par « Je hais les voyages et les explorateurs » ; Lévi-Strauss est le père du structuralisme.",
+      "wiki": [
+        [
+          "Tristes Tropiques",
+          "Lévi-Strauss",
+          "1955"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Claude Lévi-Strauss",
+        "Marcel Mauss",
+        "Émile Durkheim",
+        "Pierre Bourdieu"
+      ],
+      "themes": [
+        "sciences humaines"
+      ]
+    },
+    {
+      "id": "philo-bourdieu",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel sociologue a développé les notions d'habitus et de capital culturel ?",
+      "exp": "Dans La Distinction (1979), il montre comment les goûts reflètent les positions sociales.",
+      "wiki": [
+        [
+          "Pierre Bourdieu",
+          "habitus",
+          "Distinction"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pierre Bourdieu",
+        "Émile Durkheim",
+        "Raymond Aron",
+        "Max Weber"
+      ],
+      "themes": [
+        "sociologie"
+      ]
+    },
+    {
+      "id": "philo-durkheim",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel sociologue français a étudié le suicide comme fait social en 1897 ?",
+      "exp": "Durkheim est considéré comme l'un des fondateurs de la sociologie en France.",
+      "wiki": [
+        [
+          "Émile Durkheim",
+          "Le Suicide",
+          "1897"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Émile Durkheim",
+        "Auguste Comte",
+        "Max Weber",
+        "Marcel Mauss"
+      ],
+      "themes": [
+        "sociologie"
+      ]
+    },
+    {
+      "id": "philo-comte",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel philosophe a fondé le positivisme et inventé le mot « sociologie » ?",
+      "exp": "Pour Comte, l'esprit humain passe par trois états : théologique, métaphysique et positif.",
+      "wiki": [
+        [
+          "Auguste Comte",
+          "positivisme",
+          "sociologie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Auguste Comte",
+        "Émile Durkheim",
+        "Henri de Saint-Simon",
+        "Ernest Renan"
+      ],
+      "themes": [
+        "positivisme"
+      ]
+    },
+    {
+      "id": "philo-tocqueville",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Qui a écrit De la démocratie en Amérique après un voyage aux États-Unis ?",
+      "exp": "Publié en 1835-1840, l'ouvrage analyse l'égalité des conditions et ses risques, comme la tyrannie de la majorité.",
+      "wiki": [
+        [
+          "De la démocratie en Amérique",
+          "Tocqueville",
+          "1835"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alexis de Tocqueville",
+        "Benjamin Constant",
+        "François Guizot",
+        "Raymond Aron"
+      ],
+      "themes": [
+        "philosophie politique"
+      ]
+    },
+    {
+      "id": "philo-adam-smith",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Quel économiste écossais a utilisé l'image de la « main invisible » du marché ?",
+      "exp": "Dans La Richesse des nations (1776), Smith pose les bases du libéralisme économique.",
+      "wiki": [
+        [
+          "Adam Smith",
+          "main invisible",
+          "1776"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Adam Smith",
+        "David Ricardo",
+        "John Maynard Keynes",
+        "Karl Marx"
+      ],
+      "themes": [
+        "économie"
+      ]
+    },
+    {
+      "id": "philo-keynes",
+      "sub": "contemporaine",
+      "diff": 4,
+      "q": "Quel économiste britannique a prôné l'intervention de l'État pour relancer l'économie en période de crise ?",
+      "exp": "Sa Théorie générale (1936) inspire les politiques de relance de l'après-guerre.",
+      "wiki": [
+        [
+          "John Maynard Keynes",
+          "Théorie générale",
+          "1936"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "John Maynard Keynes",
+        "Milton Friedman",
+        "Friedrich Hayek",
+        "Adam Smith"
+      ],
+      "themes": [
+        "économie"
+      ]
+    },
+    {
+      "id": "philo-courants-asso",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Associe chaque courant de pensée à un philosophe qui l'incarne.",
+      "exp": "L'utilitarisme cherche le plus grand bonheur du plus grand nombre ; Mill le développe après Bentham.",
+      "wiki": [
+        [
+          "Utilitarisme",
+          "Mill",
+          "Bentham"
+        ],
+        [
+          "Épictète",
+          "stoïcien"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Existentialisme",
+          "Sartre"
+        ],
+        [
+          "Empirisme",
+          "Hume"
+        ],
+        [
+          "Stoïcisme",
+          "Épictète"
+        ],
+        [
+          "Utilitarisme",
+          "John Stuart Mill"
+        ]
+      ],
+      "themes": [
+        "courants philosophiques"
+      ]
+    },
+    {
+      "id": "philo-citations-asso",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Associe chaque citation à son auteur.",
+      "exp": "Ces formules résument des idées majeures : le cogito, l'existentialisme, le féminisme et la mort des valeurs.",
+      "wiki": [
+        [
+          "Cogito ergo sum",
+          "Descartes"
+        ],
+        [
+          "Le Deuxième Sexe",
+          "Beauvoir"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "« Je pense, donc je suis »",
+          "Descartes"
+        ],
+        [
+          "« L'existence précède l'essence »",
+          "Sartre"
+        ],
+        [
+          "« On ne naît pas femme, on le devient »",
+          "Beauvoir"
+        ],
+        [
+          "« Dieu est mort »",
+          "Nietzsche"
+        ]
+      ],
+      "themes": [
+        "citations"
+      ]
+    },
+    {
+      "id": "philo-ordre",
+      "sub": "contemporaine",
+      "diff": 3,
+      "q": "Classe ces philosophes par ordre chronologique.",
+      "exp": "Ve siècle av. J.-C., XIIIe siècle, XVIIe siècle, XVIIIe siècle, XXe siècle.",
+      "wiki": [
+        [
+          "Thomas d'Aquin",
+          "XIIIe siècle"
+        ],
+        [
+          "Emmanuel Kant",
+          "1724"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "classement",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": [
+        "Socrate",
+        "Thomas d'Aquin",
+        "Descartes",
+        "Kant",
+        "Sartre"
+      ],
+      "themes": [
+        "histoire de la philosophie"
+      ]
     }
   ]
 }

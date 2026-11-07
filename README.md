@@ -79,8 +79,8 @@ tests/             tests automatisés (vitest)
 - **Vérification des sources** (`npm run content:verify-sources`) : chaque page citée est téléchargée et doit contenir
   les termes attendus (dates, noms). Une source inventée ou qui ne dit pas ce qu'on affirme est rejetée. Revérification
   complète chaque mois (workflow « Maintenance du contenu »), avec ticket automatique si quelque chose a changé.
-- Contenu initial : 176 questions, 15 catégories, 5 parcours découverte ; 213 sources vérifiées en ligne le
-  1er novembre 2026.
+- Contenu : 1 702 questions (dont 434 d'histoire de France), 15 catégories, 8 parcours découverte ;
+  1 789 sources vérifiées en ligne le 7 novembre 2026 (trace dans `content/verification.json`).
 
 ## Chaîne de traitement des signalements
 

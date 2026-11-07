@@ -319,6 +319,1691 @@
           "2024"
         ]
       ]
+    },
+    {
+      "id": "sport-rugby-origine",
+      "sub": "rugby",
+      "diff": 2,
+      "q": "Selon la légende, dans quelle ville anglaise le rugby est-il né en 1823 ?",
+      "exp": "William Webb Ellis aurait pris le ballon à la main lors d'un match de football au collège de Rugby ; le trophée de la Coupe du monde porte son nom.",
+      "wiki": [
+        [
+          "William Webb Ellis",
+          "Rugby",
+          "1823"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Rugby",
+        "Oxford",
+        "Cambridge",
+        "Twickenham"
+      ],
+      "themes": [
+        "histoire du rugby"
+      ]
+    },
+    {
+      "id": "sport-webb-ellis",
+      "sub": "rugby",
+      "diff": 2,
+      "q": "Comment s'appelle le trophée remis au vainqueur de la Coupe du monde de rugby ?",
+      "exp": "Il porte le nom de l'inventeur légendaire du rugby ; le bouclier de Brennus récompense le champion de France.",
+      "wiki": [
+        [
+          "Coupe du monde de rugby à XV",
+          "Webb Ellis"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La coupe Webb-Ellis",
+        "Le bouclier de Brennus",
+        "La coupe Calcutta",
+        "La Triple Couronne"
+      ],
+      "themes": [
+        "Coupe du monde"
+      ],
+      "see": [
+        "sport-rugby-origine"
+      ]
+    },
+    {
+      "id": "sport-brennus",
+      "sub": "rugby",
+      "diff": 2,
+      "q": "Quel trophée est remis au champion de France de rugby ?",
+      "exp": "Dessiné par Pierre de Coubertin et gravé par Charles Brennus, il est surnommé « le bout de bois ».",
+      "wiki": [
+        [
+          "Bouclier de Brennus",
+          "Coubertin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le bouclier de Brennus",
+        "La coupe Webb-Ellis",
+        "La Champions Cup",
+        "Le trophée Jules-Rimet"
+      ],
+      "themes": [
+        "Top 14"
+      ]
+    },
+    {
+      "id": "sport-premiere-cdm-rugby",
+      "sub": "rugby",
+      "diff": 3,
+      "q": "En quelle année a lieu la première Coupe du monde de rugby à XV ?",
+      "exp": "Organisée en Nouvelle-Zélande et en Australie, elle est remportée par la Nouvelle-Zélande face à la France en finale.",
+      "wiki": [
+        [
+          "Coupe du monde de rugby à XV 1987",
+          "Nouvelle-Zélande"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1987",
+        "1995",
+        "1971",
+        "1999"
+      ],
+      "themes": [
+        "Coupe du monde"
+      ]
+    },
+    {
+      "id": "sport-haka",
+      "sub": "rugby",
+      "diff": 1,
+      "q": "Comment s'appelle la danse guerrière maorie effectuée par les All Blacks avant leurs matchs ?",
+      "exp": "Le haka le plus connu, « Ka Mate », est d'origine maorie ; les Samoa (siva tau), les Fidji (cibi) et les Tonga (sipi tau) ont leurs propres danses.",
+      "wiki": [
+        [
+          "Haka",
+          "All Blacks",
+          "Ka Mate"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le haka",
+        "Le siva tau",
+        "Le cibi",
+        "Le sipi tau"
+      ],
+      "themes": [
+        "Nouvelle-Zélande"
+      ]
+    },
+    {
+      "id": "sport-all-blacks",
+      "sub": "rugby",
+      "diff": 1,
+      "q": "Quel est le surnom de l'équipe de Nouvelle-Zélande de rugby ?",
+      "exp": "Les Wallabies représentent l'Australie, les Springboks l'Afrique du Sud et les Pumas l'Argentine.",
+      "wiki": [
+        [
+          "Équipe de Nouvelle-Zélande de rugby à XV",
+          "All Blacks"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les All Blacks",
+        "Les Wallabies",
+        "Les Springboks",
+        "Les Pumas"
+      ],
+      "themes": [
+        "surnoms"
+      ]
+    },
+    {
+      "id": "sport-surnoms-rugby",
+      "sub": "rugby",
+      "diff": 3,
+      "q": "Associe chaque pays au surnom de son équipe de rugby.",
+      "exp": "Le XV de France est, lui, souvent appelé « les Bleus » ou « le XV de France ».",
+      "wiki": [
+        [
+          "Équipe d'Afrique du Sud de rugby à XV",
+          "Springboks"
+        ],
+        [
+          "Équipe d'Argentine de rugby à XV",
+          "Pumas"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Afrique du Sud",
+          "Springboks"
+        ],
+        [
+          "Australie",
+          "Wallabies"
+        ],
+        [
+          "Argentine",
+          "Pumas"
+        ],
+        [
+          "Fidji",
+          "Flying Fijians"
+        ]
+      ],
+      "themes": [
+        "surnoms"
+      ]
+    },
+    {
+      "id": "sport-grand-chelem-rugby",
+      "sub": "rugby",
+      "diff": 2,
+      "q": "Dans le Tournoi des Six Nations, que signifie réaliser un « Grand Chelem » ?",
+      "exp": "La France a réussi de nombreux Grands Chelems, dont celui de 2022.",
+      "wiki": [
+        [
+          "Grand Chelem (rugby à XV)",
+          "Tournoi des Six Nations"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gagner tous ses matchs du Tournoi",
+        "Battre les trois équipes britanniques",
+        "Ne concéder aucun essai",
+        "Marquer au moins un essai par match"
+      ],
+      "themes": [
+        "Tournoi des Six Nations"
+      ]
+    },
+    {
+      "id": "sport-cuillere-bois",
+      "sub": "rugby",
+      "diff": 3,
+      "q": "Quel trophée symbolique reçoit l'équipe qui perd tous ses matchs du Tournoi des Six Nations ?",
+      "exp": "L'expression vient d'une tradition de l'université de Cambridge, où le dernier recevait une cuillère en bois.",
+      "wiki": [
+        [
+          "Cuillère de bois",
+          "Tournoi des Six Nations"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La cuillère de bois",
+        "Le bonnet d'âne",
+        "La coupe Calcutta",
+        "Le bouclier de bois"
+      ],
+      "themes": [
+        "Tournoi des Six Nations"
+      ]
+    },
+    {
+      "id": "sport-calcutta",
+      "sub": "rugby",
+      "diff": 4,
+      "q": "Quel trophée est disputé chaque année entre l'Angleterre et l'Écosse ?",
+      "exp": "La coupe a été fabriquée en 1878 avec les roupies d'argent d'un club de rugby dissous à Calcutta.",
+      "wiki": [
+        [
+          "Calcutta Cup",
+          "1878"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Calcutta Cup",
+        "La Triple Couronne",
+        "Le trophée Giuseppe-Garibaldi",
+        "La coupe Millennium"
+      ],
+      "themes": [
+        "Tournoi des Six Nations"
+      ]
+    },
+    {
+      "id": "sport-garibaldi-trophee",
+      "sub": "rugby",
+      "diff": 4,
+      "q": "Quel trophée est remis au vainqueur du match France-Italie du Tournoi ?",
+      "exp": "Créé en 2007 pour le bicentenaire de la naissance de Garibaldi, qui a combattu pour la France en 1870.",
+      "wiki": [
+        [
+          "Trophée Giuseppe-Garibaldi",
+          "2007"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le trophée Giuseppe-Garibaldi",
+        "La Calcutta Cup",
+        "La coupe Millennium",
+        "Le trophée Auld Alliance"
+      ],
+      "themes": [
+        "Tournoi des Six Nations"
+      ]
+    },
+    {
+      "id": "sport-dupont",
+      "sub": "rugby",
+      "diff": 2,
+      "q": "Quel demi de mêlée français a été élu meilleur joueur du monde World Rugby en 2021 ?",
+      "exp": "Antoine Dupont, du Stade toulousain, devient aussi champion olympique de rugby à sept aux Jeux de Paris 2024.",
+      "wiki": [
+        [
+          "Antoine Dupont",
+          "2021",
+          "Toulouse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Antoine Dupont",
+        "Romain Ntamack",
+        "Fabien Galthié",
+        "Damian Penaud"
+      ],
+      "themes": [
+        "joueurs"
+      ]
+    },
+    {
+      "id": "sport-rugby-7-paris",
+      "sub": "rugby",
+      "diff": 3,
+      "q": "Quelle médaille l'équipe de France masculine de rugby à sept remporte-t-elle aux Jeux olympiques de Paris 2024 ?",
+      "exp": "Les Bleus battent les Fidji en finale au Stade de France, avec Antoine Dupont.",
+      "wiki": [
+        [
+          "Rugby à sept aux Jeux olympiques d'été de 2024",
+          "France",
+          "Fidji"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'or",
+        "L'argent",
+        "Le bronze",
+        "Aucune"
+      ],
+      "themes": [
+        "olympisme",
+        "rugby à sept"
+      ]
+    },
+    {
+      "id": "sport-stade-toulousain",
+      "sub": "rugby",
+      "diff": 3,
+      "q": "Quel club français a remporté le plus de titres de champion de France de rugby ?",
+      "exp": "Le Stade toulousain détient le record de Boucliers de Brennus et de titres en Coupe d'Europe.",
+      "wiki": [
+        [
+          "Stade toulousain",
+          "Brennus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Stade toulousain",
+        "Le Stade français",
+        "L'ASM Clermont",
+        "Le RC Toulon"
+      ],
+      "themes": [
+        "Top 14"
+      ],
+      "see": [
+        "sport-brennus"
+      ]
+    },
+    {
+      "id": "sport-ballon-ovale",
+      "sub": "rugby",
+      "diff": 2,
+      "q": "Au rugby, dans quel sens est-il interdit de faire une passe à la main ?",
+      "exp": "Une passe vers l'avant est un « en-avant » si le ballon est lâché ou passé vers la ligne adverse ; seul le pied permet de l'envoyer devant.",
+      "wiki": [
+        [
+          "Rugby à XV",
+          "en-avant",
+          "passe"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Vers l'avant",
+        "Vers l'arrière",
+        "Sur le côté",
+        "En l'air"
+      ],
+      "themes": [
+        "règles"
+      ],
+      "see": [
+        "sport-essai"
+      ]
+    },
+    {
+      "id": "sport-xv-poste-numero",
+      "sub": "rugby",
+      "diff": 3,
+      "q": "Quel numéro porte traditionnellement le demi de mêlée au rugby à XV ?",
+      "exp": "Le 9 est le demi de mêlée, le 10 le demi d'ouverture et le 15 l'arrière ; les 1 à 8 sont les avants.",
+      "wiki": [
+        [
+          "Demi de mêlée",
+          "9"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "9",
+        "10",
+        "15",
+        "1"
+      ],
+      "themes": [
+        "règles"
+      ]
+    },
+    {
+      "id": "sport-france-2018",
+      "sub": "football",
+      "diff": 1,
+      "q": "Contre quel pays la France remporte-t-elle la finale de la Coupe du monde 2018 ?",
+      "exp": "Le 15 juillet 2018 à Moscou, les Bleus de Didier Deschamps s'imposent 4-2.",
+      "wiki": [
+        [
+          "Finale de la Coupe du monde de football 2018",
+          "Croatie",
+          "4-2"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Croatie",
+        "La Belgique",
+        "L'Argentine",
+        "Le Brésil"
+      ],
+      "themes": [
+        "équipe de France"
+      ],
+      "see": [
+        "sport-france-98"
+      ]
+    },
+    {
+      "id": "sport-deschamps",
+      "sub": "football",
+      "diff": 2,
+      "q": "Qui est champion du monde de football à la fois comme joueur (1998) et comme sélectionneur (2018) avec la France ?",
+      "exp": "Il rejoint le Brésilien Mário Zagallo et l'Allemand Franz Beckenbauer, seuls à avoir réussi ce doublé.",
+      "wiki": [
+        [
+          "Didier Deschamps",
+          "1998",
+          "2018"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Didier Deschamps",
+        "Zinédine Zidane",
+        "Laurent Blanc",
+        "Aimé Jacquet"
+      ],
+      "themes": [
+        "équipe de France"
+      ]
+    },
+    {
+      "id": "sport-mondial-2022",
+      "sub": "football",
+      "diff": 2,
+      "q": "Quel pays remporte la Coupe du monde de football 2022 au Qatar, face à la France en finale ?",
+      "exp": "Après un match à 3-3, l'Argentine de Lionel Messi l'emporte aux tirs au but ; Kylian Mbappé marque un triplé.",
+      "wiki": [
+        [
+          "Coupe du monde de football 2022",
+          "Argentine",
+          "Mbappé"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Argentine",
+        "Le Brésil",
+        "Le Maroc",
+        "La Croatie"
+      ],
+      "themes": [
+        "Coupe du monde"
+      ]
+    },
+    {
+      "id": "sport-bresil-titres",
+      "sub": "football",
+      "diff": 2,
+      "q": "Quel pays a remporté le plus de Coupes du monde de football ?",
+      "exp": "Le Brésil compte cinq titres : 1958, 1962, 1970, 1994 et 2002.",
+      "wiki": [
+        [
+          "Équipe du Brésil de football",
+          "2002",
+          "cinq"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Brésil",
+        "L'Allemagne",
+        "L'Italie",
+        "L'Argentine"
+      ],
+      "themes": [
+        "Coupe du monde"
+      ]
+    },
+    {
+      "id": "sport-premiere-cdm-foot",
+      "sub": "football",
+      "diff": 3,
+      "q": "Quel pays organise et remporte la première Coupe du monde de football en 1930 ?",
+      "exp": "Créée à l'initiative du Français Jules Rimet, la compétition débute à Montevideo.",
+      "wiki": [
+        [
+          "Coupe du monde de football 1930",
+          "Uruguay",
+          "Rimet"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Uruguay",
+        "Le Brésil",
+        "L'Italie",
+        "L'Argentine"
+      ],
+      "themes": [
+        "Coupe du monde"
+      ]
+    },
+    {
+      "id": "sport-pele",
+      "sub": "football",
+      "diff": 2,
+      "q": "Quel joueur brésilien est le seul à avoir remporté trois Coupes du monde ?",
+      "exp": "Pelé est champion du monde en 1958, 1962 et 1970 ; il meurt en 2022.",
+      "wiki": [
+        [
+          "Pelé",
+          "1958",
+          "1970"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pelé",
+        "Ronaldo",
+        "Garrincha",
+        "Romário"
+      ],
+      "themes": [
+        "légendes"
+      ]
+    },
+    {
+      "id": "sport-maradona",
+      "sub": "football",
+      "diff": 3,
+      "q": "Comment a-t-on surnommé le but marqué de la main par Maradona contre l'Angleterre en 1986 ?",
+      "exp": "Dans le même match, Maradona marque aussi un but en dribblant une moitié de l'équipe anglaise, élu « but du siècle ».",
+      "wiki": [
+        [
+          "Main de Dieu",
+          "Maradona",
+          "1986"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La « main de Dieu »",
+        "Le « but du siècle »",
+        "La « tête d'or »",
+        "Le « coup du sombrero »"
+      ],
+      "themes": [
+        "légendes"
+      ]
+    },
+    {
+      "id": "sport-om-1993",
+      "sub": "football",
+      "diff": 2,
+      "q": "Quel club français a remporté la Ligue des champions en 1993 ?",
+      "exp": "L'OM bat l'AC Milan 1-0 à Munich grâce à un but de Basile Boli ; c'est le premier club français à remporter la compétition.",
+      "wiki": [
+        [
+          "Finale de la Ligue des champions de l'UEFA 1992-1993",
+          "Boli",
+          "Milan"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Olympique de Marseille",
+        "Le Paris Saint-Germain",
+        "L'AS Monaco",
+        "L'Olympique lyonnais"
+      ],
+      "themes": [
+        "clubs"
+      ]
+    },
+    {
+      "id": "sport-psg-2025",
+      "sub": "football",
+      "diff": 3,
+      "q": "Quel club parisien remporte pour la première fois la Ligue des champions en 2025 ?",
+      "exp": "Le PSG écrase l'Inter Milan 5-0 en finale à Munich, le 31 mai 2025.",
+      "wiki": [
+        [
+          "Finale de la Ligue des champions de l'UEFA 2024-2025",
+          "Inter",
+          "5-0"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Paris Saint-Germain",
+        "Le Paris FC",
+        "Le Red Star",
+        "Le Racing Club de France"
+      ],
+      "themes": [
+        "clubs"
+      ]
+    },
+    {
+      "id": "sport-onze-joueurs",
+      "sub": "football",
+      "diff": 2,
+      "q": "Combien de joueurs compte une équipe de football sur le terrain ?",
+      "exp": "Dix joueurs de champ et un gardien de but.",
+      "wiki": [
+        [
+          "Football",
+          "onze joueurs"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "11",
+        "10",
+        "12",
+        "9"
+      ],
+      "themes": [
+        "règles"
+      ]
+    },
+    {
+      "id": "sport-carton-rouge",
+      "sub": "football",
+      "diff": 1,
+      "q": "Que signifie un carton rouge au football ?",
+      "exp": "Les cartons jaune et rouge ont été introduits lors de la Coupe du monde 1970 ; deux jaunes valent un rouge.",
+      "wiki": [
+        [
+          "Carton rouge",
+          "expulsion"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'expulsion du joueur",
+        "Un simple avertissement",
+        "Un penalty",
+        "Un changement obligatoire"
+      ],
+      "themes": [
+        "règles"
+      ]
+    },
+    {
+      "id": "sport-zidane-coup-tete",
+      "sub": "football",
+      "diff": 3,
+      "q": "Contre quel pays Zinédine Zidane est-il expulsé pour un coup de tête lors de la finale de la Coupe du monde 2006 ?",
+      "exp": "Après son geste contre Marco Materazzi, la France s'incline aux tirs au but.",
+      "wiki": [
+        [
+          "Finale de la Coupe du monde de football 2006",
+          "Materazzi",
+          "Zidane"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Italie",
+        "Le Portugal",
+        "Le Brésil",
+        "L'Allemagne"
+      ],
+      "themes": [
+        "équipe de France"
+      ]
+    },
+    {
+      "id": "sport-euro-1984",
+      "sub": "football",
+      "diff": 3,
+      "q": "Quel joueur français marque neuf buts lors de l'Euro 1984 remporté par la France ?",
+      "exp": "Ce record de buts en une seule phase finale de l'Euro a longtemps tenu.",
+      "wiki": [
+        [
+          "Championnat d'Europe de football 1984",
+          "Platini",
+          "neuf"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Michel Platini",
+        "Jean Tigana",
+        "Alain Giresse",
+        "Luis Fernandez"
+      ],
+      "themes": [
+        "équipe de France"
+      ]
+    },
+    {
+      "id": "sport-messi-ballon-or",
+      "sub": "football",
+      "diff": 2,
+      "q": "Quel joueur argentin détient le record de Ballons d'or ?",
+      "exp": "Lionel Messi a remporté le trophée à huit reprises, de 2009 à 2023.",
+      "wiki": [
+        [
+          "Lionel Messi",
+          "Ballon d'or",
+          "huit"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Lionel Messi",
+        "Diego Maradona",
+        "Cristiano Ronaldo",
+        "Alfredo Di Stéfano"
+      ],
+      "themes": [
+        "légendes"
+      ],
+      "see": [
+        "sport-ballon-or-98"
+      ]
+    },
+    {
+      "id": "sport-grand-chelem-tennis",
+      "sub": "tennis",
+      "diff": 2,
+      "q": "Lequel de ces tournois ne fait PAS partie du Grand Chelem de tennis ?",
+      "exp": "Le Grand Chelem regroupe l'Open d'Australie, Roland-Garros, Wimbledon et l'US Open.",
+      "wiki": [
+        [
+          "Grand Chelem de tennis",
+          "Wimbledon",
+          "Open d'Australie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Masters de Monte-Carlo",
+        "Wimbledon",
+        "L'US Open",
+        "L'Open d'Australie"
+      ],
+      "themes": [
+        "Grand Chelem"
+      ]
+    },
+    {
+      "id": "sport-roland-garros-qui",
+      "sub": "tennis",
+      "diff": 3,
+      "q": "Qui était Roland Garros, qui a donné son nom au stade parisien ?",
+      "exp": "Pionnier de l'aviation, Roland Garros réalise en 1913 la première traversée de la Méditerranée en avion ; il meurt en combat aérien en 1918.",
+      "wiki": [
+        [
+          "Roland Garros",
+          "Méditerranée",
+          "1913"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un aviateur",
+        "Un joueur de tennis",
+        "Un président de la Fédération",
+        "Un architecte"
+      ],
+      "themes": [
+        "Roland-Garros"
+      ],
+      "see": [
+        "sport-terre-battue"
+      ]
+    },
+    {
+      "id": "sport-noah",
+      "sub": "tennis",
+      "diff": 2,
+      "q": "Quel est le dernier Français à avoir remporté Roland-Garros en simple messieurs, en 1983 ?",
+      "exp": "Sa victoire sur Mats Wilander reste un moment mythique du sport français.",
+      "wiki": [
+        [
+          "Yannick Noah",
+          "1983",
+          "Wilander"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Yannick Noah",
+        "Henri Leconte",
+        "Guy Forget",
+        "Jo-Wilfried Tsonga"
+      ],
+      "themes": [
+        "Roland-Garros"
+      ]
+    },
+    {
+      "id": "sport-pierce",
+      "sub": "tennis",
+      "diff": 3,
+      "q": "Quelle joueuse française remporte Roland-Garros en 2000 ?",
+      "exp": "Elle est la dernière Française à avoir gagné le simple dames à Roland-Garros ; Bartoli gagne Wimbledon en 2013.",
+      "wiki": [
+        [
+          "Mary Pierce",
+          "2000",
+          "Roland-Garros"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mary Pierce",
+        "Amélie Mauresmo",
+        "Marion Bartoli",
+        "Caroline Garcia"
+      ],
+      "themes": [
+        "Roland-Garros"
+      ]
+    },
+    {
+      "id": "sport-mousquetaires",
+      "sub": "tennis",
+      "diff": 4,
+      "q": "Quel surnom donnait-on aux quatre joueurs français qui dominent le tennis mondial à la fin des années 1920 ?",
+      "exp": "Lacoste, Borotra, Cochet et Brugnon remportent six Coupes Davis consécutives (1927-1932) ; le stade Roland-Garros est construit pour défendre le trophée.",
+      "wiki": [
+        [
+          "Quatre Mousquetaires",
+          "Coupe Davis",
+          "Lacoste"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Mousquetaires",
+        "Les Quatre Fantastiques",
+        "Les Chevaliers",
+        "Les Bleus de Coubertin"
+      ],
+      "themes": [
+        "histoire du tennis"
+      ]
+    },
+    {
+      "id": "sport-lacoste-crocodile",
+      "sub": "tennis",
+      "diff": 3,
+      "q": "Quel joueur de tennis français a donné son nom à une marque de vêtements au crocodile ?",
+      "exp": "Surnommé « l'Alligator », René Lacoste crée en 1933 la chemise brodée d'un crocodile.",
+      "wiki": [
+        [
+          "René Lacoste",
+          "crocodile",
+          "1933"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "René Lacoste",
+        "Jean Borotra",
+        "Henri Cochet",
+        "Yannick Noah"
+      ],
+      "themes": [
+        "histoire du tennis"
+      ]
+    },
+    {
+      "id": "sport-djokovic",
+      "sub": "tennis",
+      "diff": 3,
+      "q": "Quel joueur détient le record masculin de titres en Grand Chelem en simple, avec 24 trophées ?",
+      "exp": "Djokovic atteint 24 titres en 2023 ; Nadal en compte 22 et Federer 20.",
+      "wiki": [
+        [
+          "Novak Djokovic",
+          "24"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Novak Djokovic",
+        "Rafael Nadal",
+        "Roger Federer",
+        "Pete Sampras"
+      ],
+      "themes": [
+        "records"
+      ],
+      "see": [
+        "sport-nadal"
+      ]
+    },
+    {
+      "id": "sport-wimbledon-surface",
+      "sub": "tennis",
+      "diff": 1,
+      "q": "Sur quelle surface se joue le tournoi de Wimbledon ?",
+      "exp": "Wimbledon, le plus ancien tournoi du Grand Chelem (1877), impose aussi une tenue presque entièrement blanche.",
+      "wiki": [
+        [
+          "Tournoi de Wimbledon",
+          "gazon",
+          "1877"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le gazon",
+        "La terre battue",
+        "Le dur",
+        "La moquette"
+      ],
+      "themes": [
+        "Grand Chelem"
+      ]
+    },
+    {
+      "id": "sport-tennis-score",
+      "sub": "tennis",
+      "diff": 2,
+      "q": "Au tennis, comment s'appelle une égalité à 40-40 ?",
+      "exp": "Il faut alors gagner deux points d'affilée : le premier donne l'« avantage », le second le jeu.",
+      "wiki": [
+        [
+          "Tennis",
+          "égalité",
+          "avantage"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Égalité",
+        "Avantage",
+        "Deuce-break",
+        "Jeu blanc"
+      ],
+      "themes": [
+        "règles"
+      ]
+    },
+    {
+      "id": "sport-jo-anneaux-couleurs",
+      "sub": "olympisme",
+      "diff": 2,
+      "q": "Laquelle de ces couleurs ne figure pas sur les anneaux olympiques ?",
+      "exp": "Les anneaux sont bleu, jaune, noir, vert et rouge, sur fond blanc.",
+      "wiki": [
+        [
+          "Drapeau olympique",
+          "bleu",
+          "jaune"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le violet",
+        "Le jaune",
+        "Le vert",
+        "Le bleu"
+      ],
+      "themes": [
+        "symboles"
+      ],
+      "see": [
+        "sport-anneaux"
+      ]
+    },
+    {
+      "id": "sport-jo-devise",
+      "sub": "olympisme",
+      "diff": 3,
+      "q": "Quelle est la devise olympique originale ?",
+      "exp": "« Plus vite, plus haut, plus fort » ; le CIO y a ajouté « Communiter » (ensemble) en 2021.",
+      "wiki": [
+        [
+          "Devise olympique",
+          "Citius",
+          "Communiter"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Citius, Altius, Fortius",
+        "Veni, vidi, vici",
+        "Mens sana in corpore sano",
+        "Fluctuat nec mergitur"
+      ],
+      "themes": [
+        "symboles"
+      ]
+    },
+    {
+      "id": "sport-flamme",
+      "sub": "olympisme",
+      "diff": 3,
+      "q": "Dans quelle ville grecque la flamme olympique est-elle allumée avant chaque Jeux ?",
+      "exp": "Elle est allumée grâce aux rayons du Soleil concentrés par un miroir parabolique, avant un long relais.",
+      "wiki": [
+        [
+          "Flamme olympique",
+          "Olympie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Olympie",
+        "Athènes",
+        "Delphes",
+        "Sparte"
+      ],
+      "themes": [
+        "symboles"
+      ]
+    },
+    {
+      "id": "sport-jo-hiver-france",
+      "sub": "olympisme",
+      "diff": 3,
+      "q": "Quelles villes françaises ont accueilli les Jeux olympiques d'hiver ?",
+      "exp": "Chamonix accueille les premiers Jeux d'hiver en 1924, puis Grenoble en 1968 et Albertville en 1992 ; les Alpes françaises sont désignées pour 2030.",
+      "wiki": [
+        [
+          "Jeux olympiques d'hiver",
+          "Chamonix",
+          "Albertville"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Chamonix, Grenoble et Albertville",
+        "Chamonix, Val-d'Isère et Courchevel",
+        "Grenoble, Annecy et Chamonix",
+        "Albertville, Méribel et Tignes"
+      ],
+      "themes": [
+        "Jeux d'hiver"
+      ]
+    },
+    {
+      "id": "sport-killy",
+      "sub": "olympisme",
+      "diff": 3,
+      "q": "Quel skieur français remporte trois médailles d'or aux Jeux de Grenoble en 1968 ?",
+      "exp": "Il gagne la descente, le slalom géant et le slalom ; il co-présidera ensuite les Jeux d'Albertville.",
+      "wiki": [
+        [
+          "Jean-Claude Killy",
+          "Grenoble",
+          "1968"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean-Claude Killy",
+        "Franck Piccard",
+        "Luc Alphand",
+        "Alexis Pinturault"
+      ],
+      "themes": [
+        "Jeux d'hiver"
+      ]
+    },
+    {
+      "id": "sport-marchand",
+      "sub": "olympisme",
+      "diff": 2,
+      "q": "Quel nageur français remporte quatre médailles d'or individuelles aux Jeux de Paris 2024 ?",
+      "exp": "Il gagne le 200 m papillon, le 200 m brasse, le 200 m et le 400 m quatre nages.",
+      "wiki": [
+        [
+          "Léon Marchand",
+          "2024",
+          "quatre nages"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Léon Marchand",
+        "Florent Manaudou",
+        "Yannick Agnel",
+        "Maxime Grousset"
+      ],
+      "themes": [
+        "natation"
+      ]
+    },
+    {
+      "id": "sport-phelps",
+      "sub": "olympisme",
+      "diff": 2,
+      "q": "Quel nageur américain détient le record de médailles d'or olympiques ?",
+      "exp": "Michael Phelps a remporté 23 médailles d'or et 28 médailles au total de 2004 à 2016.",
+      "wiki": [
+        [
+          "Michael Phelps",
+          "23",
+          "28"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Michael Phelps",
+        "Mark Spitz",
+        "Ryan Lochte",
+        "Ian Thorpe"
+      ],
+      "themes": [
+        "records"
+      ]
+    },
+    {
+      "id": "sport-bolt",
+      "sub": "olympisme",
+      "diff": 1,
+      "q": "Quel sprinteur jamaïcain détient le record du monde du 100 mètres ?",
+      "exp": "Usain Bolt court le 100 m en 9 s 58 à Berlin en 2009, un record toujours valable au moment de cette vérification.",
+      "wiki": [
+        [
+          "Usain Bolt",
+          "2009"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Usain Bolt",
+        "Carl Lewis",
+        "Asafa Powell",
+        "Tyson Gay"
+      ],
+      "themes": [
+        "athlétisme"
+      ]
+    },
+    {
+      "id": "sport-perec",
+      "sub": "olympisme",
+      "diff": 3,
+      "q": "Quelle athlète française remporte le 200 m et le 400 m aux Jeux d'Atlanta en 1996 ?",
+      "exp": "Elle est la seule Française triple championne olympique en athlétisme individuel (400 m en 1992 et doublé en 1996).",
+      "wiki": [
+        [
+          "Marie-José Pérec",
+          "Atlanta",
+          "1996"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marie-José Pérec",
+        "Christine Arron",
+        "Muriel Hurtis",
+        "Eunice Barber"
+      ],
+      "themes": [
+        "athlétisme"
+      ]
+    },
+    {
+      "id": "sport-jo-ordre",
+      "sub": "olympisme",
+      "diff": 3,
+      "q": "Classe ces Jeux olympiques d'été selon leur date.",
+      "exp": "Berlin 1936, Mexico 1968, Moscou 1980, Sydney 2000, Londres 2012.",
+      "wiki": [
+        [
+          "Jeux olympiques d'été de 1936",
+          "Berlin"
+        ],
+        [
+          "Jeux olympiques d'été de 1968",
+          "Mexico"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "classement",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": [
+        "Berlin",
+        "Mexico",
+        "Moscou",
+        "Sydney",
+        "Londres"
+      ],
+      "themes": [
+        "olympisme"
+      ]
+    },
+    {
+      "id": "sport-hinault-merckx",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Combien de Tours de France ont remporté Jacques Anquetil, Eddy Merckx, Bernard Hinault et Miguel Indurain ?",
+      "exp": "Ces quatre coureurs détiennent le record de cinq victoires ; les sept titres de Lance Armstrong lui ont été retirés pour dopage.",
+      "wiki": [
+        [
+          "Tour de France",
+          "cinq victoires",
+          "Hinault"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Cinq chacun",
+        "Quatre chacun",
+        "Six chacun",
+        "Sept chacun"
+      ],
+      "themes": [
+        "cyclisme"
+      ],
+      "see": [
+        "sport-tour-de-france"
+      ]
+    },
+    {
+      "id": "sport-maillot-pois",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Quel maillot distingue le meilleur grimpeur du Tour de France ?",
+      "exp": "Le maillot jaune revient au leader du classement général, le vert au meilleur sprinteur et le blanc au meilleur jeune.",
+      "wiki": [
+        [
+          "Maillot à pois",
+          "grimpeur"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le maillot à pois",
+        "Le maillot vert",
+        "Le maillot blanc",
+        "Le maillot jaune"
+      ],
+      "themes": [
+        "cyclisme"
+      ]
+    },
+    {
+      "id": "sport-tour-arrivee",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Sur quelle avenue se termine traditionnellement le Tour de France ?",
+      "exp": "L'arrivée sur les Champs-Élysées est une tradition depuis 1975 ; en 2024, en raison des Jeux, le Tour s'achève à Nice.",
+      "wiki": [
+        [
+          "Tour de France",
+          "Champs-Élysées",
+          "1975"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Champs-Élysées",
+        "L'avenue Foch",
+        "Le boulevard Saint-Germain",
+        "La promenade des Anglais"
+      ],
+      "themes": [
+        "cyclisme"
+      ]
+    },
+    {
+      "id": "sport-vendee-globe",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Quelle course à la voile se dispute en solitaire, sans escale et sans assistance autour du monde ?",
+      "exp": "Le départ est donné aux Sables-d'Olonne tous les quatre ans ; la Route du Rhum relie Saint-Malo à la Guadeloupe.",
+      "wiki": [
+        [
+          "Vendée Globe",
+          "Sables-d'Olonne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Vendée Globe",
+        "La Route du Rhum",
+        "La Transat Jacques-Vabre",
+        "La Solitaire du Figaro"
+      ],
+      "themes": [
+        "voile"
+      ]
+    },
+    {
+      "id": "sport-tabarly",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Quel navigateur français remporte la Transat anglaise en solitaire en 1964 sur Pen Duick II ?",
+      "exp": "Sa victoire déclenche l'engouement des Français pour la course au large ; il disparaît en mer en 1998.",
+      "wiki": [
+        [
+          "Éric Tabarly",
+          "Pen Duick",
+          "1964"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Éric Tabarly",
+        "Alain Colas",
+        "Florence Arthaud",
+        "Olivier de Kersauson"
+      ],
+      "themes": [
+        "voile"
+      ]
+    },
+    {
+      "id": "sport-24h-mans",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Quelle célèbre course automobile d'endurance se court chaque année dans la Sarthe ?",
+      "exp": "Créée en 1923, la course se déroule sur le circuit de la Sarthe, en partie sur routes ouvertes le reste de l'année.",
+      "wiki": [
+        [
+          "24 Heures du Mans",
+          "1923",
+          "Sarthe"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les 24 Heures du Mans",
+        "Le Grand Prix de Monaco",
+        "Le Rallye Monte-Carlo",
+        "Le Bol d'or"
+      ],
+      "themes": [
+        "sport automobile"
+      ]
+    },
+    {
+      "id": "sport-prost",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Quel pilote français a été quatre fois champion du monde de Formule 1 ?",
+      "exp": "Surnommé « le Professeur », Alain Prost est sacré en 1985, 1986, 1989 et 1993.",
+      "wiki": [
+        [
+          "Alain Prost",
+          "1985",
+          "1993"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alain Prost",
+        "Jean Alesi",
+        "Didier Pironi",
+        "Pierre Gasly"
+      ],
+      "themes": [
+        "sport automobile"
+      ]
+    },
+    {
+      "id": "sport-schumacher-hamilton",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Quels pilotes partagent le record de sept titres de champion du monde de Formule 1 ?",
+      "exp": "Schumacher compte sept titres (1994-2004) et Hamilton égale ce record en 2020.",
+      "wiki": [
+        [
+          "Lewis Hamilton",
+          "sept titres",
+          "Schumacher"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Michael Schumacher et Lewis Hamilton",
+        "Ayrton Senna et Alain Prost",
+        "Sebastian Vettel et Max Verstappen",
+        "Juan Manuel Fangio et Niki Lauda"
+      ],
+      "themes": [
+        "sport automobile"
+      ]
+    },
+    {
+      "id": "sport-basket-jordan",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Avec quelle équipe Michael Jordan remporte-t-il six titres NBA ?",
+      "exp": "Il gagne avec les Bulls en 1991-1993 puis en 1996-1998.",
+      "wiki": [
+        [
+          "Michael Jordan",
+          "Chicago Bulls",
+          "six"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Chicago Bulls",
+        "Les Los Angeles Lakers",
+        "Les Boston Celtics",
+        "Les Washington Wizards"
+      ],
+      "themes": [
+        "basket-ball"
+      ]
+    },
+    {
+      "id": "sport-wembanyama",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Quel basketteur français est élu meilleur débutant (rookie) de la NBA en 2024 ?",
+      "exp": "Premier choix de la draft 2023 avec les San Antonio Spurs, il mesure plus de 2,20 m.",
+      "wiki": [
+        [
+          "Victor Wembanyama",
+          "2024",
+          "Spurs"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Victor Wembanyama",
+        "Tony Parker",
+        "Rudy Gobert",
+        "Evan Fournier"
+      ],
+      "themes": [
+        "basket-ball"
+      ]
+    },
+    {
+      "id": "sport-parker",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Avec quelle équipe Tony Parker remporte-t-il quatre titres NBA ?",
+      "exp": "Il est élu meilleur joueur des finales en 2007, une première pour un Européen.",
+      "wiki": [
+        [
+          "Tony Parker",
+          "2007"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les San Antonio Spurs",
+        "Les Chicago Bulls",
+        "Les Miami Heat",
+        "Les Los Angeles Lakers"
+      ],
+      "themes": [
+        "basket-ball"
+      ]
+    },
+    {
+      "id": "sport-handball-france",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Quel surnom porte l'équipe de France masculine de handball, multiple championne du monde ?",
+      "exp": "Avant eux, l'équipe des années 1990 était surnommée les Barjots ; les Experts dominent le handball mondial dans les années 2000-2010.",
+      "wiki": [
+        [
+          "Équipe de France masculine de handball",
+          "Experts",
+          "Barjots"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Experts",
+        "Les Barjots",
+        "Les Costauds",
+        "Les Bleus du Nord"
+      ],
+      "themes": [
+        "handball"
+      ]
+    },
+    {
+      "id": "sport-golf-trous",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Combien de trous compte un parcours de golf standard ?",
+      "exp": "La tradition des 18 trous vient du parcours de St Andrews, en Écosse, berceau du golf.",
+      "wiki": [
+        [
+          "Golf",
+          "18 trous",
+          "St Andrews"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "18",
+        "9",
+        "12",
+        "24"
+      ],
+      "themes": [
+        "golf"
+      ]
+    },
+    {
+      "id": "sport-echecs-pieces",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Combien de pièces chaque joueur a-t-il au début d'une partie d'échecs ?",
+      "exp": "Un roi, une dame, deux tours, deux fous, deux cavaliers et huit pions.",
+      "wiki": [
+        [
+          "Échecs",
+          "seize pièces",
+          "pions"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "16",
+        "12",
+        "20",
+        "32"
+      ],
+      "themes": [
+        "jeux"
+      ]
+    },
+    {
+      "id": "sport-judo-ceinture",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Quelle couleur de ceinture désigne les plus hauts grades au judo, au-delà de la noire ?",
+      "exp": "Après la ceinture noire et ses premiers dans, les très hauts grades portent une ceinture rouge et blanche, puis rouge.",
+      "wiki": [
+        [
+          "Ceinture noire (arts martiaux)",
+          "judo",
+          "rouge"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le rouge et blanc puis le rouge",
+        "Le violet",
+        "L'or",
+        "Le bleu marine"
+      ],
+      "themes": [
+        "judo"
+      ],
+      "see": [
+        "sport-riner"
+      ]
+    },
+    {
+      "id": "sport-boxe-ali",
+      "sub": "autres-sports",
+      "diff": 2,
+      "q": "Quel boxeur a déclaré « Je vole comme le papillon, je pique comme l'abeille » ?",
+      "exp": "Né Cassius Clay, il refuse d'aller au Vietnam en 1967 et perd sa licence ; il redevient champion en 1974.",
+      "wiki": [
+        [
+          "Mohamed Ali",
+          "papillon",
+          "abeille"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mohamed Ali",
+        "Mike Tyson",
+        "Joe Frazier",
+        "George Foreman"
+      ],
+      "themes": [
+        "boxe"
+      ]
+    },
+    {
+      "id": "sport-ski-mondial-france",
+      "sub": "autres-sports",
+      "diff": 3,
+      "q": "Quel sportif français a remporté sept fois le classement général de la Coupe du monde de biathlon ?",
+      "exp": "Martin Fourcade remporte sept gros globes consécutifs de 2012 à 2018 et cinq titres olympiques.",
+      "wiki": [
+        [
+          "Martin Fourcade",
+          "gros globe",
+          "biathlon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Martin Fourcade",
+        "Jean-Claude Killy",
+        "Alexis Pinturault",
+        "Raphaël Poirée"
+      ],
+      "themes": [
+        "sports d'hiver"
+      ]
     }
   ]
 }

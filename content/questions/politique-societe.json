@@ -4,83 +4,1585 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "pol-ve-republique", "sub": "institutions", "diff": 1, "themes": ["Constitution", "Cinquième République"],
+      "id": "pol-ve-republique",
+      "sub": "institutions",
+      "diff": 1,
+      "themes": [
+        "Constitution",
+        "Cinquième République"
+      ],
       "q": "En quelle année la Constitution de la Ve République est-elle adoptée ?",
-      "choices": ["1958", "1946", "1962", "1968"],
+      "choices": [
+        "1958",
+        "1946",
+        "1962",
+        "1968"
+      ],
       "exp": "Approuvée par référendum le 28 septembre 1958, elle est promulguée le 4 octobre 1958. Depuis 1962, le président est élu au suffrage universel direct.",
-      "see": ["hf-republiques", "pol-quinquennat"],
-      "wiki": [["Constitution française du 4 octobre 1958", "1958", "référendum"]]
+      "see": [
+        "hf-republiques",
+        "pol-quinquennat"
+      ],
+      "wiki": [
+        [
+          "Constitution française du 4 octobre 1958",
+          "1958",
+          "référendum"
+        ]
+      ]
     },
     {
-      "id": "pol-quinquennat", "sub": "institutions", "diff": 2, "themes": ["Président de la République"],
+      "id": "pol-quinquennat",
+      "sub": "institutions",
+      "diff": 2,
+      "themes": [
+        "Président de la République"
+      ],
       "q": "Depuis l'élection de 2002, quelle est la durée du mandat du président de la République française ?",
-      "choices": ["5 ans", "7 ans", "4 ans", "6 ans"],
+      "choices": [
+        "5 ans",
+        "7 ans",
+        "4 ans",
+        "6 ans"
+      ],
       "exp": "Le quinquennat a été adopté par référendum en 2000 et s'applique depuis l'élection de 2002. Auparavant, le mandat était de sept ans (septennat). Depuis 2008, nul ne peut exercer plus de deux mandats consécutifs.",
-      "wiki": [["Président de la République française", "cinq ans", "2000"]]
+      "wiki": [
+        [
+          "Président de la République française",
+          "cinq ans",
+          "2000"
+        ]
+      ]
     },
     {
-      "id": "pol-senat", "sub": "institutions", "diff": 2, "themes": ["Parlement", "Paris"],
+      "id": "pol-senat",
+      "sub": "institutions",
+      "diff": 2,
+      "themes": [
+        "Parlement",
+        "Paris"
+      ],
       "q": "Dans quel palais parisien siège le Sénat ?",
-      "choices": ["Le palais du Luxembourg", "Le palais Bourbon", "Le palais de l'Élysée", "L'hôtel Matignon"],
+      "choices": [
+        "Le palais du Luxembourg",
+        "Le palais Bourbon",
+        "Le palais de l'Élysée",
+        "L'hôtel Matignon"
+      ],
       "exp": "Le Sénat siège au palais du Luxembourg ; l'Assemblée nationale au palais Bourbon ; le président à l'Élysée ; le Premier ministre à Matignon.",
-      "wiki": [["Palais du Luxembourg", "Sénat"]]
+      "wiki": [
+        [
+          "Palais du Luxembourg",
+          "Sénat"
+        ]
+      ]
     },
     {
-      "id": "pol-ddhc", "sub": "societe", "diff": 1, "themes": ["droits de l'homme", "Révolution française"],
+      "id": "pol-ddhc",
+      "sub": "societe",
+      "diff": 1,
+      "themes": [
+        "droits de l'homme",
+        "Révolution française"
+      ],
       "q": "En quelle année est adoptée la Déclaration des droits de l'homme et du citoyen ?",
-      "choices": ["1789", "1791", "1848", "1948"],
+      "choices": [
+        "1789",
+        "1791",
+        "1848",
+        "1948"
+      ],
       "exp": "Adoptée le 26 août 1789 par l'Assemblée nationale constituante, elle proclame notamment que « les hommes naissent et demeurent libres et égaux en droits ». La Déclaration universelle des droits de l'homme de l'ONU date, elle, de 1948.",
-      "see": ["hf-bastille", "philo-rousseau"],
-      "wiki": [["Déclaration des droits de l'homme et du citoyen de 1789", "26 août 1789"]]
+      "see": [
+        "hf-bastille",
+        "philo-rousseau"
+      ],
+      "wiki": [
+        [
+          "Déclaration des droits de l'homme et du citoyen de 1789",
+          "26 août 1789"
+        ]
+      ]
     },
     {
-      "id": "pol-peine-mort", "sub": "societe", "diff": 2, "themes": ["justice", "droits"],
+      "id": "pol-peine-mort",
+      "sub": "societe",
+      "diff": 2,
+      "themes": [
+        "justice",
+        "droits"
+      ],
       "q": "En quelle année la peine de mort est-elle abolie en France ?",
-      "choices": ["1981", "1945", "1968", "1990"],
+      "choices": [
+        "1981",
+        "1945",
+        "1968",
+        "1990"
+      ],
       "exp": "La loi du 9 octobre 1981, portée par le garde des Sceaux Robert Badinter, abolit la peine de mort. L'interdiction est inscrite dans la Constitution en 2007.",
-      "wiki": [["Abolition de la peine de mort en France", "1981", "Badinter"]]
+      "wiki": [
+        [
+          "Abolition de la peine de mort en France",
+          "1981",
+          "Badinter"
+        ]
+      ]
     },
     {
-      "id": "pol-ue-27", "sub": "international", "diff": 2, "themes": ["Union européenne"],
+      "id": "pol-ue-27",
+      "sub": "international",
+      "diff": 2,
+      "themes": [
+        "Union européenne"
+      ],
       "q": "Combien d'États membres compte l'Union européenne depuis la sortie du Royaume-Uni en 2020 ?",
-      "choices": ["27", "25", "28", "30"],
+      "choices": [
+        "27",
+        "25",
+        "28",
+        "30"
+      ],
       "exp": "Après le Brexit, effectif le 31 janvier 2020, l'Union européenne compte 27 États membres. La Croatie, en 2013, a été le dernier pays à la rejoindre.",
       "anec": "Ce nombre peut évoluer : des pays candidats sont en cours de négociation d'adhésion. Cette question est revérifiée régulièrement.",
-      "wiki": [["Union européenne", "27", "Croatie"]]
+      "wiki": [
+        [
+          "Union européenne",
+          "27",
+          "Croatie"
+        ]
+      ]
     },
     {
-      "id": "pol-euro", "sub": "economie", "diff": 1, "themes": ["monnaie", "Europe"],
+      "id": "pol-euro",
+      "sub": "economie",
+      "diff": 1,
+      "themes": [
+        "monnaie",
+        "Europe"
+      ],
       "q": "En quelle année les pièces et billets en euros entrent-ils en circulation en France ?",
-      "choices": ["2002", "1999", "1992", "2005"],
+      "choices": [
+        "2002",
+        "1999",
+        "1992",
+        "2005"
+      ],
       "exp": "L'euro existe comme monnaie scripturale depuis le 1er janvier 1999 ; les pièces et billets sont mis en circulation le 1er janvier 2002.",
-      "wiki": [["Euro", "2002", "1999"]]
+      "wiki": [
+        [
+          "Euro",
+          "2002",
+          "1999"
+        ]
+      ]
     },
     {
-      "id": "pol-pib", "fmt": "vrai_faux", "answer": true, "sub": "economie", "diff": 2, "themes": ["indicateurs"],
+      "id": "pol-pib",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "economie",
+      "diff": 2,
+      "themes": [
+        "indicateurs"
+      ],
       "q": "Le PIB mesure la valeur de la production réalisée sur un territoire pendant une période donnée.",
       "exp": "Vrai. Le produit intérieur brut mesure la richesse produite (valeur ajoutée) dans un pays, en général sur un an. Il ne mesure ni le patrimoine, ni les inégalités, ni le bien-être.",
-      "wiki": [["Produit intérieur brut", "valeur ajoutée"]]
+      "wiki": [
+        [
+          "Produit intérieur brut",
+          "valeur ajoutée"
+        ]
+      ]
     },
     {
-      "id": "pol-inflation", "sub": "economie", "diff": 1, "themes": ["prix", "monnaie"],
+      "id": "pol-inflation",
+      "sub": "economie",
+      "diff": 1,
+      "themes": [
+        "prix",
+        "monnaie"
+      ],
       "q": "Comment appelle-t-on une hausse générale et durable des prix ?",
-      "choices": ["L'inflation", "La déflation", "La récession", "La stagnation"],
+      "choices": [
+        "L'inflation",
+        "La déflation",
+        "La récession",
+        "La stagnation"
+      ],
       "exp": "L'inflation est la perte de pouvoir d'achat de la monnaie qui se traduit par une hausse générale et durable des prix. La déflation en est l'inverse.",
-      "wiki": [["Inflation", "prix"]]
+      "wiki": [
+        [
+          "Inflation",
+          "prix"
+        ]
+      ]
     },
     {
-      "id": "pol-onu", "sub": "international", "diff": 1, "themes": ["ONU"],
+      "id": "pol-onu",
+      "sub": "international",
+      "diff": 1,
+      "themes": [
+        "ONU"
+      ],
       "q": "Dans quelle ville se trouve le siège de l'Organisation des Nations unies ?",
-      "choices": ["New York", "Genève", "Bruxelles", "Washington"],
+      "choices": [
+        "New York",
+        "Genève",
+        "Bruxelles",
+        "Washington"
+      ],
       "exp": "Le siège de l'ONU est à New York, au bord de l'East River. Genève accueille son principal office européen.",
-      "wiki": [["Siège des Nations unies", "New York"]]
+      "wiki": [
+        [
+          "Siège des Nations unies",
+          "New York"
+        ]
+      ]
     },
     {
-      "id": "pol-conseil-securite", "sub": "international", "diff": 3, "themes": ["ONU", "diplomatie"],
+      "id": "pol-conseil-securite",
+      "sub": "international",
+      "diff": 3,
+      "themes": [
+        "ONU",
+        "diplomatie"
+      ],
       "q": "Lequel de ces pays n'est PAS membre permanent du Conseil de sécurité de l'ONU ?",
-      "choices": ["L'Allemagne", "La France", "La Chine", "Le Royaume-Uni"],
+      "choices": [
+        "L'Allemagne",
+        "La France",
+        "La Chine",
+        "Le Royaume-Uni"
+      ],
       "exp": "Les cinq membres permanents, disposant d'un droit de veto, sont la Chine, les États-Unis, la France, le Royaume-Uni et la Russie. Dix autres membres sont élus pour deux ans.",
-      "wiki": [["Conseil de sécurité des Nations unies", "membres permanents", "veto"]]
+      "wiki": [
+        [
+          "Conseil de sécurité des Nations unies",
+          "membres permanents",
+          "veto"
+        ]
+      ]
+    },
+    {
+      "id": "pol-assemblee-deputes",
+      "sub": "institutions",
+      "diff": 2,
+      "q": "Combien de députés siègent à l'Assemblée nationale ?",
+      "exp": "Les 577 députés sont élus au suffrage universel direct pour cinq ans, dans autant de circonscriptions.",
+      "wiki": [
+        [
+          "Assemblée nationale (France)",
+          "577"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "577",
+        "348",
+        "500",
+        "925"
+      ],
+      "themes": [
+        "Parlement"
+      ]
+    },
+    {
+      "id": "pol-senateurs",
+      "sub": "institutions",
+      "diff": 3,
+      "q": "Comment les sénateurs français sont-ils élus ?",
+      "exp": "Les 348 sénateurs sont élus pour six ans par environ 162 000 grands électeurs, surtout des élus locaux.",
+      "wiki": [
+        [
+          "Sénat (France)",
+          "348",
+          "indirect"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Au suffrage universel indirect, par de grands électeurs",
+        "Au suffrage universel direct, comme les députés",
+        "Par tirage au sort parmi les maires de France",
+        "Ils sont nommés par le président de la République"
+      ],
+      "themes": [
+        "Parlement"
+      ]
+    },
+    {
+      "id": "pol-palais-bourbon",
+      "sub": "institutions",
+      "diff": 2,
+      "q": "Dans quel palais siège l'Assemblée nationale ?",
+      "exp": "Le palais Bourbon, sur la rive gauche face à la place de la Concorde, a été construit pour une fille de Louis XIV.",
+      "wiki": [
+        [
+          "Palais Bourbon",
+          "Assemblée nationale"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le palais Bourbon",
+        "Le palais du Luxembourg",
+        "Le palais de l'Élysée",
+        "Le Palais-Royal"
+      ],
+      "themes": [
+        "Parlement"
+      ],
+      "see": [
+        "pol-senat"
+      ]
+    },
+    {
+      "id": "pol-conseil-constit",
+      "sub": "institutions",
+      "diff": 3,
+      "q": "Quelle institution vérifie que les lois respectent la Constitution ?",
+      "exp": "Créé en 1958, il compte neuf membres nommés et les anciens présidents de la République, membres de droit.",
+      "wiki": [
+        [
+          "Conseil constitutionnel (France)",
+          "1958",
+          "neuf"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Conseil constitutionnel",
+        "Le Conseil d'État",
+        "La Cour de cassation",
+        "La Cour des comptes"
+      ],
+      "themes": [
+        "institutions"
+      ]
+    },
+    {
+      "id": "pol-cour-comptes",
+      "sub": "institutions",
+      "diff": 3,
+      "q": "Quelle institution contrôle l'emploi de l'argent public ?",
+      "exp": "Créée en 1807 par Napoléon, elle siège rue Cambon à Paris et publie un rapport public annuel.",
+      "wiki": [
+        [
+          "Cour des comptes (France)",
+          "1807"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Cour des comptes",
+        "Le Conseil d'État",
+        "La Banque de France",
+        "Le Sénat"
+      ],
+      "themes": [
+        "institutions"
+      ]
+    },
+    {
+      "id": "pol-cassation",
+      "sub": "institutions",
+      "diff": 4,
+      "q": "Quelle est la plus haute juridiction de l'ordre judiciaire en France ?",
+      "exp": "Elle ne rejuge pas les faits mais vérifie la bonne application du droit ; le Conseil d'État est au sommet de l'ordre administratif.",
+      "wiki": [
+        [
+          "Cour de cassation (France)",
+          "ordre judiciaire"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Cour de cassation",
+        "Le Conseil d'État",
+        "Le Conseil constitutionnel",
+        "La cour d'appel de Paris"
+      ],
+      "themes": [
+        "justice"
+      ]
+    },
+    {
+      "id": "pol-article-16",
+      "sub": "institutions",
+      "diff": 5,
+      "q": "Quel article de la Constitution de 1958 confie des pouvoirs exceptionnels au président en cas de crise grave ?",
+      "exp": "Il n'a été utilisé qu'une fois, en 1961, lors du putsch des généraux à Alger.",
+      "wiki": [
+        [
+          "Article 16 de la Constitution de la Cinquième République française",
+          "1961"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'article 16",
+        "L'article 49-3",
+        "L'article 89",
+        "L'article 1er"
+      ],
+      "themes": [
+        "Constitution"
+      ],
+      "see": [
+        "hf-putsch-generaux"
+      ]
+    },
+    {
+      "id": "pol-49-3",
+      "sub": "institutions",
+      "diff": 3,
+      "q": "Que permet l'article 49, alinéa 3, de la Constitution ?",
+      "exp": "Le gouvernement engage sa responsabilité ; l'usage de cet article a été limité par la révision de 2008.",
+      "wiki": [
+        [
+          "Article 49 de la Constitution de la Cinquième République française",
+          "motion de censure"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Faire adopter un texte sans vote, sauf si une motion de censure est votée",
+        "Dissoudre l'Assemblée nationale et convoquer des élections",
+        "Soumettre directement un projet de loi au référendum",
+        "Déclarer l'état d'urgence sur tout le territoire"
+      ],
+      "themes": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "pol-referendum-art",
+      "sub": "institutions",
+      "diff": 4,
+      "q": "Par quel article de la Constitution le président peut-il soumettre un projet de loi au référendum ?",
+      "exp": "C'est sur cette base qu'a été organisé le référendum de 1962 sur l'élection présidentielle.",
+      "wiki": [
+        [
+          "Article 11 de la Constitution de la Cinquième République française",
+          "référendum"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'article 11",
+        "L'article 16",
+        "L'article 49",
+        "L'article 89"
+      ],
+      "themes": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "pol-dissolution",
+      "sub": "institutions",
+      "diff": 3,
+      "q": "Quelle institution le président de la République peut-il dissoudre ?",
+      "exp": "La dissolution entraîne de nouvelles élections législatives ; le Sénat ne peut pas être dissous.",
+      "wiki": [
+        [
+          "Dissolution de l'Assemblée nationale",
+          "Sénat"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Assemblée nationale",
+        "Le Sénat",
+        "Le Conseil constitutionnel",
+        "Le gouvernement"
+      ],
+      "themes": [
+        "Constitution"
+      ]
+    },
+    {
+      "id": "pol-communes",
+      "sub": "institutions",
+      "diff": 3,
+      "q": "Environ combien de communes compte la France ?",
+      "exp": "La France compte près de 35 000 communes, un nombre très élevé en Europe ; beaucoup ont moins de 500 habitants.",
+      "wiki": [
+        [
+          "Commune (France)",
+          "maire"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Environ 35 000",
+        "Environ 3 500",
+        "Environ 100 000",
+        "Environ 12 000"
+      ],
+      "themes": [
+        "collectivités"
+      ]
+    },
+    {
+      "id": "pol-maire-election",
+      "sub": "institutions",
+      "diff": 2,
+      "q": "Comment le maire est-il élu en France ?",
+      "exp": "Les citoyens élisent le conseil municipal, qui élit ensuite le maire en son sein.",
+      "wiki": [
+        [
+          "Maire en France",
+          "conseil municipal"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Par le conseil municipal",
+        "Directement par les habitants",
+        "Par le préfet",
+        "Par le conseil départemental"
+      ],
+      "themes": [
+        "collectivités"
+      ]
+    },
+    {
+      "id": "pol-age-vote",
+      "sub": "institutions",
+      "diff": 1,
+      "q": "À partir de quel âge peut-on voter en France ?",
+      "exp": "Le droit de vote est accordé aux Français majeurs depuis l'abaissement de la majorité à 18 ans en 1974.",
+      "wiki": [
+        [
+          "Droit de vote",
+          "18 ans"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "18 ans",
+        "16 ans",
+        "21 ans",
+        "20 ans"
+      ],
+      "themes": [
+        "citoyenneté"
+      ],
+      "see": [
+        "hf-majorite-18"
+      ]
+    },
+    {
+      "id": "pol-vote-blanc",
+      "sub": "institutions",
+      "diff": 3,
+      "q": "Depuis 2014, comment les votes blancs sont-ils traités en France ?",
+      "exp": "La loi de 2014 distingue les bulletins blancs des nuls, sans les intégrer aux suffrages exprimés.",
+      "wiki": [
+        [
+          "Vote blanc",
+          "2014"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ils sont comptés séparément mais pas comme des suffrages exprimés",
+        "Ils sont comptés comme des suffrages exprimés",
+        "Ils sont assimilés à des abstentions et non publiés",
+        "Ils annulent l'élection lorsqu'ils sont majoritaires"
+      ],
+      "themes": [
+        "élections"
+      ]
+    },
+    {
+      "id": "pol-ue-parlement",
+      "sub": "international",
+      "diff": 3,
+      "q": "Dans quelle ville siège officiellement le Parlement européen pour ses sessions plénières ?",
+      "exp": "Le Parlement européen tient ses sessions plénières à Strasbourg ; des sessions additionnelles et les commissions ont lieu à Bruxelles.",
+      "wiki": [
+        [
+          "Parlement européen",
+          "Strasbourg"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Strasbourg",
+        "Bruxelles",
+        "Luxembourg",
+        "Francfort"
+      ],
+      "themes": [
+        "Union européenne"
+      ]
+    },
+    {
+      "id": "pol-bce",
+      "sub": "international",
+      "diff": 3,
+      "q": "Dans quelle ville se trouve la Banque centrale européenne ?",
+      "exp": "La BCE, créée en 1998, conduit la politique monétaire de la zone euro.",
+      "wiki": [
+        [
+          "Banque centrale européenne",
+          "Francfort",
+          "1998"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Francfort",
+        "Bruxelles",
+        "Luxembourg",
+        "Paris"
+      ],
+      "themes": [
+        "Union européenne"
+      ]
+    },
+    {
+      "id": "pol-traite-rome",
+      "sub": "international",
+      "diff": 2,
+      "q": "En quelle année le traité de Rome crée-t-il la Communauté économique européenne ?",
+      "exp": "Signé le 25 mars 1957 par six pays, il établit un marché commun.",
+      "wiki": [
+        [
+          "Traité de Rome",
+          "1957"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1957",
+        "1951",
+        "1992",
+        "1945"
+      ],
+      "themes": [
+        "Union européenne"
+      ],
+      "see": [
+        "hf-schuman"
+      ]
+    },
+    {
+      "id": "pol-drapeau-ue",
+      "sub": "international",
+      "diff": 2,
+      "q": "Combien d'étoiles figurent sur le drapeau européen ?",
+      "exp": "Le nombre douze symbolise la perfection et l'unité ; il ne dépend pas du nombre d'États membres.",
+      "wiki": [
+        [
+          "Drapeau européen",
+          "douze étoiles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "12",
+        "27",
+        "15",
+        "6"
+      ],
+      "themes": [
+        "Union européenne"
+      ]
+    },
+    {
+      "id": "pol-hymne-ue",
+      "sub": "international",
+      "diff": 3,
+      "q": "Quelle musique a été choisie comme hymne européen ?",
+      "exp": "Il s'agit du finale de la Neuvième Symphonie, joué sans paroles officielles.",
+      "wiki": [
+        [
+          "Hymne européen",
+          "Ode à la joie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Ode à la joie de Beethoven",
+        "La Marseillaise",
+        "Le Boléro de Ravel",
+        "Les Quatre Saisons de Vivaldi"
+      ],
+      "themes": [
+        "Union européenne"
+      ],
+      "see": [
+        "mus-beethoven"
+      ]
+    },
+    {
+      "id": "pol-onu-secretaire",
+      "sub": "international",
+      "diff": 4,
+      "q": "Quel diplomate a été le premier secrétaire général de l'ONU ?",
+      "exp": "Le Norvégien Trygve Lie occupe le poste de 1946 à 1952.",
+      "wiki": [
+        [
+          "Trygve Lie",
+          "1946",
+          "secrétaire général"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Trygve Lie",
+        "Dag Hammarskjöld",
+        "Kofi Annan",
+        "Boutros Boutros-Ghali"
+      ],
+      "themes": [
+        "ONU"
+      ]
+    },
+    {
+      "id": "pol-unesco",
+      "sub": "international",
+      "diff": 2,
+      "q": "Dans quelle ville se trouve le siège de l'UNESCO ?",
+      "exp": "L'Organisation des Nations unies pour l'éducation, la science et la culture, créée en 1945, établit la liste du patrimoine mondial.",
+      "wiki": [
+        [
+          "UNESCO",
+          "Paris",
+          "1945"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Paris",
+        "Genève",
+        "New York",
+        "Rome"
+      ],
+      "themes": [
+        "ONU"
+      ]
+    },
+    {
+      "id": "pol-otan-siege",
+      "sub": "international",
+      "diff": 3,
+      "q": "Où se trouve le siège de l'OTAN ?",
+      "exp": "Le siège est à Bruxelles depuis 1967, après le retrait de la France du commandement intégré décidé par de Gaulle.",
+      "wiki": [
+        [
+          "Organisation du traité de l'Atlantique Nord",
+          "Bruxelles",
+          "1967"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "À Bruxelles",
+        "À Washington",
+        "À Genève",
+        "À Vienne"
+      ],
+      "themes": [
+        "défense"
+      ],
+      "see": [
+        "hm-otan"
+      ]
+    },
+    {
+      "id": "pol-france-otan",
+      "sub": "international",
+      "diff": 4,
+      "q": "En quelle année la France réintègre-t-elle le commandement militaire intégré de l'OTAN ?",
+      "exp": "De Gaulle l'avait quitté en 1966 ; Nicolas Sarkozy décide d'y revenir en 2009.",
+      "wiki": [
+        [
+          "Relations entre la France et l'OTAN",
+          "1966",
+          "2009"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2009",
+        "1966",
+        "1995",
+        "2017"
+      ],
+      "themes": [
+        "défense"
+      ]
+    },
+    {
+      "id": "pol-croix-rouge",
+      "sub": "international",
+      "diff": 2,
+      "q": "Quel Suisse a fondé la Croix-Rouge après avoir assisté à la bataille de Solférino ?",
+      "exp": "Bouleversé par les blessés de 1859, Dunant fonde le Comité international en 1863 ; il reçoit le premier prix Nobel de la paix en 1901.",
+      "wiki": [
+        [
+          "Henry Dunant",
+          "Solférino",
+          "Croix-Rouge"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Henry Dunant",
+        "Jean-Jacques Rousseau",
+        "Guillaume Tell",
+        "Gustave Moynier"
+      ],
+      "themes": [
+        "humanitaire"
+      ]
+    },
+    {
+      "id": "pol-msf",
+      "sub": "international",
+      "diff": 3,
+      "q": "Quelle organisation humanitaire a été fondée en France en 1971 par des médecins et des journalistes ?",
+      "exp": "MSF reçoit le prix Nobel de la paix en 1999.",
+      "wiki": [
+        [
+          "Médecins sans frontières",
+          "1971",
+          "Nobel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Médecins sans frontières",
+        "Médecins du monde",
+        "Action contre la faim",
+        "Amnesty International"
+      ],
+      "themes": [
+        "humanitaire"
+      ]
+    },
+    {
+      "id": "pol-dudh",
+      "sub": "international",
+      "diff": 2,
+      "q": "En quelle année l'ONU adopte-t-elle la Déclaration universelle des droits de l'homme ?",
+      "exp": "Adoptée à Paris, au palais de Chaillot, le 10 décembre 1948 ; le Français René Cassin a contribué à sa rédaction.",
+      "wiki": [
+        [
+          "Déclaration universelle des droits de l'homme",
+          "1948",
+          "Cassin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1948",
+        "1789",
+        "1945",
+        "1966"
+      ],
+      "themes": [
+        "droits de l'homme"
+      ],
+      "see": [
+        "pol-ddhc"
+      ]
+    },
+    {
+      "id": "pol-g7",
+      "sub": "international",
+      "diff": 3,
+      "q": "Lequel de ces pays fait partie du G7 ?",
+      "exp": "Le G7 réunit les États-Unis, le Japon, l'Allemagne, le Royaume-Uni, la France, l'Italie et le Canada.",
+      "wiki": [
+        [
+          "G7",
+          "Italie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Canada",
+        "La Chine",
+        "L'Inde",
+        "Le Brésil"
+      ],
+      "themes": [
+        "économie mondiale"
+      ]
+    },
+    {
+      "id": "pol-brics",
+      "sub": "international",
+      "diff": 4,
+      "q": "Que désignait à l'origine l'acronyme BRIC, élargi ensuite en BRICS ?",
+      "exp": "Le S a été ajouté avec l'Afrique du Sud (South Africa) en 2010 ; le groupe s'est encore élargi depuis.",
+      "wiki": [
+        [
+          "BRICS",
+          "Afrique du Sud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Brésil, Russie, Inde, Chine",
+        "Belgique, Roumanie, Irlande, Croatie",
+        "Bolivie, Russie, Iran, Cuba",
+        "Brésil, Royaume-Uni, Italie, Canada"
+      ],
+      "themes": [
+        "économie mondiale"
+      ]
+    },
+    {
+      "id": "pol-cac40",
+      "sub": "economie",
+      "diff": 2,
+      "q": "Combien d'entreprises composent l'indice boursier CAC 40 ?",
+      "exp": "Le CAC 40 regroupe 40 grandes valeurs cotées à la Bourse de Paris ; sa composition évolue régulièrement.",
+      "wiki": [
+        [
+          "CAC 40",
+          "Bourse de Paris"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "40",
+        "100",
+        "50",
+        "30"
+      ],
+      "themes": [
+        "finance"
+      ]
+    },
+    {
+      "id": "pol-smic",
+      "sub": "economie",
+      "diff": 2,
+      "q": "Que signifie le sigle SMIC ?",
+      "exp": "Créé en 1970, il remplace le SMIG ; il est revalorisé au moins une fois par an.",
+      "wiki": [
+        [
+          "Salaire minimum interprofessionnel de croissance",
+          "1970"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Salaire minimum interprofessionnel de croissance",
+        "Salaire moyen d'insertion des cadres",
+        "Système monétaire international commun",
+        "Service minimum d'intérêt collectif"
+      ],
+      "themes": [
+        "travail"
+      ]
+    },
+    {
+      "id": "pol-tva",
+      "sub": "economie",
+      "diff": 2,
+      "q": "Qui a inventé la TVA, adoptée en France en 1954 ?",
+      "exp": "Haut fonctionnaire français, Maurice Lauré conçoit cette taxe sur la valeur ajoutée, aujourd'hui adoptée dans plus de 150 pays.",
+      "wiki": [
+        [
+          "Taxe sur la valeur ajoutée",
+          "Maurice Lauré",
+          "1954"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Maurice Lauré",
+        "Jean Monnet",
+        "Jacques Rueff",
+        "Pierre Mendès France"
+      ],
+      "themes": [
+        "fiscalité"
+      ]
+    },
+    {
+      "id": "pol-chomage-insee",
+      "sub": "economie",
+      "diff": 3,
+      "q": "Quel organisme publie les statistiques officielles du chômage et de la population en France ?",
+      "exp": "L'Institut national de la statistique et des études économiques organise aussi le recensement.",
+      "wiki": [
+        [
+          "Institut national de la statistique et des études économiques",
+          "recensement"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Insee",
+        "La Banque de France",
+        "France Travail",
+        "La Cour des comptes"
+      ],
+      "themes": [
+        "statistiques"
+      ]
+    },
+    {
+      "id": "pol-offre-demande",
+      "sub": "economie",
+      "diff": 1,
+      "q": "En économie, que se passe-t-il généralement quand la demande d'un produit augmente et que l'offre reste stable ?",
+      "exp": "C'est la loi de l'offre et de la demande : la rareté relative fait monter les prix.",
+      "wiki": [
+        [
+          "Offre et demande",
+          "prix"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Son prix augmente",
+        "Son prix baisse",
+        "Rien ne change",
+        "Le produit disparaît"
+      ],
+      "themes": [
+        "notions économiques"
+      ]
+    },
+    {
+      "id": "pol-dette-publique",
+      "sub": "economie",
+      "diff": 3,
+      "q": "Quel critère européen limite en principe la dette publique d'un pays de la zone euro ?",
+      "exp": "Les critères de Maastricht fixent la dette à 60 % du PIB et le déficit public annuel à 3 % du PIB.",
+      "wiki": [
+        [
+          "Critères de convergence",
+          "60 %",
+          "3 %"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "60 % du PIB",
+        "3 % du PIB",
+        "100 % du PIB",
+        "10 % du PIB"
+      ],
+      "themes": [
+        "finances publiques"
+      ],
+      "see": [
+        "hf-maastricht"
+      ]
+    },
+    {
+      "id": "pol-deflation",
+      "sub": "economie",
+      "diff": 3,
+      "q": "Comment appelle-t-on une baisse générale et durable des prix ?",
+      "exp": "La déflation peut paralyser l'économie, car les consommateurs retardent leurs achats en attendant des prix plus bas.",
+      "wiki": [
+        [
+          "Déflation",
+          "baisse des prix"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La déflation",
+        "L'inflation",
+        "La stagflation",
+        "La récession"
+      ],
+      "themes": [
+        "notions économiques"
+      ],
+      "see": [
+        "pol-inflation"
+      ]
+    },
+    {
+      "id": "pol-recession",
+      "sub": "economie",
+      "diff": 3,
+      "q": "Comment définit-on couramment une récession ?",
+      "exp": "Cette définition conventionnelle est la plus utilisée par les médias et les économistes.",
+      "wiki": [
+        [
+          "Récession (économie)",
+          "trimestres",
+          "trimestre",
+          "PIB"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Deux trimestres consécutifs de baisse du PIB",
+        "Une hausse du chômage d'un mois",
+        "Une baisse de la Bourse",
+        "Une hausse des taux d'intérêt"
+      ],
+      "themes": [
+        "notions économiques"
+      ]
+    },
+    {
+      "id": "pol-monopole",
+      "sub": "economie",
+      "diff": 2,
+      "q": "Comment appelle-t-on un marché où il n'y a qu'un seul vendeur ?",
+      "exp": "L'oligopole compte quelques vendeurs ; le monopsone, un seul acheteur.",
+      "wiki": [
+        [
+          "Monopole",
+          "vendeur"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un monopole",
+        "Un oligopole",
+        "Un monopsone",
+        "Une concurrence parfaite"
+      ],
+      "themes": [
+        "notions économiques"
+      ]
+    },
+    {
+      "id": "pol-bitcoin",
+      "sub": "economie",
+      "diff": 2,
+      "q": "En quelle année le bitcoin a-t-il été lancé ?",
+      "exp": "Créé par une personne ou un groupe sous le pseudonyme de Satoshi Nakamoto, son premier bloc est miné en janvier 2009.",
+      "wiki": [
+        [
+          "Bitcoin",
+          "2009",
+          "Satoshi Nakamoto"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2009",
+        "2001",
+        "2013",
+        "2017"
+      ],
+      "themes": [
+        "monnaie"
+      ]
+    },
+    {
+      "id": "pol-ecole-obligatoire-3",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Depuis 2019, à partir de quel âge l'instruction est-elle obligatoire en France ?",
+      "exp": "La loi pour une école de la confiance abaisse l'âge de l'instruction obligatoire de 6 à 3 ans.",
+      "wiki": [
+        [
+          "Instruction obligatoire",
+          "3 ans",
+          "2019"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "3 ans",
+        "6 ans",
+        "5 ans",
+        "2 ans"
+      ],
+      "themes": [
+        "éducation"
+      ]
+    },
+    {
+      "id": "pol-laicite",
+      "sub": "societe",
+      "diff": 2,
+      "q": "Quel principe de la République garantit la neutralité de l'État vis-à-vis des religions ?",
+      "exp": "Inscrite dans la loi de 1905 et dans la Constitution, la laïcité garantit aussi la liberté de conscience.",
+      "wiki": [
+        [
+          "Laïcité en France",
+          "1905"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La laïcité",
+        "La fraternité",
+        "La souveraineté",
+        "La décentralisation"
+      ],
+      "themes": [
+        "principes républicains"
+      ],
+      "see": [
+        "hf-loi-1905"
+      ]
+    },
+    {
+      "id": "pol-parite",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Quelle loi de 2000 impose l'égalité d'accès des femmes et des hommes aux mandats électoraux ?",
+      "exp": "Elle oblige notamment les listes à alterner femmes et hommes pour plusieurs scrutins.",
+      "wiki": [
+        [
+          "Loi tendant à favoriser l'égal accès des femmes et des hommes aux mandats électoraux et fonctions électives",
+          "2000"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La loi sur la parité",
+        "La loi Veil",
+        "La loi Roudy",
+        "La loi Évin"
+      ],
+      "themes": [
+        "égalité"
+      ]
+    },
+    {
+      "id": "pol-loi-evin",
+      "sub": "societe",
+      "diff": 4,
+      "q": "Quelle loi de 1991 encadre la publicité pour l'alcool et le tabac en France ?",
+      "exp": "Elle porte le nom du ministre de la Santé Claude Évin.",
+      "wiki": [
+        [
+          "Loi Évin",
+          "1991",
+          "Claude Évin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La loi Évin",
+        "La loi Veil",
+        "La loi Toubon",
+        "La loi Royer"
+      ],
+      "themes": [
+        "santé publique"
+      ]
+    },
+    {
+      "id": "pol-loi-toubon",
+      "sub": "societe",
+      "diff": 4,
+      "q": "Quelle loi de 1994 impose l'usage du français dans plusieurs domaines, comme la publicité ou le travail ?",
+      "exp": "Portée par le ministre de la Culture Jacques Toubon, elle complète la loi Bas-Lauriol de 1975.",
+      "wiki": [
+        [
+          "Loi Toubon",
+          "1994"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La loi Toubon",
+        "La loi Évin",
+        "La loi Debré",
+        "La loi Falloux"
+      ],
+      "themes": [
+        "langue française"
+      ]
+    },
+    {
+      "id": "pol-35-heures",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Sous quel gouvernement la durée légale du travail passe-t-elle à 35 heures par semaine ?",
+      "exp": "Les lois Aubry de 1998 et 2000, du nom de la ministre Martine Aubry, instaurent les 35 heures.",
+      "wiki": [
+        [
+          "Lois Aubry",
+          "35 heures",
+          "Jospin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le gouvernement de Lionel Jospin",
+        "Le gouvernement de Pierre Mauroy",
+        "Le gouvernement d'Édouard Balladur",
+        "Le gouvernement de Jean-Pierre Raffarin"
+      ],
+      "themes": [
+        "travail"
+      ]
+    },
+    {
+      "id": "pol-conges-5-semaines",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Depuis 1982, combien de semaines de congés payés les salariés ont-ils en France ?",
+      "exp": "Après 2 semaines en 1936, 3 en 1956 et 4 en 1969, la cinquième semaine est instaurée en 1982.",
+      "wiki": [
+        [
+          "Congés payés",
+          "1982"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "themes": [
+        "travail"
+      ],
+      "see": [
+        "hf-front-populaire"
+      ]
+    },
+    {
+      "id": "pol-retraite-60",
+      "sub": "societe",
+      "diff": 4,
+      "q": "En quelle année l'âge légal de départ à la retraite est-il abaissé à 60 ans en France ?",
+      "exp": "Cette mesure du gouvernement Mauroy a ensuite été remise en cause par plusieurs réformes successives.",
+      "wiki": [
+        [
+          "Retraite en France",
+          "60 ans"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1982",
+        "1945",
+        "1968",
+        "1995"
+      ],
+      "themes": [
+        "protection sociale"
+      ]
+    },
+    {
+      "id": "pol-rsa",
+      "sub": "societe",
+      "diff": 4,
+      "q": "Quelle prestation remplace le RMI en 2009 ?",
+      "exp": "Le revenu de solidarité active remplace le revenu minimum d'insertion, créé en 1988.",
+      "wiki": [
+        [
+          "Revenu de solidarité active",
+          "2009",
+          "RMI"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le RSA",
+        "L'APL",
+        "La prime d'activité",
+        "Le minimum vieillesse"
+      ],
+      "themes": [
+        "protection sociale"
+      ]
+    },
+    {
+      "id": "pol-cnil",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Quelle autorité française protège les données personnelles ?",
+      "exp": "Créée par la loi Informatique et libertés de 1978, la CNIL veille aussi à l'application du RGPD.",
+      "wiki": [
+        [
+          "Commission nationale de l'informatique et des libertés",
+          "1978"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La CNIL",
+        "L'Arcom",
+        "La Hadopi",
+        "L'ANSSI"
+      ],
+      "themes": [
+        "numérique"
+      ]
+    },
+    {
+      "id": "pol-rgpd",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Depuis quelle année le RGPD, règlement européen sur les données personnelles, s'applique-t-il ?",
+      "exp": "Le règlement général sur la protection des données s'applique dans toute l'Union depuis le 25 mai 2018.",
+      "wiki": [
+        [
+          "Règlement général sur la protection des données",
+          "2018"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "2018",
+        "2008",
+        "2014",
+        "2021"
+      ],
+      "themes": [
+        "numérique"
+      ]
+    },
+    {
+      "id": "pol-defenseur-droits",
+      "sub": "societe",
+      "diff": 4,
+      "q": "Quelle autorité indépendante, créée en 2011, défend les citoyens face aux administrations et aux discriminations ?",
+      "exp": "Le Défenseur des droits a remplacé notamment le Médiateur de la République, la HALDE et le Défenseur des enfants.",
+      "wiki": [
+        [
+          "Défenseur des droits",
+          "2011"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Défenseur des droits",
+        "Le Médiateur de la République",
+        "Le Conseil d'État",
+        "La Cour de justice de la République"
+      ],
+      "themes": [
+        "droits"
+      ]
+    },
+    {
+      "id": "pol-recensement-pop",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Environ combien d'habitants compte la France (métropole et outre-mer) au milieu des années 2020 ?",
+      "exp": "Selon l'Insee, la population française dépasse 68 millions d'habitants au 1er janvier 2024.",
+      "wiki": [
+        [
+          "Démographie de la France",
+          "68",
+          "Insee"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Environ 68 millions",
+        "Environ 58 millions",
+        "Environ 75 millions",
+        "Environ 80 millions"
+      ],
+      "themes": [
+        "démographie"
+      ]
+    },
+    {
+      "id": "pol-institutions-asso",
+      "sub": "societe",
+      "diff": 3,
+      "q": "Associe chaque institution au bâtiment où elle siège.",
+      "exp": "Le Conseil constitutionnel et le Conseil d'État siègent, eux, au Palais-Royal.",
+      "wiki": [
+        [
+          "Palais de l'Élysée",
+          "président"
+        ],
+        [
+          "Hôtel de Matignon",
+          "Premier ministre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Présidence de la République",
+          "Palais de l'Élysée"
+        ],
+        [
+          "Premier ministre",
+          "Hôtel Matignon"
+        ],
+        [
+          "Assemblée nationale",
+          "Palais Bourbon"
+        ],
+        [
+          "Sénat",
+          "Palais du Luxembourg"
+        ]
+      ],
+      "themes": [
+        "institutions"
+      ],
+      "see": [
+        "hf-elysee"
+      ]
     }
   ]
 }

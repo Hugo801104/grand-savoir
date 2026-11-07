@@ -4,78 +4,1534 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "cine-melies", "sub": "cinema-francais", "diff": 2, "themes": ["cinéma muet", "effets spéciaux"],
+      "id": "cine-melies",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "themes": [
+        "cinéma muet",
+        "effets spéciaux"
+      ],
       "q": "Qui a réalisé Le Voyage dans la Lune (1902) ?",
-      "choices": ["Georges Méliès", "Louis Lumière", "Charles Pathé", "Léon Gaumont"],
+      "choices": [
+        "Georges Méliès",
+        "Louis Lumière",
+        "Charles Pathé",
+        "Léon Gaumont"
+      ],
       "exp": "Georges Méliès, ancien illusionniste, invente de nombreux trucages. Son Voyage dans la Lune et l'image de la fusée plantée dans l'œil de la Lune sont devenus emblématiques.",
-      "see": ["tech-lumiere", "cine-classement"],
-      "wiki": [["Le Voyage dans la Lune", "Méliès", "1902"]]
+      "see": [
+        "tech-lumiere",
+        "cine-classement"
+      ],
+      "wiki": [
+        [
+          "Le Voyage dans la Lune",
+          "Méliès",
+          "1902"
+        ]
+      ]
     },
     {
-      "id": "cine-nouvelle-vague", "sub": "cinema-francais", "diff": 3, "themes": ["Nouvelle Vague"],
+      "id": "cine-nouvelle-vague",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "themes": [
+        "Nouvelle Vague"
+      ],
       "q": "Lequel de ces réalisateurs est une figure de la Nouvelle Vague ?",
-      "choices": ["François Truffaut", "Luc Besson", "Marcel Carné", "Jean-Pierre Jeunet"],
+      "choices": [
+        "François Truffaut",
+        "Luc Besson",
+        "Marcel Carné",
+        "Jean-Pierre Jeunet"
+      ],
       "exp": "La Nouvelle Vague, à la fin des années 1950, réunit notamment Truffaut (Les Quatre Cents Coups, 1959), Godard, Chabrol, Rohmer et Rivette, souvent venus de la critique (Cahiers du cinéma).",
-      "wiki": [["Nouvelle Vague", "Truffaut", "Godard"]]
+      "wiki": [
+        [
+          "Nouvelle Vague",
+          "Truffaut",
+          "Godard"
+        ]
+      ]
     },
     {
-      "id": "cine-chtis", "sub": "cinema-francais", "diff": 3, "themes": ["box-office", "comédie"],
+      "id": "cine-chtis",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "themes": [
+        "box-office",
+        "comédie"
+      ],
       "q": "Quel film français détient le record d'entrées en salle en France ?",
-      "choices": ["Bienvenue chez les Ch'tis", "Intouchables", "La Grande Vadrouille", "Astérix et Obélix : Mission Cléopâtre"],
+      "choices": [
+        "Bienvenue chez les Ch'tis",
+        "Intouchables",
+        "La Grande Vadrouille",
+        "Astérix et Obélix : Mission Cléopâtre"
+      ],
       "exp": "Sorti en 2008, Bienvenue chez les Ch'tis de Dany Boon a dépassé 20 millions d'entrées en France, devant Intouchables (2011) et La Grande Vadrouille (1966). Tous films confondus, Titanic reste devant.",
-      "wiki": [["Bienvenue chez les Ch'tis", "entrées", "Dany Boon"]]
+      "wiki": [
+        [
+          "Bienvenue chez les Ch'tis",
+          "entrées",
+          "Dany Boon"
+        ]
+      ]
     },
     {
-      "id": "cine-the-artist", "sub": "cinema-francais", "diff": 3, "themes": ["Oscars"],
+      "id": "cine-the-artist",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "themes": [
+        "Oscars"
+      ],
       "q": "Quel film français remporte l'Oscar du meilleur film en 2012 ?",
-      "choices": ["The Artist", "Intouchables", "Amélie Poulain", "La Môme"],
+      "choices": [
+        "The Artist",
+        "Intouchables",
+        "Amélie Poulain",
+        "La Môme"
+      ],
       "exp": "The Artist de Michel Hazanavicius, film muet en noir et blanc, remporte cinq Oscars, dont meilleur film et meilleur acteur pour Jean Dujardin.",
-      "wiki": [["The Artist", "Oscar", "Dujardin"]]
+      "wiki": [
+        [
+          "The Artist",
+          "Oscar",
+          "Dujardin"
+        ]
+      ]
     },
     {
-      "id": "cine-cesar", "fmt": "saisie", "sub": "cinema-francais", "diff": 1, "themes": ["récompenses"],
+      "id": "cine-cesar",
+      "fmt": "saisie",
+      "sub": "cinema-francais",
+      "diff": 1,
+      "themes": [
+        "récompenses"
+      ],
       "q": "Comment s'appellent les principales récompenses du cinéma français, créées en 1976 ?",
-      "accepted": ["César", "Les César", "Césars", "César du cinéma"],
+      "accepted": [
+        "César",
+        "Les César",
+        "Césars",
+        "César du cinéma"
+      ],
       "exp": "Les César sont décernés chaque année depuis 1976 par l'Académie des arts et techniques du cinéma. Le trophée est une sculpture du sculpteur César.",
-      "wiki": [["César du cinéma", "1976"]]
+      "wiki": [
+        [
+          "César du cinéma",
+          "1976"
+        ]
+      ]
     },
     {
-      "id": "cine-palme", "sub": "cinema-monde", "diff": 1, "themes": ["festivals"],
+      "id": "cine-palme",
+      "sub": "cinema-monde",
+      "diff": 1,
+      "themes": [
+        "festivals"
+      ],
       "q": "Quelle est la récompense suprême du Festival de Cannes ?",
-      "choices": ["La Palme d'or", "Le Lion d'or", "L'Ours d'or", "L'Oscar"],
+      "choices": [
+        "La Palme d'or",
+        "Le Lion d'or",
+        "L'Ours d'or",
+        "L'Oscar"
+      ],
       "exp": "La Palme d'or est décernée à Cannes depuis 1955. Le Lion d'or récompense le meilleur film à Venise, l'Ours d'or à Berlin.",
-      "wiki": [["Palme d'or", "Cannes", "1955"]]
+      "wiki": [
+        [
+          "Palme d'or",
+          "Cannes",
+          "1955"
+        ]
+      ]
     },
     {
-      "id": "cine-hitchcock", "sub": "cinema-monde", "diff": 1, "themes": ["suspense"],
+      "id": "cine-hitchcock",
+      "sub": "cinema-monde",
+      "diff": 1,
+      "themes": [
+        "suspense"
+      ],
       "q": "Qui a réalisé Psychose (1960) ?",
-      "choices": ["Alfred Hitchcock", "Stanley Kubrick", "Orson Welles", "Billy Wilder"],
+      "choices": [
+        "Alfred Hitchcock",
+        "Stanley Kubrick",
+        "Orson Welles",
+        "Billy Wilder"
+      ],
       "exp": "Psychose d'Alfred Hitchcock, surnommé le « maître du suspense », est célèbre pour sa scène de la douche.",
-      "wiki": [["Psychose (film, 1960)", "Hitchcock"]]
+      "wiki": [
+        [
+          "Psychose (film, 1960)",
+          "Hitchcock"
+        ]
+      ]
     },
     {
-      "id": "cine-kubrick", "sub": "cinema-monde", "diff": 2, "themes": ["science-fiction"],
+      "id": "cine-kubrick",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "themes": [
+        "science-fiction"
+      ],
       "q": "Qui a réalisé 2001, l'Odyssée de l'espace (1968) ?",
-      "choices": ["Stanley Kubrick", "Steven Spielberg", "George Lucas", "Ridley Scott"],
+      "choices": [
+        "Stanley Kubrick",
+        "Steven Spielberg",
+        "George Lucas",
+        "Ridley Scott"
+      ],
       "exp": "Stanley Kubrick coécrit le film avec l'écrivain Arthur C. Clarke. Il marque l'histoire du cinéma par ses effets visuels et sa bande originale.",
-      "see": ["philo-nietzsche"],
-      "wiki": [["2001, l'Odyssée de l'espace", "Kubrick", "Clarke"]]
+      "see": [
+        "philo-nietzsche"
+      ],
+      "wiki": [
+        [
+          "2001, l'Odyssée de l'espace",
+          "Kubrick",
+          "Clarke"
+        ]
+      ]
     },
     {
-      "id": "cine-star-wars", "sub": "cinema-monde", "diff": 1, "themes": ["science-fiction", "sagas"],
+      "id": "cine-star-wars",
+      "sub": "cinema-monde",
+      "diff": 1,
+      "themes": [
+        "science-fiction",
+        "sagas"
+      ],
       "q": "Qui a créé la saga Star Wars, lancée en 1977 ?",
-      "choices": ["George Lucas", "Steven Spielberg", "James Cameron", "J. J. Abrams"],
+      "choices": [
+        "George Lucas",
+        "Steven Spielberg",
+        "James Cameron",
+        "J. J. Abrams"
+      ],
       "exp": "George Lucas écrit et réalise le premier Star Wars (1977). La société Lucasfilm est rachetée par Disney en 2012.",
-      "wiki": [["Star Wars", "Lucas", "1977"]]
+      "wiki": [
+        [
+          "Star Wars",
+          "Lucas",
+          "1977"
+        ]
+      ]
     },
     {
-      "id": "cine-classement", "fmt": "classement", "sub": "cinema-monde", "diff": 3, "themes": ["histoire du cinéma"],
+      "id": "cine-classement",
+      "fmt": "classement",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "themes": [
+        "histoire du cinéma"
+      ],
       "q": "Classe ces films selon leur date de sortie.",
       "orderLabel": "du plus ancien au plus récent",
-      "items": ["Le Voyage dans la Lune", "Les Temps modernes", "À bout de souffle", "Le Fabuleux Destin d'Amélie Poulain"],
+      "items": [
+        "Le Voyage dans la Lune",
+        "Les Temps modernes",
+        "À bout de souffle",
+        "Le Fabuleux Destin d'Amélie Poulain"
+      ],
       "exp": "Le Voyage dans la Lune (Méliès, 1902), Les Temps modernes (Chaplin, 1936), À bout de souffle (Godard, 1960), Le Fabuleux Destin d'Amélie Poulain (Jeunet, 2001).",
-      "see": ["cine-melies"],
-      "wiki": [["Les Temps modernes", "1936"], ["À bout de souffle", "1960"], ["Le Fabuleux Destin d'Amélie Poulain", "2001"]]
+      "see": [
+        "cine-melies"
+      ],
+      "wiki": [
+        [
+          "Les Temps modernes",
+          "1936"
+        ],
+        [
+          "À bout de souffle",
+          "1960"
+        ],
+        [
+          "Le Fabuleux Destin d'Amélie Poulain",
+          "2001"
+        ]
+      ]
+    },
+    {
+      "id": "cine-arrivee-train",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Quel film des frères Lumière montre un train entrant en gare de La Ciotat ?",
+      "exp": "La légende veut que les spectateurs aient reculé de peur ; l'épisode est probablement exagéré.",
+      "wiki": [
+        [
+          "L'Arrivée d'un train en gare de La Ciotat",
+          "Lumière"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Arrivée d'un train en gare de La Ciotat",
+        "La Sortie de l'usine Lumière",
+        "L'Arroseur arrosé",
+        "Le Repas de bébé"
+      ],
+      "themes": [
+        "cinéma des origines"
+      ],
+      "see": [
+        "tech-lumiere"
+      ]
+    },
+    {
+      "id": "cine-arroseur",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel film Lumière de 1895 est souvent considéré comme la première fiction comique ?",
+      "exp": "Un garnement marche sur un tuyau d'arrosage, puis le relâche quand le jardinier regarde l'embout.",
+      "wiki": [
+        [
+          "L'Arroseur arrosé",
+          "1895"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Arroseur arrosé",
+        "La Sortie de l'usine Lumière",
+        "Le Déjeuner de bébé",
+        "Barque sortant du port"
+      ],
+      "themes": [
+        "cinéma des origines"
+      ]
+    },
+    {
+      "id": "cine-grande-illusion",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel réalisateur a signé La Grande Illusion (1937) et La Règle du jeu (1939) ?",
+      "exp": "Fils du peintre Auguste Renoir, Jean Renoir est l'un des plus grands cinéastes français.",
+      "wiki": [
+        [
+          "Jean Renoir",
+          "Grande Illusion",
+          "Règle du jeu"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean Renoir",
+        "Marcel Carné",
+        "Julien Duvivier",
+        "Jean Vigo"
+      ],
+      "themes": [
+        "cinéma classique"
+      ]
+    },
+    {
+      "id": "cine-enfants-paradis",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel film de Marcel Carné, tourné sous l'Occupation, met en scène Arletty et Jean-Louis Barrault ?",
+      "exp": "Sorti en 1945 sur un scénario de Jacques Prévert, il est souvent cité parmi les plus grands films français.",
+      "wiki": [
+        [
+          "Les Enfants du paradis",
+          "Carné",
+          "Arletty"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Enfants du paradis",
+        "Le Quai des brumes",
+        "Hôtel du Nord",
+        "Le jour se lève"
+      ],
+      "themes": [
+        "cinéma classique"
+      ]
+    },
+    {
+      "id": "cine-atmosphere",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Dans quel film Arletty lance-t-elle « Atmosphère, atmosphère ! Est-ce que j'ai une gueule d'atmosphère ? » ?",
+      "exp": "Le film de Marcel Carné (1938) se déroule au bord du canal Saint-Martin à Paris.",
+      "wiki": [
+        [
+          "Hôtel du Nord",
+          "atmosphère",
+          "Carné"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hôtel du Nord",
+        "Les Enfants du paradis",
+        "Le Quai des brumes",
+        "Le jour se lève"
+      ],
+      "themes": [
+        "cinéma classique"
+      ]
+    },
+    {
+      "id": "cine-400-coups",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel film de François Truffaut (1959) introduit le personnage d'Antoine Doinel ?",
+      "exp": "Jean-Pierre Léaud incarne Antoine Doinel dans cinq films de Truffaut, de 1959 à 1979.",
+      "wiki": [
+        [
+          "Les Quatre Cents Coups",
+          "Doinel",
+          "Léaud"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Quatre Cents Coups",
+        "Jules et Jim",
+        "Baisers volés",
+        "La Nuit américaine"
+      ],
+      "themes": [
+        "Nouvelle Vague"
+      ],
+      "see": [
+        "cine-nouvelle-vague"
+      ]
+    },
+    {
+      "id": "cine-a-bout-souffle",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel réalisateur a tourné À bout de souffle (1960), avec Jean-Paul Belmondo ?",
+      "exp": "Tourné caméra à l'épaule avec des faux raccords, le film incarne la liberté de la Nouvelle Vague.",
+      "wiki": [
+        [
+          "À bout de souffle",
+          "Godard",
+          "Belmondo"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean-Luc Godard",
+        "François Truffaut",
+        "Claude Chabrol",
+        "Éric Rohmer"
+      ],
+      "themes": [
+        "Nouvelle Vague"
+      ]
+    },
+    {
+      "id": "cine-grande-vadrouille",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Quels acteurs forment le duo de La Grande Vadrouille (1966) ?",
+      "exp": "Ce film de Gérard Oury, sous l'Occupation, a longtemps été le plus grand succès du cinéma français.",
+      "wiki": [
+        [
+          "La Grande Vadrouille",
+          "Bourvil",
+          "de Funès"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bourvil et Louis de Funès",
+        "Fernandel et Gino Cervi",
+        "Pierre Richard et Gérard Depardieu",
+        "Coluche et Michel Blanc"
+      ],
+      "themes": [
+        "comédie française"
+      ]
+    },
+    {
+      "id": "cine-gendarme",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Dans quelle ville se déroule Le Gendarme de Saint-Tropez avec Louis de Funès ?",
+      "exp": "Le film de 1964 donne naissance à une série de six films avec le maréchal des logis-chef Cruchot.",
+      "wiki": [
+        [
+          "Le Gendarme de Saint-Tropez",
+          "Cruchot",
+          "1964"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Saint-Tropez",
+        "Nice",
+        "Cannes",
+        "Marseille"
+      ],
+      "themes": [
+        "comédie française"
+      ]
+    },
+    {
+      "id": "cine-diner-cons",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Quelle comédie de Francis Veber met en scène François Pignon, invité à un dîner pour être moqué ?",
+      "exp": "Sorti en 1998, le film, adapté de la pièce de Veber, offre à Jacques Villeret un rôle mémorable.",
+      "wiki": [
+        [
+          "Le Dîner de cons",
+          "Pignon",
+          "Villeret"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Dîner de cons",
+        "Les Visiteurs",
+        "La Chèvre",
+        "L'emmerdeur"
+      ],
+      "themes": [
+        "comédie française"
+      ]
+    },
+    {
+      "id": "cine-visiteurs",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Quel chevalier du Moyen Âge, joué par Jean Reno, voyage dans le temps dans Les Visiteurs ?",
+      "exp": "Dans la comédie de Jean-Marie Poiré (1993), Christian Clavier joue son écuyer Jacquouille.",
+      "wiki": [
+        [
+          "Les Visiteurs (film, 1993)",
+          "Montmirail",
+          "Jacquouille",
+          "Jean Reno",
+          "Clavier"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Godefroy de Montmirail",
+        "Jacquouille la Fripouille",
+        "Lancelot du Lac",
+        "Bertrand de Montmirail"
+      ],
+      "themes": [
+        "comédie française"
+      ]
+    },
+    {
+      "id": "cine-amelie",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Dans quel quartier de Paris se déroule Le Fabuleux Destin d'Amélie Poulain ?",
+      "exp": "Amélie, jouée par Audrey Tautou, travaille au café des Deux Moulins ; le film de Jean-Pierre Jeunet sort en 2001.",
+      "wiki": [
+        [
+          "Le Fabuleux Destin d'Amélie Poulain",
+          "Montmartre",
+          "Tautou"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Montmartre",
+        "Le Marais",
+        "Belleville",
+        "Saint-Germain-des-Prés"
+      ],
+      "themes": [
+        "cinéma français contemporain"
+      ]
+    },
+    {
+      "id": "cine-intouchables",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Quels acteurs jouent dans Intouchables (2011) ?",
+      "exp": "Omar Sy remporte le César du meilleur acteur en 2012 pour ce rôle.",
+      "wiki": [
+        [
+          "Intouchables (film)",
+          "Omar Sy",
+          "Cluzet",
+          "2011"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "François Cluzet et Omar Sy",
+        "Gérard Depardieu et Christian Clavier",
+        "Jean Dujardin et Gilles Lellouche",
+        "Dany Boon et Kad Merad"
+      ],
+      "themes": [
+        "cinéma français contemporain"
+      ]
+    },
+    {
+      "id": "cine-la-haine",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel film en noir et blanc de Mathieu Kassovitz (1995) suit trois jeunes de banlieue ?",
+      "exp": "Avec Vincent Cassel, le film obtient le prix de la mise en scène à Cannes en 1995.",
+      "wiki": [
+        [
+          "La Haine",
+          "Kassovitz",
+          "1995"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Haine",
+        "Les Misérables",
+        "Divines",
+        "Bande de filles"
+      ],
+      "themes": [
+        "cinéma français contemporain"
+      ]
+    },
+    {
+      "id": "cine-belmondo-delon",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel acteur a joué dans Le Samouraï (1967) de Jean-Pierre Melville ?",
+      "exp": "Delon y incarne un tueur à gages taciturne ; le film a influencé de nombreux cinéastes, dont John Woo et Jim Jarmusch.",
+      "wiki": [
+        [
+          "Le Samouraï",
+          "Delon",
+          "Melville"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alain Delon",
+        "Jean-Paul Belmondo",
+        "Lino Ventura",
+        "Yves Montand"
+      ],
+      "themes": [
+        "cinéma français"
+      ]
+    },
+    {
+      "id": "cine-bardot",
+      "sub": "cinema-francais",
+      "diff": 2,
+      "q": "Quel film de Roger Vadim a fait de Brigitte Bardot une star internationale en 1956 ?",
+      "exp": "Le film, tourné à Saint-Tropez, fait scandale par sa liberté de mœurs.",
+      "wiki": [
+        [
+          "Et Dieu… créa la femme",
+          "Bardot",
+          "1956"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Et Dieu… créa la femme",
+        "Le Mépris",
+        "La Vérité",
+        "Viva Maria !"
+      ],
+      "themes": [
+        "cinéma français"
+      ]
+    },
+    {
+      "id": "cine-tati",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel personnage burlesque Jacques Tati a-t-il créé, avec sa pipe et son imperméable ?",
+      "exp": "On le découvre dans Les Vacances de M. Hulot (1953) ; Mon oncle obtient l'Oscar du film étranger en 1959.",
+      "wiki": [
+        [
+          "Monsieur Hulot",
+          "Tati",
+          "Mon oncle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Monsieur Hulot",
+        "Monsieur Pignon",
+        "Monsieur Bean",
+        "Monsieur Jacques"
+      ],
+      "themes": [
+        "comédie française"
+      ]
+    },
+    {
+      "id": "cine-cesar-record",
+      "sub": "cinema-francais",
+      "diff": 4,
+      "q": "Quel film de François Truffaut remporte dix César en 1981 ?",
+      "exp": "Avec Catherine Deneuve et Gérard Depardieu, il se déroule dans un théâtre sous l'Occupation ; seul Cyrano de Bergerac (1991) a égalé ce record de dix César.",
+      "wiki": [
+        [
+          "Le Dernier Métro",
+          "César",
+          "1981"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Dernier Métro",
+        "La Nuit américaine",
+        "Jules et Jim",
+        "L'Homme qui aimait les femmes"
+      ],
+      "themes": [
+        "récompenses"
+      ],
+      "see": [
+        "cine-cesar"
+      ]
+    },
+    {
+      "id": "cine-palme-francaise",
+      "sub": "cinema-francais",
+      "diff": 4,
+      "q": "Quelle réalisatrice française a remporté la Palme d'or en 2021 avec Titane ?",
+      "exp": "Elle est la deuxième femme à recevoir la Palme d'or ; Justine Triet la reçoit en 2023 pour Anatomie d'une chute.",
+      "wiki": [
+        [
+          "Julia Ducournau",
+          "Titane",
+          "2021"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Julia Ducournau",
+        "Justine Triet",
+        "Céline Sciamma",
+        "Agnès Varda"
+      ],
+      "themes": [
+        "récompenses"
+      ],
+      "see": [
+        "cine-palme"
+      ]
+    },
+    {
+      "id": "cine-anatomie",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quel film de Justine Triet remporte la Palme d'or en 2023 puis l'Oscar du meilleur scénario original ?",
+      "exp": "Le film suit le procès d'une femme accusée de la mort de son mari.",
+      "wiki": [
+        [
+          "Anatomie d'une chute",
+          "Palme d'or",
+          "2023"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Anatomie d'une chute",
+        "Titane",
+        "Portrait de la jeune fille en feu",
+        "La Vie d'Adèle"
+      ],
+      "themes": [
+        "récompenses"
+      ]
+    },
+    {
+      "id": "cine-varda",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Quelle réalisatrice, figure de la Nouvelle Vague, a tourné Cléo de 5 à 7 (1962) ?",
+      "exp": "Agnès Varda reçoit un Oscar d'honneur en 2017, à 89 ans.",
+      "wiki": [
+        [
+          "Agnès Varda",
+          "Cléo de 5 à 7",
+          "1962"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Agnès Varda",
+        "Chantal Akerman",
+        "Marguerite Duras",
+        "Claire Denis"
+      ],
+      "themes": [
+        "Nouvelle Vague"
+      ]
+    },
+    {
+      "id": "cine-cinematheque",
+      "sub": "cinema-francais",
+      "diff": 4,
+      "q": "Qui a cofondé la Cinémathèque française en 1936 ?",
+      "exp": "Henri Langlois rassemble des milliers de films ; son éviction en 1968 provoque une mobilisation des cinéastes.",
+      "wiki": [
+        [
+          "Henri Langlois",
+          "Cinémathèque française",
+          "1936"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Henri Langlois",
+        "Louis Lumière",
+        "André Bazin",
+        "Georges Méliès"
+      ],
+      "themes": [
+        "patrimoine"
+      ]
+    },
+    {
+      "id": "cine-lumiere-premiere",
+      "sub": "cinema-francais",
+      "diff": 3,
+      "q": "Où a lieu la première projection publique et payante du cinématographe, le 28 décembre 1895 ?",
+      "exp": "Une trentaine de spectateurs assistent à la séance ; le cinéma connaît très vite un succès mondial.",
+      "wiki": [
+        [
+          "Salon indien du Grand Café",
+          "28 décembre 1895"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Au Salon indien du Grand Café, à Paris",
+        "À l'Opéra Garnier",
+        "Au château de Versailles",
+        "À La Ciotat"
+      ],
+      "themes": [
+        "cinéma des origines"
+      ]
+    },
+    {
+      "id": "cine-chaplin-charlot",
+      "sub": "cinema-monde",
+      "diff": 1,
+      "q": "Quel personnage Charlie Chaplin a-t-il rendu célèbre ?",
+      "exp": "Le vagabond au chapeau melon et à la canne apparaît en 1914 ; Chaplin réalise ensuite Le Kid, La Ruée vers l'or ou Le Dictateur.",
+      "wiki": [
+        [
+          "Charlot",
+          "Chaplin",
+          "1914"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Charlot",
+        "Buster",
+        "Laurel",
+        "Zorro"
+      ],
+      "themes": [
+        "cinéma muet"
+      ]
+    },
+    {
+      "id": "cine-dictateur",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quel film de Chaplin (1940) parodie Adolf Hitler ?",
+      "exp": "C'est le premier vrai film parlant de Chaplin ; il se termine par un célèbre discours humaniste.",
+      "wiki": [
+        [
+          "Le Dictateur",
+          "Chaplin",
+          "1940"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Dictateur",
+        "Les Temps modernes",
+        "Les Lumières de la ville",
+        "Le Kid"
+      ],
+      "themes": [
+        "cinéma américain"
+      ]
+    },
+    {
+      "id": "cine-chanteur-jazz",
+      "sub": "cinema-monde",
+      "diff": 4,
+      "q": "Quel film de 1927 est considéré comme le premier long métrage parlant ?",
+      "exp": "Al Jolson y chante et prononce quelques répliques : le cinéma muet disparaît en quelques années.",
+      "wiki": [
+        [
+          "Le Chanteur de jazz",
+          "1927",
+          "Al Jolson"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Chanteur de jazz",
+        "Metropolis",
+        "Les Lumières de la ville",
+        "Autant en emporte le vent"
+      ],
+      "themes": [
+        "histoire du cinéma"
+      ]
+    },
+    {
+      "id": "cine-citizen-kane",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quel mot énigmatique prononce Charles Foster Kane au début de Citizen Kane ?",
+      "exp": "Le film d'Orson Welles (1941) est souvent classé parmi les plus grands de l'histoire du cinéma.",
+      "wiki": [
+        [
+          "Citizen Kane",
+          "Rosebud",
+          "Welles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« Rosebud »",
+        "« Mother »",
+        "« Xanadu »",
+        "« Charlie »"
+      ],
+      "themes": [
+        "cinéma américain"
+      ]
+    },
+    {
+      "id": "cine-autant-vent",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quelle actrice joue Scarlett O'Hara dans Autant en emporte le vent (1939) ?",
+      "exp": "Le film, qui se déroule pendant la guerre de Sécession, remporte huit Oscars compétitifs.",
+      "wiki": [
+        [
+          "Autant en emporte le vent (film)",
+          "Vivien Leigh",
+          "Scarlett"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Vivien Leigh",
+        "Katharine Hepburn",
+        "Bette Davis",
+        "Greta Garbo"
+      ],
+      "themes": [
+        "cinéma américain"
+      ]
+    },
+    {
+      "id": "cine-casablanca",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quel acteur joue Rick dans Casablanca (1942) ?",
+      "exp": "Face à Ingrid Bergman, Bogart joue un patron de café désabusé dans le Maroc sous Vichy.",
+      "wiki": [
+        [
+          "Casablanca (film)",
+          "Bogart",
+          "Bergman"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Humphrey Bogart",
+        "Cary Grant",
+        "Clark Gable",
+        "James Stewart"
+      ],
+      "themes": [
+        "cinéma américain"
+      ]
+    },
+    {
+      "id": "cine-parrain",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Qui a réalisé Le Parrain (1972) ?",
+      "exp": "Marlon Brando incarne Vito Corleone ; la trilogie suit une famille mafieuse italo-américaine.",
+      "wiki": [
+        [
+          "Le Parrain",
+          "Coppola",
+          "Brando"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Francis Ford Coppola",
+        "Martin Scorsese",
+        "Brian De Palma",
+        "Sergio Leone"
+      ],
+      "themes": [
+        "cinéma américain"
+      ]
+    },
+    {
+      "id": "cine-spielberg-jaws",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Quel réalisateur a signé Les Dents de la mer, E.T. et Jurassic Park ?",
+      "exp": "Les Dents de la mer (1975) est souvent considéré comme le premier « blockbuster » estival.",
+      "wiki": [
+        [
+          "Steven Spielberg",
+          "E.T.",
+          "Jurassic Park"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Steven Spielberg",
+        "George Lucas",
+        "James Cameron",
+        "Ridley Scott"
+      ],
+      "themes": [
+        "cinéma américain"
+      ]
+    },
+    {
+      "id": "cine-titanic-film",
+      "sub": "cinema-monde",
+      "diff": 1,
+      "q": "Qui a réalisé le film Titanic (1997) ?",
+      "exp": "Avec Leonardo DiCaprio et Kate Winslet, Titanic remporte 11 Oscars, un record partagé.",
+      "wiki": [
+        [
+          "Titanic (film, 1997)",
+          "Cameron",
+          "11 Oscars"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "James Cameron",
+        "Steven Spielberg",
+        "Peter Jackson",
+        "Ron Howard"
+      ],
+      "themes": [
+        "cinéma américain"
+      ],
+      "see": [
+        "hm-titanic"
+      ]
+    },
+    {
+      "id": "cine-onze-oscars",
+      "sub": "cinema-monde",
+      "diff": 4,
+      "q": "Quel film partage avec Titanic et Ben-Hur le record de 11 Oscars ?",
+      "exp": "Le dernier volet de la trilogie de Peter Jackson (2003) remporte les 11 Oscars pour lesquels il était nommé.",
+      "wiki": [
+        [
+          "Le Seigneur des anneaux : Le Retour du roi",
+          "onze",
+          "oscars",
+          "Ben-Hur",
+          "Titanic"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Seigneur des anneaux : Le Retour du roi",
+        "Avatar",
+        "La La Land",
+        "Le Parrain"
+      ],
+      "themes": [
+        "récompenses"
+      ]
+    },
+    {
+      "id": "cine-avatar",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quel film de James Cameron est le plus gros succès de l'histoire au box-office mondial ?",
+      "exp": "Sorti en 2009, Avatar a dépassé 2,9 milliards de dollars de recettes après plusieurs ressorties.",
+      "wiki": [
+        [
+          "Avatar (film, 2009)",
+          "box-office"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Avatar",
+        "Titanic",
+        "Avengers: Endgame",
+        "Star Wars, épisode VII"
+      ],
+      "themes": [
+        "box-office"
+      ]
+    },
+    {
+      "id": "cine-pulp-fiction",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quel réalisateur a signé Pulp Fiction, Palme d'or en 1994 ?",
+      "exp": "Le film entremêle plusieurs histoires criminelles à Los Angeles, avec John Travolta et Samuel L. Jackson.",
+      "wiki": [
+        [
+          "Pulp Fiction",
+          "Tarantino",
+          "1994"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Quentin Tarantino",
+        "Martin Scorsese",
+        "Joel Coen",
+        "David Fincher"
+      ],
+      "themes": [
+        "cinéma américain"
+      ]
+    },
+    {
+      "id": "cine-kurosawa",
+      "sub": "cinema-monde",
+      "diff": 4,
+      "q": "Quel réalisateur japonais a tourné Les Sept Samouraïs (1954) ?",
+      "exp": "Le film a inspiré le western Les Sept Mercenaires (1960).",
+      "wiki": [
+        [
+          "Les Sept Samouraïs",
+          "Kurosawa",
+          "1954"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Akira Kurosawa",
+        "Yasujirō Ozu",
+        "Kenji Mizoguchi",
+        "Hayao Miyazaki"
+      ],
+      "themes": [
+        "cinéma japonais"
+      ]
+    },
+    {
+      "id": "cine-miyazaki",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Quel réalisateur japonais a créé Le Voyage de Chihiro, Oscar du meilleur film d'animation en 2003 ?",
+      "exp": "Cofondateur du studio Ghibli, Miyazaki a aussi réalisé Mon voisin Totoro et Princesse Mononoké.",
+      "wiki": [
+        [
+          "Le Voyage de Chihiro",
+          "Miyazaki",
+          "Ghibli"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hayao Miyazaki",
+        "Isao Takahata",
+        "Katsuhiro Ōtomo",
+        "Makoto Shinkai"
+      ],
+      "themes": [
+        "animation"
+      ]
+    },
+    {
+      "id": "cine-fellini",
+      "sub": "cinema-monde",
+      "diff": 4,
+      "q": "Quel réalisateur italien a tourné La dolce vita (1960), avec sa scène dans la fontaine de Trevi ?",
+      "exp": "Anita Ekberg s'y baigne dans la fontaine ; le film obtient la Palme d'or.",
+      "wiki": [
+        [
+          "La dolce vita",
+          "Fellini",
+          "Trevi"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Federico Fellini",
+        "Luchino Visconti",
+        "Michelangelo Antonioni",
+        "Roberto Rossellini"
+      ],
+      "themes": [
+        "cinéma italien"
+      ]
+    },
+    {
+      "id": "cine-leone",
+      "sub": "cinema-monde",
+      "diff": 4,
+      "q": "Quel réalisateur italien a popularisé le « western spaghetti » avec Clint Eastwood ?",
+      "exp": "La trilogie du dollar (1964-1966), avec la musique d'Ennio Morricone, culmine avec Le Bon, la Brute et le Truand.",
+      "wiki": [
+        [
+          "Sergio Leone",
+          "Eastwood",
+          "Morricone"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sergio Leone",
+        "Federico Fellini",
+        "Sergio Corbucci",
+        "Dario Argento"
+      ],
+      "themes": [
+        "western"
+      ]
+    },
+    {
+      "id": "cine-bollywood",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Dans quelle ville se trouve le cœur de l'industrie cinématographique surnommée Bollywood ?",
+      "exp": "Le nom mêle « Bombay » et « Hollywood » ; l'Inde est l'un des plus grands producteurs de films au monde.",
+      "wiki": [
+        [
+          "Bollywood",
+          "Bombay",
+          "Hollywood"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bombay (Mumbai)",
+        "New Delhi",
+        "Calcutta",
+        "Madras"
+      ],
+      "themes": [
+        "cinéma indien"
+      ]
+    },
+    {
+      "id": "cine-disney-blanche-neige",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quel est le premier long métrage d'animation des studios Disney, sorti en 1937 ?",
+      "exp": "Surnommé « la folie de Disney » pendant sa production, il connaît un triomphe.",
+      "wiki": [
+        [
+          "Blanche-Neige et les Sept Nains",
+          "1937"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Blanche-Neige et les Sept Nains",
+        "Pinocchio",
+        "Bambi",
+        "Fantasia"
+      ],
+      "themes": [
+        "animation"
+      ]
+    },
+    {
+      "id": "cine-toy-story",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Quel film de 1995 est le premier long métrage entièrement réalisé en images de synthèse ?",
+      "exp": "Produit par Pixar, il met en scène Woody et Buzz l'Éclair.",
+      "wiki": [
+        [
+          "Toy Story",
+          "1995",
+          "Pixar"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Toy Story",
+        "Le Roi lion",
+        "Shrek",
+        "Fourmiz"
+      ],
+      "themes": [
+        "animation"
+      ]
+    },
+    {
+      "id": "cine-hitchcock-oiseaux",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Dans quel film d'Hitchcock des volatiles attaquent-ils une petite ville de Californie ?",
+      "exp": "Sorti en 1963, Les Oiseaux est adapté d'une nouvelle de Daphne du Maurier.",
+      "wiki": [
+        [
+          "Les Oiseaux (film)",
+          "1963",
+          "Hitchcock"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Oiseaux",
+        "Vertigo",
+        "Fenêtre sur cour",
+        "La Mort aux trousses"
+      ],
+      "themes": [
+        "suspense"
+      ],
+      "see": [
+        "cine-hitchcock"
+      ]
+    },
+    {
+      "id": "cine-matrix",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Quelle pilule Neo choisit-il dans Matrix pour connaître la vérité ?",
+      "exp": "La pilule bleue le ramènerait à son illusion ; l'image est devenue une référence de la culture populaire.",
+      "wiki": [
+        [
+          "Matrix (film)",
+          "pilule rouge"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La rouge",
+        "La bleue",
+        "La verte",
+        "La blanche"
+      ],
+      "themes": [
+        "science-fiction"
+      ]
+    },
+    {
+      "id": "cine-oscars-statuette",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Comment surnomme-t-on la statuette des Oscars ?",
+      "exp": "Officiellement Academy Award of Merit, la statuette aurait été surnommée « Oscar » dans les années 1930.",
+      "wiki": [
+        [
+          "Oscars du cinéma",
+          "statuette",
+          "Academy"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Oscar",
+        "Emmy",
+        "César",
+        "Golden Globe"
+      ],
+      "themes": [
+        "récompenses"
+      ]
+    },
+    {
+      "id": "cine-festivals-asso",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Associe chaque récompense à son festival.",
+      "exp": "Cannes, Venise et Berlin forment les trois grands festivals de cinéma ; Locarno se tient en Suisse.",
+      "wiki": [
+        [
+          "Lion d'or",
+          "Venise"
+        ],
+        [
+          "Léopard d'or",
+          "Locarno"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Palme d'or",
+          "Cannes"
+        ],
+        [
+          "Lion d'or",
+          "Venise"
+        ],
+        [
+          "Ours d'or",
+          "Berlin"
+        ],
+        [
+          "Léopard d'or",
+          "Locarno"
+        ]
+      ],
+      "themes": [
+        "festivals"
+      ],
+      "see": [
+        "cine-palme"
+      ]
+    },
+    {
+      "id": "cine-realisateurs-asso",
+      "sub": "cinema-monde",
+      "diff": 3,
+      "q": "Associe chaque film à son réalisateur.",
+      "exp": "Ces quatre films figurent régulièrement dans les classements des chefs-d'œuvre du cinéma.",
+      "wiki": [
+        [
+          "Vertigo (film)",
+          "Hitchcock"
+        ],
+        [
+          "Jules et Jim (film)",
+          "Truffaut"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Les Temps modernes",
+          "Charlie Chaplin"
+        ],
+        [
+          "Vertigo",
+          "Alfred Hitchcock"
+        ],
+        [
+          "Le Voyage de Chihiro",
+          "Hayao Miyazaki"
+        ],
+        [
+          "Jules et Jim",
+          "François Truffaut"
+        ]
+      ],
+      "themes": [
+        "réalisateurs"
+      ]
+    },
+    {
+      "id": "cine-james-bond",
+      "sub": "cinema-monde",
+      "diff": 2,
+      "q": "Quel acteur est le premier à incarner James Bond au cinéma, en 1962 ?",
+      "exp": "Dans James Bond 007 contre Dr. No, l'agent créé par Ian Fleming apparaît pour la première fois sur grand écran.",
+      "wiki": [
+        [
+          "James Bond 007 contre Dr. No",
+          "Sean Connery",
+          "1962"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sean Connery",
+        "Roger Moore",
+        "Pierce Brosnan",
+        "Daniel Craig"
+      ],
+      "themes": [
+        "sagas"
+      ]
+    },
+    {
+      "id": "cine-harry-potter-acteur",
+      "sub": "cinema-monde",
+      "diff": 1,
+      "q": "Quel acteur incarne Harry Potter au cinéma ?",
+      "exp": "Les huit films sortent de 2001 à 2011 ; Rupert Grint joue Ron et Emma Watson Hermione.",
+      "wiki": [
+        [
+          "Daniel Radcliffe",
+          "Harry Potter"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Tom Felton",
+        "Elijah Wood"
+      ],
+      "themes": [
+        "sagas"
+      ],
+      "see": [
+        "pop-harry-potter"
+      ]
     }
   ]
 }

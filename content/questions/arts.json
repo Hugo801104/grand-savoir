@@ -4,96 +4,2995 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "art-joconde", "sub": "peinture", "diff": 1, "themes": ["Léonard de Vinci", "Renaissance", "musées"],
+      "id": "art-joconde",
+      "sub": "peinture",
+      "diff": 1,
+      "themes": [
+        "Léonard de Vinci",
+        "Renaissance",
+        "musées"
+      ],
       "q": "Dans quel musée est exposée La Joconde de Léonard de Vinci ?",
-      "choices": ["Le musée du Louvre", "Le musée des Offices", "Le musée du Prado", "Le musée d'Orsay"],
+      "choices": [
+        "Le musée du Louvre",
+        "Le musée des Offices",
+        "Le musée du Prado",
+        "Le musée d'Orsay"
+      ],
       "exp": "La Joconde, peinte au début du XVIe siècle, est conservée au Louvre, à Paris. Léonard de Vinci l'avait emportée en France, où il finit sa vie au service de François Ier.",
       "anec": "Le tableau fut volé en 1911 par Vincenzo Peruggia et retrouvé deux ans plus tard à Florence.",
-      "see": ["art-classement"],
-      "wiki": [["La Joconde", "Louvre", "1911"]]
+      "see": [
+        "art-classement"
+      ],
+      "wiki": [
+        [
+          "La Joconde",
+          "Louvre",
+          "1911"
+        ]
+      ]
     },
     {
-      "id": "art-sixtine", "sub": "peinture", "diff": 2, "themes": ["Renaissance", "Vatican"],
+      "id": "art-sixtine",
+      "sub": "peinture",
+      "diff": 2,
+      "themes": [
+        "Renaissance",
+        "Vatican"
+      ],
       "q": "Quel artiste peint le plafond de la chapelle Sixtine, au Vatican ?",
-      "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Botticelli"],
+      "choices": [
+        "Michel-Ange",
+        "Raphaël",
+        "Léonard de Vinci",
+        "Botticelli"
+      ],
       "exp": "Michel-Ange peint la voûte de la chapelle Sixtine entre 1508 et 1512, à la demande du pape Jules II, puis le Jugement dernier sur le mur de l'autel.",
-      "wiki": [["Chapelle Sixtine", "Michel-Ange", "Jules II"]]
+      "wiki": [
+        [
+          "Chapelle Sixtine",
+          "Michel-Ange",
+          "Jules II"
+        ]
+      ]
     },
     {
-      "id": "art-impressionnisme", "sub": "peinture", "diff": 2, "themes": ["impressionnisme", "Monet"],
+      "id": "art-impressionnisme",
+      "sub": "peinture",
+      "diff": 2,
+      "themes": [
+        "impressionnisme",
+        "Monet"
+      ],
       "q": "Quel tableau de Claude Monet a donné son nom au mouvement impressionniste ?",
-      "choices": ["Impression, soleil levant", "Les Nymphéas", "La Pie", "Les Coquelicots"],
+      "choices": [
+        "Impression, soleil levant",
+        "Les Nymphéas",
+        "La Pie",
+        "Les Coquelicots"
+      ],
       "exp": "Exposé en 1874, ce tableau représentant le port du Havre inspire au critique Louis Leroy le terme moqueur d'« impressionnistes », repris ensuite par les peintres eux-mêmes.",
-      "see": ["art-courants"],
-      "wiki": [["Impression, soleil levant", "impressionnisme", "Leroy"]]
+      "see": [
+        "art-courants"
+      ],
+      "wiki": [
+        [
+          "Impression, soleil levant",
+          "impressionnisme",
+          "Leroy"
+        ]
+      ]
     },
     {
-      "id": "art-nuit-etoilee", "sub": "peinture", "diff": 1, "themes": ["post-impressionnisme"],
+      "id": "art-nuit-etoilee",
+      "sub": "peinture",
+      "diff": 1,
+      "themes": [
+        "post-impressionnisme"
+      ],
       "q": "Qui a peint La Nuit étoilée (1889) ?",
-      "choices": ["Vincent van Gogh", "Paul Gauguin", "Claude Monet", "Paul Cézanne"],
+      "choices": [
+        "Vincent van Gogh",
+        "Paul Gauguin",
+        "Claude Monet",
+        "Paul Cézanne"
+      ],
       "exp": "Van Gogh peint La Nuit étoilée en 1889 depuis sa chambre de l'asile de Saint-Rémy-de-Provence. Le tableau est conservé au MoMA, à New York.",
-      "wiki": [["La Nuit étoilée", "1889", "Saint-Rémy"]]
+      "wiki": [
+        [
+          "La Nuit étoilée",
+          "1889",
+          "Saint-Rémy"
+        ]
+      ]
     },
     {
-      "id": "art-guernica", "sub": "peinture", "diff": 1, "themes": ["Picasso", "guerre d'Espagne"],
+      "id": "art-guernica",
+      "sub": "peinture",
+      "diff": 1,
+      "themes": [
+        "Picasso",
+        "guerre d'Espagne"
+      ],
       "q": "Qui a peint Guernica (1937) ?",
-      "choices": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco de Goya"],
+      "choices": [
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Joan Miró",
+        "Francisco de Goya"
+      ],
       "exp": "Picasso peint Guernica après le bombardement de la ville basque par l'aviation allemande et italienne, en avril 1937, pendant la guerre d'Espagne.",
       "anec": "Selon une anecdote célèbre, à un officier allemand qui lui demandait « C'est vous qui avez fait ça ? », Picasso aurait répondu « Non, c'est vous ».",
-      "see": ["art-courants"],
-      "wiki": [["Guernica (Picasso)", "1937"]]
+      "see": [
+        "art-courants"
+      ],
+      "wiki": [
+        [
+          "Guernica (Picasso)",
+          "1937"
+        ]
+      ]
     },
     {
-      "id": "art-courants", "fmt": "association", "sub": "peinture", "diff": 3, "themes": ["mouvements artistiques"],
+      "id": "art-courants",
+      "fmt": "association",
+      "sub": "peinture",
+      "diff": 3,
+      "themes": [
+        "mouvements artistiques"
+      ],
       "q": "Associe chaque peintre au mouvement auquel il est principalement rattaché.",
-      "pairs": [["Claude Monet", "Impressionnisme"], ["Salvador Dalí", "Surréalisme"], ["Georges Braque", "Cubisme"], ["Andy Warhol", "Pop art"]],
+      "pairs": [
+        [
+          "Claude Monet",
+          "Impressionnisme"
+        ],
+        [
+          "Salvador Dalí",
+          "Surréalisme"
+        ],
+        [
+          "Georges Braque",
+          "Cubisme"
+        ],
+        [
+          "Andy Warhol",
+          "Pop art"
+        ]
+      ],
       "exp": "Monet est une figure majeure de l'impressionnisme ; Dalí du surréalisme ; Braque invente le cubisme avec Picasso vers 1907-1908 ; Warhol incarne le pop art des années 1960.",
-      "wiki": [["Surréalisme", "Dalí"], ["Cubisme", "Braque"], ["Pop art", "Warhol"]]
+      "wiki": [
+        [
+          "Surréalisme",
+          "Dalí"
+        ],
+        [
+          "Cubisme",
+          "Braque"
+        ],
+        [
+          "Pop art",
+          "Warhol"
+        ]
+      ]
     },
     {
-      "id": "art-classement", "fmt": "classement", "sub": "peinture", "diff": 4, "themes": ["histoire de l'art"],
+      "id": "art-classement",
+      "fmt": "classement",
+      "sub": "peinture",
+      "diff": 4,
+      "themes": [
+        "histoire de l'art"
+      ],
       "q": "Classe ces tableaux selon leur date de création.",
       "orderLabel": "du plus ancien au plus récent",
-      "items": ["La Joconde (Léonard de Vinci)", "La Ronde de nuit (Rembrandt)", "Le Radeau de La Méduse (Géricault)", "Les Demoiselles d'Avignon (Picasso)"],
+      "items": [
+        "La Joconde (Léonard de Vinci)",
+        "La Ronde de nuit (Rembrandt)",
+        "Le Radeau de La Méduse (Géricault)",
+        "Les Demoiselles d'Avignon (Picasso)"
+      ],
       "exp": "La Joconde date du début du XVIe siècle, La Ronde de nuit de 1642, Le Radeau de La Méduse de 1818-1819 et Les Demoiselles d'Avignon de 1907.",
-      "wiki": [["La Ronde de nuit", "1642"], ["Le Radeau de La Méduse", "1819"], ["Les Demoiselles d'Avignon", "1907"]]
+      "wiki": [
+        [
+          "La Ronde de nuit",
+          "1642"
+        ],
+        [
+          "Le Radeau de La Méduse",
+          "1819"
+        ],
+        [
+          "Les Demoiselles d'Avignon",
+          "1907"
+        ]
+      ]
     },
     {
-      "id": "art-penseur", "sub": "sculpture", "diff": 1, "themes": ["sculpture", "XIXe siècle"],
+      "id": "art-penseur",
+      "sub": "sculpture",
+      "diff": 1,
+      "themes": [
+        "sculpture",
+        "XIXe siècle"
+      ],
       "q": "Quel sculpteur a créé Le Penseur ?",
-      "choices": ["Auguste Rodin", "Camille Claudel", "Michel-Ange", "Alberto Giacometti"],
+      "choices": [
+        "Auguste Rodin",
+        "Camille Claudel",
+        "Michel-Ange",
+        "Alberto Giacometti"
+      ],
       "exp": "Le Penseur d'Auguste Rodin était à l'origine une figure de La Porte de l'Enfer, inspirée de La Divine Comédie de Dante. Il en existe de nombreux tirages en bronze.",
-      "wiki": [["Le Penseur", "Rodin", "Porte de l'Enfer"]]
+      "wiki": [
+        [
+          "Le Penseur",
+          "Rodin",
+          "Porte de l'Enfer"
+        ]
+      ]
     },
     {
-      "id": "art-tour-eiffel", "sub": "architecture", "diff": 1, "themes": ["Paris", "XIXe siècle"],
+      "id": "art-tour-eiffel",
+      "sub": "architecture",
+      "diff": 1,
+      "themes": [
+        "Paris",
+        "XIXe siècle"
+      ],
       "q": "Pour quel événement la tour Eiffel a-t-elle été construite ?",
-      "choices": ["L'Exposition universelle de 1889", "Les Jeux olympiques de 1900", "Le centenaire de Napoléon", "L'Exposition coloniale de 1931"],
+      "choices": [
+        "L'Exposition universelle de 1889",
+        "Les Jeux olympiques de 1900",
+        "Le centenaire de Napoléon",
+        "L'Exposition coloniale de 1931"
+      ],
       "exp": "La tour Eiffel est édifiée pour l'Exposition universelle de 1889, qui célèbre aussi le centenaire de la Révolution française. Elle devait être démontée au bout de vingt ans.",
       "anec": "Elle a été sauvée notamment grâce à son utilité pour les expériences de radiotélégraphie.",
-      "wiki": [["Tour Eiffel", "1889", "Exposition universelle"]]
+      "wiki": [
+        [
+          "Tour Eiffel",
+          "1889",
+          "Exposition universelle"
+        ]
+      ]
     },
     {
-      "id": "art-notre-dame", "fmt": "vrai_faux", "answer": true, "sub": "architecture", "diff": 1, "themes": ["gothique", "Paris"],
+      "id": "art-notre-dame",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "architecture",
+      "diff": 1,
+      "themes": [
+        "gothique",
+        "Paris"
+      ],
       "q": "La cathédrale Notre-Dame de Paris est un édifice de style gothique.",
       "exp": "Vrai. Commencée en 1163, Notre-Dame est l'un des grands chefs-d'œuvre de l'architecture gothique, avec ses arcs-boutants et ses rosaces.",
       "anec": "Ravagée par un incendie le 15 avril 2019, elle a rouvert ses portes en décembre 2024 après cinq ans de restauration.",
-      "see": ["hf-sacre-napoleon"],
-      "wiki": [["Cathédrale Notre-Dame de Paris", "gothique", "2019"]]
+      "see": [
+        "hf-sacre-napoleon"
+      ],
+      "wiki": [
+        [
+          "Cathédrale Notre-Dame de Paris",
+          "gothique",
+          "2019"
+        ]
+      ]
     },
     {
-      "id": "art-niepce", "sub": "photographie", "diff": 3, "themes": ["histoire de la photographie"],
+      "id": "art-niepce",
+      "sub": "photographie",
+      "diff": 3,
+      "themes": [
+        "histoire de la photographie"
+      ],
       "q": "Qui réalise vers 1827 la plus ancienne photographie connue, « Point de vue du Gras » ?",
-      "choices": ["Nicéphore Niépce", "Louis Daguerre", "Nadar", "Henri Cartier-Bresson"],
+      "choices": [
+        "Nicéphore Niépce",
+        "Louis Daguerre",
+        "Nadar",
+        "Henri Cartier-Bresson"
+      ],
       "exp": "Nicéphore Niépce fixe l'image de la vue depuis sa fenêtre à Saint-Loup-de-Varennes, avec un temps de pose de plusieurs heures, voire plusieurs jours. Daguerre, son associé, met ensuite au point le daguerréotype (1839).",
-      "wiki": [["Point de vue du Gras", "Niépce"]]
+      "wiki": [
+        [
+          "Point de vue du Gras",
+          "Niépce"
+        ]
+      ]
     },
     {
-      "id": "art-cartier-bresson", "sub": "photographie", "diff": 4, "themes": ["photographie", "XXe siècle"],
+      "id": "art-cartier-bresson",
+      "sub": "photographie",
+      "diff": 4,
+      "themes": [
+        "photographie",
+        "XXe siècle"
+      ],
       "q": "Quel photographe français est associé à la notion d'« instant décisif » et a cofondé l'agence Magnum ?",
-      "choices": ["Henri Cartier-Bresson", "Robert Doisneau", "Nadar", "Willy Ronis"],
+      "choices": [
+        "Henri Cartier-Bresson",
+        "Robert Doisneau",
+        "Nadar",
+        "Willy Ronis"
+      ],
       "exp": "Henri Cartier-Bresson (1908-2004), pionnier du photojournalisme, cofonde l'agence Magnum en 1947. « Images à la sauvette » (1952), traduit en anglais par « The Decisive Moment », est devenu une référence.",
-      "wiki": [["Henri Cartier-Bresson", "Magnum", "instant décisif"]]
+      "wiki": [
+        [
+          "Henri Cartier-Bresson",
+          "Magnum",
+          "instant décisif"
+        ]
+      ]
+    },
+    {
+      "id": "art-cri",
+      "sub": "peinture",
+      "diff": 1,
+      "q": "Quel peintre norvégien a peint Le Cri ?",
+      "exp": "Munch en a réalisé plusieurs versions à partir de 1893 ; l'œuvre est devenue une icône de l'angoisse moderne.",
+      "wiki": [
+        [
+          "Le Cri",
+          "Munch",
+          "1893"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Edvard Munch",
+        "Gustav Klimt",
+        "Egon Schiele",
+        "Vincent van Gogh"
+      ],
+      "themes": [
+        "expressionnisme"
+      ]
+    },
+    {
+      "id": "art-baiser-klimt",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel peintre viennois a réalisé Le Baiser, couvert de feuilles d'or ?",
+      "exp": "Peint en 1908-1909, Le Baiser est conservé au Belvédère de Vienne.",
+      "wiki": [
+        [
+          "Le Baiser (Klimt)",
+          "Klimt",
+          "Belvédère"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gustav Klimt",
+        "Egon Schiele",
+        "Oskar Kokoschka",
+        "Alfons Mucha"
+      ],
+      "themes": [
+        "Art nouveau"
+      ]
+    },
+    {
+      "id": "art-jeune-fille-perle",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Qui a peint La Jeune Fille à la perle ?",
+      "exp": "Ce tableau de Vermeer (vers 1665) est conservé au Mauritshuis de La Haye.",
+      "wiki": [
+        [
+          "La Jeune Fille à la perle",
+          "Vermeer",
+          "Mauritshuis"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Johannes Vermeer",
+        "Rembrandt",
+        "Frans Hals",
+        "Pieter de Hooch"
+      ],
+      "themes": [
+        "peinture hollandaise"
+      ]
+    },
+    {
+      "id": "art-naissance-venus",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel peintre de la Renaissance florentine a réalisé La Naissance de Vénus ?",
+      "exp": "Peinte vers 1485, l'œuvre est exposée à la galerie des Offices, à Florence.",
+      "wiki": [
+        [
+          "La Naissance de Vénus (Botticelli)",
+          "Botticelli",
+          "Offices"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sandro Botticelli",
+        "Léonard de Vinci",
+        "Raphaël",
+        "Titien"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "art-ecole-athenes",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Qui a peint la fresque L'École d'Athènes au Vatican ?",
+      "exp": "Raphaël y représente Platon et Aristote entourés des grands penseurs antiques.",
+      "wiki": [
+        [
+          "L'École d'Athènes",
+          "Raphaël",
+          "Platon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Raphaël",
+        "Michel-Ange",
+        "Léonard de Vinci",
+        "Le Caravage"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "art-cene",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Dans quelle ville se trouve La Cène de Léonard de Vinci ?",
+      "exp": "La fresque orne le réfectoire du couvent Santa Maria delle Grazie ; sa technique expérimentale a mal vieilli.",
+      "wiki": [
+        [
+          "La Cène (Léonard de Vinci)",
+          "Milan",
+          "Santa Maria delle Grazie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Milan",
+        "Florence",
+        "Rome",
+        "Venise"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "art-las-meninas",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre espagnol a réalisé Les Ménines, où il s'est représenté lui-même ?",
+      "exp": "Peint en 1656 et conservé au Prado, ce tableau a fasciné de nombreux artistes, dont Picasso.",
+      "wiki": [
+        [
+          "Les Ménines",
+          "Vélasquez",
+          "Prado"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Diego Vélasquez",
+        "Francisco de Goya",
+        "Le Greco",
+        "Bartolomé Murillo"
+      ],
+      "themes": [
+        "peinture espagnole"
+      ]
+    },
+    {
+      "id": "art-goya-tres-mayo",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre a représenté les exécutions du 3 mai 1808 par les troupes napoléoniennes ?",
+      "exp": "Tres de mayo dénonce la répression d'un soulèvement madrilène ; c'est l'une des premières grandes peintures de guerre modernes.",
+      "wiki": [
+        [
+          "Tres de mayo",
+          "Goya",
+          "1808"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Francisco de Goya",
+        "Diego Vélasquez",
+        "Eugène Delacroix",
+        "Théodore Géricault"
+      ],
+      "themes": [
+        "peinture espagnole"
+      ]
+    },
+    {
+      "id": "art-liberte-peuple",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel peintre a réalisé La Liberté guidant le peuple ?",
+      "exp": "Peinte en 1830, elle célèbre les Trois Glorieuses ; elle est conservée au Louvre.",
+      "wiki": [
+        [
+          "La Liberté guidant le peuple",
+          "Delacroix",
+          "1830"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Eugène Delacroix",
+        "Jacques-Louis David",
+        "Théodore Géricault",
+        "Gustave Courbet"
+      ],
+      "themes": [
+        "romantisme"
+      ],
+      "see": [
+        "hf-trois-glorieuses"
+      ]
+    },
+    {
+      "id": "art-david-sacre",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre néoclassique a réalisé Le Sacre de Napoléon ?",
+      "exp": "Ce tableau gigantesque (environ 6 × 10 m) est exposé au Louvre.",
+      "wiki": [
+        [
+          "Le Sacre de Napoléon",
+          "David",
+          "Louvre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jacques-Louis David",
+        "Jean-Auguste-Dominique Ingres",
+        "Antoine-Jean Gros",
+        "Eugène Delacroix"
+      ],
+      "themes": [
+        "néoclassicisme"
+      ],
+      "see": [
+        "hf-sacre-napoleon"
+      ]
+    },
+    {
+      "id": "art-courbet",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre est le chef de file du réalisme, auteur d'Un enterrement à Ornans ?",
+      "exp": "Courbet peint les gens ordinaires à l'échelle des grands tableaux d'histoire, ce qui fait scandale.",
+      "wiki": [
+        [
+          "Gustave Courbet",
+          "Ornans",
+          "réalisme"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gustave Courbet",
+        "Jean-François Millet",
+        "Honoré Daumier",
+        "Édouard Manet"
+      ],
+      "themes": [
+        "réalisme"
+      ]
+    },
+    {
+      "id": "art-dejeuner-herbe",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel tableau d'Édouard Manet fait scandale au Salon des refusés en 1863 ?",
+      "exp": "Une femme nue au milieu d'hommes habillés, dans un cadre contemporain, choque le public.",
+      "wiki": [
+        [
+          "Le Déjeuner sur l'herbe",
+          "Manet",
+          "1863"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Déjeuner sur l'herbe",
+        "Olympia",
+        "Un bar aux Folies Bergère",
+        "Le Fifre"
+      ],
+      "themes": [
+        "impressionnisme"
+      ]
+    },
+    {
+      "id": "art-nympheas",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Dans quel village Claude Monet a-t-il peint ses Nymphéas ?",
+      "exp": "Monet aménage à Giverny un jardin d'eau qu'il peint inlassablement ; les grands Nymphéas sont exposés au musée de l'Orangerie.",
+      "wiki": [
+        [
+          "Les Nymphéas",
+          "Giverny",
+          "Orangerie",
+          "nymphéas"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Giverny",
+        "Barbizon",
+        "Auvers-sur-Oise",
+        "Étretat"
+      ],
+      "themes": [
+        "impressionnisme"
+      ]
+    },
+    {
+      "id": "art-renoir-moulin",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre impressionniste a représenté le Bal du moulin de la Galette ?",
+      "exp": "Peint en 1876, le tableau montre un bal populaire de Montmartre ; il est conservé au musée d'Orsay.",
+      "wiki": [
+        [
+          "Bal du moulin de la Galette",
+          "Renoir",
+          "1876"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pierre-Auguste Renoir",
+        "Edgar Degas",
+        "Camille Pissarro",
+        "Alfred Sisley"
+      ],
+      "themes": [
+        "impressionnisme"
+      ]
+    },
+    {
+      "id": "art-degas",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel peintre est célèbre pour ses nombreuses danseuses de ballet ?",
+      "exp": "Degas peint et sculpte les danseuses de l'Opéra ; sa Petite Danseuse de quatorze ans est une sculpture célèbre.",
+      "wiki": [
+        [
+          "Edgar Degas",
+          "danseuses"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Edgar Degas",
+        "Claude Monet",
+        "Paul Cézanne",
+        "Henri de Toulouse-Lautrec"
+      ],
+      "themes": [
+        "impressionnisme"
+      ]
+    },
+    {
+      "id": "art-van-gogh-oreille",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Dans quelle ville Van Gogh se coupe-t-il l'oreille en 1888, après une dispute avec Gauguin ?",
+      "exp": "Van Gogh peint à Arles de nombreuses toiles, dont Les Tournesols ; il meurt à Auvers-sur-Oise en 1890.",
+      "wiki": [
+        [
+          "Vincent van Gogh",
+          "Arles",
+          "Gauguin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Arles",
+        "Paris",
+        "Auvers-sur-Oise",
+        "Saint-Rémy-de-Provence"
+      ],
+      "themes": [
+        "post-impressionnisme"
+      ]
+    },
+    {
+      "id": "art-gauguin-tahiti",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Sur quelle île du Pacifique Paul Gauguin s'installe-t-il en 1891 ?",
+      "exp": "Gauguin peint des scènes polynésiennes aux couleurs intenses ; il meurt en 1903 aux îles Marquises.",
+      "wiki": [
+        [
+          "Paul Gauguin",
+          "Tahiti",
+          "Marquises"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Tahiti",
+        "Hawaï",
+        "Nouméa",
+        "Madagascar"
+      ],
+      "themes": [
+        "post-impressionnisme"
+      ]
+    },
+    {
+      "id": "art-cezanne",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quelle montagne Paul Cézanne a-t-il peinte des dizaines de fois ?",
+      "exp": "Cézanne, né à Aix-en-Provence, ouvre la voie au cubisme par sa construction des formes.",
+      "wiki": [
+        [
+          "Montagne Sainte-Victoire",
+          "Cézanne"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La montagne Sainte-Victoire",
+        "Le mont Ventoux",
+        "Le mont Blanc",
+        "Le pic du Midi"
+      ],
+      "themes": [
+        "post-impressionnisme"
+      ]
+    },
+    {
+      "id": "art-seurat",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quelle technique Georges Seurat utilise-t-il dans Un dimanche après-midi à l'Île de la Grande Jatte ?",
+      "exp": "Seurat juxtapose de petites touches de couleurs pures que l'œil mélange à distance.",
+      "wiki": [
+        [
+          "Un dimanche après-midi à l'île de la Grande Jatte",
+          "Seurat"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le pointillisme",
+        "Le sfumato",
+        "Le clair-obscur",
+        "La peinture à l'huile au couteau"
+      ],
+      "themes": [
+        "néo-impressionnisme"
+      ]
+    },
+    {
+      "id": "art-toulouse-lautrec",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel peintre a réalisé de célèbres affiches du Moulin-Rouge ?",
+      "exp": "Toulouse-Lautrec immortalise les cabarets de Montmartre et leurs vedettes, comme La Goulue.",
+      "wiki": [
+        [
+          "Henri de Toulouse-Lautrec",
+          "Moulin-Rouge",
+          "Goulue"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Henri de Toulouse-Lautrec",
+        "Alfons Mucha",
+        "Jules Chéret",
+        "Edgar Degas"
+      ],
+      "themes": [
+        "affiche"
+      ]
+    },
+    {
+      "id": "art-matisse",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre est la figure majeure du fauvisme ?",
+      "exp": "Au Salon d'automne de 1905, un critique compare la salle de ces peintres aux couleurs vives à une « cage aux fauves ».",
+      "wiki": [
+        [
+          "Fauvisme",
+          "Matisse",
+          "1905"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Henri Matisse",
+        "André Derain",
+        "Georges Braque",
+        "Raoul Dufy"
+      ],
+      "themes": [
+        "fauvisme"
+      ]
+    },
+    {
+      "id": "art-kandinsky",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre est souvent considéré comme l'un des pionniers de l'abstraction ?",
+      "exp": "Vers 1910, Kandinsky peint des compositions sans objet reconnaissable ; il enseigne ensuite au Bauhaus.",
+      "wiki": [
+        [
+          "Vassily Kandinsky",
+          "abstraction",
+          "Bauhaus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Wassily Kandinsky",
+        "Claude Monet",
+        "Henri Rousseau",
+        "Amedeo Modigliani"
+      ],
+      "themes": [
+        "abstraction"
+      ]
+    },
+    {
+      "id": "art-mondrian",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre néerlandais est célèbre pour ses compositions de lignes noires et de couleurs primaires ?",
+      "exp": "Mondrian cofonde le mouvement De Stijl ; ses grilles ont influencé le design et la mode.",
+      "wiki": [
+        [
+          "Piet Mondrian",
+          "De Stijl"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Piet Mondrian",
+        "Kasimir Malevitch",
+        "Paul Klee",
+        "Joan Miró"
+      ],
+      "themes": [
+        "abstraction"
+      ]
+    },
+    {
+      "id": "art-dali-montres",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel tableau de Salvador Dalí montre des montres molles ?",
+      "exp": "Peint en 1931, ce petit tableau est conservé au MoMA de New York.",
+      "wiki": [
+        [
+          "La Persistance de la mémoire",
+          "Dalí",
+          "1931"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Persistance de la mémoire",
+        "Le Visage de la guerre",
+        "Le Sommeil",
+        "Galatée aux sphères"
+      ],
+      "themes": [
+        "surréalisme"
+      ]
+    },
+    {
+      "id": "art-magritte-pipe",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel peintre belge a écrit « Ceci n'est pas une pipe » sous l'image d'une pipe ?",
+      "exp": "La Trahison des images (1929) rappelle qu'une représentation n'est pas l'objet lui-même.",
+      "wiki": [
+        [
+          "La Trahison des images",
+          "Magritte"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "René Magritte",
+        "Paul Delvaux",
+        "James Ensor",
+        "Marcel Duchamp"
+      ],
+      "themes": [
+        "surréalisme"
+      ]
+    },
+    {
+      "id": "art-frida",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quelle peintre mexicaine est célèbre pour ses autoportraits ?",
+      "exp": "Épouse de Diego Rivera, Frida Kahlo a peint sa douleur physique et son identité mexicaine.",
+      "wiki": [
+        [
+          "Frida Kahlo",
+          "autoportraits",
+          "Rivera"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Frida Kahlo",
+        "Tamara de Lempicka",
+        "Georgia O'Keeffe",
+        "Leonora Carrington"
+      ],
+      "themes": [
+        "peinture mexicaine"
+      ]
+    },
+    {
+      "id": "art-warhol-marilyn",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel artiste du pop art a reproduit en série le visage de Marilyn Monroe ?",
+      "exp": "Warhol utilise la sérigraphie pour reproduire des images de la culture de masse, comme les boîtes de soupe Campbell.",
+      "wiki": [
+        [
+          "Andy Warhol",
+          "Marilyn",
+          "sérigraphie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Andy Warhol",
+        "Roy Lichtenstein",
+        "Keith Haring",
+        "Jeff Koons"
+      ],
+      "themes": [
+        "pop art"
+      ]
+    },
+    {
+      "id": "art-duchamp-urinoir",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel artiste expose en 1917 un urinoir intitulé Fontaine ?",
+      "exp": "Ce « ready-made » questionne ce qui fait qu'un objet devient une œuvre d'art.",
+      "wiki": [
+        [
+          "Fontaine (Duchamp)",
+          "1917",
+          "ready-made"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marcel Duchamp",
+        "Man Ray",
+        "Francis Picabia",
+        "Jean Arp"
+      ],
+      "themes": [
+        "art contemporain"
+      ]
+    },
+    {
+      "id": "art-pollock",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quelle technique Jackson Pollock a-t-il rendue célèbre ?",
+      "exp": "Pollock fait couler et projeter la peinture sur une toile posée au sol : c'est l'expressionnisme abstrait.",
+      "wiki": [
+        [
+          "Jackson Pollock",
+          "dripping"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le dripping",
+        "Le collage",
+        "Le pointillisme",
+        "La fresque"
+      ],
+      "themes": [
+        "expressionnisme abstrait"
+      ]
+    },
+    {
+      "id": "art-banksy",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel artiste de rue anonyme a vu l'une de ses œuvres s'autodétruire après sa vente aux enchères en 2018 ?",
+      "exp": "La Petite Fille au ballon se déchiquette partiellement dans son cadre ; rebaptisée Love is in the Bin, elle prend encore de la valeur.",
+      "wiki": [
+        [
+          "Banksy",
+          "2018",
+          "ballon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Banksy",
+        "Invader",
+        "JR",
+        "Keith Haring"
+      ],
+      "themes": [
+        "art urbain"
+      ]
+    },
+    {
+      "id": "art-bosch",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre flamand a réalisé Le Jardin des délices, peuplé de créatures fantastiques ?",
+      "exp": "Le triptyque, peint vers 1500, est conservé au Prado à Madrid.",
+      "wiki": [
+        [
+          "Le Jardin des délices",
+          "Bosch",
+          "Prado"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jérôme Bosch",
+        "Pieter Bruegel l'Ancien",
+        "Jan van Eyck",
+        "Rubens"
+      ],
+      "themes": [
+        "primitifs flamands"
+      ]
+    },
+    {
+      "id": "art-van-eyck",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre flamand a réalisé Les Époux Arnolfini en 1434 ?",
+      "exp": "Le célèbre miroir convexe au fond de la pièce reflète la scène et deux personnages.",
+      "wiki": [
+        [
+          "Les Époux Arnolfini",
+          "Van Eyck",
+          "1434"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jan van Eyck",
+        "Rogier van der Weyden",
+        "Hans Memling",
+        "Jérôme Bosch"
+      ],
+      "themes": [
+        "primitifs flamands"
+      ]
+    },
+    {
+      "id": "art-rembrandt",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Dans quel pays Rembrandt a-t-il vécu et peint ?",
+      "exp": "Rembrandt, maître du clair-obscur, travaille à Amsterdam au XVIIe siècle, le « siècle d'or » néerlandais.",
+      "wiki": [
+        [
+          "Rembrandt",
+          "Amsterdam",
+          "clair-obscur"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Pays-Bas",
+        "La Belgique",
+        "L'Espagne",
+        "L'Italie"
+      ],
+      "themes": [
+        "peinture hollandaise"
+      ]
+    },
+    {
+      "id": "art-caravage",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre italien est célèbre pour son clair-obscur dramatique et sa vie violente ?",
+      "exp": "Accusé de meurtre en 1606, le Caravage fuit Rome ; il meurt en 1610 à 38 ans.",
+      "wiki": [
+        [
+          "Le Caravage",
+          "clair-obscur",
+          "1610"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Caravage",
+        "Titien",
+        "Raphaël",
+        "Botticelli"
+      ],
+      "themes": [
+        "baroque"
+      ]
+    },
+    {
+      "id": "art-mouvements-ordre",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Classe ces mouvements artistiques selon leur apparition.",
+      "exp": "XVe-XVIe siècles, XVIIe siècle, début du XIXe siècle, années 1870, années 1900.",
+      "wiki": [
+        [
+          "Baroque",
+          "XVIIe siècle"
+        ],
+        [
+          "Romantisme",
+          "XIXe siècle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "classement",
+      "orderLabel": "du plus ancien au plus récent",
+      "items": [
+        "Renaissance",
+        "Baroque",
+        "Romantisme",
+        "Impressionnisme",
+        "Cubisme"
+      ],
+      "themes": [
+        "histoire de l'art"
+      ]
+    },
+    {
+      "id": "art-tableaux-asso",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Associe chaque tableau à son peintre.",
+      "exp": "Géricault peint le naufrage de la Méduse (1819), Ingres la Grande Odalisque (1814), Millet L'Angélus (1857-1859) et Manet Olympia (1863).",
+      "wiki": [
+        [
+          "L'Angélus",
+          "Millet"
+        ],
+        [
+          "La Grande Odalisque",
+          "Ingres"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Le Radeau de La Méduse",
+          "Géricault"
+        ],
+        [
+          "La Grande Odalisque",
+          "Ingres"
+        ],
+        [
+          "L'Angélus",
+          "Millet"
+        ],
+        [
+          "Olympia",
+          "Manet"
+        ]
+      ],
+      "themes": [
+        "peinture française"
+      ]
+    },
+    {
+      "id": "art-david-michel-ange",
+      "sub": "sculpture",
+      "diff": 2,
+      "q": "Dans quelle ville se trouve le David de Michel-Ange ?",
+      "exp": "Sculpté de 1501 à 1504 dans un seul bloc de marbre, l'original est à la galerie de l'Académie de Florence.",
+      "wiki": [
+        [
+          "David (Michel-Ange)",
+          "Florence",
+          "1504"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Florence",
+        "Rome",
+        "Milan",
+        "Venise"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "art-pieta",
+      "sub": "sculpture",
+      "diff": 3,
+      "q": "Où se trouve la Pietà de Michel-Ange ?",
+      "exp": "C'est la seule œuvre que Michel-Ange ait signée, sur le ruban qui barre la poitrine de la Vierge.",
+      "wiki": [
+        [
+          "Pietà (Michel-Ange)",
+          "Saint-Pierre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dans la basilique Saint-Pierre de Rome",
+        "Au Louvre",
+        "À Florence",
+        "À Milan"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "art-venus-milo",
+      "sub": "sculpture",
+      "diff": 2,
+      "q": "Que manque-t-il à la Vénus de Milo, exposée au Louvre ?",
+      "exp": "Découverte en 1820 sur l'île de Milos, cette statue grecque date d'environ 150-125 av. J.-C.",
+      "wiki": [
+        [
+          "Vénus de Milo",
+          "1820",
+          "Milos"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les bras",
+        "La tête",
+        "Les jambes",
+        "Le nez"
+      ],
+      "themes": [
+        "Antiquité"
+      ]
+    },
+    {
+      "id": "art-victoire-samothrace",
+      "sub": "sculpture",
+      "diff": 3,
+      "q": "Quelle sculpture grecque ailée accueille les visiteurs en haut d'un grand escalier du Louvre ?",
+      "exp": "Découverte en 1863, elle représente Niké posée sur la proue d'un navire.",
+      "wiki": [
+        [
+          "Victoire de Samothrace",
+          "1863",
+          "Niké"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Victoire de Samothrace",
+        "La Vénus de Milo",
+        "Le Discobole",
+        "L'Aurige de Delphes"
+      ],
+      "themes": [
+        "Antiquité"
+      ]
+    },
+    {
+      "id": "art-camille-claudel",
+      "sub": "sculpture",
+      "diff": 3,
+      "q": "Quelle sculptrice, élève et compagne de Rodin, a réalisé L'Âge mûr ?",
+      "exp": "Internée de 1913 à sa mort en 1943, Camille Claudel a été redécouverte ; un musée lui est consacré à Nogent-sur-Seine.",
+      "wiki": [
+        [
+          "Camille Claudel",
+          "Âge mûr",
+          "Nogent-sur-Seine"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Camille Claudel",
+        "Berthe Morisot",
+        "Niki de Saint Phalle",
+        "Louise Bourgeois"
+      ],
+      "themes": [
+        "sculpture française"
+      ],
+      "see": [
+        "art-penseur"
+      ]
+    },
+    {
+      "id": "art-giacometti",
+      "sub": "sculpture",
+      "diff": 4,
+      "q": "Quel sculpteur suisse est célèbre pour ses silhouettes humaines très allongées ?",
+      "exp": "L'Homme qui marche I a été l'une des œuvres d'art les plus chères vendues aux enchères en 2010.",
+      "wiki": [
+        [
+          "Alberto Giacometti",
+          "Homme qui marche"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alberto Giacometti",
+        "Constantin Brancusi",
+        "Jean Tinguely",
+        "Henry Moore"
+      ],
+      "themes": [
+        "sculpture"
+      ]
+    },
+    {
+      "id": "art-niki",
+      "sub": "sculpture",
+      "diff": 3,
+      "q": "Quelle artiste a créé les Nanas, sculptures de femmes aux formes généreuses et aux couleurs vives ?",
+      "exp": "Avec Jean Tinguely, elle a réalisé la fontaine Stravinsky, près du centre Pompidou.",
+      "wiki": [
+        [
+          "Niki de Saint Phalle",
+          "Nanas",
+          "Stravinsky"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Niki de Saint Phalle",
+        "Louise Bourgeois",
+        "Camille Claudel",
+        "Sonia Delaunay"
+      ],
+      "themes": [
+        "sculpture contemporaine"
+      ]
+    },
+    {
+      "id": "art-bourgeois-maman",
+      "sub": "sculpture",
+      "diff": 4,
+      "q": "Quelle artiste a créé Maman, une gigantesque araignée en bronze ?",
+      "exp": "Haute de près de 9 m, l'araignée rend hommage à la mère de l'artiste, restauratrice de tapisseries.",
+      "wiki": [
+        [
+          "Maman (sculpture)",
+          "araignée",
+          "Maman",
+          "sculpt"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Louise Bourgeois",
+        "Niki de Saint Phalle",
+        "Yayoi Kusama",
+        "Frida Kahlo"
+      ],
+      "themes": [
+        "sculpture contemporaine"
+      ]
+    },
+    {
+      "id": "art-pyramides-merveilles",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Combien comptait-on de merveilles dans la liste antique des « Sept Merveilles du monde » ?",
+      "exp": "Seule la pyramide de Khéops subsiste ; les autres, comme le phare d'Alexandrie ou les jardins de Babylone, ont disparu.",
+      "wiki": [
+        [
+          "Sept merveilles du monde",
+          "Khéops"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "7",
+        "5",
+        "9",
+        "12"
+      ],
+      "themes": [
+        "Antiquité"
+      ],
+      "see": [
+        "hm-gizeh"
+      ]
+    },
+    {
+      "id": "art-parthenon",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "À quelle déesse le Parthénon d'Athènes était-il dédié ?",
+      "exp": "Construit au Ve siècle av. J.-C. sur l'Acropole, le Parthénon abritait une statue chryséléphantine d'Athéna Parthénos.",
+      "wiki": [
+        [
+          "Parthénon",
+          "Athéna",
+          "Acropole"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Athéna",
+        "Héra",
+        "Aphrodite",
+        "Artémis"
+      ],
+      "themes": [
+        "Antiquité"
+      ],
+      "see": [
+        "hm-pericles"
+      ]
+    },
+    {
+      "id": "art-taj-mahal",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Dans quel pays se trouve le Taj Mahal ?",
+      "exp": "Le mausolée de marbre blanc d'Agra est construit au XVIIe siècle par l'empereur moghol Shah Jahan pour son épouse.",
+      "wiki": [
+        [
+          "Taj Mahal",
+          "Agra"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Inde",
+        "Le Pakistan",
+        "L'Iran",
+        "La Turquie"
+      ],
+      "themes": [
+        "architecture du monde"
+      ]
+    },
+    {
+      "id": "art-sagrada",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Quel architecte a conçu la Sagrada Família de Barcelone ?",
+      "exp": "Commencée en 1882 et toujours en construction, elle est l'œuvre majeure de Gaudí, mort en 1926.",
+      "wiki": [
+        [
+          "Sagrada Família",
+          "Gaudí",
+          "1882"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Antoni Gaudí",
+        "Le Corbusier",
+        "Frank Gehry",
+        "Santiago Calatrava"
+      ],
+      "themes": [
+        "architecture moderne"
+      ]
+    },
+    {
+      "id": "art-le-corbusier",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Quel architecte a conçu la Cité radieuse de Marseille ?",
+      "exp": "L'Unité d'habitation (1952) applique ses principes de « machine à habiter » ; plusieurs de ses œuvres sont classées à l'UNESCO.",
+      "wiki": [
+        [
+          "Cité radieuse de Marseille",
+          "Le Corbusier",
+          "1952"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Corbusier",
+        "Auguste Perret",
+        "Jean Prouvé",
+        "Robert Mallet-Stevens"
+      ],
+      "themes": [
+        "architecture moderne"
+      ]
+    },
+    {
+      "id": "art-opera-garnier",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Quel architecte a construit l'Opéra de Paris inauguré en 1875 ?",
+      "exp": "Symbole du Second Empire, l'Opéra Garnier est orné d'un plafond peint par Chagall en 1964.",
+      "wiki": [
+        [
+          "Opéra Garnier",
+          "1875",
+          "Chagall"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Charles Garnier",
+        "Gustave Eiffel",
+        "Georges Haussmann",
+        "Viollet-le-Duc"
+      ],
+      "themes": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "art-gothique-arcs",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Quel élément d'architecture gothique permet de soutenir les murs de l'extérieur pour ouvrir de grandes verrières ?",
+      "exp": "Les arcs-boutants reportent la poussée des voûtes vers des contreforts, ce qui permet de grandes fenêtres et vitraux.",
+      "wiki": [
+        [
+          "Arc-boutant",
+          "gothique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'arc-boutant",
+        "Le chapiteau",
+        "La coupole",
+        "Le fronton"
+      ],
+      "themes": [
+        "architecture gothique"
+      ]
+    },
+    {
+      "id": "art-roman-gothique",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Lequel de ces éléments caractérise plutôt l'art roman que l'art gothique ?",
+      "exp": "L'art roman (XIe-XIIe siècles) utilise l'arc en plein cintre et des murs massifs ; le gothique privilégie l'ogive et la lumière.",
+      "wiki": [
+        [
+          "Art roman",
+          "plein cintre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Des murs épais et des arcs en plein cintre",
+        "Des arcs-boutants",
+        "De grandes rosaces",
+        "Des voûtes sur croisée d'ogives"
+      ],
+      "themes": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "art-burj-khalifa",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Quel est le plus haut gratte-ciel du monde, inauguré en 2010 ?",
+      "exp": "Avec environ 828 m, le Burj Khalifa de Dubaï est le plus haut bâtiment du monde depuis 2010.",
+      "wiki": [
+        [
+          "Burj Khalifa",
+          "828",
+          "Dubaï"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Burj Khalifa",
+        "Tour Shanghai",
+        "One World Trade Center",
+        "Petronas Towers"
+      ],
+      "themes": [
+        "architecture contemporaine"
+      ]
+    },
+    {
+      "id": "art-guggenheim-bilbao",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Quel architecte a conçu le musée Guggenheim de Bilbao, couvert de titane ?",
+      "exp": "Inauguré en 1997, il a transformé l'image de la ville ; on parle d'« effet Bilbao ».",
+      "wiki": [
+        [
+          "Musée Guggenheim (Bilbao)",
+          "Gehry",
+          "1997"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Frank Gehry",
+        "Zaha Hadid",
+        "Renzo Piano",
+        "Jean Nouvel"
+      ],
+      "themes": [
+        "architecture contemporaine"
+      ]
+    },
+    {
+      "id": "art-opera-sydney",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Dans quelle ville se trouve l'opéra aux toits en forme de voiles conçu par Jørn Utzon ?",
+      "exp": "Inauguré en 1973, l'Opéra de Sydney est inscrit au patrimoine mondial de l'UNESCO.",
+      "wiki": [
+        [
+          "Opéra de Sydney",
+          "Utzon",
+          "1973"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sydney",
+        "Oslo",
+        "Copenhague",
+        "Auckland"
+      ],
+      "themes": [
+        "architecture contemporaine"
+      ]
+    },
+    {
+      "id": "art-chateaux-loire",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Lequel de ces châteaux est construit en partie sur une rivière, le Cher ?",
+      "exp": "Sa galerie enjambant le Cher est appelée « château des Dames », car plusieurs femmes l'ont façonné.",
+      "wiki": [
+        [
+          "Château de Chenonceau",
+          "Cher",
+          "Dames"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Chenonceau",
+        "Chambord",
+        "Blois",
+        "Amboise"
+      ],
+      "themes": [
+        "châteaux de la Loire"
+      ],
+      "see": [
+        "hf-diane-poitiers"
+      ]
+    },
+    {
+      "id": "art-musees-asso",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Associe chaque musée à sa ville.",
+      "exp": "Ces musées comptent parmi les plus riches collections d'art européen.",
+      "wiki": [
+        [
+          "Musée de l'Ermitage",
+          "Saint-Pétersbourg"
+        ],
+        [
+          "Rijksmuseum",
+          "Amsterdam"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Le Prado",
+          "Madrid"
+        ],
+        [
+          "Les Offices",
+          "Florence"
+        ],
+        [
+          "L'Ermitage",
+          "Saint-Pétersbourg"
+        ],
+        [
+          "Le Rijksmuseum",
+          "Amsterdam"
+        ]
+      ],
+      "themes": [
+        "musées"
+      ]
+    },
+    {
+      "id": "art-orsay",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Le musée d'Orsay, à Paris, est installé dans une ancienne…",
+      "exp": "La gare d'Orsay, construite pour l'Exposition de 1900, est transformée en musée en 1986, consacré à l'art de 1848 à 1914.",
+      "wiki": [
+        [
+          "Musée d'Orsay",
+          "gare",
+          "1986"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gare",
+        "Prison",
+        "Usine",
+        "Caserne"
+      ],
+      "themes": [
+        "musées"
+      ]
+    },
+    {
+      "id": "art-louvre-musee",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "En quelle année le palais du Louvre devient-il un musée ouvert au public ?",
+      "exp": "Le Muséum central des arts ouvre le 10 août 1793, un an jour pour jour après la chute de la monarchie.",
+      "wiki": [
+        [
+          "Musée du Louvre",
+          "1793"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "1793",
+        "1682",
+        "1855",
+        "1989"
+      ],
+      "themes": [
+        "musées"
+      ],
+      "see": [
+        "hf-louvre-forteresse"
+      ]
+    },
+    {
+      "id": "art-nadar",
+      "sub": "photographie",
+      "diff": 3,
+      "q": "Quel photographe du XIXe siècle a réalisé les portraits de Baudelaire, Sarah Bernhardt ou Victor Hugo ?",
+      "exp": "Nadar, de son vrai nom Gaspard-Félix Tournachon, a aussi réalisé les premières photographies aériennes en ballon.",
+      "wiki": [
+        [
+          "Nadar",
+          "Tournachon",
+          "ballon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Nadar",
+        "Eugène Atget",
+        "Henri Cartier-Bresson",
+        "Robert Doisneau"
+      ],
+      "themes": [
+        "photographie"
+      ]
+    },
+    {
+      "id": "art-doisneau",
+      "sub": "photographie",
+      "diff": 2,
+      "q": "Quel photographe a pris Le Baiser de l'hôtel de ville en 1950 ?",
+      "exp": "On a appris plus tard que la scène avait été posée par des figurants, ce qui ne l'empêche pas d'être devenue iconique.",
+      "wiki": [
+        [
+          "Le Baiser de l'hôtel de ville",
+          "Doisneau",
+          "1950"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Robert Doisneau",
+        "Henri Cartier-Bresson",
+        "Willy Ronis",
+        "Brassaï"
+      ],
+      "themes": [
+        "photographie humaniste"
+      ]
+    },
+    {
+      "id": "art-capa",
+      "sub": "photographie",
+      "diff": 3,
+      "q": "Quel photographe de guerre a couvert le débarquement d'Omaha Beach en 1944 ?",
+      "exp": "Cofondateur de l'agence Magnum, Capa disait : « Si tes photos ne sont pas assez bonnes, c'est que tu n'es pas assez près. »",
+      "wiki": [
+        [
+          "Robert Capa",
+          "Omaha",
+          "Magnum"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Robert Capa",
+        "Henri Cartier-Bresson",
+        "James Nachtwey",
+        "Gerda Taro"
+      ],
+      "themes": [
+        "photojournalisme"
+      ]
+    },
+    {
+      "id": "art-polaroid",
+      "sub": "photographie",
+      "diff": 3,
+      "q": "Quelle entreprise a commercialisé l'appareil à développement instantané à partir de 1948 ?",
+      "exp": "Edwin Land invente le procédé après que sa fille lui a demandé pourquoi on ne pouvait pas voir la photo tout de suite.",
+      "wiki": [
+        [
+          "Polaroid Corporation",
+          "1948"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Polaroid",
+        "Kodak",
+        "Leica",
+        "Nikon"
+      ],
+      "themes": [
+        "photographie"
+      ]
+    },
+    {
+      "id": "art-kodak",
+      "sub": "photographie",
+      "diff": 4,
+      "q": "Quel slogan accompagnait le premier appareil Kodak de George Eastman, en 1888 ?",
+      "exp": "La photographie devient accessible au grand public : l'appareil était renvoyé à l'usine pour développer les tirages.",
+      "wiki": [
+        [
+          "Kodak",
+          "Eastman",
+          "1888"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "« Vous appuyez sur le bouton, nous faisons le reste »",
+        "« Le monde en couleurs »",
+        "« Saisissez l'instant »",
+        "« Une image vaut mille mots »"
+      ],
+      "themes": [
+        "photographie"
+      ]
+    },
+    {
+      "id": "art-lascaux-art",
+      "sub": "peinture",
+      "diff": 2,
+      "q": "Quel type d'œuvres trouve-t-on dans les grottes de Lascaux et Chauvet ?",
+      "exp": "Chevaux, aurochs, bisons et félins y ont été peints à l'aide de pigments minéraux et de charbon.",
+      "wiki": [
+        [
+          "Art pariétal",
+          "Lascaux",
+          "Chauvet"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Des peintures et gravures préhistoriques",
+        "Des mosaïques romaines",
+        "Des fresques médiévales",
+        "Des vitraux"
+      ],
+      "themes": [
+        "préhistoire"
+      ],
+      "see": [
+        "hf-lascaux"
+      ]
+    },
+    {
+      "id": "art-giotto",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre florentin du XIVe siècle a décoré la chapelle Scrovegni de Padoue ?",
+      "exp": "Giotto rompt avec l'art byzantin en donnant du volume et de l'émotion à ses personnages ; il annonce la Renaissance.",
+      "wiki": [
+        [
+          "Giotto di Bondone",
+          "Scrovegni",
+          "Padoue"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Giotto",
+        "Cimabue",
+        "Masaccio",
+        "Fra Angelico"
+      ],
+      "themes": [
+        "pré-Renaissance"
+      ]
+    },
+    {
+      "id": "art-sfumato",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Comment appelle-t-on la technique de Léonard de Vinci qui adoucit les contours par des passages de tons très progressifs ?",
+      "exp": "Le sfumato, de l'italien fumo (fumée), donne au sourire de la Joconde son mystère.",
+      "wiki": [
+        [
+          "Sfumato",
+          "Léonard de Vinci",
+          "Joconde"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le sfumato",
+        "Le clair-obscur",
+        "Le trompe-l'œil",
+        "Le pointillisme"
+      ],
+      "themes": [
+        "Renaissance"
+      ],
+      "see": [
+        "art-joconde"
+      ]
+    },
+    {
+      "id": "art-durer",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel artiste allemand de la Renaissance est célèbre pour ses gravures et son autoportrait de 1500 ?",
+      "exp": "Dürer a aussi peint un célèbre Lièvre à l'aquarelle (1502).",
+      "wiki": [
+        [
+          "Albrecht Dürer",
+          "gravures",
+          "Lièvre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Albrecht Dürer",
+        "Hans Holbein",
+        "Lucas Cranach",
+        "Matthias Grünewald"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "art-bruegel",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre flamand a représenté La Tour de Babel et des scènes de la vie paysanne ?",
+      "exp": "Ses Chasseurs dans la neige (1565) sont l'un des paysages d'hiver les plus célèbres.",
+      "wiki": [
+        [
+          "Pieter Brueghel l'Ancien",
+          "Chasseurs dans la neige"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pieter Bruegel l'Ancien",
+        "Jérôme Bosch",
+        "Jan van Eyck",
+        "Pierre Paul Rubens"
+      ],
+      "themes": [
+        "peinture flamande"
+      ]
+    },
+    {
+      "id": "art-rubens",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre baroque flamand a réalisé un grand cycle de tableaux sur la vie de Marie de Médicis, aujourd'hui au Louvre ?",
+      "exp": "Les 24 toiles, commandées pour le palais du Luxembourg, sont exposées dans la galerie Médicis du Louvre.",
+      "wiki": [
+        [
+          "Pierre Paul Rubens",
+          "Marie de Médicis",
+          "Louvre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pierre Paul Rubens",
+        "Antoine van Dyck",
+        "Jacob Jordaens",
+        "Rembrandt"
+      ],
+      "themes": [
+        "baroque"
+      ]
+    },
+    {
+      "id": "art-georges-latour",
+      "sub": "peinture",
+      "diff": 5,
+      "q": "Quel peintre lorrain du XVIIe siècle est célèbre pour ses scènes éclairées à la bougie ?",
+      "exp": "Oublié pendant deux siècles, il est redécouvert au XXe siècle ; Le Tricheur à l'as de carreau est au Louvre.",
+      "wiki": [
+        [
+          "Georges de La Tour",
+          "bougie",
+          "Tricheur"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Georges de La Tour",
+        "Nicolas Poussin",
+        "Claude Lorrain",
+        "Philippe de Champaigne"
+      ],
+      "themes": [
+        "peinture française"
+      ]
+    },
+    {
+      "id": "art-watteau",
+      "sub": "peinture",
+      "diff": 5,
+      "q": "Quel peintre a réalisé Pèlerinage à l'île de Cythère, inventant le genre de la « fête galante » ?",
+      "exp": "Présenté à l'Académie en 1717, ce tableau marque l'élégance et la légèreté du style rocaille.",
+      "wiki": [
+        [
+          "Pèlerinage à l'île de Cythère",
+          "Watteau",
+          "1717"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Antoine Watteau",
+        "François Boucher",
+        "Jean-Honoré Fragonard",
+        "Jean Siméon Chardin"
+      ],
+      "themes": [
+        "XVIIIe siècle"
+      ]
+    },
+    {
+      "id": "art-fragonard",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre du XVIIIe siècle a réalisé Les Hasards heureux de l'escarpolette ?",
+      "exp": "Né à Grasse, Fragonard incarne la peinture galante et frivole du règne de Louis XV.",
+      "wiki": [
+        [
+          "Jean-Honoré Fragonard",
+          "escarpolette",
+          "Grasse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean-Honoré Fragonard",
+        "Antoine Watteau",
+        "François Boucher",
+        "Élisabeth Vigée Le Brun"
+      ],
+      "themes": [
+        "XVIIIe siècle"
+      ]
+    },
+    {
+      "id": "art-vigee-lebrun",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quelle femme peintre a réalisé de nombreux portraits de la reine Marie-Antoinette ?",
+      "exp": "Elle quitte la France à la Révolution et poursuit une brillante carrière dans les cours européennes.",
+      "wiki": [
+        [
+          "Élisabeth Vigée Le Brun",
+          "Marie-Antoinette"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Élisabeth Vigée Le Brun",
+        "Adélaïde Labille-Guiard",
+        "Berthe Morisot",
+        "Rosa Bonheur"
+      ],
+      "themes": [
+        "XVIIIe siècle"
+      ]
+    },
+    {
+      "id": "art-turner",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre anglais est célèbre pour ses paysages de lumière et de tempêtes, comme Pluie, vapeur et vitesse ?",
+      "exp": "Peintre de la lumière, Turner annonce l'impressionnisme ; un prestigieux prix d'art contemporain porte son nom.",
+      "wiki": [
+        [
+          "William Turner",
+          "Pluie, vapeur et vitesse"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "William Turner",
+        "John Constable",
+        "Thomas Gainsborough",
+        "William Blake"
+      ],
+      "themes": [
+        "romantisme"
+      ]
+    },
+    {
+      "id": "art-friedrich",
+      "sub": "peinture",
+      "diff": 5,
+      "q": "Quel peintre romantique allemand a peint Le Voyageur contemplant une mer de nuages ?",
+      "exp": "Peint vers 1818, ce tableau est devenu l'image emblématique du romantisme.",
+      "wiki": [
+        [
+          "Le Voyageur contemplant une mer de nuages",
+          "Friedrich",
+          "1818"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Caspar David Friedrich",
+        "Philipp Otto Runge",
+        "Arnold Böcklin",
+        "Adolph Menzel"
+      ],
+      "themes": [
+        "romantisme"
+      ]
+    },
+    {
+      "id": "art-hokusai",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel artiste japonais a réalisé La Grande Vague de Kanagawa ?",
+      "exp": "Cette estampe des années 1830 appartient à la série des Trente-six vues du mont Fuji ; elle a fasciné les impressionnistes.",
+      "wiki": [
+        [
+          "La Grande Vague de Kanagawa",
+          "Hokusai",
+          "mont Fuji"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hokusai",
+        "Hiroshige",
+        "Utamaro",
+        "Sharaku"
+      ],
+      "themes": [
+        "estampe japonaise"
+      ]
+    },
+    {
+      "id": "art-morisot",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quelle peintre fut l'une des fondatrices du groupe impressionniste ?",
+      "exp": "Elle participe à la première exposition impressionniste de 1874 ; elle était la belle-sœur d'Édouard Manet.",
+      "wiki": [
+        [
+          "Berthe Morisot",
+          "1874",
+          "Manet"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Berthe Morisot",
+        "Mary Cassatt",
+        "Camille Claudel",
+        "Suzanne Valadon"
+      ],
+      "themes": [
+        "impressionnisme"
+      ]
+    },
+    {
+      "id": "art-caillebotte",
+      "sub": "peinture",
+      "diff": 5,
+      "q": "Quel peintre impressionniste a peint Les Raboteurs de parquet (1875) ?",
+      "exp": "Riche collectionneur, il a légué à l'État des œuvres majeures de ses amis impressionnistes.",
+      "wiki": [
+        [
+          "Gustave Caillebotte",
+          "Raboteurs de parquet",
+          "1875"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gustave Caillebotte",
+        "Camille Pissarro",
+        "Alfred Sisley",
+        "Frédéric Bazille"
+      ],
+      "themes": [
+        "impressionnisme"
+      ]
+    },
+    {
+      "id": "art-chagall",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre d'origine russe est célèbre pour ses amoureux et ses violonistes flottant dans les airs ?",
+      "exp": "Chagall a aussi peint le plafond de l'Opéra Garnier en 1964.",
+      "wiki": [
+        [
+          "Marc Chagall",
+          "violoniste",
+          "Opéra Garnier"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marc Chagall",
+        "Wassily Kandinsky",
+        "Kasimir Malevitch",
+        "Chaïm Soutine"
+      ],
+      "themes": [
+        "art moderne"
+      ],
+      "see": [
+        "art-opera-garnier"
+      ]
+    },
+    {
+      "id": "art-modigliani",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel peintre italien de Montparnasse est reconnaissable à ses portraits au cou très allongé ?",
+      "exp": "Mort en 1920 à 35 ans, Modigliani est devenu le symbole de l'artiste maudit.",
+      "wiki": [
+        [
+          "Amedeo Modigliani",
+          "Montparnasse",
+          "1920"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Amedeo Modigliani",
+        "Giorgio de Chirico",
+        "Umberto Boccioni",
+        "Gino Severini"
+      ],
+      "themes": [
+        "art moderne"
+      ]
+    },
+    {
+      "id": "art-picasso-periodes",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Comment appelle-t-on la période de Picasso, au début des années 1900, dominée par des tons de cette couleur ?",
+      "exp": "Elle est suivie de la période rose, puis du cubisme avec Les Demoiselles d'Avignon (1907).",
+      "wiki": [
+        [
+          "Période bleue",
+          "période rose"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La période bleue",
+        "La période verte",
+        "La période noire",
+        "La période grise"
+      ],
+      "themes": [
+        "Picasso"
+      ],
+      "see": [
+        "art-guernica"
+      ]
+    },
+    {
+      "id": "art-soulages",
+      "sub": "peinture",
+      "diff": 3,
+      "q": "Quel peintre français a consacré l'essentiel de son œuvre au noir, qu'il appelait « outrenoir » ?",
+      "exp": "Né à Rodez, où un musée lui est consacré, Soulages meurt en 2022 à 102 ans.",
+      "wiki": [
+        [
+          "Pierre Soulages",
+          "outrenoir",
+          "Rodez"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pierre Soulages",
+        "Yves Klein",
+        "Nicolas de Staël",
+        "Jean Dubuffet"
+      ],
+      "themes": [
+        "art contemporain"
+      ]
+    },
+    {
+      "id": "art-klein-bleu",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel artiste français a fait breveter un bleu intense qui porte ses initiales, l'IKB ?",
+      "exp": "L'International Klein Blue est déposé en 1960 ; Klein l'utilise pour ses monochromes et ses anthropométries.",
+      "wiki": [
+        [
+          "Yves Klein",
+          "International Klein Blue",
+          "1960"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Yves Klein",
+        "Henri Matisse",
+        "Pierre Soulages",
+        "Daniel Buren"
+      ],
+      "themes": [
+        "art contemporain"
+      ]
+    },
+    {
+      "id": "art-buren",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel artiste a réalisé les colonnes rayées installées dans la cour du Palais-Royal en 1986 ?",
+      "exp": "Les « Deux Plateaux », appelés colonnes de Buren, ont suscité une vive polémique avant de devenir un lieu familier.",
+      "wiki": [
+        [
+          "Les Deux Plateaux",
+          "Buren",
+          "Palais-Royal"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Daniel Buren",
+        "Christo",
+        "Jean Tinguely",
+        "César"
+      ],
+      "themes": [
+        "art contemporain"
+      ]
+    },
+    {
+      "id": "art-christo",
+      "sub": "peinture",
+      "diff": 4,
+      "q": "Quel monument parisien les artistes Christo et Jeanne-Claude ont-ils emballé en 1985 ?",
+      "exp": "L'Arc de triomphe a aussi été empaqueté en 2021, après la mort de Christo, selon son projet.",
+      "wiki": [
+        [
+          "Christo",
+          "Pont-Neuf",
+          "1985"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Pont-Neuf",
+        "La tour Eiffel",
+        "La Grande Arche",
+        "Notre-Dame"
+      ],
+      "themes": [
+        "art contemporain"
+      ],
+      "see": [
+        "hf-pont-neuf"
+      ]
+    },
+    {
+      "id": "art-pont-avignon",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Sur quel fleuve se trouve le pont d'Avignon, rendu célèbre par une chanson ?",
+      "exp": "Le pont Saint-Bénézet, du XIIe siècle, n'a plus que quatre arches ; la chanson dit « sur » le pont, mais on dansait plutôt « sous » le pont.",
+      "wiki": [
+        [
+          "Pont Saint-Bénézet",
+          "Rhône"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Rhône",
+        "La Durance",
+        "La Saône",
+        "La Garonne"
+      ],
+      "themes": [
+        "patrimoine"
+      ]
+    },
+    {
+      "id": "art-palais-papes",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Quel est le plus grand palais gothique du monde, construit au XIVe siècle ?",
+      "exp": "Il témoigne de la présence des papes à Avignon de 1309 à 1377.",
+      "wiki": [
+        [
+          "Palais des papes d'Avignon",
+          "gothique"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le palais des Papes d'Avignon",
+        "Le palais des Doges",
+        "Le palais de Westminster",
+        "Le palais du Louvre"
+      ],
+      "themes": [
+        "gothique"
+      ],
+      "see": [
+        "hf-papes-avignon"
+      ]
+    },
+    {
+      "id": "art-versailles-architectes",
+      "sub": "architecture",
+      "diff": 4,
+      "q": "Quel architecte a conçu la galerie des Glaces et la chapelle royale de Versailles ?",
+      "exp": "Mansart travaille pour Louis XIV de 1678 à sa mort en 1708 ; il dessine aussi le dôme des Invalides.",
+      "wiki": [
+        [
+          "Jules Hardouin-Mansart",
+          "galerie des Glaces",
+          "Versailles"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jules Hardouin-Mansart",
+        "Louis Le Vau",
+        "André Le Nôtre",
+        "Claude Perrault"
+      ],
+      "themes": [
+        "Louis XIV"
+      ],
+      "see": [
+        "hf-galerie-glaces"
+      ]
+    },
+    {
+      "id": "art-sacre-coeur",
+      "sub": "architecture",
+      "diff": 2,
+      "q": "Sur quelle colline parisienne se dresse la basilique du Sacré-Cœur ?",
+      "exp": "Construite de 1875 à 1914 et consacrée en 1919, elle est bâtie en travertin, une pierre qui blanchit avec la pluie.",
+      "wiki": [
+        [
+          "Basilique du Sacré-Cœur de Montmartre",
+          "1919"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Montmartre",
+        "Belleville",
+        "Ménilmontant",
+        "La montagne Sainte-Geneviève"
+      ],
+      "themes": [
+        "Paris"
+      ]
+    },
+    {
+      "id": "art-centre-pompidou-tubes",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Quelle particularité architecturale caractérise le Centre Pompidou ?",
+      "exp": "Les tuyaux sont colorés selon leur fonction : bleu pour l'air, vert pour l'eau, jaune pour l'électricité, rouge pour les circulations.",
+      "wiki": [
+        [
+          "Centre Pompidou",
+          "Piano",
+          "Rogers"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ses tuyaux et structures sont placés à l'extérieur",
+        "Il est entièrement souterrain",
+        "Il est en forme de pyramide",
+        "Il est couvert d'or"
+      ],
+      "themes": [
+        "architecture contemporaine"
+      ],
+      "see": [
+        "hf-beaubourg"
+      ]
+    },
+    {
+      "id": "art-fondation-vuitton",
+      "sub": "architecture",
+      "diff": 4,
+      "q": "Quel architecte a conçu la Fondation Louis-Vuitton, au bois de Boulogne ?",
+      "exp": "Inauguré en 2014, le bâtiment est couvert de voiles de verre ; Gehry a aussi conçu le Guggenheim de Bilbao.",
+      "wiki": [
+        [
+          "Fondation Louis-Vuitton",
+          "Gehry",
+          "2014"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Frank Gehry",
+        "Jean Nouvel",
+        "Renzo Piano",
+        "Tadao Ando"
+      ],
+      "themes": [
+        "architecture contemporaine"
+      ],
+      "see": [
+        "art-guggenheim-bilbao"
+      ]
+    },
+    {
+      "id": "art-institut-monde-arabe",
+      "sub": "architecture",
+      "diff": 4,
+      "q": "Quel architecte a conçu l'Institut du monde arabe à Paris, avec ses moucharabiehs mécaniques ?",
+      "exp": "Inauguré en 1987, il est couvert de diaphragmes métalliques qui réagissent à la lumière.",
+      "wiki": [
+        [
+          "Institut du monde arabe",
+          "Jean Nouvel",
+          "1987"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean Nouvel",
+        "Christian de Portzamparc",
+        "Dominique Perrault",
+        "Paul Andreu"
+      ],
+      "themes": [
+        "architecture contemporaine"
+      ]
+    },
+    {
+      "id": "art-colosseo-pantheon",
+      "sub": "architecture",
+      "diff": 4,
+      "q": "Quel monument antique de Rome possède une coupole percée d'un oculus, toujours la plus grande en béton non armé ?",
+      "exp": "Reconstruit sous Hadrien vers 125, le Panthéon a une coupole de plus de 43 m de diamètre.",
+      "wiki": [
+        [
+          "Panthéon (Rome)",
+          "oculus",
+          "Hadrien"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Panthéon",
+        "Le Colisée",
+        "La basilique Saint-Pierre",
+        "Le Forum"
+      ],
+      "themes": [
+        "Antiquité"
+      ]
+    },
+    {
+      "id": "art-brunelleschi",
+      "sub": "architecture",
+      "diff": 4,
+      "q": "Quel architecte a construit l'immense coupole de la cathédrale de Florence au XVe siècle ?",
+      "exp": "Achevée en 1436 sans échafaudage traditionnel, elle reste la plus grande coupole en maçonnerie du monde.",
+      "wiki": [
+        [
+          "Coupole de Santa Maria del Fiore",
+          "Brunelleschi",
+          "1436"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Filippo Brunelleschi",
+        "Leon Battista Alberti",
+        "Donato Bramante",
+        "Michel-Ange"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "art-angkor-alhambra",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Dans quelle ville se trouve l'Alhambra, palais des souverains nasrides ?",
+      "exp": "Ses jardins, ses fontaines et ses décors de stuc sont l'apogée de l'art islamique en Espagne.",
+      "wiki": [
+        [
+          "Alhambra",
+          "Grenade"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Grenade",
+        "Séville",
+        "Cordoue",
+        "Tolède"
+      ],
+      "themes": [
+        "art islamique"
+      ],
+      "see": [
+        "hm-grenade-1492"
+      ]
+    },
+    {
+      "id": "art-petra",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Dans quel pays se trouve Pétra, cité taillée dans la roche rose ?",
+      "exp": "Capitale des Nabatéens, elle est célèbre pour son « Trésor » sculpté dans la falaise.",
+      "wiki": [
+        [
+          "Pétra",
+          "Jordanie",
+          "Nabatéens"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Jordanie",
+        "L'Égypte",
+        "Israël",
+        "Le Liban"
+      ],
+      "themes": [
+        "sites antiques"
+      ]
+    },
+    {
+      "id": "art-merveilles-modernes",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Lequel de ces monuments ne se trouve PAS en Europe ?",
+      "exp": "Le Taj Mahal est en Inde, à Agra.",
+      "wiki": [
+        [
+          "Taj Mahal",
+          "Agra",
+          "Inde"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Taj Mahal",
+        "Le Colisée",
+        "La Sagrada Família",
+        "L'Acropole"
+      ],
+      "themes": [
+        "monuments"
+      ],
+      "see": [
+        "art-taj-mahal"
+      ]
+    },
+    {
+      "id": "art-styles-asso",
+      "sub": "architecture",
+      "diff": 3,
+      "q": "Associe chaque monument à son style architectural.",
+      "exp": "Ces styles s'échelonnent du XIe au XXe siècle.",
+      "wiki": [
+        [
+          "Modernisme catalan",
+          "Gaudí"
+        ],
+        [
+          "Art roman",
+          "Cluny"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Cathédrale de Chartres",
+          "Gothique"
+        ],
+        [
+          "Château de Versailles",
+          "Classique"
+        ],
+        [
+          "Sagrada Família",
+          "Modernisme catalan"
+        ],
+        [
+          "Abbaye de Cluny",
+          "Roman"
+        ]
+      ],
+      "themes": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "art-cartier-bresson-leica",
+      "sub": "photographie",
+      "diff": 4,
+      "q": "Quelle marque d'appareil photo, de petit format, était l'outil fétiche de Cartier-Bresson ?",
+      "exp": "Le Leica, discret et maniable, a révolutionné le reportage photographique dans les années 1930.",
+      "wiki": [
+        [
+          "Leica",
+          "Cartier-Bresson"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Leica",
+        "Kodak",
+        "Hasselblad",
+        "Polaroid"
+      ],
+      "themes": [
+        "photographie"
+      ],
+      "see": [
+        "art-cartier-bresson"
+      ]
+    },
+    {
+      "id": "art-premiere-photo-couleur",
+      "sub": "photographie",
+      "diff": 4,
+      "q": "Quels inventeurs français mettent au point l'autochrome, premier procédé de photographie couleur commercial, en 1903 ?",
+      "exp": "Commercialisé à partir de 1907, l'autochrome utilise des grains de fécule de pomme de terre colorés.",
+      "wiki": [
+        [
+          "Autochrome",
+          "Lumière",
+          "fécule"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les frères Lumière",
+        "Niépce et Daguerre",
+        "Nadar et son fils",
+        "Les frères Pathé"
+      ],
+      "themes": [
+        "photographie"
+      ],
+      "see": [
+        "tech-lumiere"
+      ]
+    },
+    {
+      "id": "art-yann-arthus",
+      "sub": "photographie",
+      "diff": 3,
+      "q": "Quel photographe français est célèbre pour son livre La Terre vue du ciel ?",
+      "exp": "Paru en 1999, ce livre de photographies aériennes s'est vendu à des millions d'exemplaires ; il réalise aussi le film Home (2009).",
+      "wiki": [
+        [
+          "Yann Arthus-Bertrand",
+          "Terre vue du ciel",
+          "Home"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Yann Arthus-Bertrand",
+        "Raymond Depardon",
+        "Sebastião Salgado",
+        "Robert Doisneau"
+      ],
+      "themes": [
+        "photographie"
+      ]
+    },
+    {
+      "id": "art-salgado",
+      "sub": "photographie",
+      "diff": 5,
+      "q": "Quel photographe brésilien a réalisé les séries Genesis et Travailleurs, en noir et blanc ?",
+      "exp": "Ancien économiste, il a aussi replanté une forêt atlantique entière dans sa région natale.",
+      "wiki": [
+        [
+          "Sebastião Salgado",
+          "Genesis"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sebastião Salgado",
+        "Robert Capa",
+        "Steve McCurry",
+        "Raymond Depardon"
+      ],
+      "themes": [
+        "photographie"
+      ]
     }
   ]
 }

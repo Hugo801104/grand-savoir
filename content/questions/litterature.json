@@ -4,88 +4,3254 @@
   "verified": "2026-11-01",
   "questions": [
     {
-      "id": "lit-miserables", "sub": "roman-francais", "diff": 1, "themes": ["Victor Hugo", "XIXe siècle"],
+      "id": "lit-miserables",
+      "sub": "roman-francais",
+      "diff": 1,
+      "themes": [
+        "Victor Hugo",
+        "XIXe siècle"
+      ],
       "q": "Qui a écrit Les Misérables, publié en 1862 ?",
-      "choices": ["Victor Hugo", "Émile Zola", "Honoré de Balzac", "Alexandre Dumas"],
+      "choices": [
+        "Victor Hugo",
+        "Émile Zola",
+        "Honoré de Balzac",
+        "Alexandre Dumas"
+      ],
       "exp": "Victor Hugo publie Les Misérables en 1862, pendant son exil à Guernesey. Le roman suit Jean Valjean, ancien forçat, sur fond d'injustice sociale.",
-      "see": ["lit-auteurs"],
-      "wiki": [["Les Misérables", "1862", "Valjean"]]
+      "see": [
+        "lit-auteurs"
+      ],
+      "wiki": [
+        [
+          "Les Misérables",
+          "1862",
+          "Valjean"
+        ]
+      ]
     },
     {
-      "id": "lit-proust", "sub": "roman-francais", "diff": 2, "themes": ["XXe siècle"],
+      "id": "lit-proust",
+      "sub": "roman-francais",
+      "diff": 2,
+      "themes": [
+        "XXe siècle"
+      ],
       "q": "Qui est l'auteur d'À la recherche du temps perdu ?",
-      "choices": ["Marcel Proust", "André Gide", "Louis-Ferdinand Céline", "Albert Camus"],
+      "choices": [
+        "Marcel Proust",
+        "André Gide",
+        "Louis-Ferdinand Céline",
+        "Albert Camus"
+      ],
       "exp": "Marcel Proust a consacré la fin de sa vie à ce cycle romanesque en sept volumes, publié de 1913 à 1927. Le deuxième tome, À l'ombre des jeunes filles en fleurs, reçoit le prix Goncourt en 1919.",
       "anec": "L'épisode de la madeleine trempée dans le thé, qui fait resurgir un souvenir d'enfance, est l'un des passages les plus célèbres de la littérature française.",
-      "wiki": [["À la recherche du temps perdu", "Proust", "madeleine"]]
+      "wiki": [
+        [
+          "À la recherche du temps perdu",
+          "Proust",
+          "madeleine"
+        ]
+      ]
     },
     {
-      "id": "lit-camus", "fmt": "saisie", "sub": "roman-francais", "diff": 2, "themes": ["XXe siècle", "absurde"],
+      "id": "lit-camus",
+      "fmt": "saisie",
+      "sub": "roman-francais",
+      "diff": 2,
+      "themes": [
+        "XXe siècle",
+        "absurde"
+      ],
       "q": "Qui a écrit L'Étranger, publié en 1942 ?",
-      "accepted": ["Albert Camus", "Camus"],
+      "accepted": [
+        "Albert Camus",
+        "Camus"
+      ],
       "exp": "L'Étranger d'Albert Camus raconte l'histoire de Meursault, illustrant la notion d'absurde. Le roman s'ouvre sur la phrase : « Aujourd'hui, maman est morte. »",
       "anec": "Camus reçoit le prix Nobel de littérature en 1957, à 44 ans.",
-      "see": ["philo-existentialisme"],
-      "wiki": [["L'Étranger", "Camus", "Meursault"]]
+      "see": [
+        "philo-existentialisme"
+      ],
+      "wiki": [
+        [
+          "L'Étranger",
+          "Camus",
+          "Meursault"
+        ]
+      ]
     },
     {
-      "id": "lit-bovary", "sub": "roman-francais", "diff": 2, "themes": ["réalisme", "XIXe siècle"],
+      "id": "lit-bovary",
+      "sub": "roman-francais",
+      "diff": 2,
+      "themes": [
+        "réalisme",
+        "XIXe siècle"
+      ],
       "q": "Quel auteur est poursuivi en justice en 1857 pour son roman Madame Bovary ?",
-      "choices": ["Gustave Flaubert", "Stendhal", "Guy de Maupassant", "Émile Zola"],
+      "choices": [
+        "Gustave Flaubert",
+        "Stendhal",
+        "Guy de Maupassant",
+        "Émile Zola"
+      ],
       "exp": "Flaubert est jugé pour « outrage à la morale publique et religieuse » en 1857 et acquitté. La même année, Baudelaire est condamné pour Les Fleurs du mal.",
-      "see": ["lit-baudelaire"],
-      "wiki": [["Madame Bovary", "1857", "Flaubert"]]
+      "see": [
+        "lit-baudelaire"
+      ],
+      "wiki": [
+        [
+          "Madame Bovary",
+          "1857",
+          "Flaubert"
+        ]
+      ]
     },
     {
-      "id": "lit-auteurs", "fmt": "association", "sub": "roman-francais", "diff": 2, "themes": ["XIXe siècle"],
+      "id": "lit-auteurs",
+      "fmt": "association",
+      "sub": "roman-francais",
+      "diff": 2,
+      "themes": [
+        "XIXe siècle"
+      ],
       "q": "Associe chaque roman à son auteur.",
-      "pairs": [["Germinal", "Émile Zola"], ["Le Rouge et le Noir", "Stendhal"], ["Le Père Goriot", "Honoré de Balzac"], ["Les Trois Mousquetaires", "Alexandre Dumas"]],
+      "pairs": [
+        [
+          "Germinal",
+          "Émile Zola"
+        ],
+        [
+          "Le Rouge et le Noir",
+          "Stendhal"
+        ],
+        [
+          "Le Père Goriot",
+          "Honoré de Balzac"
+        ],
+        [
+          "Les Trois Mousquetaires",
+          "Alexandre Dumas"
+        ]
+      ],
       "exp": "Germinal (1885) fait partie des Rougon-Macquart de Zola ; Le Rouge et le Noir (1830) est de Stendhal ; Le Père Goriot (1835) appartient à La Comédie humaine de Balzac ; Les Trois Mousquetaires (1844) sont d'Alexandre Dumas.",
-      "wiki": [["Germinal (roman)", "Zola"], ["Le Rouge et le Noir", "Stendhal"], ["Le Père Goriot", "Balzac"], ["Les Trois Mousquetaires", "Dumas"]]
+      "wiki": [
+        [
+          "Germinal (roman)",
+          "Zola"
+        ],
+        [
+          "Le Rouge et le Noir",
+          "Stendhal"
+        ],
+        [
+          "Le Père Goriot",
+          "Balzac"
+        ],
+        [
+          "Les Trois Mousquetaires",
+          "Dumas"
+        ]
+      ]
     },
     {
-      "id": "lit-baudelaire", "sub": "poesie-theatre", "diff": 2, "themes": ["poésie", "XIXe siècle"],
+      "id": "lit-baudelaire",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "themes": [
+        "poésie",
+        "XIXe siècle"
+      ],
       "q": "Quel poète publie Les Fleurs du mal en 1857 ?",
-      "choices": ["Charles Baudelaire", "Arthur Rimbaud", "Paul Verlaine", "Alfred de Musset"],
+      "choices": [
+        "Charles Baudelaire",
+        "Arthur Rimbaud",
+        "Paul Verlaine",
+        "Alfred de Musset"
+      ],
       "exp": "Baudelaire publie Les Fleurs du mal en 1857 ; condamné, il doit retirer six poèmes du recueil. La condamnation n'est annulée qu'en 1949.",
-      "see": ["lit-bovary"],
-      "wiki": [["Les Fleurs du mal", "1857", "1949"]]
+      "see": [
+        "lit-bovary"
+      ],
+      "wiki": [
+        [
+          "Les Fleurs du mal",
+          "1857",
+          "1949"
+        ]
+      ]
     },
     {
-      "id": "lit-avare", "sub": "poesie-theatre", "diff": 2, "themes": ["Molière", "comédie"],
+      "id": "lit-avare",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "themes": [
+        "Molière",
+        "comédie"
+      ],
       "q": "Dans quelle pièce de Molière apparaît Harpagon ?",
-      "choices": ["L'Avare", "Le Malade imaginaire", "Tartuffe", "Le Misanthrope"],
+      "choices": [
+        "L'Avare",
+        "Le Malade imaginaire",
+        "Tartuffe",
+        "Le Misanthrope"
+      ],
       "exp": "Harpagon est le vieillard obsédé par son argent de L'Avare (1668). Son nom est passé dans la langue pour désigner une personne très avare.",
       "anec": "Sa célèbre réplique « Sans dot ! » revient plusieurs fois dans la pièce.",
-      "wiki": [["L'Avare", "Harpagon", "1668"]]
+      "wiki": [
+        [
+          "L'Avare",
+          "Harpagon",
+          "1668"
+        ]
+      ]
     },
     {
-      "id": "lit-hamlet", "sub": "poesie-theatre", "diff": 2, "themes": ["Shakespeare", "tragédie"],
+      "id": "lit-hamlet",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "themes": [
+        "Shakespeare",
+        "tragédie"
+      ],
       "q": "Quel personnage de Shakespeare prononce le monologue « Être ou ne pas être » ?",
-      "choices": ["Hamlet", "Macbeth", "Roméo", "Othello"],
+      "choices": [
+        "Hamlet",
+        "Macbeth",
+        "Roméo",
+        "Othello"
+      ],
       "exp": "« To be, or not to be » est prononcé par Hamlet, prince de Danemark, dans la pièce éponyme écrite vers 1600.",
-      "wiki": [["Hamlet", "Shakespeare", "Danemark"]]
+      "wiki": [
+        [
+          "Hamlet",
+          "Shakespeare",
+          "Danemark"
+        ]
+      ]
     },
     {
-      "id": "lit-quichotte", "sub": "litterature-monde", "diff": 2, "themes": ["Espagne", "Siècle d'or"],
+      "id": "lit-quichotte",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "themes": [
+        "Espagne",
+        "Siècle d'or"
+      ],
       "q": "Qui a écrit Don Quichotte ?",
-      "choices": ["Miguel de Cervantès", "Lope de Vega", "Federico García Lorca", "Gabriel García Márquez"],
+      "choices": [
+        "Miguel de Cervantès",
+        "Lope de Vega",
+        "Federico García Lorca",
+        "Gabriel García Márquez"
+      ],
       "exp": "Don Quichotte de Miguel de Cervantès paraît en deux parties (1605 et 1615). Souvent présenté comme le premier roman moderne, il raconte les aventures d'un hidalgo qui se prend pour un chevalier errant.",
       "anec": "L'expression « se battre contre des moulins à vent » vient de ce roman.",
-      "wiki": [["Don Quichotte", "Cervantès", "1605"]]
+      "wiki": [
+        [
+          "Don Quichotte",
+          "Cervantès",
+          "1605"
+        ]
+      ]
     },
     {
-      "id": "lit-orwell", "sub": "litterature-monde", "diff": 1, "themes": ["dystopie", "XXe siècle"],
+      "id": "lit-orwell",
+      "sub": "litterature-monde",
+      "diff": 1,
+      "themes": [
+        "dystopie",
+        "XXe siècle"
+      ],
       "q": "Quel auteur a écrit le roman 1984 ?",
-      "choices": ["George Orwell", "Aldous Huxley", "Ray Bradbury", "H. G. Wells"],
+      "choices": [
+        "George Orwell",
+        "Aldous Huxley",
+        "Ray Bradbury",
+        "H. G. Wells"
+      ],
       "exp": "Publié en 1949, 1984 de George Orwell décrit une société totalitaire surveillée par « Big Brother ». Aldous Huxley est l'auteur du Meilleur des mondes.",
-      "wiki": [["1984 (roman)", "Orwell", "Big Brother"]]
+      "wiki": [
+        [
+          "1984 (roman)",
+          "Orwell",
+          "Big Brother"
+        ]
+      ]
     },
     {
-      "id": "lit-petit-prince", "fmt": "vrai_faux", "answer": true, "sub": "litterature-monde", "diff": 3, "themes": ["Saint-Exupéry"],
+      "id": "lit-petit-prince",
+      "fmt": "vrai_faux",
+      "answer": true,
+      "sub": "litterature-monde",
+      "diff": 3,
+      "themes": [
+        "Saint-Exupéry"
+      ],
       "q": "Le Petit Prince d'Antoine de Saint-Exupéry a été publié pour la première fois aux États-Unis.",
       "exp": "Vrai. Exilé aux États-Unis, Saint-Exupéry y publie Le Petit Prince en 1943, à New York, en anglais et en français. L'édition française chez Gallimard ne paraît qu'en 1946, après sa disparition en 1944.",
-      "wiki": [["Le Petit Prince", "1943", "New York"]]
+      "wiki": [
+        [
+          "Le Petit Prince",
+          "1943",
+          "New York"
+        ]
+      ]
+    },
+    {
+      "id": "lit-notre-dame-paris",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Qui a écrit Notre-Dame de Paris (1831), où apparaissent Quasimodo et Esmeralda ?",
+      "exp": "Le succès du roman contribue à faire prendre conscience de la valeur du patrimoine gothique, alors menacé.",
+      "wiki": [
+        [
+          "Notre-Dame de Paris (roman)",
+          "Quasimodo",
+          "1831"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Victor Hugo",
+        "Alexandre Dumas",
+        "Eugène Sue",
+        "Théophile Gautier"
+      ],
+      "themes": [
+        "Victor Hugo"
+      ]
+    },
+    {
+      "id": "lit-monte-cristo",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Quel héros d'Alexandre Dumas s'évade du château d'If pour se venger ?",
+      "exp": "Devenu le comte de Monte-Cristo grâce à un trésor, Dantès punit ceux qui l'ont fait emprisonner.",
+      "wiki": [
+        [
+          "Le Comte de Monte-Cristo",
+          "Edmond Dantès",
+          "If"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Edmond Dantès",
+        "D'Artagnan",
+        "Jean Valjean",
+        "Julien Sorel"
+      ],
+      "themes": [
+        "Dumas"
+      ]
+    },
+    {
+      "id": "lit-julien-sorel",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Dans quel roman de Stendhal apparaît le personnage de Julien Sorel ?",
+      "exp": "Fils de charpentier ambitieux, Julien Sorel cherche à s'élever dans la société de la Restauration.",
+      "wiki": [
+        [
+          "Le Rouge et le Noir",
+          "Julien Sorel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Rouge et le Noir",
+        "La Chartreuse de Parme",
+        "Lucien Leuwen",
+        "Armance"
+      ],
+      "themes": [
+        "Stendhal"
+      ],
+      "see": [
+        "lit-auteurs"
+      ]
+    },
+    {
+      "id": "lit-comedie-humaine",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel écrivain a réuni ses romans sous le titre de La Comédie humaine ?",
+      "exp": "Balzac y fait vivre plus de 2 000 personnages, dont Rastignac et le père Goriot, qui reviennent d'un roman à l'autre.",
+      "wiki": [
+        [
+          "La Comédie humaine",
+          "Balzac",
+          "Rastignac"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Honoré de Balzac",
+        "Émile Zola",
+        "Gustave Flaubert",
+        "Victor Hugo"
+      ],
+      "themes": [
+        "Balzac"
+      ]
+    },
+    {
+      "id": "lit-rougon-macquart",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Combien de romans composent le cycle des Rougon-Macquart d'Émile Zola ?",
+      "exp": "Ce cycle raconte l'« histoire naturelle et sociale d'une famille sous le Second Empire », de 1871 à 1893.",
+      "wiki": [
+        [
+          "Les Rougon-Macquart",
+          "vingt"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "20",
+        "12",
+        "7",
+        "32"
+      ],
+      "themes": [
+        "Zola"
+      ]
+    },
+    {
+      "id": "lit-assommoir",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel roman de Zola raconte la déchéance de Gervaise, blanchisseuse ruinée par l'alcool ?",
+      "exp": "Publié en 1877, L'Assommoir fait scandale par son langage populaire et son réalisme.",
+      "wiki": [
+        [
+          "L'Assommoir",
+          "Gervaise",
+          "1877"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Assommoir",
+        "Nana",
+        "Au Bonheur des Dames",
+        "La Bête humaine"
+      ],
+      "themes": [
+        "Zola"
+      ]
+    },
+    {
+      "id": "lit-maupassant-bel-ami",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Quel écrivain a écrit Bel-Ami et Boule de Suif ?",
+      "exp": "Disciple de Flaubert, Maupassant est un maître de la nouvelle.",
+      "wiki": [
+        [
+          "Guy de Maupassant",
+          "Bel-Ami",
+          "Boule de suif"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Guy de Maupassant",
+        "Gustave Flaubert",
+        "Alphonse Daudet",
+        "Émile Zola"
+      ],
+      "themes": [
+        "Maupassant"
+      ]
+    },
+    {
+      "id": "lit-verne-80-jours",
+      "sub": "roman-francais",
+      "diff": 1,
+      "q": "Qui a écrit Le Tour du monde en quatre-vingts jours ?",
+      "exp": "Phileas Fogg et son domestique Passepartout tentent de gagner un pari ; le roman paraît en 1872.",
+      "wiki": [
+        [
+          "Le Tour du monde en quatre-vingts jours",
+          "Jules Verne",
+          "Phileas Fogg"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jules Verne",
+        "H. G. Wells",
+        "Alexandre Dumas",
+        "Victor Hugo"
+      ],
+      "themes": [
+        "Jules Verne"
+      ]
+    },
+    {
+      "id": "lit-nemo",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Comment s'appelle le capitaine du sous-marin Nautilus imaginé par Jules Verne ?",
+      "exp": "On le découvre dans Vingt mille lieues sous les mers (1869-1870).",
+      "wiki": [
+        [
+          "Capitaine Nemo",
+          "Nautilus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le capitaine Nemo",
+        "Le capitaine Haddock",
+        "Le capitaine Achab",
+        "Le capitaine Fracasse"
+      ],
+      "themes": [
+        "Jules Verne"
+      ]
+    },
+    {
+      "id": "lit-dumas-mousquetaires",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Comment s'appellent les trois mousquetaires amis de d'Artagnan ?",
+      "exp": "Le roman d'Alexandre Dumas paraît en feuilleton en 1844 ; leur devise : « Tous pour un, un pour tous ».",
+      "wiki": [
+        [
+          "Les Trois Mousquetaires",
+          "Athos",
+          "Porthos",
+          "Aramis"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Athos, Porthos et Aramis",
+        "Athos, Planchet et Rochefort",
+        "Porthos, Tréville et Aramis",
+        "Aramis, Milady et Athos"
+      ],
+      "themes": [
+        "Dumas"
+      ],
+      "see": [
+        "hf-dartagnan"
+      ]
+    },
+    {
+      "id": "lit-candide",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Quel philosophe des Lumières a écrit le conte Candide ou l'Optimisme ?",
+      "exp": "Candide (1759) se moque de l'optimisme naïf : « Il faut cultiver notre jardin ».",
+      "wiki": [
+        [
+          "Candide",
+          "Voltaire",
+          "1759"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Voltaire",
+        "Rousseau",
+        "Diderot",
+        "Montesquieu"
+      ],
+      "themes": [
+        "Lumières"
+      ]
+    },
+    {
+      "id": "lit-lettres-persanes",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel auteur a critiqué la société française dans les Lettres persanes (1721) ?",
+      "exp": "Deux voyageurs persans découvrent Paris et ses mœurs, prétexte à une satire de la monarchie et de l'Église.",
+      "wiki": [
+        [
+          "Lettres persanes",
+          "Montesquieu",
+          "1721"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Montesquieu",
+        "Voltaire",
+        "Diderot",
+        "Marivaux"
+      ],
+      "themes": [
+        "Lumières"
+      ]
+    },
+    {
+      "id": "lit-liaisons",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel roman épistolaire de Choderlos de Laclos met en scène Valmont et la marquise de Merteuil ?",
+      "exp": "Publié en 1782, le roman décrit les manipulations de deux libertins.",
+      "wiki": [
+        [
+          "Les Liaisons dangereuses",
+          "Valmont",
+          "Merteuil"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Liaisons dangereuses",
+        "La Nouvelle Héloïse",
+        "La Princesse de Clèves",
+        "Manon Lescaut"
+      ],
+      "themes": [
+        "XVIIIe siècle"
+      ]
+    },
+    {
+      "id": "lit-princesse-cleves",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Quel roman de Madame de La Fayette est considéré comme l'un des premiers romans psychologiques français ?",
+      "exp": "Publié anonymement en 1678, il se déroule à la cour d'Henri II.",
+      "wiki": [
+        [
+          "La Princesse de Clèves",
+          "1678"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Princesse de Clèves",
+        "Les Liaisons dangereuses",
+        "Manon Lescaut",
+        "Paul et Virginie"
+      ],
+      "themes": [
+        "XVIIe siècle"
+      ]
+    },
+    {
+      "id": "lit-gargantua",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel écrivain de la Renaissance a créé les géants Gargantua et Pantagruel ?",
+      "exp": "Moine et médecin, Rabelais mêle humour truculent et idéal humaniste ; l'adjectif « gargantuesque » vient de lui.",
+      "wiki": [
+        [
+          "François Rabelais",
+          "Gargantua",
+          "Pantagruel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "François Rabelais",
+        "Michel de Montaigne",
+        "Pierre de Ronsard",
+        "Clément Marot"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "lit-grand-meaulnes",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Qui a écrit Le Grand Meaulnes, publié en 1913 ?",
+      "exp": "Alain-Fournier est tué au début de la Première Guerre mondiale, en septembre 1914.",
+      "wiki": [
+        [
+          "Le Grand Meaulnes",
+          "Alain-Fournier",
+          "1913"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alain-Fournier",
+        "Raymond Radiguet",
+        "André Gide",
+        "Romain Rolland"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-voyage-nuit",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel écrivain a publié Voyage au bout de la nuit en 1932 ?",
+      "exp": "Le roman bouleverse la langue littéraire par son style oral ; Céline sera ensuite l'auteur de pamphlets antisémites.",
+      "wiki": [
+        [
+          "Voyage au bout de la nuit",
+          "Céline",
+          "1932"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Louis-Ferdinand Céline",
+        "André Malraux",
+        "Jean Giono",
+        "Marcel Aymé"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-condition-humaine",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel roman d'André Malraux obtient le prix Goncourt en 1933 ?",
+      "exp": "Le roman se déroule à Shanghai en 1927, lors de l'insurrection communiste.",
+      "wiki": [
+        [
+          "La Condition humaine",
+          "Malraux",
+          "Goncourt"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Condition humaine",
+        "L'Espoir",
+        "Les Conquérants",
+        "La Voie royale"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-la-peste",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Dans quelle ville se déroule La Peste d'Albert Camus ?",
+      "exp": "Publié en 1947, le roman est souvent lu comme une allégorie de l'Occupation et de la résistance au mal.",
+      "wiki": [
+        [
+          "La Peste",
+          "Oran",
+          "1947"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Oran",
+        "Alger",
+        "Marseille",
+        "Tunis"
+      ],
+      "themes": [
+        "Camus"
+      ],
+      "see": [
+        "lit-camus"
+      ]
+    },
+    {
+      "id": "lit-duras-amant",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel roman de Marguerite Duras a obtenu le prix Goncourt en 1984 ?",
+      "exp": "L'Amant raconte, en Indochine, l'histoire d'une jeune fille et d'un riche Chinois ; c'est un immense succès.",
+      "wiki": [
+        [
+          "L'Amant (roman)",
+          "Duras",
+          "1984"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "L'Amant",
+        "Moderato cantabile",
+        "Un barrage contre le Pacifique",
+        "Hiroshima mon amour"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-goncourt",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Quel prix littéraire est décerné chaque automne au restaurant Drouant à Paris ?",
+      "exp": "Le Goncourt, créé par le testament d'Edmond de Goncourt, est décerné depuis 1903 ; le Renaudot est annoncé le même jour au même endroit.",
+      "wiki": [
+        [
+          "Prix Goncourt",
+          "Drouant",
+          "1903"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le prix Goncourt",
+        "Le prix Nobel",
+        "Le prix Médicis",
+        "Le prix Femina"
+      ],
+      "themes": [
+        "prix littéraires"
+      ]
+    },
+    {
+      "id": "lit-sagan",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Quel roman de Françoise Sagan, publié à 18 ans en 1954, a été un énorme succès ?",
+      "exp": "Le roman fait scandale par sa liberté de ton et lance la carrière de la jeune autrice.",
+      "wiki": [
+        [
+          "Bonjour tristesse",
+          "Sagan",
+          "1954"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bonjour tristesse",
+        "Aimez-vous Brahms",
+        "Un certain sourire",
+        "La Chamade"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-pagnol",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Quel écrivain a raconté son enfance provençale dans La Gloire de mon père ?",
+      "exp": "La Gloire de mon père (1957) ouvre les Souvenirs d'enfance, suivis du Château de ma mère.",
+      "wiki": [
+        [
+          "La Gloire de mon père",
+          "Pagnol",
+          "1957"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marcel Pagnol",
+        "Jean Giono",
+        "Alphonse Daudet",
+        "Frédéric Mistral"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-modiano",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel écrivain français reçoit le prix Nobel de littérature en 2014 ?",
+      "exp": "Modiano explore la mémoire et l'Occupation ; Le Clézio avait été distingué en 2008 et Annie Ernaux le sera en 2022.",
+      "wiki": [
+        [
+          "Patrick Modiano",
+          "Nobel",
+          "2014"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Patrick Modiano",
+        "Jean-Marie Gustave Le Clézio",
+        "Michel Houellebecq",
+        "Annie Ernaux"
+      ],
+      "themes": [
+        "prix littéraires"
+      ]
+    },
+    {
+      "id": "lit-ernaux",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quelle écrivaine française reçoit le prix Nobel de littérature en 2022 ?",
+      "exp": "Annie Ernaux est la première Française lauréate de ce prix, récompensée pour une œuvre qui mêle autobiographie et sociologie.",
+      "wiki": [
+        [
+          "Annie Ernaux",
+          "Nobel",
+          "2022"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Annie Ernaux",
+        "Marguerite Yourcenar",
+        "Marie NDiaye",
+        "Leïla Slimani"
+      ],
+      "themes": [
+        "prix littéraires"
+      ]
+    },
+    {
+      "id": "lit-ronsard",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel poète de la Renaissance a écrit « Mignonne, allons voir si la rose… » ?",
+      "exp": "Chef de file de la Pléiade, Ronsard invite à profiter de la jeunesse (carpe diem).",
+      "wiki": [
+        [
+          "Pierre de Ronsard",
+          "Mignonne",
+          "Pléiade"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pierre de Ronsard",
+        "Joachim du Bellay",
+        "Clément Marot",
+        "Louise Labé"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "lit-du-bellay",
+      "sub": "poesie-theatre",
+      "diff": 4,
+      "q": "Quel poète de la Pléiade a écrit « Heureux qui, comme Ulysse, a fait un beau voyage » ?",
+      "exp": "Ce sonnet des Regrets (1558) exprime la nostalgie de son Anjou natal pendant son séjour à Rome.",
+      "wiki": [
+        [
+          "Joachim du Bellay",
+          "Ulysse",
+          "Regrets"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Joachim du Bellay",
+        "Pierre de Ronsard",
+        "Rémy Belleau",
+        "Étienne Jodelle"
+      ],
+      "themes": [
+        "Renaissance"
+      ]
+    },
+    {
+      "id": "lit-la-fontaine",
+      "sub": "poesie-theatre",
+      "diff": 1,
+      "q": "Quel auteur a écrit Le Corbeau et le Renard ?",
+      "exp": "La Fontaine s'inspire d'Ésope et de Phèdre ; ses Fables (1668-1694) comptent environ 240 poèmes.",
+      "wiki": [
+        [
+          "Jean de La Fontaine",
+          "Fables",
+          "Corbeau"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean de La Fontaine",
+        "Charles Perrault",
+        "Jean Racine",
+        "Molière"
+      ],
+      "themes": [
+        "fables"
+      ]
+    },
+    {
+      "id": "lit-perrault",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "q": "Quel écrivain a publié en 1697 les Contes de ma mère l'Oye, dont Cendrillon et Le Petit Chaperon rouge ?",
+      "exp": "Les frères Grimm publient leurs propres versions de plusieurs contes un siècle plus tard.",
+      "wiki": [
+        [
+          "Charles Perrault",
+          "1697",
+          "Cendrillon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Charles Perrault",
+        "Jean de La Fontaine",
+        "Les frères Grimm",
+        "Hans Christian Andersen"
+      ],
+      "themes": [
+        "contes"
+      ]
+    },
+    {
+      "id": "lit-cid",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel dramaturge a écrit Le Cid (1637) ?",
+      "exp": "La pièce fait l'objet d'une vive querelle ; on parle de « dilemme cornélien » pour un choix déchirant entre amour et devoir.",
+      "wiki": [
+        [
+          "Le Cid",
+          "Corneille",
+          "1637"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Pierre Corneille",
+        "Jean Racine",
+        "Molière",
+        "Marivaux"
+      ],
+      "themes": [
+        "théâtre classique"
+      ]
+    },
+    {
+      "id": "lit-phedre",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel auteur de tragédies a écrit Phèdre et Andromaque ?",
+      "exp": "Racine, maître de la tragédie classique, respecte la règle des trois unités : temps, lieu, action.",
+      "wiki": [
+        [
+          "Jean Racine",
+          "Phèdre",
+          "Andromaque"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean Racine",
+        "Pierre Corneille",
+        "Molière",
+        "Voltaire"
+      ],
+      "themes": [
+        "théâtre classique"
+      ]
+    },
+    {
+      "id": "lit-tartuffe",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "q": "Quelle pièce de Molière, interdite après sa création en 1664, met en scène un faux dévot ?",
+      "exp": "Il faut attendre 1669 pour que Tartuffe ou l'Imposteur soit autorisé dans sa version définitive.",
+      "wiki": [
+        [
+          "Tartuffe ou l'Imposteur",
+          "1664",
+          "1669"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Tartuffe",
+        "Le Misanthrope",
+        "Dom Juan",
+        "Les Femmes savantes"
+      ],
+      "themes": [
+        "Molière"
+      ]
+    },
+    {
+      "id": "lit-moliere-mort",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Pendant la représentation de quelle pièce Molière fait-il un malaise avant de mourir, en 1673 ?",
+      "exp": "Molière, qui joue Argan, est pris d'un malaise lors de la quatrième représentation et meurt quelques heures plus tard.",
+      "wiki": [
+        [
+          "Le Malade imaginaire",
+          "1673",
+          "Argan"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le Malade imaginaire",
+        "L'Avare",
+        "Le Bourgeois gentilhomme",
+        "Les Fourberies de Scapin"
+      ],
+      "themes": [
+        "Molière"
+      ],
+      "see": [
+        "lit-avare"
+      ]
+    },
+    {
+      "id": "lit-langue-moliere",
+      "sub": "poesie-theatre",
+      "diff": 1,
+      "q": "Quelle expression désigne souvent la langue française ?",
+      "exp": "De même, on parle de la langue de Shakespeare pour l'anglais et de la langue de Cervantès pour l'espagnol.",
+      "wiki": [
+        [
+          "Molière",
+          "langue de Molière"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La langue de Molière",
+        "La langue de Racine",
+        "La langue de Hugo",
+        "La langue de Voltaire"
+      ],
+      "themes": [
+        "langue française"
+      ]
+    },
+    {
+      "id": "lit-hugo-hernani",
+      "sub": "poesie-theatre",
+      "diff": 4,
+      "q": "Quelle pièce de Victor Hugo provoque en 1830 une « bataille » entre classiques et romantiques ?",
+      "exp": "La création d'Hernani à la Comédie-Française symbolise la victoire du drame romantique.",
+      "wiki": [
+        [
+          "Hernani (Hugo)",
+          "1830",
+          "bataille"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hernani",
+        "Ruy Blas",
+        "Les Burgraves",
+        "Lucrèce Borgia"
+      ],
+      "themes": [
+        "romantisme"
+      ]
+    },
+    {
+      "id": "lit-rimbaud",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "q": "Quel poète a écrit Le Dormeur du val à seize ans ?",
+      "exp": "Rimbaud écrit toute son œuvre poétique avant 21 ans, puis abandonne la littérature pour voyager en Afrique.",
+      "wiki": [
+        [
+          "Arthur Rimbaud",
+          "Dormeur du val"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Arthur Rimbaud",
+        "Paul Verlaine",
+        "Stéphane Mallarmé",
+        "Charles Baudelaire"
+      ],
+      "themes": [
+        "poésie"
+      ]
+    },
+    {
+      "id": "lit-verlaine-rimbaud",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel poète blesse Arthur Rimbaud d'un coup de revolver à Bruxelles en 1873 ?",
+      "exp": "Verlaine est condamné à deux ans de prison ; leur relation tumultueuse a marqué la poésie.",
+      "wiki": [
+        [
+          "Paul Verlaine",
+          "Bruxelles",
+          "1873"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Paul Verlaine",
+        "Stéphane Mallarmé",
+        "Charles Cros",
+        "Théodore de Banville"
+      ],
+      "themes": [
+        "poésie"
+      ]
+    },
+    {
+      "id": "lit-apollinaire",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel poète a écrit Alcools et des calligrammes ?",
+      "exp": "Blessé à la tête pendant la guerre, Apollinaire meurt de la grippe espagnole en novembre 1918.",
+      "wiki": [
+        [
+          "Guillaume Apollinaire",
+          "Alcools",
+          "calligrammes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Guillaume Apollinaire",
+        "Paul Éluard",
+        "Louis Aragon",
+        "Jacques Prévert"
+      ],
+      "themes": [
+        "poésie"
+      ]
+    },
+    {
+      "id": "lit-prevert",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "q": "Quel poète a publié le recueil Paroles en 1946 ?",
+      "exp": "Ses poèmes simples et tendres, comme « Barbara » ou « Le Cancre », sont très appris à l'école.",
+      "wiki": [
+        [
+          "Jacques Prévert",
+          "Paroles",
+          "1946"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jacques Prévert",
+        "Paul Éluard",
+        "Robert Desnos",
+        "Boris Vian"
+      ],
+      "themes": [
+        "poésie"
+      ]
+    },
+    {
+      "id": "lit-eluard-liberte",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel poète a écrit « Liberté », parachuté au-dessus de la France occupée en 1942 ?",
+      "exp": "« Sur mes cahiers d'écolier… j'écris ton nom » : le poème est diffusé par la Résistance et la Royal Air Force.",
+      "wiki": [
+        [
+          "Liberté (poème)",
+          "Éluard",
+          "1942"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Paul Éluard",
+        "Louis Aragon",
+        "René Char",
+        "Robert Desnos"
+      ],
+      "themes": [
+        "poésie",
+        "Résistance"
+      ]
+    },
+    {
+      "id": "lit-cyrano",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "q": "Quel trait physique caractérise Cyrano de Bergerac dans la pièce d'Edmond Rostand ?",
+      "exp": "Créée en 1897, la pièce est l'une des plus jouées du théâtre français ; la « tirade du nez » est célèbre.",
+      "wiki": [
+        [
+          "Cyrano de Bergerac (Rostand)",
+          "nez",
+          "1897"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un très grand nez",
+        "Une jambe de bois",
+        "Un œil crevé",
+        "Une bosse"
+      ],
+      "themes": [
+        "théâtre"
+      ]
+    },
+    {
+      "id": "lit-beckett-godot",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quelle pièce de Samuel Beckett met en scène deux personnages attendant quelqu'un qui ne vient jamais ?",
+      "exp": "Créée à Paris en 1953, la pièce est emblématique du théâtre de l'absurde.",
+      "wiki": [
+        [
+          "En attendant Godot",
+          "Beckett",
+          "1953"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "En attendant Godot",
+        "Fin de partie",
+        "La Cantatrice chauve",
+        "Huis clos"
+      ],
+      "themes": [
+        "théâtre de l'absurde"
+      ]
+    },
+    {
+      "id": "lit-huis-clos",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Dans quelle pièce de Sartre trouve-t-on la réplique « L'enfer, c'est les autres » ?",
+      "exp": "Trois personnages morts sont enfermés ensemble pour l'éternité dans un salon.",
+      "wiki": [
+        [
+          "Huis clos",
+          "Sartre"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Huis clos",
+        "Les Mouches",
+        "Les Mains sales",
+        "Le Diable et le Bon Dieu"
+      ],
+      "themes": [
+        "théâtre"
+      ],
+      "see": [
+        "philo-existentialisme"
+      ]
+    },
+    {
+      "id": "lit-ionesco",
+      "sub": "poesie-theatre",
+      "diff": 4,
+      "q": "Quel dramaturge a écrit La Cantatrice chauve et Rhinocéros ?",
+      "exp": "La Cantatrice chauve (1950), où il n'y a pas de cantatrice, est une parodie des manuels de conversation.",
+      "wiki": [
+        [
+          "Eugène Ionesco",
+          "Cantatrice chauve",
+          "Rhinocéros"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Eugène Ionesco",
+        "Samuel Beckett",
+        "Jean Genet",
+        "Arthur Adamov"
+      ],
+      "themes": [
+        "théâtre de l'absurde"
+      ]
+    },
+    {
+      "id": "lit-alexandrin",
+      "sub": "poesie-theatre",
+      "diff": 2,
+      "q": "Combien de syllabes compte un alexandrin ?",
+      "exp": "L'alexandrin, vers de douze syllabes, est le grand vers de la poésie et de la tragédie classiques.",
+      "wiki": [
+        [
+          "Alexandrin",
+          "douze syllabes"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "12",
+        "10",
+        "8",
+        "14"
+      ],
+      "themes": [
+        "versification"
+      ]
+    },
+    {
+      "id": "lit-sonnet",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Combien de vers compte un sonnet ?",
+      "exp": "Le sonnet se compose de deux quatrains et de deux tercets.",
+      "wiki": [
+        [
+          "Sonnet",
+          "quatrains",
+          "tercets"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "14",
+        "12",
+        "10",
+        "16"
+      ],
+      "themes": [
+        "versification"
+      ]
+    },
+    {
+      "id": "lit-homere",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "À quel poète grec attribue-t-on l'Iliade et l'Odyssée ?",
+      "exp": "Ces épopées, composées vers le VIIIe siècle av. J.-C., racontent la guerre de Troie et le retour d'Ulysse.",
+      "wiki": [
+        [
+          "Homère",
+          "Iliade",
+          "Odyssée"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Homère",
+        "Hésiode",
+        "Sophocle",
+        "Virgile"
+      ],
+      "themes": [
+        "Antiquité"
+      ],
+      "see": [
+        "myth-ulysse"
+      ]
+    },
+    {
+      "id": "lit-eneide",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel poète latin a écrit l'Énéide ?",
+      "exp": "L'Énéide raconte la fuite d'Énée après la chute de Troie et la fondation légendaire de Rome.",
+      "wiki": [
+        [
+          "Énéide",
+          "Virgile",
+          "Énée"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Virgile",
+        "Ovide",
+        "Horace",
+        "Homère"
+      ],
+      "themes": [
+        "Antiquité"
+      ]
+    },
+    {
+      "id": "lit-dante",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Qui a écrit La Divine Comédie ?",
+      "exp": "Écrite au début du XIVe siècle, elle décrit un voyage à travers l'Enfer, le Purgatoire et le Paradis.",
+      "wiki": [
+        [
+          "La Divine Comédie",
+          "Dante",
+          "Enfer"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Dante Alighieri",
+        "Pétrarque",
+        "Boccace",
+        "Machiavel"
+      ],
+      "themes": [
+        "littérature italienne"
+      ]
+    },
+    {
+      "id": "lit-romeo",
+      "sub": "litterature-monde",
+      "diff": 1,
+      "q": "Dans quelle ville se déroule Roméo et Juliette de Shakespeare ?",
+      "exp": "Les familles ennemies des Montaigu et des Capulet empêchent l'amour des deux jeunes gens.",
+      "wiki": [
+        [
+          "Roméo et Juliette",
+          "Vérone",
+          "Capulet"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Vérone",
+        "Venise",
+        "Florence",
+        "Padoue"
+      ],
+      "themes": [
+        "Shakespeare"
+      ]
+    },
+    {
+      "id": "lit-goethe-faust",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel écrivain allemand a écrit Faust, où un savant passe un pacte avec le diable ?",
+      "exp": "Méphistophélès offre à Faust la jeunesse et le savoir en échange de son âme.",
+      "wiki": [
+        [
+          "Faust (Goethe)",
+          "Méphistophélès"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Johann Wolfgang von Goethe",
+        "Friedrich Schiller",
+        "Thomas Mann",
+        "Heinrich Heine"
+      ],
+      "themes": [
+        "littérature allemande"
+      ]
+    },
+    {
+      "id": "lit-tolstoi",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Qui a écrit Guerre et Paix ?",
+      "exp": "Le roman se déroule pendant les guerres napoléoniennes, jusqu'à la campagne de Russie de 1812.",
+      "wiki": [
+        [
+          "Guerre et Paix",
+          "Tolstoï",
+          "1812"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Léon Tolstoï",
+        "Fiodor Dostoïevski",
+        "Anton Tchekhov",
+        "Ivan Tourgueniev"
+      ],
+      "themes": [
+        "littérature russe"
+      ]
+    },
+    {
+      "id": "lit-dostoievski",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel roman de Dostoïevski raconte le meurtre commis par l'étudiant Raskolnikov ?",
+      "exp": "Publié en 1866, le roman explore la culpabilité et la rédemption.",
+      "wiki": [
+        [
+          "Crime et Châtiment",
+          "Raskolnikov",
+          "1866"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Crime et Châtiment",
+        "Les Frères Karamazov",
+        "L'Idiot",
+        "Les Démons"
+      ],
+      "themes": [
+        "littérature russe"
+      ]
+    },
+    {
+      "id": "lit-kafka",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Dans La Métamorphose de Kafka, en quoi Gregor Samsa se réveille-t-il transformé ?",
+      "exp": "Publiée en 1915, la nouvelle est devenue un symbole de l'absurde et de l'aliénation.",
+      "wiki": [
+        [
+          "La Métamorphose",
+          "Gregor Samsa",
+          "1915"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "En un insecte monstrueux",
+        "En chien",
+        "En pierre",
+        "En vieillard"
+      ],
+      "themes": [
+        "littérature de langue allemande"
+      ]
+    },
+    {
+      "id": "lit-cent-ans-solitude",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel écrivain colombien a écrit Cent ans de solitude ?",
+      "exp": "Paru en 1967, le roman de la famille Buendía à Macondo est le grand chef-d'œuvre du réalisme magique ; l'auteur reçoit le Nobel en 1982.",
+      "wiki": [
+        [
+          "Cent ans de solitude",
+          "García Márquez",
+          "Macondo"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Gabriel García Márquez",
+        "Mario Vargas Llosa",
+        "Jorge Luis Borges",
+        "Pablo Neruda"
+      ],
+      "themes": [
+        "littérature latino-américaine"
+      ]
+    },
+    {
+      "id": "lit-moby-dick",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel capitaine poursuit la baleine blanche Moby Dick dans le roman d'Herman Melville ?",
+      "exp": "Raconté par le marin Ishmaël, le roman paraît en 1851.",
+      "wiki": [
+        [
+          "Moby Dick",
+          "Achab",
+          "Melville"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le capitaine Achab",
+        "Le capitaine Nemo",
+        "Le capitaine Crochet",
+        "Le capitaine Flint"
+      ],
+      "themes": [
+        "littérature américaine"
+      ]
+    },
+    {
+      "id": "lit-orgueil",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quelle romancière anglaise a écrit Orgueil et Préjugés ?",
+      "exp": "Publié en 1813, le roman raconte la relation entre Elizabeth Bennet et M. Darcy.",
+      "wiki": [
+        [
+          "Orgueil et Préjugés",
+          "Jane Austen",
+          "1813"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jane Austen",
+        "Charlotte Brontë",
+        "Virginia Woolf",
+        "Mary Shelley"
+      ],
+      "themes": [
+        "littérature anglaise"
+      ]
+    },
+    {
+      "id": "lit-frankenstein",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Qui a écrit Frankenstein ou le Prométhée moderne (1818) ?",
+      "exp": "Frankenstein est le nom du savant, non de la créature qu'il fabrique ; Mary Shelley avait 20 ans à la publication.",
+      "wiki": [
+        [
+          "Frankenstein ou le Prométhée moderne",
+          "Mary Shelley",
+          "1818"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mary Shelley",
+        "Bram Stoker",
+        "Edgar Allan Poe",
+        "Robert Louis Stevenson"
+      ],
+      "themes": [
+        "littérature fantastique"
+      ]
+    },
+    {
+      "id": "lit-dracula",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Quel écrivain irlandais a créé le personnage du comte Dracula en 1897 ?",
+      "exp": "Le roman, en partie épistolaire, a fixé l'image moderne du vampire.",
+      "wiki": [
+        [
+          "Dracula",
+          "Bram Stoker",
+          "1897"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Bram Stoker",
+        "Oscar Wilde",
+        "Mary Shelley",
+        "Arthur Conan Doyle"
+      ],
+      "themes": [
+        "littérature fantastique"
+      ]
+    },
+    {
+      "id": "lit-sherlock",
+      "sub": "litterature-monde",
+      "diff": 1,
+      "q": "Quel auteur a créé le détective Sherlock Holmes ?",
+      "exp": "Holmes apparaît en 1887 dans Une étude en rouge ; il habite au 221B Baker Street.",
+      "wiki": [
+        [
+          "Sherlock Holmes",
+          "Conan Doyle",
+          "Baker Street"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Arthur Conan Doyle",
+        "Agatha Christie",
+        "Edgar Allan Poe",
+        "Maurice Leblanc"
+      ],
+      "themes": [
+        "roman policier"
+      ]
+    },
+    {
+      "id": "lit-poirot",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Quelle romancière a créé le détective belge Hercule Poirot ?",
+      "exp": "Agatha Christie, autrice la plus vendue au monde, a aussi créé Miss Marple.",
+      "wiki": [
+        [
+          "Hercule Poirot",
+          "Agatha Christie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Agatha Christie",
+        "Dorothy L. Sayers",
+        "P. D. James",
+        "Ruth Rendell"
+      ],
+      "themes": [
+        "roman policier"
+      ]
+    },
+    {
+      "id": "lit-arsene-lupin",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Quel écrivain a créé le gentleman cambrioleur Arsène Lupin ?",
+      "exp": "Lupin apparaît en 1905 ; il affronte même un certain « Herlock Sholmès ».",
+      "wiki": [
+        [
+          "Arsène Lupin",
+          "Maurice Leblanc",
+          "1905"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Maurice Leblanc",
+        "Gaston Leroux",
+        "Georges Simenon",
+        "Eugène Sue"
+      ],
+      "themes": [
+        "roman policier"
+      ]
+    },
+    {
+      "id": "lit-maigret",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel écrivain belge a créé le commissaire Maigret ?",
+      "exp": "Simenon a écrit plus de 70 enquêtes de Maigret et environ 190 romans au total.",
+      "wiki": [
+        [
+          "Jules Maigret",
+          "Simenon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Georges Simenon",
+        "Hergé",
+        "Maurice Leblanc",
+        "Jean Ray"
+      ],
+      "themes": [
+        "roman policier"
+      ]
+    },
+    {
+      "id": "lit-tolkien",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Quel auteur a écrit Le Seigneur des anneaux ?",
+      "exp": "Professeur à Oxford, Tolkien a aussi inventé des langues complètes pour la Terre du Milieu.",
+      "wiki": [
+        [
+          "Le Seigneur des anneaux",
+          "Tolkien",
+          "Terre du Milieu"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "J. R. R. Tolkien",
+        "C. S. Lewis",
+        "George R. R. Martin",
+        "J. K. Rowling"
+      ],
+      "themes": [
+        "fantasy"
+      ]
+    },
+    {
+      "id": "lit-huxley",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Qui a écrit Le Meilleur des mondes (1932) ?",
+      "exp": "Huxley imagine une société où le bonheur est fabriqué par la science et le conditionnement.",
+      "wiki": [
+        [
+          "Le Meilleur des mondes",
+          "Huxley",
+          "1932"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "H. G. Wells"
+      ],
+      "themes": [
+        "dystopie"
+      ],
+      "see": [
+        "lit-orwell"
+      ]
+    },
+    {
+      "id": "lit-fahrenheit",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Dans Fahrenheit 451 de Ray Bradbury, que font les pompiers ?",
+      "exp": "451 °F serait la température à laquelle le papier s'enflamme.",
+      "wiki": [
+        [
+          "Fahrenheit 451",
+          "Bradbury",
+          "livres"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ils brûlent les livres",
+        "Ils éteignent des incendies de forêt",
+        "Ils surveillent les écrans",
+        "Ils arrêtent les rêveurs"
+      ],
+      "themes": [
+        "dystopie"
+      ]
+    },
+    {
+      "id": "lit-petit-prince-rose",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Dans Le Petit Prince, quel animal demande au héros de l'« apprivoiser » ?",
+      "exp": "Le renard lui confie : « On ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux. »",
+      "wiki": [
+        [
+          "Le Petit Prince",
+          "renard",
+          "essentiel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le renard",
+        "Le serpent",
+        "Le mouton",
+        "L'éléphant"
+      ],
+      "themes": [
+        "Saint-Exupéry"
+      ],
+      "see": [
+        "lit-petit-prince"
+      ]
+    },
+    {
+      "id": "lit-alice",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Quel animal Alice suit-elle au début d'Alice au pays des merveilles ?",
+      "exp": "Le roman de Lewis Carroll paraît en 1865 ; le lapin, toujours en retard, l'entraîne dans son terrier.",
+      "wiki": [
+        [
+          "Les Aventures d'Alice au pays des merveilles",
+          "lapin blanc",
+          "1865"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Un lapin blanc",
+        "Un chat du Cheshire",
+        "Une chenille",
+        "Un lièvre de mars"
+      ],
+      "themes": [
+        "littérature jeunesse"
+      ]
+    },
+    {
+      "id": "lit-pinocchio",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Que se passe-t-il quand Pinocchio ment ?",
+      "exp": "Le pantin de bois de Carlo Collodi (1881-1883) rêve de devenir un vrai petit garçon.",
+      "wiki": [
+        [
+          "Les Aventures de Pinocchio",
+          "Collodi",
+          "nez"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Son nez s'allonge",
+        "Ses oreilles poussent",
+        "Il rapetisse",
+        "Il devient muet"
+      ],
+      "themes": [
+        "littérature jeunesse"
+      ]
+    },
+    {
+      "id": "lit-ecrivains-pays",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Associe chaque écrivain à son pays.",
+      "exp": "Pessoa a écrit sous de nombreux hétéronymes, Ibsen a révolutionné le théâtre, Mahfouz a reçu le Nobel en 1988.",
+      "wiki": [
+        [
+          "Fernando Pessoa",
+          "Portugal"
+        ],
+        [
+          "Naguib Mahfouz",
+          "1988"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Fernando Pessoa",
+          "Portugal"
+        ],
+        [
+          "Henrik Ibsen",
+          "Norvège"
+        ],
+        [
+          "Naguib Mahfouz",
+          "Égypte"
+        ],
+        [
+          "Haruki Murakami",
+          "Japon"
+        ]
+      ],
+      "themes": [
+        "littérature du monde"
+      ]
+    },
+    {
+      "id": "lit-auteurs-xixe",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Associe chaque personnage à son auteur.",
+      "exp": "Rastignac apparaît dans Le Père Goriot, Fabrice dans La Chartreuse de Parme et Gavroche dans Les Misérables.",
+      "wiki": [
+        [
+          "Eugène de Rastignac",
+          "Balzac"
+        ],
+        [
+          "La Chartreuse de Parme",
+          "Fabrice"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Emma Bovary",
+          "Flaubert"
+        ],
+        [
+          "Eugène de Rastignac",
+          "Balzac"
+        ],
+        [
+          "Fabrice del Dongo",
+          "Stendhal"
+        ],
+        [
+          "Gavroche",
+          "Hugo"
+        ]
+      ],
+      "themes": [
+        "roman du XIXe siècle"
+      ]
+    },
+    {
+      "id": "lit-chanson-roland",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel est le plus célèbre exemple de « chanson de geste » française ?",
+      "exp": "Composée vers la fin du XIe siècle, elle chante la mort héroïque de Roland à Roncevaux.",
+      "wiki": [
+        [
+          "La Chanson de Roland",
+          "chanson de geste",
+          "Roncevaux"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Chanson de Roland",
+        "Le Roman de Renart",
+        "Tristan et Iseut",
+        "Le Roman de la Rose"
+      ],
+      "themes": [
+        "Moyen Âge"
+      ],
+      "see": [
+        "hf-roncevaux"
+      ]
+    },
+    {
+      "id": "lit-roman-renart",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Dans le Roman de Renart, quel animal est le rival du goupil ?",
+      "exp": "Le succès du recueil est tel que le prénom Renart a remplacé le mot « goupil » pour désigner l'animal.",
+      "wiki": [
+        [
+          "Roman de Renart",
+          "Ysengrin",
+          "goupil"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Le loup Ysengrin",
+        "Le lion Noble",
+        "L'ours Brun",
+        "Le corbeau Tiécelin"
+      ],
+      "themes": [
+        "Moyen Âge"
+      ]
+    },
+    {
+      "id": "lit-chretien-troyes",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Quel auteur du XIIe siècle a écrit Lancelot ou le Chevalier de la charrette ?",
+      "exp": "Il est l'un des créateurs du roman de chevalerie arthurien.",
+      "wiki": [
+        [
+          "Chrétien de Troyes",
+          "Lancelot"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Chrétien de Troyes",
+        "Marie de France",
+        "Jean de Meung",
+        "Rutebeuf"
+      ],
+      "themes": [
+        "Moyen Âge"
+      ],
+      "see": [
+        "myth-graal"
+      ]
+    },
+    {
+      "id": "lit-villon",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel poète du XVe siècle a écrit la Ballade des pendus ?",
+      "exp": "Poète à la vie de brigand, Villon est condamné à la pendaison puis banni de Paris en 1463.",
+      "wiki": [
+        [
+          "François Villon",
+          "Ballade des pendus"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "François Villon",
+        "Charles d'Orléans",
+        "Christine de Pizan",
+        "Clément Marot"
+      ],
+      "themes": [
+        "Moyen Âge"
+      ]
+    },
+    {
+      "id": "lit-hugo-contemplations",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Dans quel recueil Victor Hugo publie-t-il « Demain, dès l'aube… », écrit en mémoire de sa fille Léopoldine ?",
+      "exp": "Léopoldine s'est noyée dans la Seine à Villequier en 1843 ; le recueil paraît en 1856.",
+      "wiki": [
+        [
+          "Les Contemplations",
+          "Léopoldine",
+          "1856"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Contemplations",
+        "Les Châtiments",
+        "La Légende des siècles",
+        "Les Orientales"
+      ],
+      "themes": [
+        "Victor Hugo"
+      ]
+    },
+    {
+      "id": "lit-dame-camelias",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Qui a écrit La Dame aux camélias (1848) ?",
+      "exp": "Inspiré de la courtisane Marie Duplessis, le roman inspire l'opéra La Traviata de Verdi.",
+      "wiki": [
+        [
+          "La Dame aux camélias",
+          "Dumas fils",
+          "Traviata"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alexandre Dumas fils",
+        "Alexandre Dumas père",
+        "George Sand",
+        "Prosper Mérimée"
+      ],
+      "themes": [
+        "XIXe siècle"
+      ],
+      "see": [
+        "mus-verdi-traviata"
+      ]
+    },
+    {
+      "id": "lit-george-sand",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Sous quel pseudonyme masculin Aurore Dupin a-t-elle publié ses romans ?",
+      "exp": "Autrice de La Mare au diable, compagne de Musset puis de Chopin, elle vit à Nohant, dans le Berry.",
+      "wiki": [
+        [
+          "George Sand",
+          "Aurore Dupin",
+          "Nohant"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "George Sand",
+        "George Eliot",
+        "Daniel Stern",
+        "Marie d'Agoult"
+      ],
+      "themes": [
+        "XIXe siècle"
+      ]
+    },
+    {
+      "id": "lit-carmen-merimee",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Qui a écrit la nouvelle Carmen, qui a inspiré l'opéra de Bizet ?",
+      "exp": "Publiée en 1845, la nouvelle raconte l'amour fatal de don José pour la gitane Carmen.",
+      "wiki": [
+        [
+          "Carmen (nouvelle)",
+          "Mérimée",
+          "1845"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Prosper Mérimée",
+        "Théophile Gautier",
+        "Alfred de Musset",
+        "Stendhal"
+      ],
+      "themes": [
+        "XIXe siècle"
+      ],
+      "see": [
+        "mus-carmen"
+      ]
+    },
+    {
+      "id": "lit-daudet-moulin",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Qui a écrit Les Lettres de mon moulin ?",
+      "exp": "Le recueil de 1869 contient « La Chèvre de monsieur Seguin » et « Le Secret de maître Cornille ».",
+      "wiki": [
+        [
+          "Lettres de mon moulin",
+          "Daudet",
+          "chèvre de monsieur Seguin"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alphonse Daudet",
+        "Frédéric Mistral",
+        "Marcel Pagnol",
+        "Jean Giono"
+      ],
+      "themes": [
+        "XIXe siècle"
+      ]
+    },
+    {
+      "id": "lit-germinal-mine",
+      "sub": "roman-francais",
+      "diff": 2,
+      "q": "Dans quel milieu se déroule Germinal d'Émile Zola ?",
+      "exp": "Le roman raconte une grève dans les mines du Nord ; à l'enterrement de Zola, des mineurs scandent « Germinal ! ».",
+      "wiki": [
+        [
+          "Germinal (roman)",
+          "mineurs",
+          "grève"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Celui des mineurs de charbon",
+        "Celui des cheminots",
+        "Celui des grands magasins",
+        "Celui des paysans de Beauce"
+      ],
+      "themes": [
+        "Zola"
+      ],
+      "see": [
+        "lit-auteurs"
+      ]
+    },
+    {
+      "id": "lit-bonheur-dames",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel roman de Zola se déroule dans un grand magasin parisien ?",
+      "exp": "Zola s'inspire du Bon Marché et des Grands Magasins du Louvre pour décrire la naissance du commerce moderne.",
+      "wiki": [
+        [
+          "Au Bonheur des Dames",
+          "grand magasin",
+          "Bon Marché"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Au Bonheur des Dames",
+        "La Curée",
+        "Le Ventre de Paris",
+        "L'Œuvre"
+      ],
+      "themes": [
+        "Zola"
+      ]
+    },
+    {
+      "id": "lit-colette",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quelle romancière a écrit la série des Claudine et Le Blé en herbe ?",
+      "exp": "Première femme présidente de l'académie Goncourt, Colette reçoit des funérailles nationales en 1954.",
+      "wiki": [
+        [
+          "Colette",
+          "Claudine",
+          "1954"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Colette",
+        "George Sand",
+        "Marguerite Duras",
+        "Simone de Beauvoir"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-saint-exupery-vol",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel métier exerçait Antoine de Saint-Exupéry ?",
+      "exp": "Pilote de l'Aéropostale, il en tire Vol de nuit et Terre des hommes ; il disparaît en mer en 1944.",
+      "wiki": [
+        [
+          "Antoine de Saint-Exupéry",
+          "Aéropostale",
+          "1944"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Aviateur",
+        "Marin",
+        "Médecin",
+        "Journaliste"
+      ],
+      "themes": [
+        "XXe siècle"
+      ],
+      "see": [
+        "lit-petit-prince"
+      ]
+    },
+    {
+      "id": "lit-giono",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Quel écrivain a écrit Le Hussard sur le toit et L'Homme qui plantait des arbres ?",
+      "exp": "Né à Manosque, Giono a célébré la Haute-Provence dans son œuvre.",
+      "wiki": [
+        [
+          "Jean Giono",
+          "Hussard sur le toit",
+          "Manosque"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean Giono",
+        "Marcel Pagnol",
+        "Henri Bosco",
+        "Jean de La Varende"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-vian",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Quel écrivain, musicien de jazz et ingénieur, a écrit L'Écume des jours ?",
+      "exp": "Publié en 1947, le roman suit Colin et Chloé, atteinte d'un nénuphar dans le poumon.",
+      "wiki": [
+        [
+          "L'Écume des jours",
+          "Boris Vian",
+          "1947"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Boris Vian",
+        "Raymond Queneau",
+        "Georges Perec",
+        "Jacques Prévert"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-perec",
+      "sub": "roman-francais",
+      "diff": 5,
+      "q": "Quel roman de Georges Perec est écrit sans jamais utiliser la lettre « e » ?",
+      "exp": "Ce lipogramme de 1969 est une prouesse de l'Oulipo, groupe qui explore les contraintes d'écriture.",
+      "wiki": [
+        [
+          "La Disparition (roman)",
+          "lipogramme",
+          "Oulipo"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "La Disparition",
+        "La Vie mode d'emploi",
+        "Les Choses",
+        "W ou le souvenir d'enfance"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-queneau",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Quel roman de Raymond Queneau met en scène une petite fille qui rêve de prendre le métro ?",
+      "exp": "Publié en 1959, il est adapté au cinéma par Louis Malle en 1960.",
+      "wiki": [
+        [
+          "Zazie dans le métro",
+          "Queneau",
+          "1959"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Zazie dans le métro",
+        "Exercices de style",
+        "Les Fleurs bleues",
+        "Pierrot mon ami"
+      ],
+      "themes": [
+        "XXe siècle"
+      ]
+    },
+    {
+      "id": "lit-yourcenar-hadrien",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Quel roman de Marguerite Yourcenar prend la forme d'une lettre d'un empereur romain ?",
+      "exp": "Publié en 1951, le roman imagine les réflexions d'Hadrien adressées au futur Marc Aurèle.",
+      "wiki": [
+        [
+          "Mémoires d'Hadrien",
+          "Yourcenar",
+          "1951"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Mémoires d'Hadrien",
+        "L'Œuvre au noir",
+        "Le Coup de grâce",
+        "Alexis"
+      ],
+      "themes": [
+        "XXe siècle"
+      ],
+      "see": [
+        "hf-yourcenar"
+      ]
+    },
+    {
+      "id": "lit-senghor",
+      "sub": "roman-francais",
+      "diff": 3,
+      "q": "Quel poète sénégalais, chantre de la négritude, a été élu à l'Académie française ?",
+      "exp": "Premier président du Sénégal, Senghor est élu à l'Académie française en 1983.",
+      "wiki": [
+        [
+          "Léopold Sédar Senghor",
+          "négritude",
+          "1983"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Léopold Sédar Senghor",
+        "Aimé Césaire",
+        "Birago Diop",
+        "Cheikh Hamidou Kane"
+      ],
+      "themes": [
+        "francophonie"
+      ]
+    },
+    {
+      "id": "lit-cesaire",
+      "sub": "roman-francais",
+      "diff": 4,
+      "q": "Quel poète martiniquais a écrit le Cahier d'un retour au pays natal ?",
+      "exp": "Avec Senghor et Léon-Gontran Damas, Césaire fonde le mouvement de la négritude ; une plaque l'honore au Panthéon depuis 2011.",
+      "wiki": [
+        [
+          "Aimé Césaire",
+          "Cahier d'un retour au pays natal",
+          "négritude"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Aimé Césaire",
+        "Édouard Glissant",
+        "Frantz Fanon",
+        "Patrick Chamoiseau"
+      ],
+      "themes": [
+        "francophonie"
+      ]
+    },
+    {
+      "id": "lit-marivaux",
+      "sub": "poesie-theatre",
+      "diff": 4,
+      "q": "Quel auteur a donné son nom au « marivaudage », badinage amoureux raffiné ?",
+      "exp": "Marivaux est l'auteur du Jeu de l'amour et du hasard (1730).",
+      "wiki": [
+        [
+          "Marivaux",
+          "Jeu de l'amour et du hasard",
+          "1730"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Marivaux",
+        "Beaumarchais",
+        "Molière",
+        "Musset"
+      ],
+      "themes": [
+        "théâtre"
+      ]
+    },
+    {
+      "id": "lit-beaumarchais",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel dramaturge a écrit Le Mariage de Figaro, critique de la noblesse avant la Révolution ?",
+      "exp": "Créée en 1784 après des années de censure, la pièce inspire l'opéra de Mozart.",
+      "wiki": [
+        [
+          "Le Mariage de Figaro",
+          "Beaumarchais",
+          "1784"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Beaumarchais",
+        "Marivaux",
+        "Voltaire",
+        "Diderot"
+      ],
+      "themes": [
+        "théâtre"
+      ],
+      "see": [
+        "mus-rossini-barbier"
+      ]
+    },
+    {
+      "id": "lit-musset",
+      "sub": "poesie-theatre",
+      "diff": 4,
+      "q": "Quel poète romantique a écrit On ne badine pas avec l'amour et Lorenzaccio ?",
+      "exp": "Musset a vécu une liaison passionnée avec George Sand, notamment à Venise.",
+      "wiki": [
+        [
+          "Alfred de Musset",
+          "Lorenzaccio",
+          "George Sand"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alfred de Musset",
+        "Alfred de Vigny",
+        "Gérard de Nerval",
+        "Théophile Gautier"
+      ],
+      "themes": [
+        "romantisme"
+      ]
+    },
+    {
+      "id": "lit-lamartine-lac",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel poète a écrit « Ô temps ! suspends ton vol » dans Le Lac ?",
+      "exp": "Le poème paraît en 1820 dans les Méditations poétiques, manifeste du romantisme.",
+      "wiki": [
+        [
+          "Le Lac (poème)",
+          "Méditations poétiques",
+          "1820"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Alphonse de Lamartine",
+        "Victor Hugo",
+        "Alfred de Vigny",
+        "Alfred de Musset"
+      ],
+      "themes": [
+        "romantisme"
+      ],
+      "see": [
+        "geo-lac-france"
+      ]
+    },
+    {
+      "id": "lit-mallarme",
+      "sub": "poesie-theatre",
+      "diff": 5,
+      "q": "Quel poète symboliste a écrit L'Après-midi d'un faune, mis en musique par Debussy ?",
+      "exp": "Le Prélude à l'après-midi d'un faune de Debussy (1894) s'inspire de ce poème.",
+      "wiki": [
+        [
+          "L'Après-midi d'un faune",
+          "Mallarmé",
+          "Debussy"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Stéphane Mallarmé",
+        "Paul Verlaine",
+        "Paul Valéry",
+        "Arthur Rimbaud"
+      ],
+      "themes": [
+        "symbolisme"
+      ],
+      "see": [
+        "mus-debussy"
+      ]
+    },
+    {
+      "id": "lit-anouilh",
+      "sub": "poesie-theatre",
+      "diff": 4,
+      "q": "Quel dramaturge a réécrit la tragédie d'Antigone en 1944 ?",
+      "exp": "Créée sous l'Occupation, la pièce oppose Antigone à son oncle Créon, symbole d'un pouvoir qui transige.",
+      "wiki": [
+        [
+          "Antigone (Anouilh)",
+          "1944",
+          "Créon"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jean Anouilh",
+        "Jean Giraudoux",
+        "Jean Cocteau",
+        "Albert Camus"
+      ],
+      "themes": [
+        "théâtre"
+      ]
+    },
+    {
+      "id": "lit-sophocle",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Quel tragédien grec a écrit Œdipe roi ?",
+      "exp": "Sophocle (Ve siècle av. J.-C.) est l'un des trois grands tragiques avec Eschyle et Euripide ; Aristophane écrit des comédies.",
+      "wiki": [
+        [
+          "Œdipe roi",
+          "Sophocle"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Sophocle",
+        "Eschyle",
+        "Euripide",
+        "Aristophane"
+      ],
+      "themes": [
+        "Antiquité"
+      ],
+      "see": [
+        "myth-oedipe"
+      ]
+    },
+    {
+      "id": "lit-commedia",
+      "sub": "poesie-theatre",
+      "diff": 4,
+      "q": "Quel personnage de la commedia dell'arte porte un costume fait de losanges colorés ?",
+      "exp": "Valet rusé et bondissant, Arlequin a inspiré Marivaux et de nombreux peintres.",
+      "wiki": [
+        [
+          "Arlequin",
+          "losanges",
+          "commedia dell'arte"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Arlequin",
+        "Pierrot",
+        "Polichinelle",
+        "Pantalon"
+      ],
+      "themes": [
+        "théâtre"
+      ]
+    },
+    {
+      "id": "lit-fables-asso",
+      "sub": "poesie-theatre",
+      "diff": 3,
+      "q": "Associe chaque fable de La Fontaine à sa morale.",
+      "exp": "Les trois premières morales sont citées mot pour mot ; La Cigale et la Fourmi se termine sur « Eh bien ! dansez maintenant ».",
+      "wiki": [
+        [
+          "Le Lièvre et la Tortue",
+          "La Fontaine"
+        ],
+        [
+          "Le Loup et l'Agneau",
+          "raison du plus fort"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "fmt": "association",
+      "pairs": [
+        [
+          "Le Lièvre et la Tortue",
+          "Rien ne sert de courir ; il faut partir à point"
+        ],
+        [
+          "Le Loup et l'Agneau",
+          "La raison du plus fort est toujours la meilleure"
+        ],
+        [
+          "Le Corbeau et le Renard",
+          "Tout flatteur vit aux dépens de celui qui l'écoute"
+        ],
+        [
+          "La Cigale et la Fourmi",
+          "Il faut prévoir l'avenir"
+        ]
+      ],
+      "themes": [
+        "fables"
+      ],
+      "see": [
+        "lit-la-fontaine"
+      ]
+    },
+    {
+      "id": "lit-mille-nuits",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quelle conteuse raconte des histoires au sultan pour retarder sa mort dans Les Mille et Une Nuits ?",
+      "exp": "Antoine Galland traduit le recueil en français au début du XVIIIe siècle, et y ajoute notamment Aladin et Ali Baba.",
+      "wiki": [
+        [
+          "Les Mille et Une Nuits",
+          "Shéhérazade",
+          "Galland"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Shéhérazade",
+        "Aladin",
+        "Jasmine",
+        "Dinarzade"
+      ],
+      "themes": [
+        "contes"
+      ]
+    },
+    {
+      "id": "lit-andersen",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Quel écrivain danois a écrit La Petite Sirène et Le Vilain Petit Canard ?",
+      "exp": "Une statue de la Petite Sirène, inaugurée en 1913, est devenue un symbole de Copenhague.",
+      "wiki": [
+        [
+          "Hans Christian Andersen",
+          "Petite Sirène",
+          "Copenhague"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Hans Christian Andersen",
+        "Les frères Grimm",
+        "Charles Perrault",
+        "Selma Lagerlöf"
+      ],
+      "themes": [
+        "contes"
+      ]
+    },
+    {
+      "id": "lit-grimm",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quels auteurs allemands ont recueilli Blanche-Neige, Hansel et Gretel ou Raiponce ?",
+      "exp": "Jacob et Wilhelm Grimm publient leurs Contes de l'enfance et du foyer à partir de 1812.",
+      "wiki": [
+        [
+          "Frères Grimm",
+          "1812",
+          "Hansel"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les frères Grimm",
+        "Goethe et Schiller",
+        "Hoffmann et Novalis",
+        "Les frères Mann"
+      ],
+      "themes": [
+        "contes"
+      ],
+      "see": [
+        "lit-perrault"
+      ]
+    },
+    {
+      "id": "lit-dickens",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel romancier anglais a écrit Oliver Twist et Un chant de Noël ?",
+      "exp": "Dickens dénonce la misère de l'Angleterre victorienne et le travail des enfants.",
+      "wiki": [
+        [
+          "Charles Dickens",
+          "Oliver Twist",
+          "Chant de Noël"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Charles Dickens",
+        "Thomas Hardy",
+        "William Thackeray",
+        "Rudyard Kipling"
+      ],
+      "themes": [
+        "littérature anglaise"
+      ]
+    },
+    {
+      "id": "lit-kipling",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel auteur a écrit Le Livre de la jungle ?",
+      "exp": "Né en Inde, Kipling reçoit le prix Nobel de littérature en 1907, le premier pour un auteur de langue anglaise.",
+      "wiki": [
+        [
+          "Rudyard Kipling",
+          "Livre de la jungle",
+          "1907"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Rudyard Kipling",
+        "Robert Louis Stevenson",
+        "Jack London",
+        "Joseph Conrad"
+      ],
+      "themes": [
+        "littérature anglaise"
+      ]
+    },
+    {
+      "id": "lit-ile-tresor",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Qui a écrit L'Île au trésor ?",
+      "exp": "Le roman de 1883 met en scène le jeune Jim Hawkins et le pirate Long John Silver.",
+      "wiki": [
+        [
+          "L'Île au trésor",
+          "Stevenson",
+          "Long John Silver"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Robert Louis Stevenson",
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Jules Verne"
+      ],
+      "themes": [
+        "littérature anglaise"
+      ]
+    },
+    {
+      "id": "lit-robinson",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Quel auteur anglais a écrit Robinson Crusoé (1719) ?",
+      "exp": "Le roman s'inspire de l'histoire réelle d'Alexander Selkirk, marin abandonné sur une île du Pacifique.",
+      "wiki": [
+        [
+          "Robinson Crusoé",
+          "Defoe",
+          "Selkirk"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Walter Scott",
+        "Henry Fielding"
+      ],
+      "themes": [
+        "littérature anglaise"
+      ]
+    },
+    {
+      "id": "lit-hemingway",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Quel écrivain américain a écrit Le Vieil Homme et la Mer ?",
+      "exp": "Le court roman de 1952 lui vaut le prix Pulitzer ; il reçoit le Nobel en 1954.",
+      "wiki": [
+        [
+          "Le Vieil Homme et la Mer",
+          "Hemingway",
+          "1952"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "William Faulkner",
+        "F. Scott Fitzgerald"
+      ],
+      "themes": [
+        "littérature américaine"
+      ]
+    },
+    {
+      "id": "lit-gatsby",
+      "sub": "litterature-monde",
+      "diff": 3,
+      "q": "Qui a écrit Gatsby le Magnifique (1925) ?",
+      "exp": "Le roman est devenu le symbole des Années folles américaines et de leurs illusions.",
+      "wiki": [
+        [
+          "Gatsby le Magnifique",
+          "Fitzgerald",
+          "1925"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "F. Scott Fitzgerald",
+        "Ernest Hemingway",
+        "John Steinbeck",
+        "Truman Capote"
+      ],
+      "themes": [
+        "littérature américaine"
+      ]
+    },
+    {
+      "id": "lit-steinbeck",
+      "sub": "litterature-monde",
+      "diff": 4,
+      "q": "Quel roman de John Steinbeck suit une famille de paysans chassés de l'Oklahoma pendant la Grande Dépression ?",
+      "exp": "Publié en 1939, il obtient le prix Pulitzer ; Steinbeck reçoit le Nobel en 1962.",
+      "wiki": [
+        [
+          "Les Raisins de la colère",
+          "Steinbeck",
+          "1939"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Les Raisins de la colère",
+        "Des souris et des hommes",
+        "À l'est d'Éden",
+        "Tortilla Flat"
+      ],
+      "themes": [
+        "littérature américaine"
+      ],
+      "see": [
+        "hm-krach-1929"
+      ]
+    },
+    {
+      "id": "lit-tchekhov",
+      "sub": "litterature-monde",
+      "diff": 4,
+      "q": "Quel auteur russe a écrit La Cerisaie et Les Trois Sœurs ?",
+      "exp": "Médecin de formation, Tchekhov est aussi un maître de la nouvelle.",
+      "wiki": [
+        [
+          "Anton Tchekhov",
+          "Cerisaie"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Anton Tchekhov",
+        "Nicolas Gogol",
+        "Maxime Gorki",
+        "Alexandre Pouchkine"
+      ],
+      "themes": [
+        "littérature russe"
+      ]
+    },
+    {
+      "id": "lit-borges",
+      "sub": "litterature-monde",
+      "diff": 5,
+      "q": "Quel écrivain argentin a écrit Fictions et L'Aleph ?",
+      "exp": "Ses nouvelles labyrinthiques jouent avec l'infini, les miroirs et les bibliothèques imaginaires.",
+      "wiki": [
+        [
+          "Jorge Luis Borges",
+          "Aleph",
+          "Fictions"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Jorge Luis Borges",
+        "Julio Cortázar",
+        "Ernesto Sábato",
+        "Adolfo Bioy Casares"
+      ],
+      "themes": [
+        "littérature latino-américaine"
+      ]
+    },
+    {
+      "id": "lit-anne-frank",
+      "sub": "litterature-monde",
+      "diff": 2,
+      "q": "Dans quelle ville Anne Frank s'est-elle cachée avec sa famille pendant la Seconde Guerre mondiale ?",
+      "exp": "Son journal, écrit dans l'« Annexe » de 1942 à 1944, est publié par son père en 1947 ; elle meurt à Bergen-Belsen en 1945.",
+      "wiki": [
+        [
+          "Anne Frank",
+          "Amsterdam",
+          "Bergen-Belsen"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Amsterdam",
+        "Berlin",
+        "Bruxelles",
+        "Francfort"
+      ],
+      "themes": [
+        "Seconde Guerre mondiale"
+      ]
+    },
+    {
+      "id": "lit-primo-levi",
+      "sub": "litterature-monde",
+      "diff": 4,
+      "q": "Quel écrivain italien, rescapé d'Auschwitz, a écrit Si c'est un homme ?",
+      "exp": "Chimiste de formation, Primo Levi témoigne de la vie dans le camp avec une précision bouleversante.",
+      "wiki": [
+        [
+          "Primo Levi",
+          "Si c'est un homme",
+          "Auschwitz"
+        ]
+      ],
+      "created": "2026-11-06",
+      "verified": "2026-11-06",
+      "choices": [
+        "Primo Levi",
+        "Elie Wiesel",
+        "Imre Kertész",
+        "Robert Antelme"
+      ],
+      "themes": [
+        "Seconde Guerre mondiale"
+      ],
+      "see": [
+        "hm-auschwitz"
+      ]
     }
   ]
 }
